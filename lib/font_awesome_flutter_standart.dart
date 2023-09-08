@@ -13,61 +13,61 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/0?style=solid
   /// Digit Zero, nada, none, zero, zilch
-  static const IconData zero = IconDataLight(0x30);
+  static const IconData zero = IconDataSolid(0x30);
 
   /// Solid 1 icon
   ///
   /// https://fontawesome.com/icons/1?style=solid
   /// Digit One, one
-  static const IconData one = IconDataLight(0x31);
+  static const IconData one = IconDataSolid(0x31);
 
   /// Solid 2 icon
   ///
   /// https://fontawesome.com/icons/2?style=solid
   /// Digit Two, two
-  static const IconData two = IconDataLight(0x32);
+  static const IconData two = IconDataSolid(0x32);
 
   /// Solid 3 icon
   ///
   /// https://fontawesome.com/icons/3?style=solid
   /// Digit Three, three
-  static const IconData three = IconDataLight(0x33);
+  static const IconData three = IconDataSolid(0x33);
 
   /// Solid 4 icon
   ///
   /// https://fontawesome.com/icons/4?style=solid
   /// Digit Four, four
-  static const IconData four = IconDataLight(0x34);
+  static const IconData four = IconDataSolid(0x34);
 
   /// Solid 5 icon
   ///
   /// https://fontawesome.com/icons/5?style=solid
   /// Digit Five, five
-  static const IconData five = IconDataLight(0x35);
+  static const IconData five = IconDataSolid(0x35);
 
   /// Solid 6 icon
   ///
   /// https://fontawesome.com/icons/6?style=solid
   /// Digit Six, six
-  static const IconData six = IconDataLight(0x36);
+  static const IconData six = IconDataSolid(0x36);
 
   /// Solid 7 icon
   ///
   /// https://fontawesome.com/icons/7?style=solid
   /// Digit Seven, seven
-  static const IconData seven = IconDataLight(0x37);
+  static const IconData seven = IconDataSolid(0x37);
 
   /// Solid 8 icon
   ///
   /// https://fontawesome.com/icons/8?style=solid
   /// Digit Eight, eight
-  static const IconData eight = IconDataLight(0x38);
+  static const IconData eight = IconDataSolid(0x38);
 
   /// Solid 9 icon
   ///
   /// https://fontawesome.com/icons/9?style=solid
   /// Digit Nine, nine
-  static const IconData nine = IconDataLight(0x39);
+  static const IconData nine = IconDataSolid(0x39);
 
   /// Brands 42.group icon
   ///
@@ -87,7 +87,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/a?style=solid
   /// Latin Capital Letter A, Latin Small Letter A, letter
-  static const IconData a = IconDataLight(0x41);
+  static const IconData a = IconDataSolid(0x41);
 
   /// Brands Accessible Icon icon
   ///
@@ -104,7 +104,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/address-book?style=solid
   /// contact, directory, index, little black book, rolodex
-  static const IconData solidAddressBook = IconDataLight(0xf2b9);
+  static const IconData solidAddressBook = IconDataSolid(0xf2b9);
 
   /// Alias contact-book for icon [solidAddressBook]
   @Deprecated('Use "solidAddressBook" instead.')
@@ -114,7 +114,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/address-book?style=regular
   /// contact, directory, index, little black book, rolodex
-  static const IconData addressBook = IconDataLight(0xf2b9);
+  static const IconData addressBook = IconDataRegular(0xf2b9);
 
   /// Alias contact-book for icon [addressBook]
   @Deprecated('Use "addressBook" instead.')
@@ -124,7 +124,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/address-card?style=solid
   /// about, contact, id, identification, postcard, profile, registration
-  static const IconData solidAddressCard = IconDataLight(0xf2bb);
+  static const IconData solidAddressCard = IconDataSolid(0xf2bb);
 
   /// Alias contact-card for icon [solidAddressCard]
   @Deprecated('Use "solidAddressCard" instead.')
@@ -138,7 +138,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/address-card?style=regular
   /// about, contact, id, identification, postcard, profile, registration
-  static const IconData addressCard = IconDataLight(0xf2bb);
+  static const IconData addressCard = IconDataRegular(0xf2bb);
 
   /// Alias contact-card for icon [addressCard]
   @Deprecated('Use "addressCard" instead.')
@@ -177,25 +177,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/align-center?style=solid
   /// format, middle, paragraph, text
-  static const IconData alignCenter = IconDataLight(0xf037);
+  static const IconData alignCenter = IconDataSolid(0xf037);
 
   /// Solid Align Justify icon
   ///
   /// https://fontawesome.com/icons/align-justify?style=solid
   /// format, paragraph, text
-  static const IconData alignJustify = IconDataLight(0xf039);
+  static const IconData alignJustify = IconDataSolid(0xf039);
 
   /// Solid Align Left icon
   ///
   /// https://fontawesome.com/icons/align-left?style=solid
   /// format, paragraph, text
-  static const IconData alignLeft = IconDataLight(0xf036);
+  static const IconData alignLeft = IconDataSolid(0xf036);
 
   /// Solid Align Right icon
   ///
   /// https://fontawesome.com/icons/align-right?style=solid
   /// format, paragraph, text
-  static const IconData alignRight = IconDataLight(0xf038);
+  static const IconData alignRight = IconDataSolid(0xf038);
 
   /// Brands Alipay icon
   ///
@@ -221,31 +221,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/anchor?style=solid
   /// anchor, berth, boat, dock, embed, link, maritime, moor, port, secure, ship, tool
-  static const IconData anchor = IconDataLight(0xf13d);
+  static const IconData anchor = IconDataSolid(0xf13d);
 
   /// Solid Anchor Circle Check icon
   ///
   /// https://fontawesome.com/icons/anchor-circle-check?style=solid
   /// marina, not affected, ok, okay, port
-  static const IconData anchorCircleCheck = IconDataLight(0xe4aa);
+  static const IconData anchorCircleCheck = IconDataSolid(0xe4aa);
 
   /// Solid Anchor Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/anchor-circle-exclamation?style=solid
   /// affected, marina, port
-  static const IconData anchorCircleExclamation = IconDataLight(0xe4ab);
+  static const IconData anchorCircleExclamation = IconDataSolid(0xe4ab);
 
   /// Solid Anchor Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/anchor-circle-xmark?style=solid
   /// destroy, marina, port
-  static const IconData anchorCircleXmark = IconDataLight(0xe4ac);
+  static const IconData anchorCircleXmark = IconDataSolid(0xe4ac);
 
   /// Solid Anchor Lock icon
   ///
   /// https://fontawesome.com/icons/anchor-lock?style=solid
   /// closed, lockdown, marina, port, quarantine
-  static const IconData anchorLock = IconDataLight(0xe4ad);
+  static const IconData anchorLock = IconDataSolid(0xe4ad);
 
   /// Brands Android icon
   ///
@@ -262,31 +262,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/angle-down?style=solid
   /// Down Arrowhead, arrow, caret, download, expand
-  static const IconData angleDown = IconDataLight(0xf107);
+  static const IconData angleDown = IconDataSolid(0xf107);
 
   /// Solid Angle Left icon
   ///
   /// https://fontawesome.com/icons/angle-left?style=solid
   /// Single Left-Pointing Angle Quotation Mark, arrow, back, caret, less, previous
-  static const IconData angleLeft = IconDataLight(0xf104);
+  static const IconData angleLeft = IconDataSolid(0xf104);
 
   /// Solid Angle Right icon
   ///
   /// https://fontawesome.com/icons/angle-right?style=solid
   /// Single Right-Pointing Angle Quotation Mark, arrow, care, forward, more, next
-  static const IconData angleRight = IconDataLight(0xf105);
+  static const IconData angleRight = IconDataSolid(0xf105);
 
   /// Solid Angle Up icon
   ///
   /// https://fontawesome.com/icons/angle-up?style=solid
   /// Up Arrowhead, arrow, caret, collapse, upload
-  static const IconData angleUp = IconDataLight(0xf106);
+  static const IconData angleUp = IconDataSolid(0xf106);
 
   /// Solid Angles Down icon
   ///
   /// https://fontawesome.com/icons/angles-down?style=solid
   /// arrows, caret, download, expand
-  static const IconData anglesDown = IconDataLight(0xf103);
+  static const IconData anglesDown = IconDataSolid(0xf103);
 
   /// Alias angle-double-down for icon [anglesDown]
   @Deprecated('Use "anglesDown" instead.')
@@ -296,7 +296,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/angles-left?style=solid
   /// Left-Pointing Double Angle Quotation Mark, arrows, back, caret, laquo, previous, quote
-  static const IconData anglesLeft = IconDataLight(0xf100);
+  static const IconData anglesLeft = IconDataSolid(0xf100);
 
   /// Alias angle-double-left for icon [anglesLeft]
   @Deprecated('Use "anglesLeft" instead.')
@@ -306,7 +306,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/angles-right?style=solid
   /// Right-Pointing Double Angle Quotation Mark, arrows, caret, forward, more, next, quote, raquo
-  static const IconData anglesRight = IconDataLight(0xf101);
+  static const IconData anglesRight = IconDataSolid(0xf101);
 
   /// Alias angle-double-right for icon [anglesRight]
   @Deprecated('Use "anglesRight" instead.')
@@ -316,7 +316,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/angles-up?style=solid
   /// arrows, caret, collapse, upload
-  static const IconData anglesUp = IconDataLight(0xf102);
+  static const IconData anglesUp = IconDataSolid(0xf102);
 
   /// Alias angle-double-up for icon [anglesUp]
   @Deprecated('Use "anglesUp" instead.')
@@ -336,7 +336,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ankh?style=solid
   /// Ankh, amulet, copper, coptic christianity, copts, crux ansata, egypt, venus
-  static const IconData ankh = IconDataLight(0xf644);
+  static const IconData ankh = IconDataSolid(0xf644);
 
   /// Brands App Store icon
   ///
@@ -368,7 +368,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/apple-whole?style=solid
   /// apple, fall, fruit, fuji, green, green apple, macintosh, orchard, red, red apple, seasonal, vegan
-  static const IconData appleWhole = IconDataLight(0xf5d1);
+  static const IconData appleWhole = IconDataSolid(0xf5d1);
 
   /// Alias apple-alt for icon [appleWhole]
   @Deprecated('Use "appleWhole" instead.')
@@ -378,19 +378,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/archway?style=solid
   /// arc, monument, road, street, tunnel
-  static const IconData archway = IconDataLight(0xf557);
+  static const IconData archway = IconDataSolid(0xf557);
 
   /// Solid Arrow Down icon
   ///
   /// https://fontawesome.com/icons/arrow-down?style=solid
   /// Downwards Arrow, download
-  static const IconData arrowDown = IconDataLight(0xf063);
+  static const IconData arrowDown = IconDataSolid(0xf063);
 
   /// Solid Arrow Down 1 9 icon
   ///
   /// https://fontawesome.com/icons/arrow-down-1-9?style=solid
   /// arrange, filter, numbers, order, sort-numeric-asc
-  static const IconData arrowDown19 = IconDataLight(0xf162);
+  static const IconData arrowDown19 = IconDataSolid(0xf162);
 
   /// Alias sort-numeric-asc for icon [arrowDown19]
   @Deprecated('Use "arrowDown19" instead.')
@@ -404,7 +404,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-9-1?style=solid
   /// arrange, filter, numbers, order, sort-numeric-asc
-  static const IconData arrowDown91 = IconDataLight(0xf886);
+  static const IconData arrowDown91 = IconDataSolid(0xf886);
 
   /// Alias sort-numeric-desc for icon [arrowDown91]
   @Deprecated('Use "arrowDown91" instead.')
@@ -418,7 +418,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-a-z?style=solid
   /// alphabetical, arrange, filter, order, sort-alpha-asc
-  static const IconData arrowDownAZ = IconDataLight(0xf15d);
+  static const IconData arrowDownAZ = IconDataSolid(0xf15d);
 
   /// Alias sort-alpha-asc for icon [arrowDownAZ]
   @Deprecated('Use "arrowDownAZ" instead.')
@@ -432,7 +432,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-long?style=solid
   /// download, long-arrow-down
-  static const IconData arrowDownLong = IconDataLight(0xf175);
+  static const IconData arrowDownLong = IconDataSolid(0xf175);
 
   /// Alias long-arrow-down for icon [arrowDownLong]
   @Deprecated('Use "arrowDownLong" instead.')
@@ -442,7 +442,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-short-wide?style=solid
   /// arrange, filter, order, sort-amount-asc
-  static const IconData arrowDownShortWide = IconDataLight(0xf884);
+  static const IconData arrowDownShortWide = IconDataSolid(0xf884);
 
   /// Alias sort-amount-desc for icon [arrowDownShortWide]
   @Deprecated('Use "arrowDownShortWide" instead.')
@@ -456,19 +456,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-up-across-line?style=solid
   /// border, crossing, transfer
-  static const IconData arrowDownUpAcrossLine = IconDataLight(0xe4af);
+  static const IconData arrowDownUpAcrossLine = IconDataSolid(0xe4af);
 
   /// Solid Arrow Down Up Lock icon
   ///
   /// https://fontawesome.com/icons/arrow-down-up-lock?style=solid
   /// border, closed, crossing, lockdown, quarantine, transfer
-  static const IconData arrowDownUpLock = IconDataLight(0xe4b0);
+  static const IconData arrowDownUpLock = IconDataSolid(0xe4b0);
 
   /// Solid Arrow Down Wide Short icon
   ///
   /// https://fontawesome.com/icons/arrow-down-wide-short?style=solid
   /// arrange, filter, number, order, sort-amount-asc
-  static const IconData arrowDownWideShort = IconDataLight(0xf160);
+  static const IconData arrowDownWideShort = IconDataSolid(0xf160);
 
   /// Alias sort-amount-asc for icon [arrowDownWideShort]
   @Deprecated('Use "arrowDownWideShort" instead.')
@@ -482,7 +482,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-down-z-a?style=solid
   /// alphabetical, arrange, filter, order, sort-alpha-asc
-  static const IconData arrowDownZA = IconDataLight(0xf881);
+  static const IconData arrowDownZA = IconDataSolid(0xf881);
 
   /// Alias sort-alpha-desc for icon [arrowDownZA]
   @Deprecated('Use "arrowDownZA" instead.')
@@ -496,13 +496,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-left?style=solid
   /// Leftwards Arrow, back, previous
-  static const IconData arrowLeft = IconDataLight(0xf060);
+  static const IconData arrowLeft = IconDataSolid(0xf060);
 
   /// Solid Arrow Left Long icon
   ///
   /// https://fontawesome.com/icons/arrow-left-long?style=solid
   /// back, long-arrow-left, previous
-  static const IconData arrowLeftLong = IconDataLight(0xf177);
+  static const IconData arrowLeftLong = IconDataSolid(0xf177);
 
   /// Alias long-arrow-left for icon [arrowLeftLong]
   @Deprecated('Use "arrowLeftLong" instead.')
@@ -512,7 +512,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-pointer?style=solid
   /// arrow, cursor, select
-  static const IconData arrowPointer = IconDataLight(0xf245);
+  static const IconData arrowPointer = IconDataSolid(0xf245);
 
   /// Alias mouse-pointer for icon [arrowPointer]
   @Deprecated('Use "arrowPointer" instead.')
@@ -522,13 +522,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-right?style=solid
   /// Rightwards Arrow, forward, next
-  static const IconData arrowRight = IconDataLight(0xf061);
+  static const IconData arrowRight = IconDataSolid(0xf061);
 
   /// Solid Arrow Right Arrow Left icon
   ///
   /// https://fontawesome.com/icons/arrow-right-arrow-left?style=solid
   /// Rightwards Arrow Over Leftwards Arrow, arrow, arrows, reciprocate, return, swap, transfer
-  static const IconData arrowRightArrowLeft = IconDataLight(0xf0ec);
+  static const IconData arrowRightArrowLeft = IconDataSolid(0xf0ec);
 
   /// Alias exchange for icon [arrowRightArrowLeft]
   @Deprecated('Use "arrowRightArrowLeft" instead.')
@@ -538,7 +538,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-right-from-bracket?style=solid
   /// arrow, exit, leave, log out, logout
-  static const IconData arrowRightFromBracket = IconDataLight(0xf08b);
+  static const IconData arrowRightFromBracket = IconDataSolid(0xf08b);
 
   /// Alias sign-out for icon [arrowRightFromBracket]
   @Deprecated('Use "arrowRightFromBracket" instead.')
@@ -548,7 +548,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-right-long?style=solid
   /// forward, long-arrow-right, next
-  static const IconData arrowRightLong = IconDataLight(0xf178);
+  static const IconData arrowRightLong = IconDataSolid(0xf178);
 
   /// Alias long-arrow-right for icon [arrowRightLong]
   @Deprecated('Use "arrowRightLong" instead.')
@@ -558,7 +558,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-right-to-bracket?style=solid
   /// arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup
-  static const IconData arrowRightToBracket = IconDataLight(0xf090);
+  static const IconData arrowRightToBracket = IconDataSolid(0xf090);
 
   /// Alias sign-in for icon [arrowRightToBracket]
   @Deprecated('Use "arrowRightToBracket" instead.')
@@ -568,13 +568,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-right-to-city?style=solid
   /// building, city, exodus, rural, urban
-  static const IconData arrowRightToCity = IconDataLight(0xe4b3);
+  static const IconData arrowRightToCity = IconDataSolid(0xe4b3);
 
   /// Solid Arrow Rotate Left icon
   ///
   /// https://fontawesome.com/icons/arrow-rotate-left?style=solid
   /// Anticlockwise Open Circle Arrow, back, control z, exchange, oops, return, rotate, swap
-  static const IconData arrowRotateLeft = IconDataLight(0xf0e2);
+  static const IconData arrowRotateLeft = IconDataSolid(0xf0e2);
 
   /// Alias arrow-left-rotate for icon [arrowRotateLeft]
   @Deprecated('Use "arrowRotateLeft" instead.')
@@ -596,7 +596,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-rotate-right?style=solid
   /// Clockwise Open Circle Arrow, forward, refresh, reload, repeat
-  static const IconData arrowRotateRight = IconDataLight(0xf01e);
+  static const IconData arrowRotateRight = IconDataSolid(0xf01e);
 
   /// Alias arrow-right-rotate for icon [arrowRotateRight]
   @Deprecated('Use "arrowRotateRight" instead.')
@@ -614,19 +614,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-trend-down?style=solid
   /// line, stocks, trend
-  static const IconData arrowTrendDown = IconDataLight(0xe097);
+  static const IconData arrowTrendDown = IconDataSolid(0xe097);
 
   /// Solid Arrow Trend Up icon
   ///
   /// https://fontawesome.com/icons/arrow-trend-up?style=solid
   /// line, stocks, trend
-  static const IconData arrowTrendUp = IconDataLight(0xe098);
+  static const IconData arrowTrendUp = IconDataSolid(0xe098);
 
   /// Solid Arrow Turn Down icon
   ///
   /// https://fontawesome.com/icons/arrow-turn-down?style=solid
   /// arrow
-  static const IconData arrowTurnDown = IconDataLight(0xf149);
+  static const IconData arrowTurnDown = IconDataSolid(0xf149);
 
   /// Alias level-down for icon [arrowTurnDown]
   @Deprecated('Use "arrowTurnDown" instead.')
@@ -636,7 +636,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-turn-up?style=solid
   /// arrow
-  static const IconData arrowTurnUp = IconDataLight(0xf148);
+  static const IconData arrowTurnUp = IconDataSolid(0xf148);
 
   /// Alias level-up for icon [arrowTurnUp]
   @Deprecated('Use "arrowTurnUp" instead.')
@@ -646,13 +646,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up?style=solid
   /// Upwards Arrow, forward, upload
-  static const IconData arrowUp = IconDataLight(0xf062);
+  static const IconData arrowUp = IconDataSolid(0xf062);
 
   /// Solid Arrow Up 1 9 icon
   ///
   /// https://fontawesome.com/icons/arrow-up-1-9?style=solid
   /// arrange, filter, numbers, order, sort-numeric-desc
-  static const IconData arrowUp19 = IconDataLight(0xf163);
+  static const IconData arrowUp19 = IconDataSolid(0xf163);
 
   /// Alias sort-numeric-up for icon [arrowUp19]
   @Deprecated('Use "arrowUp19" instead.')
@@ -662,7 +662,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-9-1?style=solid
   /// arrange, filter, numbers, order, sort-numeric-desc
-  static const IconData arrowUp91 = IconDataLight(0xf887);
+  static const IconData arrowUp91 = IconDataSolid(0xf887);
 
   /// Alias sort-numeric-up-alt for icon [arrowUp91]
   @Deprecated('Use "arrowUp91" instead.')
@@ -672,7 +672,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-a-z?style=solid
   /// alphabetical, arrange, filter, order, sort-alpha-desc
-  static const IconData arrowUpAZ = IconDataLight(0xf15e);
+  static const IconData arrowUpAZ = IconDataSolid(0xf15e);
 
   /// Alias sort-alpha-up for icon [arrowUpAZ]
   @Deprecated('Use "arrowUpAZ" instead.')
@@ -682,25 +682,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-from-bracket?style=solid
   /// share, transfer, upload
-  static const IconData arrowUpFromBracket = IconDataLight(0xe09a);
+  static const IconData arrowUpFromBracket = IconDataSolid(0xe09a);
 
   /// Solid Arrow Up From Ground Water icon
   ///
   /// https://fontawesome.com/icons/arrow-up-from-ground-water?style=solid
   /// groundwater, spring, water supply, water table
-  static const IconData arrowUpFromGroundWater = IconDataLight(0xe4b5);
+  static const IconData arrowUpFromGroundWater = IconDataSolid(0xe4b5);
 
   /// Solid Arrow Up From Water Pump icon
   ///
   /// https://fontawesome.com/icons/arrow-up-from-water-pump?style=solid
   /// flood, groundwater, pump, submersible, sump pump
-  static const IconData arrowUpFromWaterPump = IconDataLight(0xe4b6);
+  static const IconData arrowUpFromWaterPump = IconDataSolid(0xe4b6);
 
   /// Solid Arrow Up Long icon
   ///
   /// https://fontawesome.com/icons/arrow-up-long?style=solid
   /// long-arrow-up, upload
-  static const IconData arrowUpLong = IconDataLight(0xf176);
+  static const IconData arrowUpLong = IconDataSolid(0xf176);
 
   /// Alias long-arrow-up for icon [arrowUpLong]
   @Deprecated('Use "arrowUpLong" instead.')
@@ -710,13 +710,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-right-dots?style=solid
   /// growth, increase, population
-  static const IconData arrowUpRightDots = IconDataLight(0xe4b7);
+  static const IconData arrowUpRightDots = IconDataSolid(0xe4b7);
 
   /// Solid Arrow Up Right From Square icon
   ///
   /// https://fontawesome.com/icons/arrow-up-right-from-square?style=solid
   /// new, open, send, share
-  static const IconData arrowUpRightFromSquare = IconDataLight(0xf08e);
+  static const IconData arrowUpRightFromSquare = IconDataSolid(0xf08e);
 
   /// Alias external-link for icon [arrowUpRightFromSquare]
   @Deprecated('Use "arrowUpRightFromSquare" instead.')
@@ -726,7 +726,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-short-wide?style=solid
   /// arrange, filter, order, sort-amount-desc
-  static const IconData arrowUpShortWide = IconDataLight(0xf885);
+  static const IconData arrowUpShortWide = IconDataSolid(0xf885);
 
   /// Alias sort-amount-up-alt for icon [arrowUpShortWide]
   @Deprecated('Use "arrowUpShortWide" instead.')
@@ -736,7 +736,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-wide-short?style=solid
   /// arrange, filter, order, sort-amount-desc
-  static const IconData arrowUpWideShort = IconDataLight(0xf161);
+  static const IconData arrowUpWideShort = IconDataSolid(0xf161);
 
   /// Alias sort-amount-up for icon [arrowUpWideShort]
   @Deprecated('Use "arrowUpWideShort" instead.')
@@ -746,7 +746,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrow-up-z-a?style=solid
   /// alphabetical, arrange, filter, order, sort-alpha-desc
-  static const IconData arrowUpZA = IconDataLight(0xf882);
+  static const IconData arrowUpZA = IconDataSolid(0xf882);
 
   /// Alias sort-alpha-up-alt for icon [arrowUpZA]
   @Deprecated('Use "arrowUpZA" instead.')
@@ -756,19 +756,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrows-down-to-line?style=solid
   /// scale down, sink
-  static const IconData arrowsDownToLine = IconDataLight(0xe4b8);
+  static const IconData arrowsDownToLine = IconDataSolid(0xe4b8);
 
   /// Solid Arrows Down To People icon
   ///
   /// https://fontawesome.com/icons/arrows-down-to-people?style=solid
   /// affected, focus, targeted
-  static const IconData arrowsDownToPeople = IconDataLight(0xe4b9);
+  static const IconData arrowsDownToPeople = IconDataSolid(0xe4b9);
 
   /// Solid Arrows Left Right icon
   ///
   /// https://fontawesome.com/icons/arrows-left-right?style=solid
   /// expand, horizontal, landscape, resize, wide
-  static const IconData arrowsLeftRight = IconDataLight(0xf07e);
+  static const IconData arrowsLeftRight = IconDataSolid(0xf07e);
 
   /// Alias arrows-h for icon [arrowsLeftRight]
   @Deprecated('Use "arrowsLeftRight" instead.')
@@ -778,13 +778,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrows-left-right-to-line?style=solid
   /// analysis, expand, gap
-  static const IconData arrowsLeftRightToLine = IconDataLight(0xe4ba);
+  static const IconData arrowsLeftRightToLine = IconDataSolid(0xe4ba);
 
   /// Solid Arrows Rotate icon
   ///
   /// https://fontawesome.com/icons/arrows-rotate?style=solid
   /// Clockwise Right and Left Semicircle Arrows, exchange, refresh, reload, rotate, swap
-  static const IconData arrowsRotate = IconDataLight(0xf021);
+  static const IconData arrowsRotate = IconDataSolid(0xf021);
 
   /// Alias refresh for icon [arrowsRotate]
   @Deprecated('Use "arrowsRotate" instead.')
@@ -798,49 +798,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrows-spin?style=solid
   /// cycle, rotate, spin, whirl
-  static const IconData arrowsSpin = IconDataLight(0xe4bb);
+  static const IconData arrowsSpin = IconDataSolid(0xe4bb);
 
   /// Solid Arrows Split Up And Left icon
   ///
   /// https://fontawesome.com/icons/arrows-split-up-and-left?style=solid
   /// agile, split
-  static const IconData arrowsSplitUpAndLeft = IconDataLight(0xe4bc);
+  static const IconData arrowsSplitUpAndLeft = IconDataSolid(0xe4bc);
 
   /// Solid Arrows To Circle icon
   ///
   /// https://fontawesome.com/icons/arrows-to-circle?style=solid
   /// center, concentrate, coordinate, coordination, focal point, focus
-  static const IconData arrowsToCircle = IconDataLight(0xe4bd);
+  static const IconData arrowsToCircle = IconDataSolid(0xe4bd);
 
   /// Solid Arrows To Dot icon
   ///
   /// https://fontawesome.com/icons/arrows-to-dot?style=solid
   /// assembly point, center, condense, focus, minimize
-  static const IconData arrowsToDot = IconDataLight(0xe4be);
+  static const IconData arrowsToDot = IconDataSolid(0xe4be);
 
   /// Solid Arrows To Eye icon
   ///
   /// https://fontawesome.com/icons/arrows-to-eye?style=solid
   /// center, coordinated assessment, focus
-  static const IconData arrowsToEye = IconDataLight(0xe4bf);
+  static const IconData arrowsToEye = IconDataSolid(0xe4bf);
 
   /// Solid Arrows Turn Right icon
   ///
   /// https://fontawesome.com/icons/arrows-turn-right?style=solid
   /// arrows
-  static const IconData arrowsTurnRight = IconDataLight(0xe4c0);
+  static const IconData arrowsTurnRight = IconDataSolid(0xe4c0);
 
   /// Solid Arrows Turn To Dots icon
   ///
   /// https://fontawesome.com/icons/arrows-turn-to-dots?style=solid
   /// destination, nexus
-  static const IconData arrowsTurnToDots = IconDataLight(0xe4c1);
+  static const IconData arrowsTurnToDots = IconDataSolid(0xe4c1);
 
   /// Solid Arrows Up Down icon
   ///
   /// https://fontawesome.com/icons/arrows-up-down?style=solid
   /// expand, portrait, resize, tall, vertical
-  static const IconData arrowsUpDown = IconDataLight(0xf07d);
+  static const IconData arrowsUpDown = IconDataSolid(0xf07d);
 
   /// Alias arrows-v for icon [arrowsUpDown]
   @Deprecated('Use "arrowsUpDown" instead.')
@@ -850,7 +850,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrows-up-down-left-right?style=solid
   /// arrow, arrows, bigger, enlarge, expand, fullscreen, move, position, reorder, resize
-  static const IconData arrowsUpDownLeftRight = IconDataLight(0xf047);
+  static const IconData arrowsUpDownLeftRight = IconDataSolid(0xf047);
 
   /// Alias arrows for icon [arrowsUpDownLeftRight]
   @Deprecated('Use "arrowsUpDownLeftRight" instead.')
@@ -860,7 +860,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/arrows-up-to-line?style=solid
   /// rise, scale up
-  static const IconData arrowsUpToLine = IconDataLight(0xe4c2);
+  static const IconData arrowsUpToLine = IconDataSolid(0xe4c2);
 
   /// Brands Artstation icon
   ///
@@ -871,7 +871,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/asterisk?style=solid
   /// Asterisk, Heavy Asterisk, annotation, details, reference, star
-  static const IconData asterisk = IconDataLight(0x2a);
+  static const IconData asterisk = IconDataSolid(0x2a);
 
   /// Brands Asymmetrik, Ltd. icon
   ///
@@ -882,7 +882,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/at?style=solid
   /// Commercial At, address, author, e-mail, email, fluctuate, handle
-  static const IconData at = IconDataLight(0x40);
+  static const IconData at = IconDataSolid(0x40);
 
   /// Brands Atlassian icon
   ///
@@ -893,7 +893,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/atom?style=solid
   /// atheism, atheist, atom, atom symbol, chemistry, electron, ion, isotope, neutron, nuclear, proton, science
-  static const IconData atom = IconDataLight(0xf5d2);
+  static const IconData atom = IconDataSolid(0xf5d2);
 
   /// Brands Audible icon
   ///
@@ -904,13 +904,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/audio-description?style=solid
   /// blind, narration, video, visual
-  static const IconData audioDescription = IconDataLight(0xf29e);
+  static const IconData audioDescription = IconDataSolid(0xf29e);
 
   /// Solid Austral Sign icon
   ///
   /// https://fontawesome.com/icons/austral-sign?style=solid
   /// Austral Sign, currency
-  static const IconData australSign = IconDataLight(0xe0a9);
+  static const IconData australSign = IconDataSolid(0xe0a9);
 
   /// Brands Autoprefixer icon
   ///
@@ -931,7 +931,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/award?style=solid
   /// honor, praise, prize, recognition, ribbon, trophy
-  static const IconData award = IconDataLight(0xf559);
+  static const IconData award = IconDataSolid(0xf559);
 
   /// Brands Amazon Web Services (AWS) icon
   ///
@@ -942,19 +942,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/b?style=solid
   /// Latin Capital Letter B, Latin Small Letter B, letter
-  static const IconData b = IconDataLight(0x42);
+  static const IconData b = IconDataSolid(0x42);
 
   /// Solid Baby icon
   ///
   /// https://fontawesome.com/icons/baby?style=solid
   /// users-people
-  static const IconData baby = IconDataLight(0xf77c);
+  static const IconData baby = IconDataSolid(0xf77c);
 
   /// Solid Baby Carriage icon
   ///
   /// https://fontawesome.com/icons/baby-carriage?style=solid
   /// buggy, carrier, infant, push, stroller, transportation, walk, wheels
-  static const IconData babyCarriage = IconDataLight(0xf77d);
+  static const IconData babyCarriage = IconDataSolid(0xf77d);
 
   /// Alias carriage-baby for icon [babyCarriage]
   @Deprecated('Use "babyCarriage" instead.')
@@ -964,13 +964,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/backward?style=solid
   /// arrow, double, fast reverse button, previous, rewind
-  static const IconData backward = IconDataLight(0xf04a);
+  static const IconData backward = IconDataSolid(0xf04a);
 
   /// Solid Backward Fast icon
   ///
   /// https://fontawesome.com/icons/backward-fast?style=solid
   /// arrow, beginning, first, last track button, previous, previous scene, previous track, rewind, start, triangle
-  static const IconData backwardFast = IconDataLight(0xf049);
+  static const IconData backwardFast = IconDataSolid(0xf049);
 
   /// Alias fast-backward for icon [backwardFast]
   @Deprecated('Use "backwardFast" instead.')
@@ -980,7 +980,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/backward-step?style=solid
   /// beginning, first, previous, rewind, start
-  static const IconData backwardStep = IconDataLight(0xf048);
+  static const IconData backwardStep = IconDataSolid(0xf048);
 
   /// Alias step-backward for icon [backwardStep]
   @Deprecated('Use "backwardStep" instead.')
@@ -990,25 +990,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bacon?style=solid
   /// bacon, blt, breakfast, food, ham, lard, meat, pancetta, pork, rasher
-  static const IconData bacon = IconDataLight(0xf7e5);
+  static const IconData bacon = IconDataSolid(0xf7e5);
 
   /// Solid Bacteria icon
   ///
   /// https://fontawesome.com/icons/bacteria?style=solid
   /// antibiotic, antibody, covid-19, health, organism, sick
-  static const IconData bacteria = IconDataLight(0xe059);
+  static const IconData bacteria = IconDataSolid(0xe059);
 
   /// Solid Bacterium icon
   ///
   /// https://fontawesome.com/icons/bacterium?style=solid
   /// antibiotic, antibody, covid-19, health, organism, sick
-  static const IconData bacterium = IconDataLight(0xe05a);
+  static const IconData bacterium = IconDataSolid(0xe05a);
 
   /// Solid Bag Shopping icon
   ///
   /// https://fontawesome.com/icons/bag-shopping?style=solid
   /// buy, checkout, grocery, payment, purchase
-  static const IconData bagShopping = IconDataLight(0xf290);
+  static const IconData bagShopping = IconDataSolid(0xf290);
 
   /// Alias shopping-bag for icon [bagShopping]
   @Deprecated('Use "bagShopping" instead.')
@@ -1018,7 +1018,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bahai?style=solid
   /// bahai, bahá'í, star
-  static const IconData bahai = IconDataLight(0xf666);
+  static const IconData bahai = IconDataSolid(0xf666);
 
   /// Alias haykal for icon [bahai]
   @Deprecated('Use "bahai" instead.')
@@ -1028,13 +1028,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/baht-sign?style=solid
   /// currency
-  static const IconData bahtSign = IconDataLight(0xe0ac);
+  static const IconData bahtSign = IconDataSolid(0xe0ac);
 
   /// Solid Ban icon
   ///
   /// https://fontawesome.com/icons/ban?style=solid
   /// abort, ban, block, cancel, delete, entry, forbidden, hide, no, not, prohibit, prohibited, remove, stop, trash
-  static const IconData ban = IconDataLight(0xf05e);
+  static const IconData ban = IconDataSolid(0xf05e);
 
   /// Alias cancel for icon [ban]
   @Deprecated('Use "ban" instead.')
@@ -1044,7 +1044,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ban-smoking?style=solid
   /// ban, cancel, forbidden, no, no smoking, non-smoking, not, prohibited, smoking
-  static const IconData banSmoking = IconDataLight(0xf54d);
+  static const IconData banSmoking = IconDataSolid(0xf54d);
 
   /// Alias smoking-ban for icon [banSmoking]
   @Deprecated('Use "banSmoking" instead.')
@@ -1054,7 +1054,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bandage?style=solid
   /// adhesive bandage, bandage, boo boo, first aid, ouch
-  static const IconData bandage = IconDataLight(0xf462);
+  static const IconData bandage = IconDataSolid(0xf462);
 
   /// Alias band-aid for icon [bandage]
   @Deprecated('Use "bandage" instead.')
@@ -1069,19 +1069,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bangladeshi-taka-sign?style=solid
   /// bdt, currency, tk
-  static const IconData bangladeshiTakaSign = IconDataLight(0xe2e6);
+  static const IconData bangladeshiTakaSign = IconDataSolid(0xe2e6);
 
   /// Solid Barcode icon
   ///
   /// https://fontawesome.com/icons/barcode?style=solid
   /// info, laser, price, scan, upc
-  static const IconData barcode = IconDataLight(0xf02a);
+  static const IconData barcode = IconDataSolid(0xf02a);
 
   /// Solid Bars icon
   ///
   /// https://fontawesome.com/icons/bars?style=solid
   /// checklist, drag, hamburger, list, menu, nav, navigation, ol, reorder, settings, todo, ul
-  static const IconData bars = IconDataLight(0xf0c9);
+  static const IconData bars = IconDataSolid(0xf0c9);
 
   /// Alias navicon for icon [bars]
   @Deprecated('Use "bars" instead.')
@@ -1091,7 +1091,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bars-progress?style=solid
   /// checklist, downloading, downloads, loading, poll, progress, project management, settings, to do
-  static const IconData barsProgress = IconDataLight(0xf828);
+  static const IconData barsProgress = IconDataSolid(0xf828);
 
   /// Alias tasks-alt for icon [barsProgress]
   @Deprecated('Use "barsProgress" instead.')
@@ -1101,7 +1101,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bars-staggered?style=solid
   /// flow, list, timeline
-  static const IconData barsStaggered = IconDataLight(0xf550);
+  static const IconData barsStaggered = IconDataSolid(0xf550);
 
   /// Alias reorder for icon [barsStaggered]
   @Deprecated('Use "barsStaggered" instead.')
@@ -1115,7 +1115,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/baseball?style=solid
   /// ball, baseball, foul, glove, hardball, league, leather, mlb, softball, sport, underarm
-  static const IconData baseball = IconDataLight(0xf433);
+  static const IconData baseball = IconDataSolid(0xf433);
 
   /// Alias baseball-ball for icon [baseball]
   @Deprecated('Use "baseball" instead.')
@@ -1125,13 +1125,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/baseball-bat-ball?style=solid
   /// bat, league, mlb, slugger, softball, sport
-  static const IconData baseballBatBall = IconDataLight(0xf432);
+  static const IconData baseballBatBall = IconDataSolid(0xf432);
 
   /// Solid Basket Shopping icon
   ///
   /// https://fontawesome.com/icons/basket-shopping?style=solid
   /// buy, checkout, grocery, payment, purchase
-  static const IconData basketShopping = IconDataLight(0xf291);
+  static const IconData basketShopping = IconDataSolid(0xf291);
 
   /// Alias shopping-basket for icon [basketShopping]
   @Deprecated('Use "basketShopping" instead.')
@@ -1141,7 +1141,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/basketball?style=solid
   /// ball, basketball, dribble, dunk, hoop, nba
-  static const IconData basketball = IconDataLight(0xf434);
+  static const IconData basketball = IconDataSolid(0xf434);
 
   /// Alias basketball-ball for icon [basketball]
   @Deprecated('Use "basketball" instead.')
@@ -1151,7 +1151,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bath?style=solid
   /// bath, bathtub, clean, shower, tub, wash
-  static const IconData bath = IconDataLight(0xf2cd);
+  static const IconData bath = IconDataSolid(0xf2cd);
 
   /// Alias bathtub for icon [bath]
   @Deprecated('Use "bath" instead.')
@@ -1161,7 +1161,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/battery-empty?style=solid
   /// charge, dead, power, status
-  static const IconData batteryEmpty = IconDataLight(0xf244);
+  static const IconData batteryEmpty = IconDataSolid(0xf244);
 
   /// Alias battery-0 for icon [batteryEmpty]
   @Deprecated('Use "batteryEmpty" instead.')
@@ -1171,7 +1171,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/battery-full?style=solid
   /// batter, battery, charge, power, status
-  static const IconData batteryFull = IconDataLight(0xf240);
+  static const IconData batteryFull = IconDataSolid(0xf240);
 
   /// Alias battery for icon [batteryFull]
   @Deprecated('Use "batteryFull" instead.')
@@ -1185,7 +1185,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/battery-half?style=solid
   /// charge, power, status
-  static const IconData batteryHalf = IconDataLight(0xf242);
+  static const IconData batteryHalf = IconDataSolid(0xf242);
 
   /// Alias battery-3 for icon [batteryHalf]
   @Deprecated('Use "batteryHalf" instead.')
@@ -1195,7 +1195,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/battery-quarter?style=solid
   /// charge, low, power, status
-  static const IconData batteryQuarter = IconDataLight(0xf243);
+  static const IconData batteryQuarter = IconDataSolid(0xf243);
 
   /// Alias battery-2 for icon [batteryQuarter]
   @Deprecated('Use "batteryQuarter" instead.')
@@ -1205,7 +1205,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/battery-three-quarters?style=solid
   /// charge, power, status
-  static const IconData batteryThreeQuarters = IconDataLight(0xf241);
+  static const IconData batteryThreeQuarters = IconDataSolid(0xf241);
 
   /// Alias battery-4 for icon [batteryThreeQuarters]
   @Deprecated('Use "batteryThreeQuarters" instead.')
@@ -1220,13 +1220,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bed?style=solid
   /// hospital, hotel, lodging, mattress, patient, person in bed, rest, sleep, travel
-  static const IconData bed = IconDataLight(0xf236);
+  static const IconData bed = IconDataSolid(0xf236);
 
   /// Solid Bed Pulse icon
   ///
   /// https://fontawesome.com/icons/bed-pulse?style=solid
   /// EKG, bed, electrocardiogram, health, hospital, life, patient, vital
-  static const IconData bedPulse = IconDataLight(0xf487);
+  static const IconData bedPulse = IconDataSolid(0xf487);
 
   /// Alias procedures for icon [bedPulse]
   @Deprecated('Use "bedPulse" instead.')
@@ -1236,7 +1236,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/beer-mug-empty?style=solid
   /// alcohol, ale, bar, beverage, brew, brewery, drink, foam, lager, liquor, mug, stein
-  static const IconData beerMugEmpty = IconDataLight(0xf0fc);
+  static const IconData beerMugEmpty = IconDataSolid(0xf0fc);
 
   /// Alias beer for icon [beerMugEmpty]
   @Deprecated('Use "beerMugEmpty" instead.')
@@ -1251,19 +1251,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bell?style=solid
   /// alarm, alert, bel, bell, chime, notification, reminder
-  static const IconData solidBell = IconDataLight(0xf0f3);
+  static const IconData solidBell = IconDataSolid(0xf0f3);
 
   /// Regular Bell icon
   ///
   /// https://fontawesome.com/icons/bell?style=regular
   /// alarm, alert, bel, bell, chime, notification, reminder
-  static const IconData bell = IconDataLight(0xf0f3);
+  static const IconData bell = IconDataRegular(0xf0f3);
 
   /// Solid Bell Concierge icon
   ///
   /// https://fontawesome.com/icons/bell-concierge?style=solid
   /// attention, bell, bellhop, bellhop bell, hotel, receptionist, service, support
-  static const IconData bellConcierge = IconDataLight(0xf562);
+  static const IconData bellConcierge = IconDataSolid(0xf562);
 
   /// Alias concierge-bell for icon [bellConcierge]
   @Deprecated('Use "bellConcierge" instead.')
@@ -1273,25 +1273,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bell-slash?style=solid
   /// alert, bell, bell with slash, cancel, disabled, forbidden, mute, notification, off, quiet, reminder, silent
-  static const IconData solidBellSlash = IconDataLight(0xf1f6);
+  static const IconData solidBellSlash = IconDataSolid(0xf1f6);
 
   /// Regular Bell Slash icon
   ///
   /// https://fontawesome.com/icons/bell-slash?style=regular
   /// alert, bell, bell with slash, cancel, disabled, forbidden, mute, notification, off, quiet, reminder, silent
-  static const IconData bellSlash = IconDataLight(0xf1f6);
+  static const IconData bellSlash = IconDataRegular(0xf1f6);
 
   /// Solid Bezier Curve icon
   ///
   /// https://fontawesome.com/icons/bezier-curve?style=solid
   /// curves, illustrator, lines, path, vector
-  static const IconData bezierCurve = IconDataLight(0xf55b);
+  static const IconData bezierCurve = IconDataSolid(0xf55b);
 
   /// Solid Bicycle icon
   ///
   /// https://fontawesome.com/icons/bicycle?style=solid
   /// bicycle, bike, gears, pedal, transportation, vehicle
-  static const IconData bicycle = IconDataLight(0xf206);
+  static const IconData bicycle = IconDataSolid(0xf206);
 
   /// Brands Bilibili icon
   ///
@@ -1307,13 +1307,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/binoculars?style=solid
   /// glasses, magnify, scenic, spyglass, view
-  static const IconData binoculars = IconDataLight(0xf1e5);
+  static const IconData binoculars = IconDataSolid(0xf1e5);
 
   /// Solid Biohazard icon
   ///
   /// https://fontawesome.com/icons/biohazard?style=solid
   /// biohazard, covid-19, danger, dangerous, epidemic, hazmat, medical, pandemic, radioactive, sign, toxic, waste, zombie
-  static const IconData biohazard = IconDataLight(0xf780);
+  static const IconData biohazard = IconDataSolid(0xf780);
 
   /// Brands Bitbucket icon
   ///
@@ -1330,7 +1330,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bitcoin-sign?style=solid
   /// Bitcoin Sign, currency
-  static const IconData bitcoinSign = IconDataLight(0xe0b4);
+  static const IconData bitcoinSign = IconDataSolid(0xe0b4);
 
   /// Brands Bity icon
   ///
@@ -1351,19 +1351,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/blender?style=solid
   /// cocktail, milkshake, mixer, puree, smoothie
-  static const IconData blender = IconDataLight(0xf517);
+  static const IconData blender = IconDataSolid(0xf517);
 
   /// Solid Blender Phone icon
   ///
   /// https://fontawesome.com/icons/blender-phone?style=solid
   /// appliance, cocktail, fantasy, milkshake, mixer, puree, silly, smoothie
-  static const IconData blenderPhone = IconDataLight(0xf6b6);
+  static const IconData blenderPhone = IconDataSolid(0xf6b6);
 
   /// Solid Blog icon
   ///
   /// https://fontawesome.com/icons/blog?style=solid
   /// journal, log, online, personal, post, web 2.0, wordpress, writing
-  static const IconData blog = IconDataLight(0xf781);
+  static const IconData blog = IconDataSolid(0xf781);
 
   /// Brands Blogger icon
   ///
@@ -1390,13 +1390,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bold?style=solid
   /// emphasis, format, text
-  static const IconData bold = IconDataLight(0xf032);
+  static const IconData bold = IconDataSolid(0xf032);
 
   /// Solid Bolt icon
   ///
   /// https://fontawesome.com/icons/bolt?style=solid
   /// charge, danger, electric, electricity, flash, high voltage, lightning, voltage, weather, zap
-  static const IconData bolt = IconDataLight(0xf0e7);
+  static const IconData bolt = IconDataSolid(0xf0e7);
 
   /// Alias zap for icon [bolt]
   @Deprecated('Use "bolt" instead.')
@@ -1406,37 +1406,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bolt-lightning?style=solid
   /// electricity, flash, lightning, weather, zap
-  static const IconData boltLightning = IconDataLight(0xe0b7);
+  static const IconData boltLightning = IconDataSolid(0xe0b7);
 
   /// Solid Bomb icon
   ///
   /// https://fontawesome.com/icons/bomb?style=solid
   /// bomb, comic, error, explode, fuse, grenade, warning
-  static const IconData bomb = IconDataLight(0xf1e2);
+  static const IconData bomb = IconDataSolid(0xf1e2);
 
   /// Solid Bone icon
   ///
   /// https://fontawesome.com/icons/bone?style=solid
   /// bone, calcium, dog, skeletal, skeleton, tibia
-  static const IconData bone = IconDataLight(0xf5d7);
+  static const IconData bone = IconDataSolid(0xf5d7);
 
   /// Solid Bong icon
   ///
   /// https://fontawesome.com/icons/bong?style=solid
   /// aparatus, cannabis, marijuana, pipe, smoke, smoking
-  static const IconData bong = IconDataLight(0xf55c);
+  static const IconData bong = IconDataSolid(0xf55c);
 
   /// Solid Book icon
   ///
   /// https://fontawesome.com/icons/book?style=solid
   /// book, cover, decorated, diary, documentation, journal, library, notebook, notebook with decorative cover, read, research
-  static const IconData book = IconDataLight(0xf02d);
+  static const IconData book = IconDataSolid(0xf02d);
 
   /// Solid Book Atlas icon
   ///
   /// https://fontawesome.com/icons/book-atlas?style=solid
   /// book, directions, geography, globe, library, map, research, travel, wayfinding
-  static const IconData bookAtlas = IconDataLight(0xf558);
+  static const IconData bookAtlas = IconDataSolid(0xf558);
 
   /// Alias atlas for icon [bookAtlas]
   @Deprecated('Use "bookAtlas" instead.')
@@ -1446,7 +1446,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-bible?style=solid
   /// book, catholicism, christianity, god, holy
-  static const IconData bookBible = IconDataLight(0xf647);
+  static const IconData bookBible = IconDataSolid(0xf647);
 
   /// Alias bible for icon [bookBible]
   @Deprecated('Use "bookBible" instead.')
@@ -1456,13 +1456,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-bookmark?style=solid
   /// library, research
-  static const IconData bookBookmark = IconDataLight(0xe0bb);
+  static const IconData bookBookmark = IconDataSolid(0xe0bb);
 
   /// Solid Book Journal Whills icon
   ///
   /// https://fontawesome.com/icons/book-journal-whills?style=solid
   /// book, force, jedi, sith, star wars, yoda
-  static const IconData bookJournalWhills = IconDataLight(0xf66a);
+  static const IconData bookJournalWhills = IconDataSolid(0xf66a);
 
   /// Alias journal-whills for icon [bookJournalWhills]
   @Deprecated('Use "bookJournalWhills" instead.')
@@ -1472,19 +1472,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-medical?style=solid
   /// diary, documentation, health, history, journal, library, read, record, research
-  static const IconData bookMedical = IconDataLight(0xf7e6);
+  static const IconData bookMedical = IconDataSolid(0xf7e6);
 
   /// Solid Book Open icon
   ///
   /// https://fontawesome.com/icons/book-open?style=solid
   /// Book, book, flyer, library, notebook, open, open book, pamphlet, reading, research
-  static const IconData bookOpen = IconDataLight(0xf518);
+  static const IconData bookOpen = IconDataSolid(0xf518);
 
   /// Solid Book Open Reader icon
   ///
   /// https://fontawesome.com/icons/book-open-reader?style=solid
   /// flyer, library, notebook, open book, pamphlet, reading, research
-  static const IconData bookOpenReader = IconDataLight(0xf5da);
+  static const IconData bookOpenReader = IconDataSolid(0xf5da);
 
   /// Alias book-reader for icon [bookOpenReader]
   @Deprecated('Use "bookOpenReader" instead.')
@@ -1494,7 +1494,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-quran?style=solid
   /// book, islam, muslim, religion
-  static const IconData bookQuran = IconDataLight(0xf687);
+  static const IconData bookQuran = IconDataSolid(0xf687);
 
   /// Alias quran for icon [bookQuran]
   @Deprecated('Use "bookQuran" instead.')
@@ -1504,7 +1504,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-skull?style=solid
   /// Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, library, necronomicon, read, research, skull, spell
-  static const IconData bookSkull = IconDataLight(0xf6b7);
+  static const IconData bookSkull = IconDataSolid(0xf6b7);
 
   /// Alias book-dead for icon [bookSkull]
   @Deprecated('Use "bookSkull" instead.')
@@ -1514,7 +1514,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/book-tanakh?style=solid
   /// book, jewish, judaism, religion
-  static const IconData bookTanakh = IconDataLight(0xf827);
+  static const IconData bookTanakh = IconDataSolid(0xf827);
 
   /// Alias tanakh for icon [bookTanakh]
   @Deprecated('Use "bookTanakh" instead.')
@@ -1524,13 +1524,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bookmark?style=solid
   /// bookmark, favorite, library, mark, marker, read, remember, research, save
-  static const IconData solidBookmark = IconDataLight(0xf02e);
+  static const IconData solidBookmark = IconDataSolid(0xf02e);
 
   /// Regular Bookmark icon
   ///
   /// https://fontawesome.com/icons/bookmark?style=regular
   /// bookmark, favorite, library, mark, marker, read, remember, research, save
-  static const IconData bookmark = IconDataLight(0xf02e);
+  static const IconData bookmark = IconDataRegular(0xf02e);
 
   /// Brands Bootstrap icon
   ///
@@ -1541,19 +1541,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/border-all?style=solid
   /// cell, grid, outline, stroke, table
-  static const IconData borderAll = IconDataLight(0xf84c);
+  static const IconData borderAll = IconDataSolid(0xf84c);
 
   /// Solid Border None icon
   ///
   /// https://fontawesome.com/icons/border-none?style=solid
   /// cell, grid, outline, stroke, table
-  static const IconData borderNone = IconDataLight(0xf850);
+  static const IconData borderNone = IconDataSolid(0xf850);
 
   /// Solid Border Top Left icon
   ///
   /// https://fontawesome.com/icons/border-top-left?style=solid
   /// cell, outline, stroke, table
-  static const IconData borderTopLeft = IconDataLight(0xf853);
+  static const IconData borderTopLeft = IconDataSolid(0xf853);
 
   /// Alias border-style for icon [borderTopLeft]
   @Deprecated('Use "borderTopLeft" instead.')
@@ -1563,7 +1563,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bore-hole?style=solid
   /// bore, bury, drill, hole
-  static const IconData boreHole = IconDataLight(0xe4c3);
+  static const IconData boreHole = IconDataSolid(0xe4c3);
 
   /// Brands Bots icon
   ///
@@ -1574,43 +1574,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bottle-droplet?style=solid
   /// alcohol, drink, oil, olive oil, wine
-  static const IconData bottleDroplet = IconDataLight(0xe4c4);
+  static const IconData bottleDroplet = IconDataSolid(0xe4c4);
 
   /// Solid Bottle Water icon
   ///
   /// https://fontawesome.com/icons/bottle-water?style=solid
   /// h2o, plastic, water
-  static const IconData bottleWater = IconDataLight(0xe4c5);
+  static const IconData bottleWater = IconDataSolid(0xe4c5);
 
   /// Solid Bowl Food icon
   ///
   /// https://fontawesome.com/icons/bowl-food?style=solid
   /// catfood, dogfood, food, rice
-  static const IconData bowlFood = IconDataLight(0xe4c6);
+  static const IconData bowlFood = IconDataSolid(0xe4c6);
 
   /// Solid Bowl Rice icon
   ///
   /// https://fontawesome.com/icons/bowl-rice?style=solid
   /// boiled, cooked, cooked rice, rice, steamed
-  static const IconData bowlRice = IconDataLight(0xe2eb);
+  static const IconData bowlRice = IconDataSolid(0xe2eb);
 
   /// Solid Bowling Ball icon
   ///
   /// https://fontawesome.com/icons/bowling-ball?style=solid
   /// alley, candlepin, gutter, lane, strike, tenpin
-  static const IconData bowlingBall = IconDataLight(0xf436);
+  static const IconData bowlingBall = IconDataSolid(0xf436);
 
   /// Solid Box icon
   ///
   /// https://fontawesome.com/icons/box?style=solid
   /// archive, box, container, package, parcel, storage
-  static const IconData box = IconDataLight(0xf466);
+  static const IconData box = IconDataSolid(0xf466);
 
   /// Solid Box Archive icon
   ///
   /// https://fontawesome.com/icons/box-archive?style=solid
   /// box, package, save, storage
-  static const IconData boxArchive = IconDataLight(0xf187);
+  static const IconData boxArchive = IconDataSolid(0xf187);
 
   /// Alias archive for icon [boxArchive]
   @Deprecated('Use "boxArchive" instead.')
@@ -1620,25 +1620,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/box-open?style=solid
   /// archive, container, package, storage, unpack
-  static const IconData boxOpen = IconDataLight(0xf49e);
+  static const IconData boxOpen = IconDataSolid(0xf49e);
 
   /// Solid Box Tissue icon
   ///
   /// https://fontawesome.com/icons/box-tissue?style=solid
   /// cough, covid-19, kleenex, mucus, nose, sneeze, snot
-  static const IconData boxTissue = IconDataLight(0xe05b);
+  static const IconData boxTissue = IconDataSolid(0xe05b);
 
   /// Solid Boxes Packing icon
   ///
   /// https://fontawesome.com/icons/boxes-packing?style=solid
   /// archive, box, package, storage, supplies
-  static const IconData boxesPacking = IconDataLight(0xe4c7);
+  static const IconData boxesPacking = IconDataSolid(0xe4c7);
 
   /// Solid Boxes Stacked icon
   ///
   /// https://fontawesome.com/icons/boxes-stacked?style=solid
   /// archives, inventory, storage, warehouse
-  static const IconData boxesStacked = IconDataLight(0xf468);
+  static const IconData boxesStacked = IconDataSolid(0xf468);
 
   /// Alias boxes for icon [boxesStacked]
   @Deprecated('Use "boxesStacked" instead.')
@@ -1652,85 +1652,85 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/braille?style=solid
   /// alphabet, blind, dots, raised, vision
-  static const IconData braille = IconDataLight(0xf2a1);
+  static const IconData braille = IconDataSolid(0xf2a1);
 
   /// Solid Brain icon
   ///
   /// https://fontawesome.com/icons/brain?style=solid
   /// brain, cerebellum, gray matter, intellect, intelligent, medulla oblongata, mind, noodle, wit
-  static const IconData brain = IconDataLight(0xf5dc);
+  static const IconData brain = IconDataSolid(0xf5dc);
 
   /// Solid Brazilian Real Sign icon
   ///
   /// https://fontawesome.com/icons/brazilian-real-sign?style=solid
   /// brazilian real sign, currency
-  static const IconData brazilianRealSign = IconDataLight(0xe46c);
+  static const IconData brazilianRealSign = IconDataSolid(0xe46c);
 
   /// Solid Bread Slice icon
   ///
   /// https://fontawesome.com/icons/bread-slice?style=solid
   /// bake, bakery, baking, dough, flour, gluten, grain, sandwich, sourdough, toast, wheat, yeast
-  static const IconData breadSlice = IconDataLight(0xf7ec);
+  static const IconData breadSlice = IconDataSolid(0xf7ec);
 
   /// Solid Bridge icon
   ///
   /// https://fontawesome.com/icons/bridge?style=solid
   /// bridge, road
-  static const IconData bridge = IconDataLight(0xe4c8);
+  static const IconData bridge = IconDataSolid(0xe4c8);
 
   /// Solid Bridge Circle Check icon
   ///
   /// https://fontawesome.com/icons/bridge-circle-check?style=solid
   /// bridge, not affected, ok, okay, road
-  static const IconData bridgeCircleCheck = IconDataLight(0xe4c9);
+  static const IconData bridgeCircleCheck = IconDataSolid(0xe4c9);
 
   /// Solid Bridge Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/bridge-circle-exclamation?style=solid
   /// affected, bridge, road
-  static const IconData bridgeCircleExclamation = IconDataLight(0xe4ca);
+  static const IconData bridgeCircleExclamation = IconDataSolid(0xe4ca);
 
   /// Solid Bridge Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/bridge-circle-xmark?style=solid
   /// bridge, destroy, road
-  static const IconData bridgeCircleXmark = IconDataLight(0xe4cb);
+  static const IconData bridgeCircleXmark = IconDataSolid(0xe4cb);
 
   /// Solid Bridge Lock icon
   ///
   /// https://fontawesome.com/icons/bridge-lock?style=solid
   /// bridge, closed, lockdown, quarantine, road
-  static const IconData bridgeLock = IconDataLight(0xe4cc);
+  static const IconData bridgeLock = IconDataSolid(0xe4cc);
 
   /// Solid Bridge Water icon
   ///
   /// https://fontawesome.com/icons/bridge-water?style=solid
   /// bridge, road
-  static const IconData bridgeWater = IconDataLight(0xe4ce);
+  static const IconData bridgeWater = IconDataSolid(0xe4ce);
 
   /// Solid Briefcase icon
   ///
   /// https://fontawesome.com/icons/briefcase?style=solid
   /// bag, briefcas, briefcase, business, luggage, office, work
-  static const IconData briefcase = IconDataLight(0xf0b1);
+  static const IconData briefcase = IconDataSolid(0xf0b1);
 
   /// Solid Briefcase Medical icon
   ///
   /// https://fontawesome.com/icons/briefcase-medical?style=solid
   /// doctor, emt, first aid, health
-  static const IconData briefcaseMedical = IconDataLight(0xf469);
+  static const IconData briefcaseMedical = IconDataSolid(0xf469);
 
   /// Solid Broom icon
   ///
   /// https://fontawesome.com/icons/broom?style=solid
   /// broom, clean, cleaning, firebolt, fly, halloween, nimbus 2000, quidditch, sweep, sweeping, witch
-  static const IconData broom = IconDataLight(0xf51a);
+  static const IconData broom = IconDataSolid(0xf51a);
 
   /// Solid Broom Ball icon
   ///
   /// https://fontawesome.com/icons/broom-ball?style=solid
   /// ball, bludger, broom, golden snitch, harry potter, hogwarts, quaffle, sport, wizard
-  static const IconData broomBall = IconDataLight(0xf458);
+  static const IconData broomBall = IconDataSolid(0xf458);
 
   /// Alias quidditch for icon [broomBall]
   @Deprecated('Use "broomBall" instead.')
@@ -1744,7 +1744,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/brush?style=solid
   /// art, bristles, color, handle, paint
-  static const IconData brush = IconDataLight(0xf55d);
+  static const IconData brush = IconDataSolid(0xf55d);
 
   /// Brands BTC icon
   ///
@@ -1755,7 +1755,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bucket?style=solid
   /// bucket, pail, sandcastle
-  static const IconData bucket = IconDataLight(0xe4cf);
+  static const IconData bucket = IconDataSolid(0xe4cf);
 
   /// Brands Buffer icon
   ///
@@ -1766,61 +1766,61 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/bug?style=solid
   /// beetle, error, glitch, insect, repair, report
-  static const IconData bug = IconDataLight(0xf188);
+  static const IconData bug = IconDataSolid(0xf188);
 
   /// Solid Bug Slash icon
   ///
   /// https://fontawesome.com/icons/bug-slash?style=solid
   /// beetle, fix, glitch, insect, optimize, repair, report, warning
-  static const IconData bugSlash = IconDataLight(0xe490);
+  static const IconData bugSlash = IconDataSolid(0xe490);
 
   /// Solid Bugs icon
   ///
   /// https://fontawesome.com/icons/bugs?style=solid
   /// bedbug, infestation, lice, plague, ticks
-  static const IconData bugs = IconDataLight(0xe4d0);
+  static const IconData bugs = IconDataSolid(0xe4d0);
 
   /// Solid Building icon
   ///
   /// https://fontawesome.com/icons/building?style=solid
   /// apartment, building, business, city, company, office, office building, urban, work
-  static const IconData solidBuilding = IconDataLight(0xf1ad);
+  static const IconData solidBuilding = IconDataSolid(0xf1ad);
 
   /// Regular Building icon
   ///
   /// https://fontawesome.com/icons/building?style=regular
   /// apartment, building, business, city, company, office, office building, urban, work
-  static const IconData building = IconDataLight(0xf1ad);
+  static const IconData building = IconDataRegular(0xf1ad);
 
   /// Solid Building Circle Arrow Right icon
   ///
   /// https://fontawesome.com/icons/building-circle-arrow-right?style=solid
   /// building, city, distribution center, office
-  static const IconData buildingCircleArrowRight = IconDataLight(0xe4d1);
+  static const IconData buildingCircleArrowRight = IconDataSolid(0xe4d1);
 
   /// Solid Building Circle Check icon
   ///
   /// https://fontawesome.com/icons/building-circle-check?style=solid
   /// building, city, not affected, office, ok, okay
-  static const IconData buildingCircleCheck = IconDataLight(0xe4d2);
+  static const IconData buildingCircleCheck = IconDataSolid(0xe4d2);
 
   /// Solid Building Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/building-circle-exclamation?style=solid
   /// affected, building, city, office
-  static const IconData buildingCircleExclamation = IconDataLight(0xe4d3);
+  static const IconData buildingCircleExclamation = IconDataSolid(0xe4d3);
 
   /// Solid Building Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/building-circle-xmark?style=solid
   /// building, city, destroy, office
-  static const IconData buildingCircleXmark = IconDataLight(0xe4d4);
+  static const IconData buildingCircleXmark = IconDataSolid(0xe4d4);
 
   /// Solid Building Columns icon
   ///
   /// https://fontawesome.com/icons/building-columns?style=solid
   /// bank, building, college, education, institution, museum, students
-  static const IconData buildingColumns = IconDataLight(0xf19c);
+  static const IconData buildingColumns = IconDataSolid(0xf19c);
 
   /// Alias bank for icon [buildingColumns]
   @Deprecated('Use "buildingColumns" instead.')
@@ -1842,61 +1842,61 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/building-flag?style=solid
   ///  city, building, diplomat, embassy, flag, headquarters, united nations
-  static const IconData buildingFlag = IconDataLight(0xe4d5);
+  static const IconData buildingFlag = IconDataSolid(0xe4d5);
 
   /// Solid Building Lock icon
   ///
   /// https://fontawesome.com/icons/building-lock?style=solid
   /// building, city, closed, lock, lockdown, quarantine, secure
-  static const IconData buildingLock = IconDataLight(0xe4d6);
+  static const IconData buildingLock = IconDataSolid(0xe4d6);
 
   /// Solid Building Ngo icon
   ///
   /// https://fontawesome.com/icons/building-ngo?style=solid
   ///  city, building, non governmental organization, office
-  static const IconData buildingNgo = IconDataLight(0xe4d7);
+  static const IconData buildingNgo = IconDataSolid(0xe4d7);
 
   /// Solid Building Shield icon
   ///
   /// https://fontawesome.com/icons/building-shield?style=solid
   /// building, city, police, protect, safety
-  static const IconData buildingShield = IconDataLight(0xe4d8);
+  static const IconData buildingShield = IconDataSolid(0xe4d8);
 
   /// Solid Building Un icon
   ///
   /// https://fontawesome.com/icons/building-un?style=solid
   /// building, city, office, united nations
-  static const IconData buildingUn = IconDataLight(0xe4d9);
+  static const IconData buildingUn = IconDataSolid(0xe4d9);
 
   /// Solid Building User icon
   ///
   /// https://fontawesome.com/icons/building-user?style=solid
   /// apartment, building, city
-  static const IconData buildingUser = IconDataLight(0xe4da);
+  static const IconData buildingUser = IconDataSolid(0xe4da);
 
   /// Solid Building Wheat icon
   ///
   /// https://fontawesome.com/icons/building-wheat?style=solid
   /// agriculture, building, city, usda
-  static const IconData buildingWheat = IconDataLight(0xe4db);
+  static const IconData buildingWheat = IconDataSolid(0xe4db);
 
   /// Solid Bullhorn icon
   ///
   /// https://fontawesome.com/icons/bullhorn?style=solid
   /// Bullhorn, announcement, broadcast, loud, louder, loudspeaker, megaphone, public address, share
-  static const IconData bullhorn = IconDataLight(0xf0a1);
+  static const IconData bullhorn = IconDataSolid(0xf0a1);
 
   /// Solid Bullseye icon
   ///
   /// https://fontawesome.com/icons/bullseye?style=solid
   /// archery, goal, objective, strategy, target
-  static const IconData bullseye = IconDataLight(0xf140);
+  static const IconData bullseye = IconDataSolid(0xf140);
 
   /// Solid Burger icon
   ///
   /// https://fontawesome.com/icons/burger?style=solid
   /// bacon, beef, burger, burger king, cheeseburger, fast food, grill, ground beef, mcdonalds, sandwich
-  static const IconData burger = IconDataLight(0xf805);
+  static const IconData burger = IconDataSolid(0xf805);
 
   /// Alias hamburger for icon [burger]
   @Deprecated('Use "burger" instead.')
@@ -1911,19 +1911,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/burst?style=solid
   /// boom, crash, explosion
-  static const IconData burst = IconDataLight(0xe4dc);
+  static const IconData burst = IconDataSolid(0xe4dc);
 
   /// Solid Bus icon
   ///
   /// https://fontawesome.com/icons/bus?style=solid
   /// bus, oncoming, oncoming bus, public transportation, transportation, travel, vehicle
-  static const IconData bus = IconDataLight(0xf207);
+  static const IconData bus = IconDataSolid(0xf207);
 
   /// Solid Bus Simple icon
   ///
   /// https://fontawesome.com/icons/bus-simple?style=solid
   /// mta, public transportation, transportation, travel, vehicle
-  static const IconData busSimple = IconDataLight(0xf55e);
+  static const IconData busSimple = IconDataSolid(0xf55e);
 
   /// Alias bus-alt for icon [busSimple]
   @Deprecated('Use "busSimple" instead.')
@@ -1933,7 +1933,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/business-time?style=solid
   /// alarm, briefcase, business socks, clock, flight of the conchords, reminder, wednesday
-  static const IconData businessTime = IconDataLight(0xf64a);
+  static const IconData businessTime = IconDataSolid(0xf64a);
 
   /// Alias briefcase-clock for icon [businessTime]
   @Deprecated('Use "businessTime" instead.')
@@ -1953,13 +1953,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/c?style=solid
   /// Latin Capital Letter C, Latin Small Letter C, letter
-  static const IconData c = IconDataLight(0x43);
+  static const IconData c = IconDataSolid(0x43);
 
   /// Solid Cable Car icon
   ///
   /// https://fontawesome.com/icons/cable-car?style=solid
   /// aerial tramway, cable, gondola, lift, mountain, mountain cableway, tram, tramway, trolley
-  static const IconData cableCar = IconDataLight(0xf7da);
+  static const IconData cableCar = IconDataSolid(0xf7da);
 
   /// Alias tram for icon [cableCar]
   @Deprecated('Use "cableCar" instead.')
@@ -1969,7 +1969,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cake-candles?style=solid
   /// anniversary, bakery, birthday, birthday cake, cake, candles, celebration, dessert, frosting, holiday, party, pastry, sweet
-  static const IconData cakeCandles = IconDataLight(0xf1fd);
+  static const IconData cakeCandles = IconDataSolid(0xf1fd);
 
   /// Alias birthday-cake for icon [cakeCandles]
   @Deprecated('Use "cakeCandles" instead.')
@@ -1983,43 +1983,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/calculator?style=solid
   /// Pocket Calculator, abacus, addition, arithmetic, counting, math, multiplication, subtraction
-  static const IconData calculator = IconDataLight(0xf1ec);
+  static const IconData calculator = IconDataSolid(0xf1ec);
 
   /// Solid Calendar icon
   ///
   /// https://fontawesome.com/icons/calendar?style=solid
   /// calendar, calendar-o, date, day, event, month, schedule, tear-off calendar, time, when, year
-  static const IconData solidCalendar = IconDataLight(0xf133);
+  static const IconData solidCalendar = IconDataSolid(0xf133);
 
   /// Regular Calendar icon
   ///
   /// https://fontawesome.com/icons/calendar?style=regular
   /// calendar, calendar-o, date, day, event, month, schedule, tear-off calendar, time, when, year
-  static const IconData calendar = IconDataLight(0xf133);
+  static const IconData calendar = IconDataRegular(0xf133);
 
   /// Solid Calendar Check icon
   ///
   /// https://fontawesome.com/icons/calendar-check?style=solid
   /// accept, agree, appointment, confirm, correct, date, day, done, event, month, ok, schedule, select, success, tick, time, todo, when, year
-  static const IconData solidCalendarCheck = IconDataLight(0xf274);
+  static const IconData solidCalendarCheck = IconDataSolid(0xf274);
 
   /// Regular Calendar Check icon
   ///
   /// https://fontawesome.com/icons/calendar-check?style=regular
   /// accept, agree, appointment, confirm, correct, date, day, done, event, month, ok, schedule, select, success, tick, time, todo, when, year
-  static const IconData calendarCheck = IconDataLight(0xf274);
+  static const IconData calendarCheck = IconDataRegular(0xf274);
 
   /// Solid Calendar Day icon
   ///
   /// https://fontawesome.com/icons/calendar-day?style=solid
   /// date, day, detail, event, focus, month, schedule, single day, time, today, when, year
-  static const IconData calendarDay = IconDataLight(0xf783);
+  static const IconData calendarDay = IconDataSolid(0xf783);
 
   /// Solid Calendar Days icon
   ///
   /// https://fontawesome.com/icons/calendar-days?style=solid
   /// calendar, date, day, event, month, schedule, time, when, year
-  static const IconData solidCalendarDays = IconDataLight(0xf073);
+  static const IconData solidCalendarDays = IconDataSolid(0xf073);
 
   /// Alias calendar-alt for icon [solidCalendarDays]
   @Deprecated('Use "solidCalendarDays" instead.')
@@ -2029,7 +2029,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/calendar-days?style=regular
   /// calendar, date, day, event, month, schedule, time, when, year
-  static const IconData calendarDays = IconDataLight(0xf073);
+  static const IconData calendarDays = IconDataRegular(0xf073);
 
   /// Alias calendar-alt for icon [calendarDays]
   @Deprecated('Use "calendarDays" instead.')
@@ -2039,37 +2039,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/calendar-minus?style=solid
   /// calendar, date, day, delete, event, month, negative, remove, schedule, time, when, year
-  static const IconData solidCalendarMinus = IconDataLight(0xf272);
+  static const IconData solidCalendarMinus = IconDataSolid(0xf272);
 
   /// Regular Calendar Minus icon
   ///
   /// https://fontawesome.com/icons/calendar-minus?style=regular
   /// calendar, date, day, delete, event, month, negative, remove, schedule, time, when, year
-  static const IconData calendarMinus = IconDataLight(0xf272);
+  static const IconData calendarMinus = IconDataRegular(0xf272);
 
   /// Solid Calendar Plus icon
   ///
   /// https://fontawesome.com/icons/calendar-plus?style=solid
   /// add, calendar, create, date, day, event, month, new, positive, schedule, time, when, year
-  static const IconData solidCalendarPlus = IconDataLight(0xf271);
+  static const IconData solidCalendarPlus = IconDataSolid(0xf271);
 
   /// Regular Calendar Plus icon
   ///
   /// https://fontawesome.com/icons/calendar-plus?style=regular
   /// add, calendar, create, date, day, event, month, new, positive, schedule, time, when, year
-  static const IconData calendarPlus = IconDataLight(0xf271);
+  static const IconData calendarPlus = IconDataRegular(0xf271);
 
   /// Solid Calendar Week icon
   ///
   /// https://fontawesome.com/icons/calendar-week?style=solid
   /// date, day, detail, event, focus, month, schedule, single week, time, today, when, year
-  static const IconData calendarWeek = IconDataLight(0xf784);
+  static const IconData calendarWeek = IconDataSolid(0xf784);
 
   /// Solid Calendar Xmark icon
   ///
   /// https://fontawesome.com/icons/calendar-xmark?style=solid
   /// archive, calendar, date, day, delete, event, month, remove, schedule, time, when, x, year
-  static const IconData solidCalendarXmark = IconDataLight(0xf273);
+  static const IconData solidCalendarXmark = IconDataSolid(0xf273);
 
   /// Alias calendar-times for icon [solidCalendarXmark]
   @Deprecated('Use "solidCalendarXmark" instead.')
@@ -2079,7 +2079,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/calendar-xmark?style=regular
   /// archive, calendar, date, day, delete, event, month, remove, schedule, time, when, x, year
-  static const IconData calendarXmark = IconDataLight(0xf273);
+  static const IconData calendarXmark = IconDataRegular(0xf273);
 
   /// Alias calendar-times for icon [calendarXmark]
   @Deprecated('Use "calendarXmark" instead.')
@@ -2089,7 +2089,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/camera?style=solid
   /// image, lens, photo, picture, record, shutter, video
-  static const IconData camera = IconDataLight(0xf030);
+  static const IconData camera = IconDataSolid(0xf030);
 
   /// Alias camera-alt for icon [camera]
   @Deprecated('Use "camera" instead.')
@@ -2099,19 +2099,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/camera-retro?style=solid
   /// camera, image, lens, photo, picture, record, shutter, video
-  static const IconData cameraRetro = IconDataLight(0xf083);
+  static const IconData cameraRetro = IconDataSolid(0xf083);
 
   /// Solid Camera Rotate icon
   ///
   /// https://fontawesome.com/icons/camera-rotate?style=solid
   /// flip, front-facing, photo, selfie
-  static const IconData cameraRotate = IconDataLight(0xe0d8);
+  static const IconData cameraRotate = IconDataSolid(0xe0d8);
 
   /// Solid Campground icon
   ///
   /// https://fontawesome.com/icons/campground?style=solid
   /// camping, fall, outdoors, teepee, tent, tipi
-  static const IconData campground = IconDataLight(0xf6bb);
+  static const IconData campground = IconDataSolid(0xf6bb);
 
   /// Brands Canadian Maple Leaf icon
   ///
@@ -2123,25 +2123,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/candy-cane?style=solid
   /// candy, christmas, holiday, mint, peppermint, striped, xmas
-  static const IconData candyCane = IconDataLight(0xf786);
+  static const IconData candyCane = IconDataSolid(0xf786);
 
   /// Solid Cannabis icon
   ///
   /// https://fontawesome.com/icons/cannabis?style=solid
   /// bud, chronic, drugs, endica, endo, ganja, marijuana, mary jane, pot, reefer, sativa, spliff, weed, whacky-tabacky
-  static const IconData cannabis = IconDataLight(0xf55f);
+  static const IconData cannabis = IconDataSolid(0xf55f);
 
   /// Solid Capsules icon
   ///
   /// https://fontawesome.com/icons/capsules?style=solid
   /// drugs, medicine, pills, prescription
-  static const IconData capsules = IconDataLight(0xf46b);
+  static const IconData capsules = IconDataSolid(0xf46b);
 
   /// Solid Car icon
   ///
   /// https://fontawesome.com/icons/car?style=solid
   /// auto, automobile, car, oncoming, oncoming automobile, sedan, transportation, travel, vehicle
-  static const IconData car = IconDataLight(0xf1b9);
+  static const IconData car = IconDataSolid(0xf1b9);
 
   /// Alias automobile for icon [car]
   @Deprecated('Use "car" instead.')
@@ -2151,7 +2151,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/car-battery?style=solid
   /// auto, electric, mechanic, power
-  static const IconData carBattery = IconDataLight(0xf5df);
+  static const IconData carBattery = IconDataSolid(0xf5df);
 
   /// Alias battery-car for icon [carBattery]
   @Deprecated('Use "carBattery" instead.')
@@ -2161,7 +2161,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/car-burst?style=solid
   /// accident, auto, automobile, insurance, sedan, transportation, vehicle, wreck
-  static const IconData carBurst = IconDataLight(0xf5e1);
+  static const IconData carBurst = IconDataSolid(0xf5e1);
 
   /// Alias car-crash for icon [carBurst]
   @Deprecated('Use "carBurst" instead.')
@@ -2171,13 +2171,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/car-on?style=solid
   /// alarm, car, carjack, warning
-  static const IconData carOn = IconDataLight(0xe4dd);
+  static const IconData carOn = IconDataSolid(0xe4dd);
 
   /// Solid Car Rear icon
   ///
   /// https://fontawesome.com/icons/car-rear?style=solid
   /// auto, automobile, sedan, transportation, travel, vehicle
-  static const IconData carRear = IconDataLight(0xf5de);
+  static const IconData carRear = IconDataSolid(0xf5de);
 
   /// Alias car-alt for icon [carRear]
   @Deprecated('Use "carRear" instead.')
@@ -2187,61 +2187,61 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/car-side?style=solid
   /// auto, automobile, car, sedan, transportation, travel, vehicle
-  static const IconData carSide = IconDataLight(0xf5e4);
+  static const IconData carSide = IconDataSolid(0xf5e4);
 
   /// Solid Car Tunnel icon
   ///
   /// https://fontawesome.com/icons/car-tunnel?style=solid
   /// road, tunnel
-  static const IconData carTunnel = IconDataLight(0xe4de);
+  static const IconData carTunnel = IconDataSolid(0xe4de);
 
   /// Solid Caravan icon
   ///
   /// https://fontawesome.com/icons/caravan?style=solid
   /// camper, motor home, rv, trailer, travel
-  static const IconData caravan = IconDataLight(0xf8ff);
+  static const IconData caravan = IconDataSolid(0xf8ff);
 
   /// Solid Caret Down icon
   ///
   /// https://fontawesome.com/icons/caret-down?style=solid
   /// arrow, dropdown, expand, menu, more, triangle
-  static const IconData caretDown = IconDataLight(0xf0d7);
+  static const IconData caretDown = IconDataSolid(0xf0d7);
 
   /// Solid Caret Left icon
   ///
   /// https://fontawesome.com/icons/caret-left?style=solid
   /// arrow, back, previous, triangle
-  static const IconData caretLeft = IconDataLight(0xf0d9);
+  static const IconData caretLeft = IconDataSolid(0xf0d9);
 
   /// Solid Caret Right icon
   ///
   /// https://fontawesome.com/icons/caret-right?style=solid
   /// arrow, forward, next, triangle
-  static const IconData caretRight = IconDataLight(0xf0da);
+  static const IconData caretRight = IconDataSolid(0xf0da);
 
   /// Solid Caret Up icon
   ///
   /// https://fontawesome.com/icons/caret-up?style=solid
   /// arrow, collapse, triangle
-  static const IconData caretUp = IconDataLight(0xf0d8);
+  static const IconData caretUp = IconDataSolid(0xf0d8);
 
   /// Solid Carrot icon
   ///
   /// https://fontawesome.com/icons/carrot?style=solid
   /// bugs bunny, carrot, food, orange, vegan, vegetable
-  static const IconData carrot = IconDataLight(0xf787);
+  static const IconData carrot = IconDataSolid(0xf787);
 
   /// Solid Cart Arrow Down icon
   ///
   /// https://fontawesome.com/icons/cart-arrow-down?style=solid
   /// download, save, shopping
-  static const IconData cartArrowDown = IconDataLight(0xf218);
+  static const IconData cartArrowDown = IconDataSolid(0xf218);
 
   /// Solid Cart Flatbed icon
   ///
   /// https://fontawesome.com/icons/cart-flatbed?style=solid
   /// carry, inventory, shipping, transport
-  static const IconData cartFlatbed = IconDataLight(0xf474);
+  static const IconData cartFlatbed = IconDataSolid(0xf474);
 
   /// Alias dolly-flatbed for icon [cartFlatbed]
   @Deprecated('Use "cartFlatbed" instead.')
@@ -2251,7 +2251,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cart-flatbed-suitcase?style=solid
   /// airport, bag, baggage, suitcase, travel
-  static const IconData cartFlatbedSuitcase = IconDataLight(0xf59d);
+  static const IconData cartFlatbedSuitcase = IconDataSolid(0xf59d);
 
   /// Alias luggage-cart for icon [cartFlatbedSuitcase]
   @Deprecated('Use "cartFlatbedSuitcase" instead.')
@@ -2261,13 +2261,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cart-plus?style=solid
   /// add, create, new, positive, shopping
-  static const IconData cartPlus = IconDataLight(0xf217);
+  static const IconData cartPlus = IconDataSolid(0xf217);
 
   /// Solid Cart Shopping icon
   ///
   /// https://fontawesome.com/icons/cart-shopping?style=solid
   /// buy, cart, checkout, grocery, payment, purchase, shopping, shopping cart, trolley
-  static const IconData cartShopping = IconDataLight(0xf07a);
+  static const IconData cartShopping = IconDataSolid(0xf07a);
 
   /// Alias shopping-cart for icon [cartShopping]
   @Deprecated('Use "cartShopping" instead.')
@@ -2277,13 +2277,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cash-register?style=solid
   /// buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store
-  static const IconData cashRegister = IconDataLight(0xf788);
+  static const IconData cashRegister = IconDataSolid(0xf788);
 
   /// Solid Cat icon
   ///
   /// https://fontawesome.com/icons/cat?style=solid
   /// cat, feline, halloween, holiday, kitten, kitty, meow, pet
-  static const IconData cat = IconDataLight(0xf6be);
+  static const IconData cat = IconDataSolid(0xf6be);
 
   /// Brands Amazon Pay Credit Card icon
   ///
@@ -2340,13 +2340,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cedi-sign?style=solid
   /// Cedi Sign, currency
-  static const IconData cediSign = IconDataLight(0xe0df);
+  static const IconData cediSign = IconDataSolid(0xe0df);
 
   /// Solid Cent Sign icon
   ///
   /// https://fontawesome.com/icons/cent-sign?style=solid
   /// Cent Sign, currency
-  static const IconData centSign = IconDataLight(0xe3f5);
+  static const IconData centSign = IconDataSolid(0xe3f5);
 
   /// Brands Centercode icon
   ///
@@ -2363,19 +2363,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/certificate?style=solid
   /// badge, star, verified
-  static const IconData certificate = IconDataLight(0xf0a3);
+  static const IconData certificate = IconDataSolid(0xf0a3);
 
   /// Solid Chair icon
   ///
   /// https://fontawesome.com/icons/chair?style=solid
   /// chair, furniture, seat, sit
-  static const IconData chair = IconDataLight(0xf6c0);
+  static const IconData chair = IconDataSolid(0xf6c0);
 
   /// Solid Chalkboard icon
   ///
   /// https://fontawesome.com/icons/chalkboard?style=solid
   /// blackboard, learning, school, teaching, whiteboard, writing
-  static const IconData chalkboard = IconDataLight(0xf51b);
+  static const IconData chalkboard = IconDataSolid(0xf51b);
 
   /// Alias blackboard for icon [chalkboard]
   @Deprecated('Use "chalkboard" instead.')
@@ -2385,7 +2385,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chalkboard-user?style=solid
   /// blackboard, instructor, learning, professor, school, whiteboard, writing
-  static const IconData chalkboardUser = IconDataLight(0xf51c);
+  static const IconData chalkboardUser = IconDataSolid(0xf51c);
 
   /// Alias chalkboard-teacher for icon [chalkboardUser]
   @Deprecated('Use "chalkboardUser" instead.')
@@ -2395,7 +2395,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/champagne-glasses?style=solid
   /// alcohol, bar, beverage, celebrate, celebration, champagne, clink, clinking glasses, drink, glass, holiday, new year's eve, party, toast
-  static const IconData champagneGlasses = IconDataLight(0xf79f);
+  static const IconData champagneGlasses = IconDataSolid(0xf79f);
 
   /// Alias glass-cheers for icon [champagneGlasses]
   @Deprecated('Use "champagneGlasses" instead.')
@@ -2405,13 +2405,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/charging-station?style=solid
   /// electric, ev, tesla, vehicle
-  static const IconData chargingStation = IconDataLight(0xf5e7);
+  static const IconData chargingStation = IconDataSolid(0xf5e7);
 
   /// Solid Chart Area icon
   ///
   /// https://fontawesome.com/icons/chart-area?style=solid
   /// analytics, area, chart, graph
-  static const IconData chartArea = IconDataLight(0xf1fe);
+  static const IconData chartArea = IconDataSolid(0xf1fe);
 
   /// Alias area-chart for icon [chartArea]
   @Deprecated('Use "chartArea" instead.')
@@ -2421,7 +2421,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chart-bar?style=solid
   /// analytics, bar, chart, graph
-  static const IconData solidChartBar = IconDataLight(0xf080);
+  static const IconData solidChartBar = IconDataSolid(0xf080);
 
   /// Alias bar-chart for icon [solidChartBar]
   @Deprecated('Use "solidChartBar" instead.')
@@ -2431,7 +2431,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chart-bar?style=regular
   /// analytics, bar, chart, graph
-  static const IconData chartBar = IconDataLight(0xf080);
+  static const IconData chartBar = IconDataRegular(0xf080);
 
   /// Alias bar-chart for icon [chartBar]
   @Deprecated('Use "chartBar" instead.')
@@ -2441,19 +2441,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chart-column?style=solid
   /// bar, bar chart, chart, graph, track, trend
-  static const IconData chartColumn = IconDataLight(0xe0e3);
+  static const IconData chartColumn = IconDataSolid(0xe0e3);
 
   /// Solid Chart Gantt icon
   ///
   /// https://fontawesome.com/icons/chart-gantt?style=solid
   /// chart, graph, track, trend
-  static const IconData chartGantt = IconDataLight(0xe0e4);
+  static const IconData chartGantt = IconDataSolid(0xe0e4);
 
   /// Solid Chart Line icon
   ///
   /// https://fontawesome.com/icons/chart-line?style=solid
   /// activity, analytics, chart, dashboard, gain, graph, increase, line
-  static const IconData chartLine = IconDataLight(0xf201);
+  static const IconData chartLine = IconDataSolid(0xf201);
 
   /// Alias line-chart for icon [chartLine]
   @Deprecated('Use "chartLine" instead.')
@@ -2463,7 +2463,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chart-pie?style=solid
   /// analytics, chart, diagram, graph, pie
-  static const IconData chartPie = IconDataLight(0xf200);
+  static const IconData chartPie = IconDataSolid(0xf200);
 
   /// Alias pie-chart for icon [chartPie]
   @Deprecated('Use "chartPie" instead.')
@@ -2473,25 +2473,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/chart-simple?style=solid
   /// analytics, bar, chart, column, graph, row, trend
-  static const IconData chartSimple = IconDataLight(0xe473);
+  static const IconData chartSimple = IconDataSolid(0xe473);
 
   /// Solid Check icon
   ///
   /// https://fontawesome.com/icons/check?style=solid
   /// Check Mark, accept, agree, check, check mark, checkmark, confirm, correct, done, mark, notice, notification, notify, ok, select, success, tick, todo, yes, ✓
-  static const IconData check = IconDataLight(0xf00c);
+  static const IconData check = IconDataSolid(0xf00c);
 
   /// Solid Check Double icon
   ///
   /// https://fontawesome.com/icons/check-double?style=solid
   /// accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo
-  static const IconData checkDouble = IconDataLight(0xf560);
+  static const IconData checkDouble = IconDataSolid(0xf560);
 
   /// Solid Check To Slot icon
   ///
   /// https://fontawesome.com/icons/check-to-slot?style=solid
   /// accept, cast, election, politics, positive, voting, yes
-  static const IconData checkToSlot = IconDataLight(0xf772);
+  static const IconData checkToSlot = IconDataSolid(0xf772);
 
   /// Alias vote-yea for icon [checkToSlot]
   @Deprecated('Use "checkToSlot" instead.')
@@ -2501,127 +2501,127 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cheese?style=solid
   /// cheddar, curd, gouda, melt, parmesan, sandwich, swiss, wedge
-  static const IconData cheese = IconDataLight(0xf7ef);
+  static const IconData cheese = IconDataSolid(0xf7ef);
 
   /// Solid Chess icon
   ///
   /// https://fontawesome.com/icons/chess?style=solid
   /// board, castle, checkmate, game, king, rook, strategy, tournament
-  static const IconData chess = IconDataLight(0xf439);
+  static const IconData chess = IconDataSolid(0xf439);
 
   /// Solid Chess Bishop icon
   ///
   /// https://fontawesome.com/icons/chess-bishop?style=solid
   /// Black Chess Bishop, board, checkmate, game, strategy
-  static const IconData solidChessBishop = IconDataLight(0xf43a);
+  static const IconData solidChessBishop = IconDataSolid(0xf43a);
 
   /// Regular Chess Bishop icon
   ///
   /// https://fontawesome.com/icons/chess-bishop?style=regular
   /// Black Chess Bishop, board, checkmate, game, strategy
-  static const IconData chessBishop = IconDataLight(0xf43a);
+  static const IconData chessBishop = IconDataRegular(0xf43a);
 
   /// Solid Chess Board icon
   ///
   /// https://fontawesome.com/icons/chess-board?style=solid
   /// board, checkmate, game, strategy
-  static const IconData chessBoard = IconDataLight(0xf43c);
+  static const IconData chessBoard = IconDataSolid(0xf43c);
 
   /// Solid Chess King icon
   ///
   /// https://fontawesome.com/icons/chess-king?style=solid
   /// Black Chess King, board, checkmate, game, strategy
-  static const IconData solidChessKing = IconDataLight(0xf43f);
+  static const IconData solidChessKing = IconDataSolid(0xf43f);
 
   /// Regular Chess King icon
   ///
   /// https://fontawesome.com/icons/chess-king?style=regular
   /// Black Chess King, board, checkmate, game, strategy
-  static const IconData chessKing = IconDataLight(0xf43f);
+  static const IconData chessKing = IconDataRegular(0xf43f);
 
   /// Solid Chess Knight icon
   ///
   /// https://fontawesome.com/icons/chess-knight?style=solid
   /// Black Chess Knight, board, checkmate, game, horse, strategy
-  static const IconData solidChessKnight = IconDataLight(0xf441);
+  static const IconData solidChessKnight = IconDataSolid(0xf441);
 
   /// Regular Chess Knight icon
   ///
   /// https://fontawesome.com/icons/chess-knight?style=regular
   /// Black Chess Knight, board, checkmate, game, horse, strategy
-  static const IconData chessKnight = IconDataLight(0xf441);
+  static const IconData chessKnight = IconDataRegular(0xf441);
 
   /// Solid Chess Pawn icon
   ///
   /// https://fontawesome.com/icons/chess-pawn?style=solid
   /// board, checkmate, chess, chess pawn, dupe, expendable, game, strategy
-  static const IconData solidChessPawn = IconDataLight(0xf443);
+  static const IconData solidChessPawn = IconDataSolid(0xf443);
 
   /// Regular Chess Pawn icon
   ///
   /// https://fontawesome.com/icons/chess-pawn?style=regular
   /// board, checkmate, chess, chess pawn, dupe, expendable, game, strategy
-  static const IconData chessPawn = IconDataLight(0xf443);
+  static const IconData chessPawn = IconDataRegular(0xf443);
 
   /// Solid Chess Queen icon
   ///
   /// https://fontawesome.com/icons/chess-queen?style=solid
   /// Black Chess Queen, board, checkmate, game, strategy
-  static const IconData solidChessQueen = IconDataLight(0xf445);
+  static const IconData solidChessQueen = IconDataSolid(0xf445);
 
   /// Regular Chess Queen icon
   ///
   /// https://fontawesome.com/icons/chess-queen?style=regular
   /// Black Chess Queen, board, checkmate, game, strategy
-  static const IconData chessQueen = IconDataLight(0xf445);
+  static const IconData chessQueen = IconDataRegular(0xf445);
 
   /// Solid Chess Rook icon
   ///
   /// https://fontawesome.com/icons/chess-rook?style=solid
   /// Black Chess Rook, board, castle, checkmate, game, strategy
-  static const IconData solidChessRook = IconDataLight(0xf447);
+  static const IconData solidChessRook = IconDataSolid(0xf447);
 
   /// Regular Chess Rook icon
   ///
   /// https://fontawesome.com/icons/chess-rook?style=regular
   /// Black Chess Rook, board, castle, checkmate, game, strategy
-  static const IconData chessRook = IconDataLight(0xf447);
+  static const IconData chessRook = IconDataRegular(0xf447);
 
   /// Solid Chevron Down icon
   ///
   /// https://fontawesome.com/icons/chevron-down?style=solid
   /// arrow, download, expand
-  static const IconData chevronDown = IconDataLight(0xf078);
+  static const IconData chevronDown = IconDataSolid(0xf078);
 
   /// Solid Chevron Left icon
   ///
   /// https://fontawesome.com/icons/chevron-left?style=solid
   /// Left-Pointing Angle Bracket, arrow, back, bracket, previous
-  static const IconData chevronLeft = IconDataLight(0xf053);
+  static const IconData chevronLeft = IconDataSolid(0xf053);
 
   /// Solid Chevron Right icon
   ///
   /// https://fontawesome.com/icons/chevron-right?style=solid
   /// Right-Pointing Angle Bracket, arrow, bracket, forward, next
-  static const IconData chevronRight = IconDataLight(0xf054);
+  static const IconData chevronRight = IconDataSolid(0xf054);
 
   /// Solid Chevron Up icon
   ///
   /// https://fontawesome.com/icons/chevron-up?style=solid
   /// arrow, collapse, upload
-  static const IconData chevronUp = IconDataLight(0xf077);
+  static const IconData chevronUp = IconDataSolid(0xf077);
 
   /// Solid Child icon
   ///
   /// https://fontawesome.com/icons/child?style=solid
   /// boy, girl, kid, toddler, young, youth
-  static const IconData child = IconDataLight(0xf1ae);
+  static const IconData child = IconDataSolid(0xf1ae);
 
   /// Solid Child Combatant icon
   ///
   /// https://fontawesome.com/icons/child-combatant?style=solid
   /// combatant
-  static const IconData childCombatant = IconDataLight(0xe4e0);
+  static const IconData childCombatant = IconDataSolid(0xe4e0);
 
   /// Alias child-rifle for icon [childCombatant]
   @Deprecated('Use "childCombatant" instead.')
@@ -2631,19 +2631,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/child-dress?style=solid
   /// boy, girl, kid, toddler, young, youth
-  static const IconData childDress = IconDataLight(0xe59c);
+  static const IconData childDress = IconDataSolid(0xe59c);
 
   /// Solid Child Reaching icon
   ///
   /// https://fontawesome.com/icons/child-reaching?style=solid
   /// boy, girl, kid, toddler, young, youth
-  static const IconData childReaching = IconDataLight(0xe59d);
+  static const IconData childReaching = IconDataSolid(0xe59d);
 
   /// Solid Children icon
   ///
   /// https://fontawesome.com/icons/children?style=solid
   /// boy, child, girl, kid, kids, young, youth
-  static const IconData children = IconDataLight(0xe4e1);
+  static const IconData children = IconDataSolid(0xe4e1);
 
   /// Brands Chrome icon
   ///
@@ -2660,25 +2660,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/church?style=solid
   /// Christian, building, cathedral, chapel, church, community, cross, religion
-  static const IconData church = IconDataLight(0xf51d);
+  static const IconData church = IconDataSolid(0xf51d);
 
   /// Solid Circle icon
   ///
   /// https://fontawesome.com/icons/circle?style=solid
   /// Black Circle, Black Large Circle, black circle, blue, blue circle, brown, brown circle, chart, circle, circle-thin, diameter, dot, ellipse, fill, geometric, green, green circle, notification, orange, orange circle, progress, purple, purple circle, red, red circle, round, white circle, yellow, yellow circle
-  static const IconData solidCircle = IconDataLight(0xf111);
+  static const IconData solidCircle = IconDataSolid(0xf111);
 
   /// Regular Circle icon
   ///
   /// https://fontawesome.com/icons/circle?style=regular
   /// Black Circle, Black Large Circle, black circle, blue, blue circle, brown, brown circle, chart, circle, circle-thin, diameter, dot, ellipse, fill, geometric, green, green circle, notification, orange, orange circle, progress, purple, purple circle, red, red circle, round, white circle, yellow, yellow circle
-  static const IconData circle = IconDataLight(0xf111);
+  static const IconData circle = IconDataRegular(0xf111);
 
   /// Solid Circle Arrow Down icon
   ///
   /// https://fontawesome.com/icons/circle-arrow-down?style=solid
   /// download
-  static const IconData circleArrowDown = IconDataLight(0xf0ab);
+  static const IconData circleArrowDown = IconDataSolid(0xf0ab);
 
   /// Alias arrow-circle-down for icon [circleArrowDown]
   @Deprecated('Use "circleArrowDown" instead.')
@@ -2688,7 +2688,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-arrow-left?style=solid
   /// back, previous
-  static const IconData circleArrowLeft = IconDataLight(0xf0a8);
+  static const IconData circleArrowLeft = IconDataSolid(0xf0a8);
 
   /// Alias arrow-circle-left for icon [circleArrowLeft]
   @Deprecated('Use "circleArrowLeft" instead.')
@@ -2698,7 +2698,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-arrow-right?style=solid
   /// forward, next
-  static const IconData circleArrowRight = IconDataLight(0xf0a9);
+  static const IconData circleArrowRight = IconDataSolid(0xf0a9);
 
   /// Alias arrow-circle-right for icon [circleArrowRight]
   @Deprecated('Use "circleArrowRight" instead.')
@@ -2708,7 +2708,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-arrow-up?style=solid
   /// upload
-  static const IconData circleArrowUp = IconDataLight(0xf0aa);
+  static const IconData circleArrowUp = IconDataSolid(0xf0aa);
 
   /// Alias arrow-circle-up for icon [circleArrowUp]
   @Deprecated('Use "circleArrowUp" instead.')
@@ -2718,7 +2718,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-check?style=solid
   /// accept, affected, agree, clear, confirm, correct, done, ok, select, success, tick, todo, yes
-  static const IconData solidCircleCheck = IconDataLight(0xf058);
+  static const IconData solidCircleCheck = IconDataSolid(0xf058);
 
   /// Alias check-circle for icon [solidCircleCheck]
   @Deprecated('Use "solidCircleCheck" instead.')
@@ -2728,7 +2728,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-check?style=regular
   /// accept, affected, agree, clear, confirm, correct, done, ok, select, success, tick, todo, yes
-  static const IconData circleCheck = IconDataLight(0xf058);
+  static const IconData circleCheck = IconDataRegular(0xf058);
 
   /// Alias check-circle for icon [circleCheck]
   @Deprecated('Use "circleCheck" instead.')
@@ -2738,7 +2738,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-chevron-down?style=solid
   /// arrow, download, dropdown, menu, more
-  static const IconData circleChevronDown = IconDataLight(0xf13a);
+  static const IconData circleChevronDown = IconDataSolid(0xf13a);
 
   /// Alias chevron-circle-down for icon [circleChevronDown]
   @Deprecated('Use "circleChevronDown" instead.')
@@ -2748,7 +2748,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-chevron-left?style=solid
   /// arrow, back, previous
-  static const IconData circleChevronLeft = IconDataLight(0xf137);
+  static const IconData circleChevronLeft = IconDataSolid(0xf137);
 
   /// Alias chevron-circle-left for icon [circleChevronLeft]
   @Deprecated('Use "circleChevronLeft" instead.')
@@ -2758,7 +2758,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-chevron-right?style=solid
   /// arrow, forward, next
-  static const IconData circleChevronRight = IconDataLight(0xf138);
+  static const IconData circleChevronRight = IconDataSolid(0xf138);
 
   /// Alias chevron-circle-right for icon [circleChevronRight]
   @Deprecated('Use "circleChevronRight" instead.')
@@ -2768,7 +2768,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-chevron-up?style=solid
   /// arrow, collapse, upload
-  static const IconData circleChevronUp = IconDataLight(0xf139);
+  static const IconData circleChevronUp = IconDataSolid(0xf139);
 
   /// Alias chevron-circle-up for icon [circleChevronUp]
   @Deprecated('Use "circleChevronUp" instead.')
@@ -2778,7 +2778,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-dollar-to-slot?style=solid
   /// contribute, generosity, gift, give
-  static const IconData circleDollarToSlot = IconDataLight(0xf4b9);
+  static const IconData circleDollarToSlot = IconDataSolid(0xf4b9);
 
   /// Alias donate for icon [circleDollarToSlot]
   @Deprecated('Use "circleDollarToSlot" instead.')
@@ -2788,7 +2788,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-dot?style=solid
   /// bullseye, button, geometric, notification, radio, radio button, target
-  static const IconData solidCircleDot = IconDataLight(0xf192);
+  static const IconData solidCircleDot = IconDataSolid(0xf192);
 
   /// Alias dot-circle for icon [solidCircleDot]
   @Deprecated('Use "solidCircleDot" instead.')
@@ -2798,7 +2798,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-dot?style=regular
   /// bullseye, button, geometric, notification, radio, radio button, target
-  static const IconData circleDot = IconDataLight(0xf192);
+  static const IconData circleDot = IconDataRegular(0xf192);
 
   /// Alias dot-circle for icon [circleDot]
   @Deprecated('Use "circleDot" instead.')
@@ -2808,7 +2808,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-down?style=solid
   /// arrow-circle-o-down, download
-  static const IconData solidCircleDown = IconDataLight(0xf358);
+  static const IconData solidCircleDown = IconDataSolid(0xf358);
 
   /// Alias arrow-alt-circle-down for icon [solidCircleDown]
   @Deprecated('Use "solidCircleDown" instead.')
@@ -2818,7 +2818,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-down?style=regular
   /// arrow-circle-o-down, download
-  static const IconData circleDown = IconDataLight(0xf358);
+  static const IconData circleDown = IconDataRegular(0xf358);
 
   /// Alias arrow-alt-circle-down for icon [circleDown]
   @Deprecated('Use "circleDown" instead.')
@@ -2828,7 +2828,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-exclamation?style=solid
   /// affect, alert, damage, danger, error, important, notice, notification, notify, problem, warning
-  static const IconData circleExclamation = IconDataLight(0xf06a);
+  static const IconData circleExclamation = IconDataSolid(0xf06a);
 
   /// Alias exclamation-circle for icon [circleExclamation]
   @Deprecated('Use "circleExclamation" instead.')
@@ -2838,7 +2838,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-h?style=solid
   /// Circled Latin Capital Letter H, clinic, covid-19, emergency, letter, map
-  static const IconData circleH = IconDataLight(0xf47e);
+  static const IconData circleH = IconDataSolid(0xf47e);
 
   /// Alias hospital-symbol for icon [circleH]
   @Deprecated('Use "circleH" instead.')
@@ -2848,7 +2848,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-half-stroke?style=solid
   /// Circle with Left Half Black, adjust, chart, contrast, dark, fill, light, pie, progress, saturation
-  static const IconData circleHalfStroke = IconDataLight(0xf042);
+  static const IconData circleHalfStroke = IconDataSolid(0xf042);
 
   /// Alias adjust for icon [circleHalfStroke]
   @Deprecated('Use "circleHalfStroke" instead.')
@@ -2858,7 +2858,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-info?style=solid
   /// details, help, information, more, support
-  static const IconData circleInfo = IconDataLight(0xf05a);
+  static const IconData circleInfo = IconDataSolid(0xf05a);
 
   /// Alias info-circle for icon [circleInfo]
   @Deprecated('Use "circleInfo" instead.')
@@ -2868,7 +2868,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-left?style=solid
   /// arrow-circle-o-left, back, previous
-  static const IconData solidCircleLeft = IconDataLight(0xf359);
+  static const IconData solidCircleLeft = IconDataSolid(0xf359);
 
   /// Alias arrow-alt-circle-left for icon [solidCircleLeft]
   @Deprecated('Use "solidCircleLeft" instead.')
@@ -2878,7 +2878,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-left?style=regular
   /// arrow-circle-o-left, back, previous
-  static const IconData circleLeft = IconDataLight(0xf359);
+  static const IconData circleLeft = IconDataRegular(0xf359);
 
   /// Alias arrow-alt-circle-left for icon [circleLeft]
   @Deprecated('Use "circleLeft" instead.')
@@ -2888,7 +2888,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-minus?style=solid
   /// delete, hide, negative, remove, shape, trash
-  static const IconData circleMinus = IconDataLight(0xf056);
+  static const IconData circleMinus = IconDataSolid(0xf056);
 
   /// Alias minus-circle for icon [circleMinus]
   @Deprecated('Use "circleMinus" instead.')
@@ -2898,19 +2898,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-nodes?style=solid
   /// cluster, connect, network
-  static const IconData circleNodes = IconDataLight(0xe4e2);
+  static const IconData circleNodes = IconDataSolid(0xe4e2);
 
   /// Solid Circle Notch icon
   ///
   /// https://fontawesome.com/icons/circle-notch?style=solid
   /// circle-o-notch, diameter, dot, ellipse, round, spinner
-  static const IconData circleNotch = IconDataLight(0xf1ce);
+  static const IconData circleNotch = IconDataSolid(0xf1ce);
 
   /// Solid Circle Pause icon
   ///
   /// https://fontawesome.com/icons/circle-pause?style=solid
   /// hold, wait
-  static const IconData solidCirclePause = IconDataLight(0xf28b);
+  static const IconData solidCirclePause = IconDataSolid(0xf28b);
 
   /// Alias pause-circle for icon [solidCirclePause]
   @Deprecated('Use "solidCirclePause" instead.')
@@ -2920,7 +2920,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-pause?style=regular
   /// hold, wait
-  static const IconData circlePause = IconDataLight(0xf28b);
+  static const IconData circlePause = IconDataRegular(0xf28b);
 
   /// Alias pause-circle for icon [circlePause]
   @Deprecated('Use "circlePause" instead.')
@@ -2930,7 +2930,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-play?style=solid
   /// audio, music, playing, sound, start, video
-  static const IconData solidCirclePlay = IconDataLight(0xf144);
+  static const IconData solidCirclePlay = IconDataSolid(0xf144);
 
   /// Alias play-circle for icon [solidCirclePlay]
   @Deprecated('Use "solidCirclePlay" instead.')
@@ -2940,7 +2940,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-play?style=regular
   /// audio, music, playing, sound, start, video
-  static const IconData circlePlay = IconDataLight(0xf144);
+  static const IconData circlePlay = IconDataRegular(0xf144);
 
   /// Alias play-circle for icon [circlePlay]
   @Deprecated('Use "circlePlay" instead.')
@@ -2950,7 +2950,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-plus?style=solid
   /// add, create, expand, new, positive, shape
-  static const IconData circlePlus = IconDataLight(0xf055);
+  static const IconData circlePlus = IconDataSolid(0xf055);
 
   /// Alias plus-circle for icon [circlePlus]
   @Deprecated('Use "circlePlus" instead.')
@@ -2960,7 +2960,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-question?style=solid
   /// help, information, support, unknown
-  static const IconData solidCircleQuestion = IconDataLight(0xf059);
+  static const IconData solidCircleQuestion = IconDataSolid(0xf059);
 
   /// Alias question-circle for icon [solidCircleQuestion]
   @Deprecated('Use "solidCircleQuestion" instead.')
@@ -2970,7 +2970,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-question?style=regular
   /// help, information, support, unknown
-  static const IconData circleQuestion = IconDataLight(0xf059);
+  static const IconData circleQuestion = IconDataRegular(0xf059);
 
   /// Alias question-circle for icon [circleQuestion]
   @Deprecated('Use "circleQuestion" instead.')
@@ -2980,7 +2980,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-radiation?style=solid
   /// danger, dangerous, deadly, hazard, nuclear, radioactive, sign, warning
-  static const IconData circleRadiation = IconDataLight(0xf7ba);
+  static const IconData circleRadiation = IconDataSolid(0xf7ba);
 
   /// Alias radiation-alt for icon [circleRadiation]
   @Deprecated('Use "circleRadiation" instead.')
@@ -2990,7 +2990,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-right?style=solid
   /// arrow-circle-o-right, forward, next
-  static const IconData solidCircleRight = IconDataLight(0xf35a);
+  static const IconData solidCircleRight = IconDataSolid(0xf35a);
 
   /// Alias arrow-alt-circle-right for icon [solidCircleRight]
   @Deprecated('Use "solidCircleRight" instead.')
@@ -3000,7 +3000,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-right?style=regular
   /// arrow-circle-o-right, forward, next
-  static const IconData circleRight = IconDataLight(0xf35a);
+  static const IconData circleRight = IconDataRegular(0xf35a);
 
   /// Alias arrow-alt-circle-right for icon [circleRight]
   @Deprecated('Use "circleRight" instead.')
@@ -3010,7 +3010,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-stop?style=solid
   /// block, box, circle, square
-  static const IconData solidCircleStop = IconDataLight(0xf28d);
+  static const IconData solidCircleStop = IconDataSolid(0xf28d);
 
   /// Alias stop-circle for icon [solidCircleStop]
   @Deprecated('Use "solidCircleStop" instead.')
@@ -3020,7 +3020,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-stop?style=regular
   /// block, box, circle, square
-  static const IconData circleStop = IconDataLight(0xf28d);
+  static const IconData circleStop = IconDataRegular(0xf28d);
 
   /// Alias stop-circle for icon [circleStop]
   @Deprecated('Use "circleStop" instead.')
@@ -3030,7 +3030,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-up?style=solid
   /// arrow-circle-o-up
-  static const IconData solidCircleUp = IconDataLight(0xf35b);
+  static const IconData solidCircleUp = IconDataSolid(0xf35b);
 
   /// Alias arrow-alt-circle-up for icon [solidCircleUp]
   @Deprecated('Use "solidCircleUp" instead.')
@@ -3040,7 +3040,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-up?style=regular
   /// arrow-circle-o-up
-  static const IconData circleUp = IconDataLight(0xf35b);
+  static const IconData circleUp = IconDataRegular(0xf35b);
 
   /// Alias arrow-alt-circle-up for icon [circleUp]
   @Deprecated('Use "circleUp" instead.')
@@ -3050,7 +3050,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-user?style=solid
   /// users-people
-  static const IconData solidCircleUser = IconDataLight(0xf2bd);
+  static const IconData solidCircleUser = IconDataSolid(0xf2bd);
 
   /// Alias user-circle for icon [solidCircleUser]
   @Deprecated('Use "solidCircleUser" instead.')
@@ -3060,7 +3060,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-user?style=regular
   /// users-people
-  static const IconData circleUser = IconDataLight(0xf2bd);
+  static const IconData circleUser = IconDataRegular(0xf2bd);
 
   /// Alias user-circle for icon [circleUser]
   @Deprecated('Use "circleUser" instead.')
@@ -3070,7 +3070,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-xmark?style=solid
   /// close, cross, destroy, exit, incorrect, notice, notification, notify, problem, wrong, x
-  static const IconData solidCircleXmark = IconDataLight(0xf057);
+  static const IconData solidCircleXmark = IconDataSolid(0xf057);
 
   /// Alias times-circle for icon [solidCircleXmark]
   @Deprecated('Use "solidCircleXmark" instead.')
@@ -3084,7 +3084,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/circle-xmark?style=regular
   /// close, cross, destroy, exit, incorrect, notice, notification, notify, problem, wrong, x
-  static const IconData circleXmark = IconDataLight(0xf057);
+  static const IconData circleXmark = IconDataRegular(0xf057);
 
   /// Alias times-circle for icon [circleXmark]
   @Deprecated('Use "circleXmark" instead.')
@@ -3098,55 +3098,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/city?style=solid
   /// buildings, busy, city, cityscape, skyscrapers, urban, windows
-  static const IconData city = IconDataLight(0xf64f);
+  static const IconData city = IconDataSolid(0xf64f);
 
   /// Solid Clapperboard icon
   ///
   /// https://fontawesome.com/icons/clapperboard?style=solid
   /// camera, clapper, clapper board, director, film, movie, record
-  static const IconData clapperboard = IconDataLight(0xe131);
+  static const IconData clapperboard = IconDataSolid(0xe131);
 
   /// Solid Clipboard icon
   ///
   /// https://fontawesome.com/icons/clipboard?style=solid
   /// clipboar, clipboard, copy, notes, paste, record
-  static const IconData solidClipboard = IconDataLight(0xf328);
+  static const IconData solidClipboard = IconDataSolid(0xf328);
 
   /// Regular Clipboard icon
   ///
   /// https://fontawesome.com/icons/clipboard?style=regular
   /// clipboar, clipboard, copy, notes, paste, record
-  static const IconData clipboard = IconDataLight(0xf328);
+  static const IconData clipboard = IconDataRegular(0xf328);
 
   /// Solid Clipboard Check icon
   ///
   /// https://fontawesome.com/icons/clipboard-check?style=solid
   /// accept, agree, confirm, done, ok, select, success, tick, todo, yes
-  static const IconData clipboardCheck = IconDataLight(0xf46c);
+  static const IconData clipboardCheck = IconDataSolid(0xf46c);
 
   /// Solid Clipboard List icon
   ///
   /// https://fontawesome.com/icons/clipboard-list?style=solid
   /// checklist, completed, done, finished, intinerary, ol, schedule, tick, todo, ul
-  static const IconData clipboardList = IconDataLight(0xf46d);
+  static const IconData clipboardList = IconDataSolid(0xf46d);
 
   /// Solid Clipboard Question icon
   ///
   /// https://fontawesome.com/icons/clipboard-question?style=solid
   /// assistance, interview, query, question
-  static const IconData clipboardQuestion = IconDataLight(0xe4e3);
+  static const IconData clipboardQuestion = IconDataSolid(0xe4e3);
 
   /// Solid Clipboard User icon
   ///
   /// https://fontawesome.com/icons/clipboard-user?style=solid
   /// attendance, record, roster, staff
-  static const IconData clipboardUser = IconDataLight(0xf7f3);
+  static const IconData clipboardUser = IconDataSolid(0xf7f3);
 
   /// Solid Clock icon
   ///
   /// https://fontawesome.com/icons/clock?style=solid
   /// 00, 4, 4:00, clock, date, four, four o’clock, hour, late, minute, o'clock, o’clock, schedule, ticking, time, timer, timestamp, watch
-  static const IconData solidClock = IconDataLight(0xf017);
+  static const IconData solidClock = IconDataSolid(0xf017);
 
   /// Alias clock-four for icon [solidClock]
   @Deprecated('Use "solidClock" instead.')
@@ -3156,7 +3156,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/clock?style=regular
   /// 00, 4, 4:00, clock, date, four, four o’clock, hour, late, minute, o'clock, o’clock, schedule, ticking, time, timer, timestamp, watch
-  static const IconData clock = IconDataLight(0xf017);
+  static const IconData clock = IconDataRegular(0xf017);
 
   /// Alias clock-four for icon [clock]
   @Deprecated('Use "clock" instead.')
@@ -3166,7 +3166,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/clock-rotate-left?style=solid
   /// Rewind, clock, reverse, time, time machine, time travel
-  static const IconData clockRotateLeft = IconDataLight(0xf1da);
+  static const IconData clockRotateLeft = IconDataSolid(0xf1da);
 
   /// Alias history for icon [clockRotateLeft]
   @Deprecated('Use "clockRotateLeft" instead.')
@@ -3176,37 +3176,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/clone?style=solid
   /// arrange, copy, duplicate, paste
-  static const IconData solidClone = IconDataLight(0xf24d);
+  static const IconData solidClone = IconDataSolid(0xf24d);
 
   /// Regular Clone icon
   ///
   /// https://fontawesome.com/icons/clone?style=regular
   /// arrange, copy, duplicate, paste
-  static const IconData clone = IconDataLight(0xf24d);
+  static const IconData clone = IconDataRegular(0xf24d);
 
   /// Solid Closed Captioning icon
   ///
   /// https://fontawesome.com/icons/closed-captioning?style=solid
   /// cc, deaf, hearing, subtitle, subtitling, text, video
-  static const IconData solidClosedCaptioning = IconDataLight(0xf20a);
+  static const IconData solidClosedCaptioning = IconDataSolid(0xf20a);
 
   /// Regular Closed Captioning icon
   ///
   /// https://fontawesome.com/icons/closed-captioning?style=regular
   /// cc, deaf, hearing, subtitle, subtitling, text, video
-  static const IconData closedCaptioning = IconDataLight(0xf20a);
+  static const IconData closedCaptioning = IconDataRegular(0xf20a);
 
   /// Solid Cloud icon
   ///
   /// https://fontawesome.com/icons/cloud?style=solid
   /// atmosphere, cloud, fog, overcast, save, upload, weather
-  static const IconData cloud = IconDataLight(0xf0c2);
+  static const IconData cloud = IconDataSolid(0xf0c2);
 
   /// Solid Cloud Arrow Down icon
   ///
   /// https://fontawesome.com/icons/cloud-arrow-down?style=solid
   /// download, export, save
-  static const IconData cloudArrowDown = IconDataLight(0xf0ed);
+  static const IconData cloudArrowDown = IconDataSolid(0xf0ed);
 
   /// Alias cloud-download for icon [cloudArrowDown]
   @Deprecated('Use "cloudArrowDown" instead.')
@@ -3220,7 +3220,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cloud-arrow-up?style=solid
   /// import, save, upload
-  static const IconData cloudArrowUp = IconDataLight(0xf0ee);
+  static const IconData cloudArrowUp = IconDataSolid(0xf0ee);
 
   /// Alias cloud-upload for icon [cloudArrowUp]
   @Deprecated('Use "cloudArrowUp" instead.')
@@ -3234,7 +3234,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cloud-bolt?style=solid
   /// bolt, cloud, cloud with lightning, lightning, precipitation, rain, storm, weather
-  static const IconData cloudBolt = IconDataLight(0xf76c);
+  static const IconData cloudBolt = IconDataSolid(0xf76c);
 
   /// Alias thunderstorm for icon [cloudBolt]
   @Deprecated('Use "cloudBolt" instead.')
@@ -3244,49 +3244,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cloud-meatball?style=solid
   /// FLDSMDFR, food, spaghetti, storm
-  static const IconData cloudMeatball = IconDataLight(0xf73b);
+  static const IconData cloudMeatball = IconDataSolid(0xf73b);
 
   /// Solid Cloud Moon icon
   ///
   /// https://fontawesome.com/icons/cloud-moon?style=solid
   /// crescent, evening, lunar, night, partly cloudy, sky
-  static const IconData cloudMoon = IconDataLight(0xf6c3);
+  static const IconData cloudMoon = IconDataSolid(0xf6c3);
 
   /// Solid Cloud Moon Rain icon
   ///
   /// https://fontawesome.com/icons/cloud-moon-rain?style=solid
   /// crescent, evening, lunar, night, partly cloudy, precipitation, rain, sky, storm
-  static const IconData cloudMoonRain = IconDataLight(0xf73c);
+  static const IconData cloudMoonRain = IconDataSolid(0xf73c);
 
   /// Solid Cloud Rain icon
   ///
   /// https://fontawesome.com/icons/cloud-rain?style=solid
   /// Rain, cloud, cloud with rain, precipitation, rain, sky, storm
-  static const IconData cloudRain = IconDataLight(0xf73d);
+  static const IconData cloudRain = IconDataSolid(0xf73d);
 
   /// Solid Cloud Showers Heavy icon
   ///
   /// https://fontawesome.com/icons/cloud-showers-heavy?style=solid
   /// precipitation, rain, sky, storm
-  static const IconData cloudShowersHeavy = IconDataLight(0xf740);
+  static const IconData cloudShowersHeavy = IconDataSolid(0xf740);
 
   /// Solid Cloud Showers Water icon
   ///
   /// https://fontawesome.com/icons/cloud-showers-water?style=solid
   /// cloud, deluge, flood, rain, storm, surge
-  static const IconData cloudShowersWater = IconDataLight(0xe4e4);
+  static const IconData cloudShowersWater = IconDataSolid(0xe4e4);
 
   /// Solid Cloud Sun icon
   ///
   /// https://fontawesome.com/icons/cloud-sun?style=solid
   /// clear, cloud, day, daytime, fall, outdoors, overcast, partly cloudy, sun, sun behind cloud
-  static const IconData cloudSun = IconDataLight(0xf6c4);
+  static const IconData cloudSun = IconDataSolid(0xf6c4);
 
   /// Solid Cloud Sun Rain icon
   ///
   /// https://fontawesome.com/icons/cloud-sun-rain?style=solid
   /// cloud, day, overcast, precipitation, rain, storm, summer, sun, sun behind rain cloud, sunshower
-  static const IconData cloudSunRain = IconDataLight(0xf743);
+  static const IconData cloudSunRain = IconDataSolid(0xf743);
 
   /// Brands Cloudflare icon
   ///
@@ -3312,7 +3312,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/clover?style=solid
   /// 4, charm, clover, four, four leaf clover, four-leaf clover, leaf, leprechaun, luck, lucky
-  static const IconData clover = IconDataLight(0xe139);
+  static const IconData clover = IconDataSolid(0xe139);
 
   /// Brands Cmplid icon
   ///
@@ -3323,43 +3323,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/code?style=solid
   /// brackets, code, development, html
-  static const IconData code = IconDataLight(0xf121);
+  static const IconData code = IconDataSolid(0xf121);
 
   /// Solid Code Branch icon
   ///
   /// https://fontawesome.com/icons/code-branch?style=solid
   /// branch, git, github, rebase, svn, vcs, version
-  static const IconData codeBranch = IconDataLight(0xf126);
+  static const IconData codeBranch = IconDataSolid(0xf126);
 
   /// Solid Code Commit icon
   ///
   /// https://fontawesome.com/icons/code-commit?style=solid
   /// commit, git, github, hash, rebase, svn, vcs, version
-  static const IconData codeCommit = IconDataLight(0xf386);
+  static const IconData codeCommit = IconDataSolid(0xf386);
 
   /// Solid Code Compare icon
   ///
   /// https://fontawesome.com/icons/code-compare?style=solid
   /// compare, git, github, svn, version
-  static const IconData codeCompare = IconDataLight(0xe13a);
+  static const IconData codeCompare = IconDataSolid(0xe13a);
 
   /// Solid Code Fork icon
   ///
   /// https://fontawesome.com/icons/code-fork?style=solid
   /// fork, git, github, svn, version
-  static const IconData codeFork = IconDataLight(0xe13b);
+  static const IconData codeFork = IconDataSolid(0xe13b);
 
   /// Solid Code Merge icon
   ///
   /// https://fontawesome.com/icons/code-merge?style=solid
   /// git, github, merge, pr, rebase, svn, vcs, version
-  static const IconData codeMerge = IconDataLight(0xf387);
+  static const IconData codeMerge = IconDataSolid(0xf387);
 
   /// Solid Code Pull Request icon
   ///
   /// https://fontawesome.com/icons/code-pull-request?style=solid
   /// git, github, pr, svn, version
-  static const IconData codePullRequest = IconDataLight(0xe13c);
+  static const IconData codePullRequest = IconDataSolid(0xe13c);
 
   /// Brands Codepen icon
   ///
@@ -3375,37 +3375,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/coins?style=solid
   /// currency, dime, financial, gold, money, penny
-  static const IconData coins = IconDataLight(0xf51e);
+  static const IconData coins = IconDataSolid(0xf51e);
 
   /// Solid Colon Sign icon
   ///
   /// https://fontawesome.com/icons/colon-sign?style=solid
   /// Colon Sign, currency
-  static const IconData colonSign = IconDataLight(0xe140);
+  static const IconData colonSign = IconDataSolid(0xe140);
 
   /// Solid Comment icon
   ///
   /// https://fontawesome.com/icons/comment?style=solid
   /// Right Speech Bubble, bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData solidComment = IconDataLight(0xf075);
+  static const IconData solidComment = IconDataSolid(0xf075);
 
   /// Regular Comment icon
   ///
   /// https://fontawesome.com/icons/comment?style=regular
   /// Right Speech Bubble, bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData comment = IconDataLight(0xf075);
+  static const IconData comment = IconDataRegular(0xf075);
 
   /// Solid Comment Dollar icon
   ///
   /// https://fontawesome.com/icons/comment-dollar?style=solid
   /// bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer
-  static const IconData commentDollar = IconDataLight(0xf651);
+  static const IconData commentDollar = IconDataSolid(0xf651);
 
   /// Solid Comment Dots icon
   ///
   /// https://fontawesome.com/icons/comment-dots?style=solid
   /// balloon, bubble, chat, comic, commenting, conversation, dialog, feedback, message, more, note, notification, reply, sms, speech, speech balloon, texting
-  static const IconData solidCommentDots = IconDataLight(0xf4ad);
+  static const IconData solidCommentDots = IconDataSolid(0xf4ad);
 
   /// Alias commenting for icon [solidCommentDots]
   @Deprecated('Use "solidCommentDots" instead.')
@@ -3415,7 +3415,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/comment-dots?style=regular
   /// balloon, bubble, chat, comic, commenting, conversation, dialog, feedback, message, more, note, notification, reply, sms, speech, speech balloon, texting
-  static const IconData commentDots = IconDataLight(0xf4ad);
+  static const IconData commentDots = IconDataRegular(0xf4ad);
 
   /// Alias commenting for icon [commentDots]
   @Deprecated('Use "commentDots" instead.')
@@ -3425,19 +3425,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/comment-medical?style=solid
   /// advice, bubble, chat, commenting, conversation, diagnose, feedback, message, note, notification, prescription, sms, speech, texting
-  static const IconData commentMedical = IconDataLight(0xf7f5);
+  static const IconData commentMedical = IconDataSolid(0xf7f5);
 
   /// Solid Comment Slash icon
   ///
   /// https://fontawesome.com/icons/comment-slash?style=solid
   /// bubble, cancel, chat, commenting, conversation, feedback, message, mute, note, notification, quiet, sms, speech, texting
-  static const IconData commentSlash = IconDataLight(0xf4b3);
+  static const IconData commentSlash = IconDataSolid(0xf4b3);
 
   /// Solid Comment Sms icon
   ///
   /// https://fontawesome.com/icons/comment-sms?style=solid
   /// chat, conversation, message, mobile, notification, phone, sms, texting
-  static const IconData commentSms = IconDataLight(0xf7cd);
+  static const IconData commentSms = IconDataSolid(0xf7cd);
 
   /// Alias sms for icon [commentSms]
   @Deprecated('Use "commentSms" instead.')
@@ -3447,43 +3447,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/comments?style=solid
   /// Two Speech Bubbles, bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData solidComments = IconDataLight(0xf086);
+  static const IconData solidComments = IconDataSolid(0xf086);
 
   /// Regular Comments icon
   ///
   /// https://fontawesome.com/icons/comments?style=regular
   /// Two Speech Bubbles, bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData comments = IconDataLight(0xf086);
+  static const IconData comments = IconDataRegular(0xf086);
 
   /// Solid Comments Dollar icon
   ///
   /// https://fontawesome.com/icons/comments-dollar?style=solid
   /// bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer
-  static const IconData commentsDollar = IconDataLight(0xf653);
+  static const IconData commentsDollar = IconDataSolid(0xf653);
 
   /// Solid Compact Disc icon
   ///
   /// https://fontawesome.com/icons/compact-disc?style=solid
   /// Optical Disc Icon, album, blu-ray, bluray, cd, computer, disc, disk, dvd, media, movie, music, optical, optical disk, record, video, vinyl
-  static const IconData compactDisc = IconDataLight(0xf51f);
+  static const IconData compactDisc = IconDataSolid(0xf51f);
 
   /// Solid Compass icon
   ///
   /// https://fontawesome.com/icons/compass?style=solid
   /// compass, directions, directory, location, magnetic, menu, navigation, orienteering, safari, travel
-  static const IconData solidCompass = IconDataLight(0xf14e);
+  static const IconData solidCompass = IconDataSolid(0xf14e);
 
   /// Regular Compass icon
   ///
   /// https://fontawesome.com/icons/compass?style=regular
   /// compass, directions, directory, location, magnetic, menu, navigation, orienteering, safari, travel
-  static const IconData compass = IconDataLight(0xf14e);
+  static const IconData compass = IconDataRegular(0xf14e);
 
   /// Solid Compass Drafting icon
   ///
   /// https://fontawesome.com/icons/compass-drafting?style=solid
   /// design, map, mechanical drawing, plot, plotting
-  static const IconData compassDrafting = IconDataLight(0xf568);
+  static const IconData compassDrafting = IconDataSolid(0xf568);
 
   /// Alias drafting-compass for icon [compassDrafting]
   @Deprecated('Use "compassDrafting" instead.')
@@ -3493,19 +3493,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/compress?style=solid
   /// collapse, fullscreen, minimize, move, resize, shrink, smaller
-  static const IconData compress = IconDataLight(0xf066);
+  static const IconData compress = IconDataSolid(0xf066);
 
   /// Solid Computer icon
   ///
   /// https://fontawesome.com/icons/computer?style=solid
   /// computer, desktop, display, monitor, tower
-  static const IconData computer = IconDataLight(0xe4e5);
+  static const IconData computer = IconDataSolid(0xe4e5);
 
   /// Solid Computer Mouse icon
   ///
   /// https://fontawesome.com/icons/computer-mouse?style=solid
   /// click, computer, computer mouse, cursor, input, peripheral
-  static const IconData computerMouse = IconDataLight(0xf8cc);
+  static const IconData computerMouse = IconDataSolid(0xf8cc);
 
   /// Alias mouse for icon [computerMouse]
   @Deprecated('Use "computerMouse" instead.')
@@ -3531,37 +3531,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cookie?style=solid
   /// baked good, chips, chocolate, cookie, dessert, eat, snack, sweet, treat
-  static const IconData cookie = IconDataLight(0xf563);
+  static const IconData cookie = IconDataSolid(0xf563);
 
   /// Solid Cookie Bite icon
   ///
   /// https://fontawesome.com/icons/cookie-bite?style=solid
   /// baked good, bitten, chips, chocolate, eat, snack, sweet, treat
-  static const IconData cookieBite = IconDataLight(0xf564);
+  static const IconData cookieBite = IconDataSolid(0xf564);
 
   /// Solid Copy icon
   ///
   /// https://fontawesome.com/icons/copy?style=solid
   /// clone, duplicate, file, files-o, paper, paste
-  static const IconData solidCopy = IconDataLight(0xf0c5);
+  static const IconData solidCopy = IconDataSolid(0xf0c5);
 
   /// Regular Copy icon
   ///
   /// https://fontawesome.com/icons/copy?style=regular
   /// clone, duplicate, file, files-o, paper, paste
-  static const IconData copy = IconDataLight(0xf0c5);
+  static const IconData copy = IconDataRegular(0xf0c5);
 
   /// Solid Copyright icon
   ///
   /// https://fontawesome.com/icons/copyright?style=solid
   /// brand, c, copyright, mark, register, trademark
-  static const IconData solidCopyright = IconDataLight(0xf1f9);
+  static const IconData solidCopyright = IconDataSolid(0xf1f9);
 
   /// Regular Copyright icon
   ///
   /// https://fontawesome.com/icons/copyright?style=regular
   /// brand, c, copyright, mark, register, trademark
-  static const IconData copyright = IconDataLight(0xf1f9);
+  static const IconData copyright = IconDataRegular(0xf1f9);
 
   /// Brands Cotton Bureau icon
   ///
@@ -3573,13 +3573,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/couch?style=solid
   /// chair, cushion, furniture, relax, sofa
-  static const IconData couch = IconDataLight(0xf4b8);
+  static const IconData couch = IconDataSolid(0xf4b8);
 
   /// Solid Cow icon
   ///
   /// https://fontawesome.com/icons/cow?style=solid
   /// agriculture, animal, beef, bovine, co, cow, farm, fauna, livestock, mammal, milk, moo
-  static const IconData cow = IconDataLight(0xf6c8);
+  static const IconData cow = IconDataSolid(0xf6c8);
 
   /// Brands cPanel icon
   ///
@@ -3660,7 +3660,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/credit-card?style=solid
   /// buy, card, checkout, credit, credit card, credit-card-alt, debit, money, payment, purchase
-  static const IconData solidCreditCard = IconDataLight(0xf09d);
+  static const IconData solidCreditCard = IconDataSolid(0xf09d);
 
   /// Alias credit-card-alt for icon [solidCreditCard]
   @Deprecated('Use "solidCreditCard" instead.')
@@ -3670,7 +3670,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/credit-card?style=regular
   /// buy, card, checkout, credit, credit card, credit-card-alt, debit, money, payment, purchase
-  static const IconData creditCard = IconDataLight(0xf09d);
+  static const IconData creditCard = IconDataRegular(0xf09d);
 
   /// Alias credit-card-alt for icon [creditCard]
   @Deprecated('Use "creditCard" instead.')
@@ -3686,13 +3686,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/crop?style=solid
   /// design, frame, mask, resize, shrink
-  static const IconData crop = IconDataLight(0xf125);
+  static const IconData crop = IconDataSolid(0xf125);
 
   /// Solid Crop Simple icon
   ///
   /// https://fontawesome.com/icons/crop-simple?style=solid
   /// design, frame, mask, resize, shrink
-  static const IconData cropSimple = IconDataLight(0xf565);
+  static const IconData cropSimple = IconDataSolid(0xf565);
 
   /// Alias crop-alt for icon [cropSimple]
   @Deprecated('Use "cropSimple" instead.')
@@ -3702,37 +3702,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cross?style=solid
   /// Christian, Heavy Latin Cross, catholicism, christianity, church, cross, jesus, latin cross, religion
-  static const IconData cross = IconDataLight(0xf654);
+  static const IconData cross = IconDataSolid(0xf654);
 
   /// Solid Crosshairs icon
   ///
   /// https://fontawesome.com/icons/crosshairs?style=solid
   /// aim, bullseye, gpd, picker, position
-  static const IconData crosshairs = IconDataLight(0xf05b);
+  static const IconData crosshairs = IconDataSolid(0xf05b);
 
   /// Solid Crow icon
   ///
   /// https://fontawesome.com/icons/crow?style=solid
   /// bird, bullfrog, fauna, halloween, holiday, toad
-  static const IconData crow = IconDataLight(0xf520);
+  static const IconData crow = IconDataSolid(0xf520);
 
   /// Solid Crown icon
   ///
   /// https://fontawesome.com/icons/crown?style=solid
   /// award, clothing, crown, favorite, king, queen, royal, tiara
-  static const IconData crown = IconDataLight(0xf521);
+  static const IconData crown = IconDataSolid(0xf521);
 
   /// Solid Crutch icon
   ///
   /// https://fontawesome.com/icons/crutch?style=solid
   /// cane, injury, mobility, wheelchair
-  static const IconData crutch = IconDataLight(0xf7f7);
+  static const IconData crutch = IconDataSolid(0xf7f7);
 
   /// Solid Cruzeiro Sign icon
   ///
   /// https://fontawesome.com/icons/cruzeiro-sign?style=solid
   /// Cruzeiro Sign, currency
-  static const IconData cruzeiroSign = IconDataLight(0xe152);
+  static const IconData cruzeiroSign = IconDataSolid(0xe152);
 
   /// Brands CSS 3 Logo icon
   ///
@@ -3749,19 +3749,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/cube?style=solid
   /// 3d, block, dice, package, square, tesseract
-  static const IconData cube = IconDataLight(0xf1b2);
+  static const IconData cube = IconDataSolid(0xf1b2);
 
   /// Solid Cubes icon
   ///
   /// https://fontawesome.com/icons/cubes?style=solid
   /// 3d, block, dice, package, pyramid, square, stack, tesseract
-  static const IconData cubes = IconDataLight(0xf1b3);
+  static const IconData cubes = IconDataSolid(0xf1b3);
 
   /// Solid Cubes Stacked icon
   ///
   /// https://fontawesome.com/icons/cubes-stacked?style=solid
   /// blocks, cubes, sugar
-  static const IconData cubesStacked = IconDataLight(0xe4e6);
+  static const IconData cubesStacked = IconDataSolid(0xe4e6);
 
   /// Brands Cuttlefish icon
   ///
@@ -3772,7 +3772,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/d?style=solid
   /// Latin Capital Letter D, Latin Small Letter D, letter
-  static const IconData d = IconDataLight(0x44);
+  static const IconData d = IconDataSolid(0x44);
 
   /// Brands Dungeons & Dragons icon
   ///
@@ -3799,7 +3799,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/database?style=solid
   /// computer, development, directory, memory, storage
-  static const IconData database = IconDataLight(0xf1c0);
+  static const IconData database = IconDataSolid(0xf1c0);
 
   /// Brands Deezer icon
   ///
@@ -3810,7 +3810,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/delete-left?style=solid
   /// Erase to the Left, command, delete, erase, keyboard, undo
-  static const IconData deleteLeft = IconDataLight(0xf55a);
+  static const IconData deleteLeft = IconDataSolid(0xf55a);
 
   /// Alias backspace for icon [deleteLeft]
   @Deprecated('Use "deleteLeft" instead.')
@@ -3825,7 +3825,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/democrat?style=solid
   /// american, democratic party, donkey, election, left, left-wing, liberal, politics, usa
-  static const IconData democrat = IconDataLight(0xf747);
+  static const IconData democrat = IconDataSolid(0xf747);
 
   /// Brands deploy.dog icon
   ///
@@ -3841,7 +3841,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/desktop?style=solid
   /// computer, cpu, demo, desktop, desktop computer, device, imac, machine, monitor, pc, screen
-  static const IconData desktop = IconDataLight(0xf390);
+  static const IconData desktop = IconDataSolid(0xf390);
 
   /// Alias desktop-alt for icon [desktop]
   @Deprecated('Use "desktop" instead.')
@@ -3861,7 +3861,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dharmachakra?style=solid
   /// Buddhist, buddhism, buddhist, dharma, religion, wheel, wheel of dharma
-  static const IconData dharmachakra = IconDataLight(0xf655);
+  static const IconData dharmachakra = IconDataSolid(0xf655);
 
   /// Brands DHL icon
   ///
@@ -3873,19 +3873,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/diagram-next?style=solid
   /// cells, chart, gantt, row, subtask, successor, table
-  static const IconData diagramNext = IconDataLight(0xe476);
+  static const IconData diagramNext = IconDataSolid(0xe476);
 
   /// Solid Diagram Predecessor icon
   ///
   /// https://fontawesome.com/icons/diagram-predecessor?style=solid
   /// cells, chart, gantt, predecessor, previous, row, subtask, table
-  static const IconData diagramPredecessor = IconDataLight(0xe477);
+  static const IconData diagramPredecessor = IconDataSolid(0xe477);
 
   /// Solid Diagram Project icon
   ///
   /// https://fontawesome.com/icons/diagram-project?style=solid
   /// chart, graph, network, pert
-  static const IconData diagramProject = IconDataLight(0xf542);
+  static const IconData diagramProject = IconDataSolid(0xf542);
 
   /// Alias project-diagram for icon [diagramProject]
   @Deprecated('Use "diagramProject" instead.')
@@ -3895,19 +3895,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/diagram-successor?style=solid
   /// cells, chart, gantt, next, row, subtask, successor, table
-  static const IconData diagramSuccessor = IconDataLight(0xe47a);
+  static const IconData diagramSuccessor = IconDataSolid(0xe47a);
 
   /// Solid Diamond icon
   ///
   /// https://fontawesome.com/icons/diamond?style=solid
   /// card, cards, diamond suit, game, gem, gemstone, poker, suit
-  static const IconData diamond = IconDataLight(0xf219);
+  static const IconData diamond = IconDataSolid(0xf219);
 
   /// Solid Diamond Turn Right icon
   ///
   /// https://fontawesome.com/icons/diamond-turn-right?style=solid
   /// map, navigation, sign, turn
-  static const IconData diamondTurnRight = IconDataLight(0xf5eb);
+  static const IconData diamondTurnRight = IconDataSolid(0xf5eb);
 
   /// Alias directions for icon [diamondTurnRight]
   @Deprecated('Use "diamondTurnRight" instead.')
@@ -3922,55 +3922,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dice?style=solid
   /// chance, dice, die, gambling, game, game die, roll
-  static const IconData dice = IconDataLight(0xf522);
+  static const IconData dice = IconDataSolid(0xf522);
 
   /// Solid Dice D20 icon
   ///
   /// https://fontawesome.com/icons/dice-d20?style=solid
   /// Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll
-  static const IconData diceD20 = IconDataLight(0xf6cf);
+  static const IconData diceD20 = IconDataSolid(0xf6cf);
 
   /// Solid Dice D6 icon
   ///
   /// https://fontawesome.com/icons/dice-d6?style=solid
   /// Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll
-  static const IconData diceD6 = IconDataLight(0xf6d1);
+  static const IconData diceD6 = IconDataSolid(0xf6d1);
 
   /// Solid Dice Five icon
   ///
   /// https://fontawesome.com/icons/dice-five?style=solid
   /// Die Face-5, chance, gambling, game, roll
-  static const IconData diceFive = IconDataLight(0xf523);
+  static const IconData diceFive = IconDataSolid(0xf523);
 
   /// Solid Dice Four icon
   ///
   /// https://fontawesome.com/icons/dice-four?style=solid
   /// Die Face-4, chance, gambling, game, roll
-  static const IconData diceFour = IconDataLight(0xf524);
+  static const IconData diceFour = IconDataSolid(0xf524);
 
   /// Solid Dice One icon
   ///
   /// https://fontawesome.com/icons/dice-one?style=solid
   /// Die Face-1, chance, gambling, game, roll
-  static const IconData diceOne = IconDataLight(0xf525);
+  static const IconData diceOne = IconDataSolid(0xf525);
 
   /// Solid Dice Six icon
   ///
   /// https://fontawesome.com/icons/dice-six?style=solid
   /// Die Face-6, chance, gambling, game, roll
-  static const IconData diceSix = IconDataLight(0xf526);
+  static const IconData diceSix = IconDataSolid(0xf526);
 
   /// Solid Dice Three icon
   ///
   /// https://fontawesome.com/icons/dice-three?style=solid
   /// Die Face-3, chance, gambling, game, roll
-  static const IconData diceThree = IconDataLight(0xf527);
+  static const IconData diceThree = IconDataSolid(0xf527);
 
   /// Solid Dice Two icon
   ///
   /// https://fontawesome.com/icons/dice-two?style=solid
   /// Die Face-2, chance, gambling, game, roll
-  static const IconData diceTwo = IconDataLight(0xf528);
+  static const IconData diceTwo = IconDataSolid(0xf528);
 
   /// Brands Digg Logo icon
   ///
@@ -3996,25 +3996,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/disease?style=solid
   /// bacteria, cancer, coronavirus, covid-19, flu, illness, infection, pandemic, sickness, virus
-  static const IconData disease = IconDataLight(0xf7fa);
+  static const IconData disease = IconDataSolid(0xf7fa);
 
   /// Solid Display icon
   ///
   /// https://fontawesome.com/icons/display?style=solid
   /// Screen, computer, desktop, imac
-  static const IconData display = IconDataLight(0xe163);
+  static const IconData display = IconDataSolid(0xe163);
 
   /// Solid Divide icon
   ///
   /// https://fontawesome.com/icons/divide?style=solid
   /// Division Sign, arithmetic, calculus, divide, division, math, sign, ÷
-  static const IconData divide = IconDataLight(0xf529);
+  static const IconData divide = IconDataSolid(0xf529);
 
   /// Solid Dna icon
   ///
   /// https://fontawesome.com/icons/dna?style=solid
   /// biologist, dna, double helix, evolution, gene, genetic, genetics, helix, life, molecule, protein
-  static const IconData dna = IconDataLight(0xf471);
+  static const IconData dna = IconDataSolid(0xf471);
 
   /// Brands DocHub icon
   ///
@@ -4030,13 +4030,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dog?style=solid
   /// animal, canine, dog, fauna, mammal, pet, pooch, puppy, woof
-  static const IconData dog = IconDataLight(0xf6d3);
+  static const IconData dog = IconDataSolid(0xf6d3);
 
   /// Solid Dollar Sign icon
   ///
   /// https://fontawesome.com/icons/dollar-sign?style=solid
   /// Dollar Sign, currency, dollar, heavy dollar sign, money
-  static const IconData dollarSign = IconDataLight(0x24);
+  static const IconData dollarSign = IconDataSolid(0x24);
 
   /// Alias dollar for icon [dollarSign]
   @Deprecated('Use "dollarSign" instead.')
@@ -4050,7 +4050,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dolly?style=solid
   /// carry, shipping, transport
-  static const IconData dolly = IconDataLight(0xf472);
+  static const IconData dolly = IconDataSolid(0xf472);
 
   /// Alias dolly-box for icon [dolly]
   @Deprecated('Use "dolly" instead.')
@@ -4060,31 +4060,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dong-sign?style=solid
   /// Dong Sign, currency
-  static const IconData dongSign = IconDataLight(0xe169);
+  static const IconData dongSign = IconDataSolid(0xe169);
 
   /// Solid Door Closed icon
   ///
   /// https://fontawesome.com/icons/door-closed?style=solid
   /// doo, door, enter, exit, locked
-  static const IconData doorClosed = IconDataLight(0xf52a);
+  static const IconData doorClosed = IconDataSolid(0xf52a);
 
   /// Solid Door Open icon
   ///
   /// https://fontawesome.com/icons/door-open?style=solid
   /// enter, exit, welcome
-  static const IconData doorOpen = IconDataLight(0xf52b);
+  static const IconData doorOpen = IconDataSolid(0xf52b);
 
   /// Solid Dove icon
   ///
   /// https://fontawesome.com/icons/dove?style=solid
   /// bird, dove, fauna, fly, flying, peace, war
-  static const IconData dove = IconDataLight(0xf4ba);
+  static const IconData dove = IconDataSolid(0xf4ba);
 
   /// Solid Down Left And Up Right To Center icon
   ///
   /// https://fontawesome.com/icons/down-left-and-up-right-to-center?style=solid
   /// collapse, fullscreen, minimize, move, resize, shrink, smaller
-  static const IconData downLeftAndUpRightToCenter = IconDataLight(0xf422);
+  static const IconData downLeftAndUpRightToCenter = IconDataSolid(0xf422);
 
   /// Alias compress-alt for icon [downLeftAndUpRightToCenter]
   @Deprecated('Use "downLeftAndUpRightToCenter" instead.')
@@ -4094,7 +4094,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/down-long?style=solid
   /// download, long-arrow-down
-  static const IconData downLong = IconDataLight(0xf309);
+  static const IconData downLong = IconDataSolid(0xf309);
 
   /// Alias long-arrow-alt-down for icon [downLong]
   @Deprecated('Use "downLong" instead.')
@@ -4104,7 +4104,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/download?style=solid
   /// export, hard drive, save, transfer
-  static const IconData download = IconDataLight(0xf019);
+  static const IconData download = IconDataSolid(0xf019);
 
   /// Brands Draft2digital icon
   ///
@@ -4115,13 +4115,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dragon?style=solid
   /// Dungeons & Dragons, d&d, dnd, dragon, fairy tale, fantasy, fire, lizard, serpent
-  static const IconData dragon = IconDataLight(0xf6d5);
+  static const IconData dragon = IconDataSolid(0xf6d5);
 
   /// Solid Draw Polygon icon
   ///
   /// https://fontawesome.com/icons/draw-polygon?style=solid
   /// anchors, lines, object, render, shape
-  static const IconData drawPolygon = IconDataLight(0xf5ee);
+  static const IconData drawPolygon = IconDataSolid(0xf5ee);
 
   /// Brands Dribbble icon
   ///
@@ -4137,7 +4137,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/droplet?style=solid
   /// cold, color, comic, drop, droplet, raindrop, sweat, waterdrop
-  static const IconData droplet = IconDataLight(0xf043);
+  static const IconData droplet = IconDataSolid(0xf043);
 
   /// Alias tint for icon [droplet]
   @Deprecated('Use "droplet" instead.')
@@ -4147,7 +4147,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/droplet-slash?style=solid
   /// color, drop, droplet, raindrop, waterdrop
-  static const IconData dropletSlash = IconDataLight(0xf5c7);
+  static const IconData dropletSlash = IconDataSolid(0xf5c7);
 
   /// Alias tint-slash for icon [dropletSlash]
   @Deprecated('Use "dropletSlash" instead.')
@@ -4157,19 +4157,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/drum?style=solid
   /// drum, drumsticks, instrument, music, percussion, snare, sound
-  static const IconData drum = IconDataLight(0xf569);
+  static const IconData drum = IconDataSolid(0xf569);
 
   /// Solid Drum Steelpan icon
   ///
   /// https://fontawesome.com/icons/drum-steelpan?style=solid
   /// calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical
-  static const IconData drumSteelpan = IconDataLight(0xf56a);
+  static const IconData drumSteelpan = IconDataSolid(0xf56a);
 
   /// Solid Drumstick Bite icon
   ///
   /// https://fontawesome.com/icons/drumstick-bite?style=solid
   /// bone, chicken, leg, meat, poultry, turkey
-  static const IconData drumstickBite = IconDataLight(0xf6d7);
+  static const IconData drumstickBite = IconDataSolid(0xf6d7);
 
   /// Brands Drupal Logo icon
   ///
@@ -4180,25 +4180,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/dumbbell?style=solid
   /// exercise, gym, strength, weight, weight-lifting
-  static const IconData dumbbell = IconDataLight(0xf44b);
+  static const IconData dumbbell = IconDataSolid(0xf44b);
 
   /// Solid Dumpster icon
   ///
   /// https://fontawesome.com/icons/dumpster?style=solid
   /// alley, bin, commercial, trash, waste
-  static const IconData dumpster = IconDataLight(0xf793);
+  static const IconData dumpster = IconDataSolid(0xf793);
 
   /// Solid Dumpster Fire icon
   ///
   /// https://fontawesome.com/icons/dumpster-fire?style=solid
   /// alley, bin, commercial, danger, dangerous, euphemism, flame, heat, hot, trash, waste
-  static const IconData dumpsterFire = IconDataLight(0xf794);
+  static const IconData dumpsterFire = IconDataSolid(0xf794);
 
   /// Solid Dungeon icon
   ///
   /// https://fontawesome.com/icons/dungeon?style=solid
   /// Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate
-  static const IconData dungeon = IconDataLight(0xf6d9);
+  static const IconData dungeon = IconDataSolid(0xf6d9);
 
   /// Brands Dyalog icon
   ///
@@ -4209,13 +4209,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/e?style=solid
   /// Latin Capital Letter E, Latin Small Letter E, letter
-  static const IconData e = IconDataLight(0x45);
+  static const IconData e = IconDataSolid(0x45);
 
   /// Solid Ear Deaf icon
   ///
   /// https://fontawesome.com/icons/ear-deaf?style=solid
   /// ear, hearing, sign language
-  static const IconData earDeaf = IconDataLight(0xf2a4);
+  static const IconData earDeaf = IconDataSolid(0xf2a4);
 
   /// Alias deaf for icon [earDeaf]
   @Deprecated('Use "earDeaf" instead.')
@@ -4233,7 +4233,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ear-listen?style=solid
   /// amplify, audio, deaf, ear, headset, hearing, sound
-  static const IconData earListen = IconDataLight(0xf2a2);
+  static const IconData earListen = IconDataSolid(0xf2a2);
 
   /// Alias assistive-listening-systems for icon [earListen]
   @Deprecated('Use "earListen" instead.')
@@ -4248,7 +4248,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/earth-africa?style=solid
   /// africa, all, country, earth, europe, global, globe, gps, language, localize, location, map, online, place, planet, translate, travel, world
-  static const IconData earthAfrica = IconDataLight(0xf57c);
+  static const IconData earthAfrica = IconDataSolid(0xf57c);
 
   /// Alias globe-africa for icon [earthAfrica]
   @Deprecated('Use "earthAfrica" instead.')
@@ -4258,7 +4258,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/earth-americas?style=solid
   /// all, america, country, earth, global, globe, gps, language, localize, location, map, online, place, planet, translate, travel, world
-  static const IconData earthAmericas = IconDataLight(0xf57d);
+  static const IconData earthAmericas = IconDataSolid(0xf57d);
 
   /// Alias earth for icon [earthAmericas]
   @Deprecated('Use "earthAmericas" instead.')
@@ -4276,7 +4276,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/earth-asia?style=solid
   /// all, asia, australia, country, earth, global, globe, gps, language, localize, location, map, online, place, planet, translate, travel, world
-  static const IconData earthAsia = IconDataLight(0xf57e);
+  static const IconData earthAsia = IconDataSolid(0xf57e);
 
   /// Alias globe-asia for icon [earthAsia]
   @Deprecated('Use "earthAsia" instead.')
@@ -4286,7 +4286,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/earth-europe?style=solid
   /// all, country, earth, europe, global, globe, gps, language, localize, location, map, online, place, planet, translate, travel, world
-  static const IconData earthEurope = IconDataLight(0xf7a2);
+  static const IconData earthEurope = IconDataSolid(0xf7a2);
 
   /// Alias globe-europe for icon [earthEurope]
   @Deprecated('Use "earthEurope" instead.')
@@ -4296,7 +4296,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/earth-oceania?style=solid
   /// all, australia, country, earth, global, globe, gps, language, localize, location, map, melanesia, micronesia, new zealand, online, place, planet, polynesia, translate, travel, world
-  static const IconData earthOceania = IconDataLight(0xe47b);
+  static const IconData earthOceania = IconDataSolid(0xe47b);
 
   /// Alias globe-oceania for icon [earthOceania]
   @Deprecated('Use "earthOceania" instead.')
@@ -4322,13 +4322,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/egg?style=solid
   /// breakfast, chicken, easter, egg, food, shell, yolk
-  static const IconData egg = IconDataLight(0xf7fb);
+  static const IconData egg = IconDataSolid(0xf7fb);
 
   /// Solid Eject icon
   ///
   /// https://fontawesome.com/icons/eject?style=solid
   /// abort, cancel, cd, discharge, eject, eject button
-  static const IconData eject = IconDataLight(0xf052);
+  static const IconData eject = IconDataSolid(0xf052);
 
   /// Brands Elementor icon
   ///
@@ -4339,13 +4339,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/elevator?style=solid
   /// accessibility, elevator, hoist, lift, users-people
-  static const IconData elevator = IconDataLight(0xe16d);
+  static const IconData elevator = IconDataSolid(0xe16d);
 
   /// Solid Ellipsis icon
   ///
   /// https://fontawesome.com/icons/ellipsis?style=solid
   /// dots, drag, kebab, list, menu, nav, navigation, ol, pacman, reorder, settings, ul
-  static const IconData ellipsis = IconDataLight(0xf141);
+  static const IconData ellipsis = IconDataSolid(0xf141);
 
   /// Alias ellipsis-h for icon [ellipsis]
   @Deprecated('Use "ellipsis" instead.')
@@ -4355,7 +4355,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ellipsis-vertical?style=solid
   /// dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul
-  static const IconData ellipsisVertical = IconDataLight(0xf142);
+  static const IconData ellipsisVertical = IconDataSolid(0xf142);
 
   /// Alias ellipsis-v for icon [ellipsisVertical]
   @Deprecated('Use "ellipsisVertical" instead.')
@@ -4380,43 +4380,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/envelope?style=solid
   /// Back of Envelope, e-mail, email, envelope, letter, mail, message, notification, support
-  static const IconData solidEnvelope = IconDataLight(0xf0e0);
+  static const IconData solidEnvelope = IconDataSolid(0xf0e0);
 
   /// Regular Envelope icon
   ///
   /// https://fontawesome.com/icons/envelope?style=regular
   /// Back of Envelope, e-mail, email, envelope, letter, mail, message, notification, support
-  static const IconData envelope = IconDataLight(0xf0e0);
+  static const IconData envelope = IconDataRegular(0xf0e0);
 
   /// Solid Envelope Circle Check icon
   ///
   /// https://fontawesome.com/icons/envelope-circle-check?style=solid
   /// check, email, envelope, mail, not affected, ok, okay, read, sent
-  static const IconData envelopeCircleCheck = IconDataLight(0xe4e8);
+  static const IconData envelopeCircleCheck = IconDataSolid(0xe4e8);
 
   /// Solid Envelope Open icon
   ///
   /// https://fontawesome.com/icons/envelope-open?style=solid
   /// e-mail, email, letter, mail, message, notification, support
-  static const IconData solidEnvelopeOpen = IconDataLight(0xf2b6);
+  static const IconData solidEnvelopeOpen = IconDataSolid(0xf2b6);
 
   /// Regular Envelope Open icon
   ///
   /// https://fontawesome.com/icons/envelope-open?style=regular
   /// e-mail, email, letter, mail, message, notification, support
-  static const IconData envelopeOpen = IconDataLight(0xf2b6);
+  static const IconData envelopeOpen = IconDataRegular(0xf2b6);
 
   /// Solid Envelope Open Text icon
   ///
   /// https://fontawesome.com/icons/envelope-open-text?style=solid
   /// e-mail, email, letter, mail, message, notification, support
-  static const IconData envelopeOpenText = IconDataLight(0xf658);
+  static const IconData envelopeOpenText = IconDataSolid(0xf658);
 
   /// Solid Envelopes Bulk icon
   ///
   /// https://fontawesome.com/icons/envelopes-bulk?style=solid
   /// archive, envelope, letter, post office, postal, postcard, send, stamp, usps
-  static const IconData envelopesBulk = IconDataLight(0xf674);
+  static const IconData envelopesBulk = IconDataSolid(0xf674);
 
   /// Alias mail-bulk for icon [envelopesBulk]
   @Deprecated('Use "envelopesBulk" instead.')
@@ -4432,13 +4432,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/equals?style=solid
   /// Equals Sign, arithmetic, even, match, math
-  static const IconData equals = IconDataLight(0x3d);
+  static const IconData equals = IconDataSolid(0x3d);
 
   /// Solid Eraser icon
   ///
   /// https://fontawesome.com/icons/eraser?style=solid
   /// art, delete, remove, rubber
-  static const IconData eraser = IconDataLight(0xf12d);
+  static const IconData eraser = IconDataSolid(0xf12d);
 
   /// Brands Erlang icon
   ///
@@ -4454,7 +4454,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ethernet?style=solid
   /// cable, cat 5, cat 6, connection, hardware, internet, network, wired
-  static const IconData ethernet = IconDataLight(0xf796);
+  static const IconData ethernet = IconDataSolid(0xf796);
 
   /// Brands Etsy icon
   ///
@@ -4465,7 +4465,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/euro-sign?style=solid
   /// Euro Sign, currency
-  static const IconData euroSign = IconDataLight(0xf153);
+  static const IconData euroSign = IconDataSolid(0xf153);
 
   /// Alias eur for icon [euroSign]
   @Deprecated('Use "euroSign" instead.')
@@ -4484,13 +4484,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/exclamation?style=solid
   /// !, Exclamation Mark, alert, danger, error, exclamation, important, mark, notice, notification, notify, outlined, problem, punctuation, red exclamation mark, warning, white exclamation mark
-  static const IconData exclamation = IconDataLight(0x21);
+  static const IconData exclamation = IconDataSolid(0x21);
 
   /// Solid Expand icon
   ///
   /// https://fontawesome.com/icons/expand?style=solid
   /// bigger, crop, enlarge, focus, fullscreen, resize, viewfinder
-  static const IconData expand = IconDataLight(0xf065);
+  static const IconData expand = IconDataSolid(0xf065);
 
   /// Brands ExpeditedSSL icon
   ///
@@ -4501,25 +4501,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/explosion?style=solid
   /// blast, blowup, boom, crash, detonation, explosion
-  static const IconData explosion = IconDataLight(0xe4e9);
+  static const IconData explosion = IconDataSolid(0xe4e9);
 
   /// Solid Eye icon
   ///
   /// https://fontawesome.com/icons/eye?style=solid
   /// body, eye, look, optic, see, seen, show, sight, views, visible
-  static const IconData solidEye = IconDataLight(0xf06e);
+  static const IconData solidEye = IconDataSolid(0xf06e);
 
   /// Regular Eye icon
   ///
   /// https://fontawesome.com/icons/eye?style=regular
   /// body, eye, look, optic, see, seen, show, sight, views, visible
-  static const IconData eye = IconDataLight(0xf06e);
+  static const IconData eye = IconDataRegular(0xf06e);
 
   /// Solid Eye Dropper icon
   ///
   /// https://fontawesome.com/icons/eye-dropper?style=solid
   /// beaker, clone, color, copy, eyedropper, pipette
-  static const IconData eyeDropper = IconDataLight(0xf1fb);
+  static const IconData eyeDropper = IconDataSolid(0xf1fb);
 
   /// Alias eye-dropper-empty for icon [eyeDropper]
   @Deprecated('Use "eyeDropper" instead.')
@@ -4533,7 +4533,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/eye-low-vision?style=solid
   /// blind, eye, sight
-  static const IconData eyeLowVision = IconDataLight(0xf2a8);
+  static const IconData eyeLowVision = IconDataSolid(0xf2a8);
 
   /// Alias low-vision for icon [eyeLowVision]
   @Deprecated('Use "eyeLowVision" instead.')
@@ -4543,25 +4543,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/eye-slash?style=solid
   /// blind, hide, show, toggle, unseen, views, visible, visiblity
-  static const IconData solidEyeSlash = IconDataLight(0xf070);
+  static const IconData solidEyeSlash = IconDataSolid(0xf070);
 
   /// Regular Eye Slash icon
   ///
   /// https://fontawesome.com/icons/eye-slash?style=regular
   /// blind, hide, show, toggle, unseen, views, visible, visiblity
-  static const IconData eyeSlash = IconDataLight(0xf070);
+  static const IconData eyeSlash = IconDataRegular(0xf070);
 
   /// Solid F icon
   ///
   /// https://fontawesome.com/icons/f?style=solid
   /// Latin Capital Letter F, Latin Small Letter F, letter
-  static const IconData f = IconDataLight(0x46);
+  static const IconData f = IconDataSolid(0x46);
 
   /// Solid Face Angry icon
   ///
   /// https://fontawesome.com/icons/face-angry?style=solid
   /// angry, angry face, disapprove, emoticon, face, mad, upset
-  static const IconData solidFaceAngry = IconDataLight(0xf556);
+  static const IconData solidFaceAngry = IconDataSolid(0xf556);
 
   /// Alias angry for icon [solidFaceAngry]
   @Deprecated('Use "solidFaceAngry" instead.')
@@ -4571,7 +4571,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-angry?style=regular
   /// angry, angry face, disapprove, emoticon, face, mad, upset
-  static const IconData faceAngry = IconDataLight(0xf556);
+  static const IconData faceAngry = IconDataRegular(0xf556);
 
   /// Alias angry for icon [faceAngry]
   @Deprecated('Use "faceAngry" instead.')
@@ -4581,7 +4581,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-dizzy?style=solid
   /// dazed, dead, disapprove, emoticon, face
-  static const IconData solidFaceDizzy = IconDataLight(0xf567);
+  static const IconData solidFaceDizzy = IconDataSolid(0xf567);
 
   /// Alias dizzy for icon [solidFaceDizzy]
   @Deprecated('Use "solidFaceDizzy" instead.')
@@ -4591,7 +4591,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-dizzy?style=regular
   /// dazed, dead, disapprove, emoticon, face
-  static const IconData faceDizzy = IconDataLight(0xf567);
+  static const IconData faceDizzy = IconDataRegular(0xf567);
 
   /// Alias dizzy for icon [faceDizzy]
   @Deprecated('Use "faceDizzy" instead.')
@@ -4601,7 +4601,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-flushed?style=solid
   /// dazed, embarrassed, emoticon, face, flushed, flushed face
-  static const IconData solidFaceFlushed = IconDataLight(0xf579);
+  static const IconData solidFaceFlushed = IconDataSolid(0xf579);
 
   /// Alias flushed for icon [solidFaceFlushed]
   @Deprecated('Use "solidFaceFlushed" instead.')
@@ -4611,7 +4611,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-flushed?style=regular
   /// dazed, embarrassed, emoticon, face, flushed, flushed face
-  static const IconData faceFlushed = IconDataLight(0xf579);
+  static const IconData faceFlushed = IconDataRegular(0xf579);
 
   /// Alias flushed for icon [faceFlushed]
   @Deprecated('Use "faceFlushed" instead.')
@@ -4621,7 +4621,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-frown?style=solid
   /// disapprove, emoticon, face, frown, frowning face, rating, sad
-  static const IconData solidFaceFrown = IconDataLight(0xf119);
+  static const IconData solidFaceFrown = IconDataSolid(0xf119);
 
   /// Alias frown for icon [solidFaceFrown]
   @Deprecated('Use "solidFaceFrown" instead.')
@@ -4631,7 +4631,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-frown?style=regular
   /// disapprove, emoticon, face, frown, frowning face, rating, sad
-  static const IconData faceFrown = IconDataLight(0xf119);
+  static const IconData faceFrown = IconDataRegular(0xf119);
 
   /// Alias frown for icon [faceFrown]
   @Deprecated('Use "faceFrown" instead.')
@@ -4641,7 +4641,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-frown-open?style=solid
   /// disapprove, emoticon, face, frown, frowning face with open mouth, mouth, open, rating, sad
-  static const IconData solidFaceFrownOpen = IconDataLight(0xf57a);
+  static const IconData solidFaceFrownOpen = IconDataSolid(0xf57a);
 
   /// Alias frown-open for icon [solidFaceFrownOpen]
   @Deprecated('Use "solidFaceFrownOpen" instead.')
@@ -4651,7 +4651,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-frown-open?style=regular
   /// disapprove, emoticon, face, frown, frowning face with open mouth, mouth, open, rating, sad
-  static const IconData faceFrownOpen = IconDataLight(0xf57a);
+  static const IconData faceFrownOpen = IconDataRegular(0xf57a);
 
   /// Alias frown-open for icon [faceFrownOpen]
   @Deprecated('Use "faceFrownOpen" instead.')
@@ -4661,7 +4661,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grimace?style=solid
   /// cringe, emoticon, face, grimace, grimacing face, teeth
-  static const IconData solidFaceGrimace = IconDataLight(0xf57f);
+  static const IconData solidFaceGrimace = IconDataSolid(0xf57f);
 
   /// Alias grimace for icon [solidFaceGrimace]
   @Deprecated('Use "solidFaceGrimace" instead.')
@@ -4671,7 +4671,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grimace?style=regular
   /// cringe, emoticon, face, grimace, grimacing face, teeth
-  static const IconData faceGrimace = IconDataLight(0xf57f);
+  static const IconData faceGrimace = IconDataRegular(0xf57f);
 
   /// Alias grimace for icon [faceGrimace]
   @Deprecated('Use "faceGrimace" instead.')
@@ -4681,7 +4681,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin?style=solid
   /// emoticon, face, grin, grinning face, laugh, smile
-  static const IconData solidFaceGrin = IconDataLight(0xf580);
+  static const IconData solidFaceGrin = IconDataSolid(0xf580);
 
   /// Alias grin for icon [solidFaceGrin]
   @Deprecated('Use "solidFaceGrin" instead.')
@@ -4691,7 +4691,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin?style=regular
   /// emoticon, face, grin, grinning face, laugh, smile
-  static const IconData faceGrin = IconDataLight(0xf580);
+  static const IconData faceGrin = IconDataRegular(0xf580);
 
   /// Alias grin for icon [faceGrin]
   @Deprecated('Use "faceGrin" instead.')
@@ -4701,7 +4701,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-beam?style=solid
   /// emoticon, eye, face, grinning face with smiling eyes, laugh, mouth, open, smile
-  static const IconData solidFaceGrinBeam = IconDataLight(0xf582);
+  static const IconData solidFaceGrinBeam = IconDataSolid(0xf582);
 
   /// Alias grin-beam for icon [solidFaceGrinBeam]
   @Deprecated('Use "solidFaceGrinBeam" instead.')
@@ -4711,7 +4711,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-beam?style=regular
   /// emoticon, eye, face, grinning face with smiling eyes, laugh, mouth, open, smile
-  static const IconData faceGrinBeam = IconDataLight(0xf582);
+  static const IconData faceGrinBeam = IconDataRegular(0xf582);
 
   /// Alias grin-beam for icon [faceGrinBeam]
   @Deprecated('Use "faceGrinBeam" instead.')
@@ -4721,7 +4721,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-beam-sweat?style=solid
   /// cold, embarass, emoticon, face, grinning face with sweat, open, smile, sweat
-  static const IconData solidFaceGrinBeamSweat = IconDataLight(0xf583);
+  static const IconData solidFaceGrinBeamSweat = IconDataSolid(0xf583);
 
   /// Alias grin-beam-sweat for icon [solidFaceGrinBeamSweat]
   @Deprecated('Use "solidFaceGrinBeamSweat" instead.')
@@ -4731,7 +4731,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-beam-sweat?style=regular
   /// cold, embarass, emoticon, face, grinning face with sweat, open, smile, sweat
-  static const IconData faceGrinBeamSweat = IconDataLight(0xf583);
+  static const IconData faceGrinBeamSweat = IconDataRegular(0xf583);
 
   /// Alias grin-beam-sweat for icon [faceGrinBeamSweat]
   @Deprecated('Use "faceGrinBeamSweat" instead.')
@@ -4741,7 +4741,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-hearts?style=solid
   /// emoticon, eye, face, love, smile, smiling face with heart-eyes
-  static const IconData solidFaceGrinHearts = IconDataLight(0xf584);
+  static const IconData solidFaceGrinHearts = IconDataSolid(0xf584);
 
   /// Alias grin-hearts for icon [solidFaceGrinHearts]
   @Deprecated('Use "solidFaceGrinHearts" instead.')
@@ -4751,7 +4751,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-hearts?style=regular
   /// emoticon, eye, face, love, smile, smiling face with heart-eyes
-  static const IconData faceGrinHearts = IconDataLight(0xf584);
+  static const IconData faceGrinHearts = IconDataRegular(0xf584);
 
   /// Alias grin-hearts for icon [faceGrinHearts]
   @Deprecated('Use "faceGrinHearts" instead.')
@@ -4761,7 +4761,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-squint?style=solid
   /// emoticon, face, grinning squinting face, laugh, mouth, satisfied, smile
-  static const IconData solidFaceGrinSquint = IconDataLight(0xf585);
+  static const IconData solidFaceGrinSquint = IconDataSolid(0xf585);
 
   /// Alias grin-squint for icon [solidFaceGrinSquint]
   @Deprecated('Use "solidFaceGrinSquint" instead.')
@@ -4771,7 +4771,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-squint?style=regular
   /// emoticon, face, grinning squinting face, laugh, mouth, satisfied, smile
-  static const IconData faceGrinSquint = IconDataLight(0xf585);
+  static const IconData faceGrinSquint = IconDataRegular(0xf585);
 
   /// Alias grin-squint for icon [faceGrinSquint]
   @Deprecated('Use "faceGrinSquint" instead.')
@@ -4781,7 +4781,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-squint-tears?style=solid
   /// emoticon, face, floor, happy, laugh, rolling, rolling on the floor laughing, smile
-  static const IconData solidFaceGrinSquintTears = IconDataLight(0xf586);
+  static const IconData solidFaceGrinSquintTears = IconDataSolid(0xf586);
 
   /// Alias grin-squint-tears for icon [solidFaceGrinSquintTears]
   @Deprecated('Use "solidFaceGrinSquintTears" instead.')
@@ -4791,7 +4791,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-squint-tears?style=regular
   /// emoticon, face, floor, happy, laugh, rolling, rolling on the floor laughing, smile
-  static const IconData faceGrinSquintTears = IconDataLight(0xf586);
+  static const IconData faceGrinSquintTears = IconDataRegular(0xf586);
 
   /// Alias grin-squint-tears for icon [faceGrinSquintTears]
   @Deprecated('Use "faceGrinSquintTears" instead.')
@@ -4801,7 +4801,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-stars?style=solid
   /// emoticon, eyes, face, grinning, star, star-struck, starry-eyed
-  static const IconData solidFaceGrinStars = IconDataLight(0xf587);
+  static const IconData solidFaceGrinStars = IconDataSolid(0xf587);
 
   /// Alias grin-stars for icon [solidFaceGrinStars]
   @Deprecated('Use "solidFaceGrinStars" instead.')
@@ -4811,7 +4811,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-stars?style=regular
   /// emoticon, eyes, face, grinning, star, star-struck, starry-eyed
-  static const IconData faceGrinStars = IconDataLight(0xf587);
+  static const IconData faceGrinStars = IconDataRegular(0xf587);
 
   /// Alias grin-stars for icon [faceGrinStars]
   @Deprecated('Use "faceGrinStars" instead.')
@@ -4821,7 +4821,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tears?style=solid
   /// LOL, emoticon, face, face with tears of joy, joy, laugh, tear
-  static const IconData solidFaceGrinTears = IconDataLight(0xf588);
+  static const IconData solidFaceGrinTears = IconDataSolid(0xf588);
 
   /// Alias grin-tears for icon [solidFaceGrinTears]
   @Deprecated('Use "solidFaceGrinTears" instead.')
@@ -4831,7 +4831,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tears?style=regular
   /// LOL, emoticon, face, face with tears of joy, joy, laugh, tear
-  static const IconData faceGrinTears = IconDataLight(0xf588);
+  static const IconData faceGrinTears = IconDataRegular(0xf588);
 
   /// Alias grin-tears for icon [faceGrinTears]
   @Deprecated('Use "faceGrinTears" instead.')
@@ -4841,7 +4841,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue?style=solid
   /// LOL, emoticon, face, face with tongue, tongue
-  static const IconData solidFaceGrinTongue = IconDataLight(0xf589);
+  static const IconData solidFaceGrinTongue = IconDataSolid(0xf589);
 
   /// Alias grin-tongue for icon [solidFaceGrinTongue]
   @Deprecated('Use "solidFaceGrinTongue" instead.')
@@ -4851,7 +4851,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue?style=regular
   /// LOL, emoticon, face, face with tongue, tongue
-  static const IconData faceGrinTongue = IconDataLight(0xf589);
+  static const IconData faceGrinTongue = IconDataRegular(0xf589);
 
   /// Alias grin-tongue for icon [faceGrinTongue]
   @Deprecated('Use "faceGrinTongue" instead.')
@@ -4861,7 +4861,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue-squint?style=solid
   /// LOL, emoticon, eye, face, horrible, squinting face with tongue, taste, tongue
-  static const IconData solidFaceGrinTongueSquint = IconDataLight(0xf58a);
+  static const IconData solidFaceGrinTongueSquint = IconDataSolid(0xf58a);
 
   /// Alias grin-tongue-squint for icon [solidFaceGrinTongueSquint]
   @Deprecated('Use "solidFaceGrinTongueSquint" instead.')
@@ -4871,7 +4871,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue-squint?style=regular
   /// LOL, emoticon, eye, face, horrible, squinting face with tongue, taste, tongue
-  static const IconData faceGrinTongueSquint = IconDataLight(0xf58a);
+  static const IconData faceGrinTongueSquint = IconDataRegular(0xf58a);
 
   /// Alias grin-tongue-squint for icon [faceGrinTongueSquint]
   @Deprecated('Use "faceGrinTongueSquint" instead.')
@@ -4881,7 +4881,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue-wink?style=solid
   /// LOL, emoticon, eye, face, joke, tongue, wink, winking face with tongue
-  static const IconData solidFaceGrinTongueWink = IconDataLight(0xf58b);
+  static const IconData solidFaceGrinTongueWink = IconDataSolid(0xf58b);
 
   /// Alias grin-tongue-wink for icon [solidFaceGrinTongueWink]
   @Deprecated('Use "solidFaceGrinTongueWink" instead.')
@@ -4891,7 +4891,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-tongue-wink?style=regular
   /// LOL, emoticon, eye, face, joke, tongue, wink, winking face with tongue
-  static const IconData faceGrinTongueWink = IconDataLight(0xf58b);
+  static const IconData faceGrinTongueWink = IconDataRegular(0xf58b);
 
   /// Alias grin-tongue-wink for icon [faceGrinTongueWink]
   @Deprecated('Use "faceGrinTongueWink" instead.')
@@ -4901,7 +4901,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-wide?style=solid
   /// emoticon, face, grinning face with big eyes, laugh, mouth, open, smile
-  static const IconData solidFaceGrinWide = IconDataLight(0xf581);
+  static const IconData solidFaceGrinWide = IconDataSolid(0xf581);
 
   /// Alias grin-alt for icon [solidFaceGrinWide]
   @Deprecated('Use "solidFaceGrinWide" instead.')
@@ -4911,7 +4911,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-wide?style=regular
   /// emoticon, face, grinning face with big eyes, laugh, mouth, open, smile
-  static const IconData faceGrinWide = IconDataLight(0xf581);
+  static const IconData faceGrinWide = IconDataRegular(0xf581);
 
   /// Alias grin-alt for icon [faceGrinWide]
   @Deprecated('Use "faceGrinWide" instead.')
@@ -4921,7 +4921,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-wink?style=solid
   /// emoticon, face, flirt, laugh, smile
-  static const IconData solidFaceGrinWink = IconDataLight(0xf58c);
+  static const IconData solidFaceGrinWink = IconDataSolid(0xf58c);
 
   /// Alias grin-wink for icon [solidFaceGrinWink]
   @Deprecated('Use "solidFaceGrinWink" instead.')
@@ -4931,7 +4931,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-grin-wink?style=regular
   /// emoticon, face, flirt, laugh, smile
-  static const IconData faceGrinWink = IconDataLight(0xf58c);
+  static const IconData faceGrinWink = IconDataRegular(0xf58c);
 
   /// Alias grin-wink for icon [faceGrinWink]
   @Deprecated('Use "faceGrinWink" instead.')
@@ -4941,7 +4941,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss?style=solid
   /// beso, emoticon, face, kiss, kissing face, love, smooch
-  static const IconData solidFaceKiss = IconDataLight(0xf596);
+  static const IconData solidFaceKiss = IconDataSolid(0xf596);
 
   /// Alias kiss for icon [solidFaceKiss]
   @Deprecated('Use "solidFaceKiss" instead.')
@@ -4951,7 +4951,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss?style=regular
   /// beso, emoticon, face, kiss, kissing face, love, smooch
-  static const IconData faceKiss = IconDataLight(0xf596);
+  static const IconData faceKiss = IconDataRegular(0xf596);
 
   /// Alias kiss for icon [faceKiss]
   @Deprecated('Use "faceKiss" instead.')
@@ -4961,7 +4961,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss-beam?style=solid
   /// beso, emoticon, eye, face, kiss, kissing face with smiling eyes, love, smile, smooch
-  static const IconData solidFaceKissBeam = IconDataLight(0xf597);
+  static const IconData solidFaceKissBeam = IconDataSolid(0xf597);
 
   /// Alias kiss-beam for icon [solidFaceKissBeam]
   @Deprecated('Use "solidFaceKissBeam" instead.')
@@ -4971,7 +4971,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss-beam?style=regular
   /// beso, emoticon, eye, face, kiss, kissing face with smiling eyes, love, smile, smooch
-  static const IconData faceKissBeam = IconDataLight(0xf597);
+  static const IconData faceKissBeam = IconDataRegular(0xf597);
 
   /// Alias kiss-beam for icon [faceKissBeam]
   @Deprecated('Use "faceKissBeam" instead.')
@@ -4981,7 +4981,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss-wink-heart?style=solid
   /// beso, emoticon, face, face blowing a kiss, kiss, love, smooch
-  static const IconData solidFaceKissWinkHeart = IconDataLight(0xf598);
+  static const IconData solidFaceKissWinkHeart = IconDataSolid(0xf598);
 
   /// Alias kiss-wink-heart for icon [solidFaceKissWinkHeart]
   @Deprecated('Use "solidFaceKissWinkHeart" instead.')
@@ -4991,7 +4991,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-kiss-wink-heart?style=regular
   /// beso, emoticon, face, face blowing a kiss, kiss, love, smooch
-  static const IconData faceKissWinkHeart = IconDataLight(0xf598);
+  static const IconData faceKissWinkHeart = IconDataRegular(0xf598);
 
   /// Alias kiss-wink-heart for icon [faceKissWinkHeart]
   @Deprecated('Use "faceKissWinkHeart" instead.')
@@ -5001,7 +5001,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh?style=solid
   /// LOL, emoticon, face, laugh, smile
-  static const IconData solidFaceLaugh = IconDataLight(0xf599);
+  static const IconData solidFaceLaugh = IconDataSolid(0xf599);
 
   /// Alias laugh for icon [solidFaceLaugh]
   @Deprecated('Use "solidFaceLaugh" instead.')
@@ -5011,7 +5011,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh?style=regular
   /// LOL, emoticon, face, laugh, smile
-  static const IconData faceLaugh = IconDataLight(0xf599);
+  static const IconData faceLaugh = IconDataRegular(0xf599);
 
   /// Alias laugh for icon [faceLaugh]
   @Deprecated('Use "faceLaugh" instead.')
@@ -5021,7 +5021,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-beam?style=solid
   /// LOL, beaming face with smiling eyes, emoticon, eye, face, grin, happy, smile
-  static const IconData solidFaceLaughBeam = IconDataLight(0xf59a);
+  static const IconData solidFaceLaughBeam = IconDataSolid(0xf59a);
 
   /// Alias laugh-beam for icon [solidFaceLaughBeam]
   @Deprecated('Use "solidFaceLaughBeam" instead.')
@@ -5031,7 +5031,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-beam?style=regular
   /// LOL, beaming face with smiling eyes, emoticon, eye, face, grin, happy, smile
-  static const IconData faceLaughBeam = IconDataLight(0xf59a);
+  static const IconData faceLaughBeam = IconDataRegular(0xf59a);
 
   /// Alias laugh-beam for icon [faceLaughBeam]
   @Deprecated('Use "faceLaughBeam" instead.')
@@ -5041,7 +5041,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-squint?style=solid
   /// LOL, emoticon, face, happy, smile
-  static const IconData solidFaceLaughSquint = IconDataLight(0xf59b);
+  static const IconData solidFaceLaughSquint = IconDataSolid(0xf59b);
 
   /// Alias laugh-squint for icon [solidFaceLaughSquint]
   @Deprecated('Use "solidFaceLaughSquint" instead.')
@@ -5051,7 +5051,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-squint?style=regular
   /// LOL, emoticon, face, happy, smile
-  static const IconData faceLaughSquint = IconDataLight(0xf59b);
+  static const IconData faceLaughSquint = IconDataRegular(0xf59b);
 
   /// Alias laugh-squint for icon [faceLaughSquint]
   @Deprecated('Use "faceLaughSquint" instead.')
@@ -5061,7 +5061,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-wink?style=solid
   /// LOL, emoticon, face, happy, smile
-  static const IconData solidFaceLaughWink = IconDataLight(0xf59c);
+  static const IconData solidFaceLaughWink = IconDataSolid(0xf59c);
 
   /// Alias laugh-wink for icon [solidFaceLaughWink]
   @Deprecated('Use "solidFaceLaughWink" instead.')
@@ -5071,7 +5071,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-laugh-wink?style=regular
   /// LOL, emoticon, face, happy, smile
-  static const IconData faceLaughWink = IconDataLight(0xf59c);
+  static const IconData faceLaughWink = IconDataRegular(0xf59c);
 
   /// Alias laugh-wink for icon [faceLaughWink]
   @Deprecated('Use "faceLaughWink" instead.')
@@ -5081,7 +5081,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-meh?style=solid
   /// deadpan, emoticon, face, meh, neutral, neutral face, rating
-  static const IconData solidFaceMeh = IconDataLight(0xf11a);
+  static const IconData solidFaceMeh = IconDataSolid(0xf11a);
 
   /// Alias meh for icon [solidFaceMeh]
   @Deprecated('Use "solidFaceMeh" instead.')
@@ -5091,7 +5091,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-meh?style=regular
   /// deadpan, emoticon, face, meh, neutral, neutral face, rating
-  static const IconData faceMeh = IconDataLight(0xf11a);
+  static const IconData faceMeh = IconDataRegular(0xf11a);
 
   /// Alias meh for icon [faceMeh]
   @Deprecated('Use "faceMeh" instead.')
@@ -5101,7 +5101,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-meh-blank?style=solid
   /// emoticon, face, face without mouth, mouth, neutral, quiet, rating, silent
-  static const IconData solidFaceMehBlank = IconDataLight(0xf5a4);
+  static const IconData solidFaceMehBlank = IconDataSolid(0xf5a4);
 
   /// Alias meh-blank for icon [solidFaceMehBlank]
   @Deprecated('Use "solidFaceMehBlank" instead.')
@@ -5111,7 +5111,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-meh-blank?style=regular
   /// emoticon, face, face without mouth, mouth, neutral, quiet, rating, silent
-  static const IconData faceMehBlank = IconDataLight(0xf5a4);
+  static const IconData faceMehBlank = IconDataRegular(0xf5a4);
 
   /// Alias meh-blank for icon [faceMehBlank]
   @Deprecated('Use "faceMehBlank" instead.')
@@ -5121,7 +5121,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-rolling-eyes?style=solid
   /// emoticon, eyeroll, eyes, face, face with rolling eyes, neutral, rating, rolling
-  static const IconData solidFaceRollingEyes = IconDataLight(0xf5a5);
+  static const IconData solidFaceRollingEyes = IconDataSolid(0xf5a5);
 
   /// Alias meh-rolling-eyes for icon [solidFaceRollingEyes]
   @Deprecated('Use "solidFaceRollingEyes" instead.')
@@ -5131,7 +5131,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-rolling-eyes?style=regular
   /// emoticon, eyeroll, eyes, face, face with rolling eyes, neutral, rating, rolling
-  static const IconData faceRollingEyes = IconDataLight(0xf5a5);
+  static const IconData faceRollingEyes = IconDataRegular(0xf5a5);
 
   /// Alias meh-rolling-eyes for icon [faceRollingEyes]
   @Deprecated('Use "faceRollingEyes" instead.')
@@ -5141,7 +5141,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-sad-cry?style=solid
   /// cry, emoticon, face, loudly crying face, sad, sob, tear, tears
-  static const IconData solidFaceSadCry = IconDataLight(0xf5b3);
+  static const IconData solidFaceSadCry = IconDataSolid(0xf5b3);
 
   /// Alias sad-cry for icon [solidFaceSadCry]
   @Deprecated('Use "solidFaceSadCry" instead.')
@@ -5151,7 +5151,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-sad-cry?style=regular
   /// cry, emoticon, face, loudly crying face, sad, sob, tear, tears
-  static const IconData faceSadCry = IconDataLight(0xf5b3);
+  static const IconData faceSadCry = IconDataRegular(0xf5b3);
 
   /// Alias sad-cry for icon [faceSadCry]
   @Deprecated('Use "faceSadCry" instead.')
@@ -5161,7 +5161,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-sad-tear?style=solid
   /// cry, crying face, emoticon, face, sad, tear, tears
-  static const IconData solidFaceSadTear = IconDataLight(0xf5b4);
+  static const IconData solidFaceSadTear = IconDataSolid(0xf5b4);
 
   /// Alias sad-tear for icon [solidFaceSadTear]
   @Deprecated('Use "solidFaceSadTear" instead.')
@@ -5171,7 +5171,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-sad-tear?style=regular
   /// cry, crying face, emoticon, face, sad, tear, tears
-  static const IconData faceSadTear = IconDataLight(0xf5b4);
+  static const IconData faceSadTear = IconDataRegular(0xf5b4);
 
   /// Alias sad-tear for icon [faceSadTear]
   @Deprecated('Use "faceSadTear" instead.')
@@ -5181,7 +5181,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile?style=solid
   /// approve, emoticon, face, happy, rating, satisfied, slightly smiling face, smile
-  static const IconData solidFaceSmile = IconDataLight(0xf118);
+  static const IconData solidFaceSmile = IconDataSolid(0xf118);
 
   /// Alias smile for icon [solidFaceSmile]
   @Deprecated('Use "solidFaceSmile" instead.')
@@ -5191,7 +5191,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile?style=regular
   /// approve, emoticon, face, happy, rating, satisfied, slightly smiling face, smile
-  static const IconData faceSmile = IconDataLight(0xf118);
+  static const IconData faceSmile = IconDataRegular(0xf118);
 
   /// Alias smile for icon [faceSmile]
   @Deprecated('Use "faceSmile" instead.')
@@ -5201,7 +5201,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile-beam?style=solid
   /// blush, emoticon, eye, face, happy, positive, smile, smiling face with smiling eyes
-  static const IconData solidFaceSmileBeam = IconDataLight(0xf5b8);
+  static const IconData solidFaceSmileBeam = IconDataSolid(0xf5b8);
 
   /// Alias smile-beam for icon [solidFaceSmileBeam]
   @Deprecated('Use "solidFaceSmileBeam" instead.')
@@ -5211,7 +5211,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile-beam?style=regular
   /// blush, emoticon, eye, face, happy, positive, smile, smiling face with smiling eyes
-  static const IconData faceSmileBeam = IconDataLight(0xf5b8);
+  static const IconData faceSmileBeam = IconDataRegular(0xf5b8);
 
   /// Alias smile-beam for icon [faceSmileBeam]
   @Deprecated('Use "faceSmileBeam" instead.')
@@ -5221,7 +5221,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile-wink?style=solid
   /// emoticon, face, happy, hint, joke, wink, winking face
-  static const IconData solidFaceSmileWink = IconDataLight(0xf4da);
+  static const IconData solidFaceSmileWink = IconDataSolid(0xf4da);
 
   /// Alias smile-wink for icon [solidFaceSmileWink]
   @Deprecated('Use "solidFaceSmileWink" instead.')
@@ -5231,7 +5231,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-smile-wink?style=regular
   /// emoticon, face, happy, hint, joke, wink, winking face
-  static const IconData faceSmileWink = IconDataLight(0xf4da);
+  static const IconData faceSmileWink = IconDataRegular(0xf4da);
 
   /// Alias smile-wink for icon [faceSmileWink]
   @Deprecated('Use "faceSmileWink" instead.')
@@ -5241,7 +5241,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-surprise?style=solid
   /// emoticon, face, face with open mouth, mouth, open, shocked, sympathy
-  static const IconData solidFaceSurprise = IconDataLight(0xf5c2);
+  static const IconData solidFaceSurprise = IconDataSolid(0xf5c2);
 
   /// Alias surprise for icon [solidFaceSurprise]
   @Deprecated('Use "solidFaceSurprise" instead.')
@@ -5251,7 +5251,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-surprise?style=regular
   /// emoticon, face, face with open mouth, mouth, open, shocked, sympathy
-  static const IconData faceSurprise = IconDataLight(0xf5c2);
+  static const IconData faceSurprise = IconDataRegular(0xf5c2);
 
   /// Alias surprise for icon [faceSurprise]
   @Deprecated('Use "faceSurprise" instead.')
@@ -5261,7 +5261,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-tired?style=solid
   /// angry, emoticon, face, grumpy, tired, tired face, upset
-  static const IconData solidFaceTired = IconDataLight(0xf5c8);
+  static const IconData solidFaceTired = IconDataSolid(0xf5c8);
 
   /// Alias tired for icon [solidFaceTired]
   @Deprecated('Use "solidFaceTired" instead.')
@@ -5271,7 +5271,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/face-tired?style=regular
   /// angry, emoticon, face, grumpy, tired, tired face, upset
-  static const IconData faceTired = IconDataLight(0xf5c8);
+  static const IconData faceTired = IconDataRegular(0xf5c8);
 
   /// Alias tired for icon [faceTired]
   @Deprecated('Use "faceTired" instead.')
@@ -5298,7 +5298,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/fan?style=solid
   /// ac, air conditioning, blade, blower, cool, hot
-  static const IconData fan = IconDataLight(0xf863);
+  static const IconData fan = IconDataSolid(0xf863);
 
   /// Brands Fantasy Flight-games icon
   ///
@@ -5310,31 +5310,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/faucet?style=solid
   /// covid-19, drinking, drip, house, hygiene, kitchen, potable, potable water, sanitation, sink, water
-  static const IconData faucet = IconDataLight(0xe005);
+  static const IconData faucet = IconDataSolid(0xe005);
 
   /// Solid Faucet Drip icon
   ///
   /// https://fontawesome.com/icons/faucet-drip?style=solid
   /// drinking, drip, house, hygiene, kitchen, potable, potable water, sanitation, sink, water
-  static const IconData faucetDrip = IconDataLight(0xe006);
+  static const IconData faucetDrip = IconDataSolid(0xe006);
 
   /// Solid Fax icon
   ///
   /// https://fontawesome.com/icons/fax?style=solid
   /// Fax Icon, business, communicate, copy, facsimile, fax, fax machine, send
-  static const IconData fax = IconDataLight(0xf1ac);
+  static const IconData fax = IconDataSolid(0xf1ac);
 
   /// Solid Feather icon
   ///
   /// https://fontawesome.com/icons/feather?style=solid
   /// bird, feather, flight, light, plucked, plumage, quill, write
-  static const IconData feather = IconDataLight(0xf52d);
+  static const IconData feather = IconDataSolid(0xf52d);
 
   /// Solid Feather Pointed icon
   ///
   /// https://fontawesome.com/icons/feather-pointed?style=solid
   /// bird, light, plucked, quill, write
-  static const IconData featherPointed = IconDataLight(0xf56b);
+  static const IconData featherPointed = IconDataSolid(0xf56b);
 
   /// Alias feather-alt for icon [featherPointed]
   @Deprecated('Use "featherPointed" instead.')
@@ -5356,7 +5356,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ferry?style=solid
   /// barge, boat, carry, ferryboat, ship
-  static const IconData ferry = IconDataLight(0xe4ea);
+  static const IconData ferry = IconDataSolid(0xe4ea);
 
   /// Brands Figma icon
   ///
@@ -5368,19 +5368,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file?style=solid
   /// Empty Document, document, new, page, page facing up, pdf, resume
-  static const IconData solidFile = IconDataLight(0xf15b);
+  static const IconData solidFile = IconDataSolid(0xf15b);
 
   /// Regular File icon
   ///
   /// https://fontawesome.com/icons/file?style=regular
   /// Empty Document, document, new, page, page facing up, pdf, resume
-  static const IconData file = IconDataLight(0xf15b);
+  static const IconData file = IconDataRegular(0xf15b);
 
   /// Solid File Arrow Down icon
   ///
   /// https://fontawesome.com/icons/file-arrow-down?style=solid
   /// document, export, save
-  static const IconData fileArrowDown = IconDataLight(0xf56d);
+  static const IconData fileArrowDown = IconDataSolid(0xf56d);
 
   /// Alias file-download for icon [fileArrowDown]
   @Deprecated('Use "fileArrowDown" instead.')
@@ -5390,7 +5390,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-arrow-up?style=solid
   /// document, import, page, save
-  static const IconData fileArrowUp = IconDataLight(0xf574);
+  static const IconData fileArrowUp = IconDataSolid(0xf574);
 
   /// Alias file-upload for icon [fileArrowUp]
   @Deprecated('Use "fileArrowUp" instead.')
@@ -5400,91 +5400,91 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-audio?style=solid
   /// document, mp3, music, page, play, sound
-  static const IconData solidFileAudio = IconDataLight(0xf1c7);
+  static const IconData solidFileAudio = IconDataSolid(0xf1c7);
 
   /// Regular File Audio icon
   ///
   /// https://fontawesome.com/icons/file-audio?style=regular
   /// document, mp3, music, page, play, sound
-  static const IconData fileAudio = IconDataLight(0xf1c7);
+  static const IconData fileAudio = IconDataRegular(0xf1c7);
 
   /// Solid File Circle Check icon
   ///
   /// https://fontawesome.com/icons/file-circle-check?style=solid
   /// document, file, not affected, ok, okay, paper
-  static const IconData fileCircleCheck = IconDataLight(0xe5a0);
+  static const IconData fileCircleCheck = IconDataSolid(0xe5a0);
 
   /// Solid File Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/file-circle-exclamation?style=solid
   /// document, file, paper
-  static const IconData fileCircleExclamation = IconDataLight(0xe4eb);
+  static const IconData fileCircleExclamation = IconDataSolid(0xe4eb);
 
   /// Solid File Circle Minus icon
   ///
   /// https://fontawesome.com/icons/file-circle-minus?style=solid
   /// document, file, paper
-  static const IconData fileCircleMinus = IconDataLight(0xe4ed);
+  static const IconData fileCircleMinus = IconDataSolid(0xe4ed);
 
   /// Solid File Circle Plus icon
   ///
   /// https://fontawesome.com/icons/file-circle-plus?style=solid
   /// add, document, file, new, page, paper, pdf
-  static const IconData fileCirclePlus = IconDataLight(0xe494);
+  static const IconData fileCirclePlus = IconDataSolid(0xe494);
 
   /// Solid File Circle Question icon
   ///
   /// https://fontawesome.com/icons/file-circle-question?style=solid
   /// document, file, paper
-  static const IconData fileCircleQuestion = IconDataLight(0xe4ef);
+  static const IconData fileCircleQuestion = IconDataSolid(0xe4ef);
 
   /// Solid File Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/file-circle-xmark?style=solid
   /// document, file, paper
-  static const IconData fileCircleXmark = IconDataLight(0xe5a1);
+  static const IconData fileCircleXmark = IconDataSolid(0xe5a1);
 
   /// Solid File Code icon
   ///
   /// https://fontawesome.com/icons/file-code?style=solid
   /// css, development, document, html
-  static const IconData solidFileCode = IconDataLight(0xf1c9);
+  static const IconData solidFileCode = IconDataSolid(0xf1c9);
 
   /// Regular File Code icon
   ///
   /// https://fontawesome.com/icons/file-code?style=regular
   /// css, development, document, html
-  static const IconData fileCode = IconDataLight(0xf1c9);
+  static const IconData fileCode = IconDataRegular(0xf1c9);
 
   /// Solid File Contract icon
   ///
   /// https://fontawesome.com/icons/file-contract?style=solid
   /// agreement, binding, document, legal, signature
-  static const IconData fileContract = IconDataLight(0xf56c);
+  static const IconData fileContract = IconDataSolid(0xf56c);
 
   /// Solid File Csv icon
   ///
   /// https://fontawesome.com/icons/file-csv?style=solid
   /// document, excel, numbers, spreadsheets, table
-  static const IconData fileCsv = IconDataLight(0xf6dd);
+  static const IconData fileCsv = IconDataSolid(0xf6dd);
 
   /// Solid File Excel icon
   ///
   /// https://fontawesome.com/icons/file-excel?style=solid
   /// csv, document, numbers, spreadsheets, table
-  static const IconData solidFileExcel = IconDataLight(0xf1c3);
+  static const IconData solidFileExcel = IconDataSolid(0xf1c3);
 
   /// Regular File Excel icon
   ///
   /// https://fontawesome.com/icons/file-excel?style=regular
   /// csv, document, numbers, spreadsheets, table
-  static const IconData fileExcel = IconDataLight(0xf1c3);
+  static const IconData fileExcel = IconDataRegular(0xf1c3);
 
   /// Solid File Export icon
   ///
   /// https://fontawesome.com/icons/file-export?style=solid
   /// download, save
-  static const IconData fileExport = IconDataLight(0xf56e);
+  static const IconData fileExport = IconDataSolid(0xf56e);
 
   /// Alias arrow-right-from-file for icon [fileExport]
   @Deprecated('Use "fileExport" instead.')
@@ -5494,19 +5494,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-image?style=solid
   /// Document with Picture, document, image, jpg, photo, png
-  static const IconData solidFileImage = IconDataLight(0xf1c5);
+  static const IconData solidFileImage = IconDataSolid(0xf1c5);
 
   /// Regular File Image icon
   ///
   /// https://fontawesome.com/icons/file-image?style=regular
   /// Document with Picture, document, image, jpg, photo, png
-  static const IconData fileImage = IconDataLight(0xf1c5);
+  static const IconData fileImage = IconDataRegular(0xf1c5);
 
   /// Solid File Import icon
   ///
   /// https://fontawesome.com/icons/file-import?style=solid
   /// copy, document, send, upload
-  static const IconData fileImport = IconDataLight(0xf56f);
+  static const IconData fileImport = IconDataSolid(0xf56f);
 
   /// Alias arrow-right-to-file for icon [fileImport]
   @Deprecated('Use "fileImport" instead.')
@@ -5516,19 +5516,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-invoice?style=solid
   /// account, bill, charge, document, payment, receipt
-  static const IconData fileInvoice = IconDataLight(0xf570);
+  static const IconData fileInvoice = IconDataSolid(0xf570);
 
   /// Solid File Invoice Dollar icon
   ///
   /// https://fontawesome.com/icons/file-invoice-dollar?style=solid
   /// $, account, bill, charge, document, dollar-sign, money, payment, receipt, usd
-  static const IconData fileInvoiceDollar = IconDataLight(0xf571);
+  static const IconData fileInvoiceDollar = IconDataSolid(0xf571);
 
   /// Solid File Lines icon
   ///
   /// https://fontawesome.com/icons/file-lines?style=solid
   /// Document, Document with Text, document, file-text, invoice, new, page, pdf
-  static const IconData solidFileLines = IconDataLight(0xf15c);
+  static const IconData solidFileLines = IconDataSolid(0xf15c);
 
   /// Alias file-alt for icon [solidFileLines]
   @Deprecated('Use "solidFileLines" instead.')
@@ -5542,7 +5542,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-lines?style=regular
   /// Document, Document with Text, document, file-text, invoice, new, page, pdf
-  static const IconData fileLines = IconDataLight(0xf15c);
+  static const IconData fileLines = IconDataRegular(0xf15c);
 
   /// Alias file-alt for icon [fileLines]
   @Deprecated('Use "fileLines" instead.')
@@ -5556,25 +5556,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-medical?style=solid
   /// document, health, history, prescription, record
-  static const IconData fileMedical = IconDataLight(0xf477);
+  static const IconData fileMedical = IconDataSolid(0xf477);
 
   /// Solid File Pdf icon
   ///
   /// https://fontawesome.com/icons/file-pdf?style=solid
   /// acrobat, document, preview, save
-  static const IconData solidFilePdf = IconDataLight(0xf1c1);
+  static const IconData solidFilePdf = IconDataSolid(0xf1c1);
 
   /// Regular File Pdf icon
   ///
   /// https://fontawesome.com/icons/file-pdf?style=regular
   /// acrobat, document, preview, save
-  static const IconData filePdf = IconDataLight(0xf1c1);
+  static const IconData filePdf = IconDataRegular(0xf1c1);
 
   /// Solid File Pen icon
   ///
   /// https://fontawesome.com/icons/file-pen?style=solid
   /// edit, memo, pen, pencil, update, write
-  static const IconData filePen = IconDataLight(0xf31c);
+  static const IconData filePen = IconDataSolid(0xf31c);
 
   /// Alias file-edit for icon [filePen]
   @Deprecated('Use "filePen" instead.')
@@ -5584,49 +5584,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-powerpoint?style=solid
   /// display, document, keynote, presentation
-  static const IconData solidFilePowerpoint = IconDataLight(0xf1c4);
+  static const IconData solidFilePowerpoint = IconDataSolid(0xf1c4);
 
   /// Regular File Powerpoint icon
   ///
   /// https://fontawesome.com/icons/file-powerpoint?style=regular
   /// display, document, keynote, presentation
-  static const IconData filePowerpoint = IconDataLight(0xf1c4);
+  static const IconData filePowerpoint = IconDataRegular(0xf1c4);
 
   /// Solid File Prescription icon
   ///
   /// https://fontawesome.com/icons/file-prescription?style=solid
   /// document, drugs, medical, medicine, rx
-  static const IconData filePrescription = IconDataLight(0xf572);
+  static const IconData filePrescription = IconDataSolid(0xf572);
 
   /// Solid File Shield icon
   ///
   /// https://fontawesome.com/icons/file-shield?style=solid
   /// antivirus, data, document, protect, safe, safety, secure
-  static const IconData fileShield = IconDataLight(0xe4f0);
+  static const IconData fileShield = IconDataSolid(0xe4f0);
 
   /// Solid File Signature icon
   ///
   /// https://fontawesome.com/icons/file-signature?style=solid
   /// John Hancock, contract, document, name
-  static const IconData fileSignature = IconDataLight(0xf573);
+  static const IconData fileSignature = IconDataSolid(0xf573);
 
   /// Solid File Video icon
   ///
   /// https://fontawesome.com/icons/file-video?style=solid
   /// document, m4v, movie, mp4, play
-  static const IconData solidFileVideo = IconDataLight(0xf1c8);
+  static const IconData solidFileVideo = IconDataSolid(0xf1c8);
 
   /// Regular File Video icon
   ///
   /// https://fontawesome.com/icons/file-video?style=regular
   /// document, m4v, movie, mp4, play
-  static const IconData fileVideo = IconDataLight(0xf1c8);
+  static const IconData fileVideo = IconDataRegular(0xf1c8);
 
   /// Solid File Waveform icon
   ///
   /// https://fontawesome.com/icons/file-waveform?style=solid
   /// document, health, history, prescription, record
-  static const IconData fileWaveform = IconDataLight(0xf478);
+  static const IconData fileWaveform = IconDataSolid(0xf478);
 
   /// Alias file-medical-alt for icon [fileWaveform]
   @Deprecated('Use "fileWaveform" instead.')
@@ -5636,19 +5636,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-word?style=solid
   /// document, edit, page, text, writing
-  static const IconData solidFileWord = IconDataLight(0xf1c2);
+  static const IconData solidFileWord = IconDataSolid(0xf1c2);
 
   /// Regular File Word icon
   ///
   /// https://fontawesome.com/icons/file-word?style=regular
   /// document, edit, page, text, writing
-  static const IconData fileWord = IconDataLight(0xf1c2);
+  static const IconData fileWord = IconDataRegular(0xf1c2);
 
   /// Solid File Zipper icon
   ///
   /// https://fontawesome.com/icons/file-zipper?style=solid
   /// .zip, bundle, compress, compression, download, zip
-  static const IconData solidFileZipper = IconDataLight(0xf1c6);
+  static const IconData solidFileZipper = IconDataSolid(0xf1c6);
 
   /// Alias file-archive for icon [solidFileZipper]
   @Deprecated('Use "solidFileZipper" instead.')
@@ -5658,7 +5658,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/file-zipper?style=regular
   /// .zip, bundle, compress, compression, download, zip
-  static const IconData fileZipper = IconDataLight(0xf1c6);
+  static const IconData fileZipper = IconDataRegular(0xf1c6);
 
   /// Alias file-archive for icon [fileZipper]
   @Deprecated('Use "fileZipper" instead.')
@@ -5668,31 +5668,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/fill?style=solid
   /// bucket, color, paint, paint bucket
-  static const IconData fill = IconDataLight(0xf575);
+  static const IconData fill = IconDataSolid(0xf575);
 
   /// Solid Fill Drip icon
   ///
   /// https://fontawesome.com/icons/fill-drip?style=solid
   /// bucket, color, drop, paint, paint bucket, spill
-  static const IconData fillDrip = IconDataLight(0xf576);
+  static const IconData fillDrip = IconDataSolid(0xf576);
 
   /// Solid Film icon
   ///
   /// https://fontawesome.com/icons/film?style=solid
   /// cinema, film, film frames, frames, movie, strip, video
-  static const IconData film = IconDataLight(0xf008);
+  static const IconData film = IconDataSolid(0xf008);
 
   /// Solid Filter icon
   ///
   /// https://fontawesome.com/icons/filter?style=solid
   /// funnel, options, separate, sort
-  static const IconData filter = IconDataLight(0xf0b0);
+  static const IconData filter = IconDataSolid(0xf0b0);
 
   /// Solid Filter Circle Dollar icon
   ///
   /// https://fontawesome.com/icons/filter-circle-dollar?style=solid
   /// filter, money, options, separate, sort
-  static const IconData filterCircleDollar = IconDataLight(0xf662);
+  static const IconData filterCircleDollar = IconDataSolid(0xf662);
 
   /// Alias funnel-dollar for icon [filterCircleDollar]
   @Deprecated('Use "filterCircleDollar" instead.')
@@ -5702,37 +5702,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/filter-circle-xmark?style=solid
   /// cancel, funnel, options, remove, separate, sort
-  static const IconData filterCircleXmark = IconDataLight(0xe17b);
+  static const IconData filterCircleXmark = IconDataSolid(0xe17b);
 
   /// Solid Fingerprint icon
   ///
   /// https://fontawesome.com/icons/fingerprint?style=solid
   /// human, id, identification, lock, smudge, touch, unique, unlock
-  static const IconData fingerprint = IconDataLight(0xf577);
+  static const IconData fingerprint = IconDataSolid(0xf577);
 
   /// Solid Fire icon
   ///
   /// https://fontawesome.com/icons/fire?style=solid
   /// burn, caliente, fire, flame, heat, hot, popular, tool
-  static const IconData fire = IconDataLight(0xf06d);
+  static const IconData fire = IconDataSolid(0xf06d);
 
   /// Solid Fire Burner icon
   ///
   /// https://fontawesome.com/icons/fire-burner?style=solid
   /// cook, fire, flame, kitchen, stove
-  static const IconData fireBurner = IconDataLight(0xe4f1);
+  static const IconData fireBurner = IconDataSolid(0xe4f1);
 
   /// Solid Fire Extinguisher icon
   ///
   /// https://fontawesome.com/icons/fire-extinguisher?style=solid
   /// burn, caliente, extinguish, fire, fire extinguisher, fire fighter, flame, heat, hot, quench, rescue
-  static const IconData fireExtinguisher = IconDataLight(0xf134);
+  static const IconData fireExtinguisher = IconDataSolid(0xf134);
 
   /// Solid Fire Flame Curved icon
   ///
   /// https://fontawesome.com/icons/fire-flame-curved?style=solid
   /// burn, caliente, flame, heat, hot, popular
-  static const IconData fireFlameCurved = IconDataLight(0xf7e4);
+  static const IconData fireFlameCurved = IconDataSolid(0xf7e4);
 
   /// Alias fire-alt for icon [fireFlameCurved]
   @Deprecated('Use "fireFlameCurved" instead.')
@@ -5742,7 +5742,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/fire-flame-simple?style=solid
   /// caliente, energy, fire, flame, gas, heat, hot
-  static const IconData fireFlameSimple = IconDataLight(0xf46a);
+  static const IconData fireFlameSimple = IconDataSolid(0xf46a);
 
   /// Alias burn for icon [fireFlameSimple]
   @Deprecated('Use "fireFlameSimple" instead.')
@@ -5779,49 +5779,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/fish?style=solid
   /// Pisces, fauna, fish, gold, seafood, swimming, zodiac
-  static const IconData fish = IconDataLight(0xf578);
+  static const IconData fish = IconDataSolid(0xf578);
 
   /// Solid Fish Fins icon
   ///
   /// https://fontawesome.com/icons/fish-fins?style=solid
   /// fish, fishery, pisces, seafood
-  static const IconData fishFins = IconDataLight(0xe4f2);
+  static const IconData fishFins = IconDataSolid(0xe4f2);
 
   /// Solid Flag icon
   ///
   /// https://fontawesome.com/icons/flag?style=solid
   /// black flag, country, notice, notification, notify, pole, report, symbol, waving
-  static const IconData solidFlag = IconDataLight(0xf024);
+  static const IconData solidFlag = IconDataSolid(0xf024);
 
   /// Regular Flag icon
   ///
   /// https://fontawesome.com/icons/flag?style=regular
   /// black flag, country, notice, notification, notify, pole, report, symbol, waving
-  static const IconData flag = IconDataLight(0xf024);
+  static const IconData flag = IconDataRegular(0xf024);
 
   /// Solid Flag Checkered icon
   ///
   /// https://fontawesome.com/icons/flag-checkered?style=solid
   /// checkered, chequered, chequered flag, finish, notice, notification, notify, pole, racing, report, start, symbol, win
-  static const IconData flagCheckered = IconDataLight(0xf11e);
+  static const IconData flagCheckered = IconDataSolid(0xf11e);
 
   /// Solid Flag Usa icon
   ///
   /// https://fontawesome.com/icons/flag-usa?style=solid
   /// betsy ross, country, fla, flag: United States, old glory, stars, stripes, symbol
-  static const IconData flagUsa = IconDataLight(0xf74d);
+  static const IconData flagUsa = IconDataSolid(0xf74d);
 
   /// Solid Flask icon
   ///
   /// https://fontawesome.com/icons/flask?style=solid
   /// beaker, chemicals, experiment, experimental, labs, liquid, potion, science, vial
-  static const IconData flask = IconDataLight(0xf0c3);
+  static const IconData flask = IconDataSolid(0xf0c3);
 
   /// Solid Flask Vial icon
   ///
   /// https://fontawesome.com/icons/flask-vial?style=solid
   ///  beaker,  chemicals,  experiment,  experimental,  labs,  liquid,  science,  vial, ampule, chemistry, lab, laboratory, potion, test, test tube
-  static const IconData flaskVial = IconDataLight(0xe4f3);
+  static const IconData flaskVial = IconDataSolid(0xe4f3);
 
   /// Brands Flickr icon
   ///
@@ -5837,7 +5837,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/floppy-disk?style=solid
   /// Black Hard Shell Floppy Disk, computer, disk, download, floppy, floppy disk, floppy-o
-  static const IconData solidFloppyDisk = IconDataLight(0xf0c7);
+  static const IconData solidFloppyDisk = IconDataSolid(0xf0c7);
 
   /// Alias save for icon [solidFloppyDisk]
   @Deprecated('Use "solidFloppyDisk" instead.')
@@ -5847,7 +5847,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/floppy-disk?style=regular
   /// Black Hard Shell Floppy Disk, computer, disk, download, floppy, floppy disk, floppy-o
-  static const IconData floppyDisk = IconDataLight(0xf0c7);
+  static const IconData floppyDisk = IconDataRegular(0xf0c7);
 
   /// Alias save for icon [floppyDisk]
   @Deprecated('Use "floppyDisk" instead.')
@@ -5857,7 +5857,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/florin-sign?style=solid
   /// currency
-  static const IconData florinSign = IconDataLight(0xe184);
+  static const IconData florinSign = IconDataSolid(0xe184);
 
   /// Brands Fly icon
   ///
@@ -5868,7 +5868,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/folder?style=solid
   /// Black Folder, archive, directory, document, file, file folder, folder
-  static const IconData solidFolder = IconDataLight(0xf07b);
+  static const IconData solidFolder = IconDataSolid(0xf07b);
 
   /// Alias folder-blank for icon [solidFolder]
   @Deprecated('Use "solidFolder" instead.')
@@ -5878,7 +5878,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/folder?style=regular
   /// Black Folder, archive, directory, document, file, file folder, folder
-  static const IconData folder = IconDataLight(0xf07b);
+  static const IconData folder = IconDataRegular(0xf07b);
 
   /// Alias folder-blank for icon [folder]
   @Deprecated('Use "folder" instead.')
@@ -5888,55 +5888,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/folder-closed?style=solid
   /// file
-  static const IconData solidFolderClosed = IconDataLight(0xe185);
+  static const IconData solidFolderClosed = IconDataSolid(0xe185);
 
   /// Regular Folder Closed icon
   ///
   /// https://fontawesome.com/icons/folder-closed?style=regular
   /// file
-  static const IconData folderClosed = IconDataLight(0xe185);
+  static const IconData folderClosed = IconDataRegular(0xe185);
 
   /// Solid Folder Minus icon
   ///
   /// https://fontawesome.com/icons/folder-minus?style=solid
   /// archive, delete, directory, document, file, negative, remove
-  static const IconData folderMinus = IconDataLight(0xf65d);
+  static const IconData folderMinus = IconDataSolid(0xf65d);
 
   /// Solid Folder Open icon
   ///
   /// https://fontawesome.com/icons/folder-open?style=solid
   /// Open Folder, archive, directory, document, empty, file, folder, new, open, open file folder
-  static const IconData solidFolderOpen = IconDataLight(0xf07c);
+  static const IconData solidFolderOpen = IconDataSolid(0xf07c);
 
   /// Regular Folder Open icon
   ///
   /// https://fontawesome.com/icons/folder-open?style=regular
   /// Open Folder, archive, directory, document, empty, file, folder, new, open, open file folder
-  static const IconData folderOpen = IconDataLight(0xf07c);
+  static const IconData folderOpen = IconDataRegular(0xf07c);
 
   /// Solid Folder Plus icon
   ///
   /// https://fontawesome.com/icons/folder-plus?style=solid
   /// add, archive, create, directory, document, file, new, positive
-  static const IconData folderPlus = IconDataLight(0xf65e);
+  static const IconData folderPlus = IconDataSolid(0xf65e);
 
   /// Solid Folder Tree icon
   ///
   /// https://fontawesome.com/icons/folder-tree?style=solid
   /// archive, directory, document, file, search, structure
-  static const IconData folderTree = IconDataLight(0xf802);
+  static const IconData folderTree = IconDataSolid(0xf802);
 
   /// Solid Font icon
   ///
   /// https://fontawesome.com/icons/font?style=solid
   /// alphabet, glyph, text, type, typeface
-  static const IconData font = IconDataLight(0xf031);
+  static const IconData font = IconDataSolid(0xf031);
 
   /// Solid Font Awesome icon
   ///
   /// https://fontawesome.com/icons/font-awesome?style=solid
   /// awesome, flag, font, icons, typeface
-  static const IconData solidFontAwesome = IconDataLight(0xf2b4);
+  static const IconData solidFontAwesome = IconDataSolid(0xf2b4);
 
   /// Alias font-awesome-flag for icon [solidFontAwesome]
   @Deprecated('Use "solidFontAwesome" instead.')
@@ -5950,7 +5950,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/font-awesome?style=regular
   /// awesome, flag, font, icons, typeface
-  static const IconData fontAwesome = IconDataLight(0xf2b4);
+  static const IconData fontAwesome = IconDataRegular(0xf2b4);
 
   /// Alias font-awesome-flag for icon [fontAwesome]
   @Deprecated('Use "fontAwesome" instead.')
@@ -5988,7 +5988,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/football?style=solid
   /// american, american football, ball, fall, football, nfl, pigskin, seasonal
-  static const IconData football = IconDataLight(0xf44e);
+  static const IconData football = IconDataSolid(0xf44e);
 
   /// Alias football-ball for icon [football]
   @Deprecated('Use "football" instead.')
@@ -6015,13 +6015,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/forward?style=solid
   /// arrow, double, fast, fast-forward button, forward, next, skip
-  static const IconData forward = IconDataLight(0xf04e);
+  static const IconData forward = IconDataSolid(0xf04e);
 
   /// Solid Forward Fast icon
   ///
   /// https://fontawesome.com/icons/forward-fast?style=solid
   /// arrow, end, last, next, next scene, next track, next track button, triangle
-  static const IconData forwardFast = IconDataLight(0xf050);
+  static const IconData forwardFast = IconDataSolid(0xf050);
 
   /// Alias fast-forward for icon [forwardFast]
   @Deprecated('Use "forwardFast" instead.')
@@ -6031,7 +6031,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/forward-step?style=solid
   /// end, last, next
-  static const IconData forwardStep = IconDataLight(0xf051);
+  static const IconData forwardStep = IconDataSolid(0xf051);
 
   /// Alias step-forward for icon [forwardStep]
   @Deprecated('Use "forwardStep" instead.')
@@ -6046,7 +6046,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/franc-sign?style=solid
   /// French Franc Sign, currency
-  static const IconData francSign = IconDataLight(0xe18f);
+  static const IconData francSign = IconDataSolid(0xe18f);
 
   /// Brands freeCodeCamp icon
   ///
@@ -6062,7 +6062,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/frog?style=solid
   /// amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart
-  static const IconData frog = IconDataLight(0xf52e);
+  static const IconData frog = IconDataSolid(0xf52e);
 
   /// Brands Fulcrum icon
   ///
@@ -6073,7 +6073,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/futbol?style=solid
   /// ball, football, mls, soccer, soccer ball
-  static const IconData solidFutbol = IconDataLight(0xf1e3);
+  static const IconData solidFutbol = IconDataSolid(0xf1e3);
 
   /// Alias futbol-ball for icon [solidFutbol]
   @Deprecated('Use "solidFutbol" instead.')
@@ -6087,7 +6087,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/futbol?style=regular
   /// ball, football, mls, soccer, soccer ball
-  static const IconData futbol = IconDataLight(0xf1e3);
+  static const IconData futbol = IconDataRegular(0xf1e3);
 
   /// Alias futbol-ball for icon [futbol]
   @Deprecated('Use "futbol" instead.')
@@ -6101,7 +6101,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/g?style=solid
   /// Latin Capital Letter G, Latin Small Letter G, letter
-  static const IconData g = IconDataLight(0x47);
+  static const IconData g = IconDataSolid(0x47);
 
   /// Brands Galactic Republic icon
   ///
@@ -6119,19 +6119,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gamepad?style=solid
   /// arcade, controller, d-pad, joystick, video, video game
-  static const IconData gamepad = IconDataLight(0xf11b);
+  static const IconData gamepad = IconDataSolid(0xf11b);
 
   /// Solid Gas Pump icon
   ///
   /// https://fontawesome.com/icons/gas-pump?style=solid
   /// car, diesel, fuel, fuel pump, fuelpump, gas, gasoline, petrol, pump, station
-  static const IconData gasPump = IconDataLight(0xf52f);
+  static const IconData gasPump = IconDataSolid(0xf52f);
 
   /// Solid Gauge icon
   ///
   /// https://fontawesome.com/icons/gauge?style=solid
   /// dashboard, fast, odometer, speed, speedometer
-  static const IconData gauge = IconDataLight(0xf624);
+  static const IconData gauge = IconDataSolid(0xf624);
 
   /// Alias dashboard for icon [gauge]
   @Deprecated('Use "gauge" instead.')
@@ -6149,7 +6149,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gauge-high?style=solid
   /// dashboard, fast, odometer, speed, speedometer
-  static const IconData gaugeHigh = IconDataLight(0xf625);
+  static const IconData gaugeHigh = IconDataSolid(0xf625);
 
   /// Alias tachometer-alt for icon [gaugeHigh]
   @Deprecated('Use "gaugeHigh" instead.')
@@ -6163,7 +6163,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gauge-simple?style=solid
   /// dashboard, fast, odometer, speed, speedometer
-  static const IconData gaugeSimple = IconDataLight(0xf629);
+  static const IconData gaugeSimple = IconDataSolid(0xf629);
 
   /// Alias gauge-simple-med for icon [gaugeSimple]
   @Deprecated('Use "gaugeSimple" instead.')
@@ -6177,7 +6177,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gauge-simple-high?style=solid
   /// dashboard, fast, odometer, speed, speedometer
-  static const IconData gaugeSimpleHigh = IconDataLight(0xf62a);
+  static const IconData gaugeSimpleHigh = IconDataSolid(0xf62a);
 
   /// Alias tachometer for icon [gaugeSimpleHigh]
   @Deprecated('Use "gaugeSimpleHigh" instead.')
@@ -6191,7 +6191,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gavel?style=solid
   /// hammer, judge, law, lawyer, opinion
-  static const IconData gavel = IconDataLight(0xf0e3);
+  static const IconData gavel = IconDataSolid(0xf0e3);
 
   /// Alias legal for icon [gavel]
   @Deprecated('Use "gavel" instead.')
@@ -6201,7 +6201,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gear?style=solid
   /// cog, cogwheel, gear, mechanical, settings, sprocket, tool, wheel
-  static const IconData gear = IconDataLight(0xf013);
+  static const IconData gear = IconDataSolid(0xf013);
 
   /// Alias cog for icon [gear]
   @Deprecated('Use "gear" instead.')
@@ -6211,7 +6211,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gears?style=solid
   /// gears, mechanical, settings, sprocket, wheel
-  static const IconData gears = IconDataLight(0xf085);
+  static const IconData gears = IconDataSolid(0xf085);
 
   /// Alias cogs for icon [gears]
   @Deprecated('Use "gears" instead.')
@@ -6221,19 +6221,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gem?style=solid
   /// diamond, gem, gem stone, jewel, jewelry, sapphire, stone, treasure
-  static const IconData solidGem = IconDataLight(0xf3a5);
+  static const IconData solidGem = IconDataSolid(0xf3a5);
 
   /// Regular Gem icon
   ///
   /// https://fontawesome.com/icons/gem?style=regular
   /// diamond, gem, gem stone, jewel, jewelry, sapphire, stone, treasure
-  static const IconData gem = IconDataLight(0xf3a5);
+  static const IconData gem = IconDataRegular(0xf3a5);
 
   /// Solid Genderless icon
   ///
   /// https://fontawesome.com/icons/genderless?style=solid
   /// androgynous, asexual, gender, sexless
-  static const IconData genderless = IconDataLight(0xf22d);
+  static const IconData genderless = IconDataSolid(0xf22d);
 
   /// Brands Get Pocket icon
   ///
@@ -6254,19 +6254,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ghost?style=solid
   /// apparition, blinky, clyde, creature, face, fairy tale, fantasy, floating, ghost, halloween, holiday, inky, monster, pacman, pinky, spirit
-  static const IconData ghost = IconDataLight(0xf6e2);
+  static const IconData ghost = IconDataSolid(0xf6e2);
 
   /// Solid Gift icon
   ///
   /// https://fontawesome.com/icons/gift?style=solid
   /// box, celebration, christmas, generosity, gift, giving, holiday, party, present, wrapped, wrapped gift, xmas
-  static const IconData gift = IconDataLight(0xf06b);
+  static const IconData gift = IconDataSolid(0xf06b);
 
   /// Solid Gifts icon
   ///
   /// https://fontawesome.com/icons/gifts?style=solid
   /// christmas, generosity, giving, holiday, party, present, wrapped, xmas
-  static const IconData gifts = IconDataLight(0xf79c);
+  static const IconData gifts = IconDataSolid(0xf79c);
 
   /// Brands Git icon
   ///
@@ -6310,19 +6310,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/glass-water?style=solid
   /// potable, water
-  static const IconData glassWater = IconDataLight(0xe4f4);
+  static const IconData glassWater = IconDataSolid(0xe4f4);
 
   /// Solid Glass Water Droplet icon
   ///
   /// https://fontawesome.com/icons/glass-water-droplet?style=solid
   /// potable, water
-  static const IconData glassWaterDroplet = IconDataLight(0xe4f5);
+  static const IconData glassWaterDroplet = IconDataSolid(0xe4f5);
 
   /// Solid Glasses icon
   ///
   /// https://fontawesome.com/icons/glasses?style=solid
   /// hipster, nerd, reading, sight, spectacles, vision
-  static const IconData glasses = IconDataLight(0xf530);
+  static const IconData glasses = IconDataSolid(0xf530);
 
   /// Brands Glide icon
   ///
@@ -6338,7 +6338,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/globe?style=solid
   /// all, coordinates, country, earth, global, globe, globe with meridians, gps, internet, language, localize, location, map, meridians, network, online, place, planet, translate, travel, world
-  static const IconData globe = IconDataLight(0xf0ac);
+  static const IconData globe = IconDataSolid(0xf0ac);
 
   /// Brands Gofore icon
   ///
@@ -6354,7 +6354,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/golf-ball-tee?style=solid
   /// caddy, eagle, putt, tee
-  static const IconData golfBallTee = IconDataLight(0xf450);
+  static const IconData golfBallTee = IconDataSolid(0xf450);
 
   /// Alias golf-ball for icon [golfBallTee]
   @Deprecated('Use "golfBallTee" instead.')
@@ -6411,13 +6411,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gopuram?style=solid
   /// building, entrance, hinduism, temple, tower
-  static const IconData gopuram = IconDataLight(0xf664);
+  static const IconData gopuram = IconDataSolid(0xf664);
 
   /// Solid Graduation Cap icon
   ///
   /// https://fontawesome.com/icons/graduation-cap?style=solid
   /// cap, celebration, ceremony, clothing, college, graduate, graduation, graduation cap, hat, learning, school, student
-  static const IconData graduationCap = IconDataLight(0xf19d);
+  static const IconData graduationCap = IconDataSolid(0xf19d);
 
   /// Alias mortar-board for icon [graduationCap]
   @Deprecated('Use "graduationCap" instead.')
@@ -6438,19 +6438,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/greater-than?style=solid
   /// Greater-Than Sign, arithmetic, compare, math
-  static const IconData greaterThan = IconDataLight(0x3e);
+  static const IconData greaterThan = IconDataSolid(0x3e);
 
   /// Solid Greater Than Equal icon
   ///
   /// https://fontawesome.com/icons/greater-than-equal?style=solid
   /// arithmetic, compare, math
-  static const IconData greaterThanEqual = IconDataLight(0xf532);
+  static const IconData greaterThanEqual = IconDataSolid(0xf532);
 
   /// Solid Grip icon
   ///
   /// https://fontawesome.com/icons/grip?style=solid
   /// affordance, drag, drop, grab, handle
-  static const IconData grip = IconDataLight(0xf58d);
+  static const IconData grip = IconDataSolid(0xf58d);
 
   /// Alias grip-horizontal for icon [grip]
   @Deprecated('Use "grip" instead.')
@@ -6460,19 +6460,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/grip-lines?style=solid
   /// affordance, drag, drop, grab, handle
-  static const IconData gripLines = IconDataLight(0xf7a4);
+  static const IconData gripLines = IconDataSolid(0xf7a4);
 
   /// Solid Grip Lines Vertical icon
   ///
   /// https://fontawesome.com/icons/grip-lines-vertical?style=solid
   /// affordance, drag, drop, grab, handle
-  static const IconData gripLinesVertical = IconDataLight(0xf7a5);
+  static const IconData gripLinesVertical = IconDataSolid(0xf7a5);
 
   /// Solid Grip Vertical icon
   ///
   /// https://fontawesome.com/icons/grip-vertical?style=solid
   /// affordance, drag, drop, grab, handle
-  static const IconData gripVertical = IconDataLight(0xf58e);
+  static const IconData gripVertical = IconDataSolid(0xf58e);
 
   /// Brands Gripfire, Inc. icon
   ///
@@ -6483,7 +6483,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/group-arrows-rotate?style=solid
   /// community, engagement, spin, sync
-  static const IconData groupArrowsRotate = IconDataLight(0xe4f6);
+  static const IconData groupArrowsRotate = IconDataSolid(0xe4f6);
 
   /// Brands Grunt icon
   ///
@@ -6494,7 +6494,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/guarani-sign?style=solid
   /// Guarani Sign, currency
-  static const IconData guaraniSign = IconDataLight(0xe19a);
+  static const IconData guaraniSign = IconDataSolid(0xe19a);
 
   /// Brands Guilded icon
   ///
@@ -6505,7 +6505,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/guitar?style=solid
   /// acoustic, instrument, music, rock, rock and roll, song, strings
-  static const IconData guitar = IconDataLight(0xf7a6);
+  static const IconData guitar = IconDataSolid(0xf7a6);
 
   /// Brands Gulp icon
   ///
@@ -6516,13 +6516,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/gun?style=solid
   /// firearm, pistol, weapon
-  static const IconData gun = IconDataLight(0xe19b);
+  static const IconData gun = IconDataSolid(0xe19b);
 
   /// Solid H icon
   ///
   /// https://fontawesome.com/icons/h?style=solid
   /// Latin Capital Letter H, Latin Small Letter H, letter
-  static const IconData h = IconDataLight(0x48);
+  static const IconData h = IconDataSolid(0x48);
 
   /// Brands Hacker News icon
   ///
@@ -6538,19 +6538,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hammer?style=solid
   /// admin, fix, hammer, recovery, repair, settings, tool
-  static const IconData hammer = IconDataLight(0xf6e3);
+  static const IconData hammer = IconDataSolid(0xf6e3);
 
   /// Solid Hamsa icon
   ///
   /// https://fontawesome.com/icons/hamsa?style=solid
   /// amulet, christianity, islam, jewish, judaism, muslim, protection
-  static const IconData hamsa = IconDataLight(0xf665);
+  static const IconData hamsa = IconDataSolid(0xf665);
 
   /// Solid Hand icon
   ///
   /// https://fontawesome.com/icons/hand?style=solid
   /// Raised Hand, backhand, game, halt, palm, raised, raised back of hand, roshambo, stop
-  static const IconData solidHand = IconDataLight(0xf256);
+  static const IconData solidHand = IconDataSolid(0xf256);
 
   /// Alias hand-paper for icon [solidHand]
   @Deprecated('Use "solidHand" instead.')
@@ -6560,7 +6560,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand?style=regular
   /// Raised Hand, backhand, game, halt, palm, raised, raised back of hand, roshambo, stop
-  static const IconData hand = IconDataLight(0xf256);
+  static const IconData hand = IconDataRegular(0xf256);
 
   /// Alias hand-paper for icon [hand]
   @Deprecated('Use "hand" instead.')
@@ -6570,7 +6570,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-back-fist?style=solid
   /// fist, game, roshambo
-  static const IconData solidHandBackFist = IconDataLight(0xf255);
+  static const IconData solidHandBackFist = IconDataSolid(0xf255);
 
   /// Alias hand-rock for icon [solidHandBackFist]
   @Deprecated('Use "solidHandBackFist" instead.')
@@ -6580,7 +6580,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-back-fist?style=regular
   /// fist, game, roshambo
-  static const IconData handBackFist = IconDataLight(0xf255);
+  static const IconData handBackFist = IconDataRegular(0xf255);
 
   /// Alias hand-rock for icon [handBackFist]
   @Deprecated('Use "handBackFist" instead.')
@@ -6590,7 +6590,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-dots?style=solid
   /// allergy, freckles, hand, hives, palm, pox, skin, spots
-  static const IconData handDots = IconDataLight(0xf461);
+  static const IconData handDots = IconDataSolid(0xf461);
 
   /// Alias allergies for icon [handDots]
   @Deprecated('Use "handDots" instead.')
@@ -6600,7 +6600,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-fist?style=solid
   /// Dungeons & Dragons, clenched, d&d, dnd, fantasy, fist, hand, ki, monk, punch, raised fist, resist, strength, unarmed combat
-  static const IconData handFist = IconDataLight(0xf6de);
+  static const IconData handFist = IconDataSolid(0xf6de);
 
   /// Alias fist-raised for icon [handFist]
   @Deprecated('Use "handFist" instead.')
@@ -6610,13 +6610,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-holding?style=solid
   /// carry, lift
-  static const IconData handHolding = IconDataLight(0xf4bd);
+  static const IconData handHolding = IconDataSolid(0xf4bd);
 
   /// Solid Hand Holding Dollar icon
   ///
   /// https://fontawesome.com/icons/hand-holding-dollar?style=solid
   /// $, carry, dollar sign, donation, giving, lift, money, price
-  static const IconData handHoldingDollar = IconDataLight(0xf4c0);
+  static const IconData handHoldingDollar = IconDataSolid(0xf4c0);
 
   /// Alias hand-holding-usd for icon [handHoldingDollar]
   @Deprecated('Use "handHoldingDollar" instead.')
@@ -6626,7 +6626,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-holding-droplet?style=solid
   /// carry, covid-19, drought, grow, lift, sanitation
-  static const IconData handHoldingDroplet = IconDataLight(0xf4c1);
+  static const IconData handHoldingDroplet = IconDataSolid(0xf4c1);
 
   /// Alias hand-holding-water for icon [handHoldingDroplet]
   @Deprecated('Use "handHoldingDroplet" instead.')
@@ -6636,151 +6636,151 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hand-holding-hand?style=solid
   /// care, give, help, hold, protect
-  static const IconData handHoldingHand = IconDataLight(0xe4f7);
+  static const IconData handHoldingHand = IconDataSolid(0xe4f7);
 
   /// Solid Hand Holding Heart icon
   ///
   /// https://fontawesome.com/icons/hand-holding-heart?style=solid
   /// carry, charity, gift, lift, package
-  static const IconData handHoldingHeart = IconDataLight(0xf4be);
+  static const IconData handHoldingHeart = IconDataSolid(0xf4be);
 
   /// Solid Hand Holding Medical icon
   ///
   /// https://fontawesome.com/icons/hand-holding-medical?style=solid
   /// care, covid-19, donate, help
-  static const IconData handHoldingMedical = IconDataLight(0xe05c);
+  static const IconData handHoldingMedical = IconDataSolid(0xe05c);
 
   /// Solid Hand Lizard icon
   ///
   /// https://fontawesome.com/icons/hand-lizard?style=solid
   /// game, roshambo
-  static const IconData solidHandLizard = IconDataLight(0xf258);
+  static const IconData solidHandLizard = IconDataSolid(0xf258);
 
   /// Regular Hand Lizard icon
   ///
   /// https://fontawesome.com/icons/hand-lizard?style=regular
   /// game, roshambo
-  static const IconData handLizard = IconDataLight(0xf258);
+  static const IconData handLizard = IconDataRegular(0xf258);
 
   /// Solid Hand Middle Finger icon
   ///
   /// https://fontawesome.com/icons/hand-middle-finger?style=solid
   /// finger, flip the bird, gesture, hand, hate, middle finger, rude
-  static const IconData handMiddleFinger = IconDataLight(0xf806);
+  static const IconData handMiddleFinger = IconDataSolid(0xf806);
 
   /// Solid Hand Peace icon
   ///
   /// https://fontawesome.com/icons/hand-peace?style=solid
   /// hand, rest, truce, v, victory, victory hand
-  static const IconData solidHandPeace = IconDataLight(0xf25b);
+  static const IconData solidHandPeace = IconDataSolid(0xf25b);
 
   /// Regular Hand Peace icon
   ///
   /// https://fontawesome.com/icons/hand-peace?style=regular
   /// hand, rest, truce, v, victory, victory hand
-  static const IconData handPeace = IconDataLight(0xf25b);
+  static const IconData handPeace = IconDataRegular(0xf25b);
 
   /// Solid Hand Point Down icon
   ///
   /// https://fontawesome.com/icons/hand-point-down?style=solid
   /// finger, hand-o-down, point
-  static const IconData solidHandPointDown = IconDataLight(0xf0a7);
+  static const IconData solidHandPointDown = IconDataSolid(0xf0a7);
 
   /// Regular Hand Point Down icon
   ///
   /// https://fontawesome.com/icons/hand-point-down?style=regular
   /// finger, hand-o-down, point
-  static const IconData handPointDown = IconDataLight(0xf0a7);
+  static const IconData handPointDown = IconDataRegular(0xf0a7);
 
   /// Solid Hand Point Left icon
   ///
   /// https://fontawesome.com/icons/hand-point-left?style=solid
   /// back, finger, hand-o-left, left, point, previous
-  static const IconData solidHandPointLeft = IconDataLight(0xf0a5);
+  static const IconData solidHandPointLeft = IconDataSolid(0xf0a5);
 
   /// Regular Hand Point Left icon
   ///
   /// https://fontawesome.com/icons/hand-point-left?style=regular
   /// back, finger, hand-o-left, left, point, previous
-  static const IconData handPointLeft = IconDataLight(0xf0a5);
+  static const IconData handPointLeft = IconDataRegular(0xf0a5);
 
   /// Solid Hand Point Right icon
   ///
   /// https://fontawesome.com/icons/hand-point-right?style=solid
   /// finger, forward, hand-o-right, next, point, right
-  static const IconData solidHandPointRight = IconDataLight(0xf0a4);
+  static const IconData solidHandPointRight = IconDataSolid(0xf0a4);
 
   /// Regular Hand Point Right icon
   ///
   /// https://fontawesome.com/icons/hand-point-right?style=regular
   /// finger, forward, hand-o-right, next, point, right
-  static const IconData handPointRight = IconDataLight(0xf0a4);
+  static const IconData handPointRight = IconDataRegular(0xf0a4);
 
   /// Solid Hand Point Up icon
   ///
   /// https://fontawesome.com/icons/hand-point-up?style=solid
   /// finger, hand, hand-o-up, index, index pointing up, point, up
-  static const IconData solidHandPointUp = IconDataLight(0xf0a6);
+  static const IconData solidHandPointUp = IconDataSolid(0xf0a6);
 
   /// Regular Hand Point Up icon
   ///
   /// https://fontawesome.com/icons/hand-point-up?style=regular
   /// finger, hand, hand-o-up, index, index pointing up, point, up
-  static const IconData handPointUp = IconDataLight(0xf0a6);
+  static const IconData handPointUp = IconDataRegular(0xf0a6);
 
   /// Solid Hand Pointer icon
   ///
   /// https://fontawesome.com/icons/hand-pointer?style=solid
   /// arrow, cursor, select
-  static const IconData solidHandPointer = IconDataLight(0xf25a);
+  static const IconData solidHandPointer = IconDataSolid(0xf25a);
 
   /// Regular Hand Pointer icon
   ///
   /// https://fontawesome.com/icons/hand-pointer?style=regular
   /// arrow, cursor, select
-  static const IconData handPointer = IconDataLight(0xf25a);
+  static const IconData handPointer = IconDataRegular(0xf25a);
 
   /// Solid Hand Scissors icon
   ///
   /// https://fontawesome.com/icons/hand-scissors?style=solid
   /// cut, game, roshambo
-  static const IconData solidHandScissors = IconDataLight(0xf257);
+  static const IconData solidHandScissors = IconDataSolid(0xf257);
 
   /// Regular Hand Scissors icon
   ///
   /// https://fontawesome.com/icons/hand-scissors?style=regular
   /// cut, game, roshambo
-  static const IconData handScissors = IconDataLight(0xf257);
+  static const IconData handScissors = IconDataRegular(0xf257);
 
   /// Solid Hand Sparkles icon
   ///
   /// https://fontawesome.com/icons/hand-sparkles?style=solid
   /// clean, covid-19, hygiene, magic, palm, soap, wash
-  static const IconData handSparkles = IconDataLight(0xe05d);
+  static const IconData handSparkles = IconDataSolid(0xe05d);
 
   /// Solid Hand Spock icon
   ///
   /// https://fontawesome.com/icons/hand-spock?style=solid
   /// finger, hand, live long, palm, prosper, salute, spock, star trek, vulcan, vulcan salute
-  static const IconData solidHandSpock = IconDataLight(0xf259);
+  static const IconData solidHandSpock = IconDataSolid(0xf259);
 
   /// Regular Hand Spock icon
   ///
   /// https://fontawesome.com/icons/hand-spock?style=regular
   /// finger, hand, live long, palm, prosper, salute, spock, star trek, vulcan, vulcan salute
-  static const IconData handSpock = IconDataLight(0xf259);
+  static const IconData handSpock = IconDataRegular(0xf259);
 
   /// Solid Handcuffs icon
   ///
   /// https://fontawesome.com/icons/handcuffs?style=solid
   /// arrest, criminal, handcuffs, jail, lock, police, wrist
-  static const IconData handcuffs = IconDataLight(0xe4f8);
+  static const IconData handcuffs = IconDataSolid(0xe4f8);
 
   /// Solid Hands icon
   ///
   /// https://fontawesome.com/icons/hands?style=solid
   /// Translate, asl, deaf, hands
-  static const IconData hands = IconDataLight(0xf2a7);
+  static const IconData hands = IconDataSolid(0xf2a7);
 
   /// Alias sign-language for icon [hands]
   @Deprecated('Use "hands" instead.')
@@ -6794,7 +6794,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hands-asl-interpreting?style=solid
   /// asl, deaf, finger, hand, interpret, speak
-  static const IconData handsAslInterpreting = IconDataLight(0xf2a3);
+  static const IconData handsAslInterpreting = IconDataSolid(0xf2a3);
 
   /// Alias american-sign-language-interpreting for icon [handsAslInterpreting]
   @Deprecated('Use "handsAslInterpreting" instead.')
@@ -6813,13 +6813,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hands-bound?style=solid
   /// abduction, bound, handcuff, wrist
-  static const IconData handsBound = IconDataLight(0xe4f9);
+  static const IconData handsBound = IconDataSolid(0xe4f9);
 
   /// Solid Hands Bubbles icon
   ///
   /// https://fontawesome.com/icons/hands-bubbles?style=solid
   /// covid-19, hygiene, soap, wash
-  static const IconData handsBubbles = IconDataLight(0xe05e);
+  static const IconData handsBubbles = IconDataSolid(0xe05e);
 
   /// Alias hands-wash for icon [handsBubbles]
   @Deprecated('Use "handsBubbles" instead.')
@@ -6829,31 +6829,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hands-clapping?style=solid
   /// applause, clap, clapping hands, hand
-  static const IconData handsClapping = IconDataLight(0xe1a8);
+  static const IconData handsClapping = IconDataSolid(0xe1a8);
 
   /// Solid Hands Holding icon
   ///
   /// https://fontawesome.com/icons/hands-holding?style=solid
   /// carry, hold, lift
-  static const IconData handsHolding = IconDataLight(0xf4c2);
+  static const IconData handsHolding = IconDataSolid(0xf4c2);
 
   /// Solid Hands Holding Child icon
   ///
   /// https://fontawesome.com/icons/hands-holding-child?style=solid
   /// care, give, help, hold, protect
-  static const IconData handsHoldingChild = IconDataLight(0xe4fa);
+  static const IconData handsHoldingChild = IconDataSolid(0xe4fa);
 
   /// Solid Hands Holding Circle icon
   ///
   /// https://fontawesome.com/icons/hands-holding-circle?style=solid
   /// circle, gift, protection
-  static const IconData handsHoldingCircle = IconDataLight(0xe4fb);
+  static const IconData handsHoldingCircle = IconDataSolid(0xe4fb);
 
   /// Solid Hands Praying icon
   ///
   /// https://fontawesome.com/icons/hands-praying?style=solid
   /// kneel, preach, religion, worship
-  static const IconData handsPraying = IconDataLight(0xf684);
+  static const IconData handsPraying = IconDataSolid(0xf684);
 
   /// Alias praying-hands for icon [handsPraying]
   @Deprecated('Use "handsPraying" instead.')
@@ -6863,19 +6863,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/handshake?style=solid
   /// agreement, greeting, meeting, partnership
-  static const IconData solidHandshake = IconDataLight(0xf2b5);
+  static const IconData solidHandshake = IconDataSolid(0xf2b5);
 
   /// Regular Handshake icon
   ///
   /// https://fontawesome.com/icons/handshake?style=regular
   /// agreement, greeting, meeting, partnership
-  static const IconData handshake = IconDataLight(0xf2b5);
+  static const IconData handshake = IconDataRegular(0xf2b5);
 
   /// Solid Handshake Angle icon
   ///
   /// https://fontawesome.com/icons/handshake-angle?style=solid
   /// aid, assistance, handshake, partnership, volunteering
-  static const IconData handshakeAngle = IconDataLight(0xf4c4);
+  static const IconData handshakeAngle = IconDataSolid(0xf4c4);
 
   /// Alias hands-helping for icon [handshakeAngle]
   @Deprecated('Use "handshakeAngle" instead.')
@@ -6885,7 +6885,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/handshake-simple?style=solid
   /// agreement, greeting, hand, handshake, meeting, partnership, shake
-  static const IconData handshakeSimple = IconDataLight(0xf4c6);
+  static const IconData handshakeSimple = IconDataSolid(0xf4c6);
 
   /// Alias handshake-alt for icon [handshakeSimple]
   @Deprecated('Use "handshakeSimple" instead.')
@@ -6895,7 +6895,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/handshake-simple-slash?style=solid
   /// broken, covid-19, social distance
-  static const IconData handshakeSimpleSlash = IconDataLight(0xe05f);
+  static const IconData handshakeSimpleSlash = IconDataSolid(0xe05f);
 
   /// Alias handshake-alt-slash for icon [handshakeSimpleSlash]
   @Deprecated('Use "handshakeSimpleSlash" instead.')
@@ -6905,19 +6905,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/handshake-slash?style=solid
   /// broken, covid-19, social distance
-  static const IconData handshakeSlash = IconDataLight(0xe060);
+  static const IconData handshakeSlash = IconDataSolid(0xe060);
 
   /// Solid Hanukiah icon
   ///
   /// https://fontawesome.com/icons/hanukiah?style=solid
   /// candelabrum, candle, candlestick, hanukkah, jewish, judaism, light, menorah, religion
-  static const IconData hanukiah = IconDataLight(0xf6e6);
+  static const IconData hanukiah = IconDataSolid(0xf6e6);
 
   /// Solid Hard Drive icon
   ///
   /// https://fontawesome.com/icons/hard-drive?style=solid
   /// Hard Disk, cpu, hard drive, harddrive, machine, save, storage
-  static const IconData solidHardDrive = IconDataLight(0xf0a0);
+  static const IconData solidHardDrive = IconDataSolid(0xf0a0);
 
   /// Alias hdd for icon [solidHardDrive]
   @Deprecated('Use "solidHardDrive" instead.')
@@ -6927,7 +6927,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hard-drive?style=regular
   /// Hard Disk, cpu, hard drive, harddrive, machine, save, storage
-  static const IconData hardDrive = IconDataLight(0xf0a0);
+  static const IconData hardDrive = IconDataRegular(0xf0a0);
 
   /// Alias hdd for icon [hardDrive]
   @Deprecated('Use "hardDrive" instead.')
@@ -6942,55 +6942,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hashtag?style=solid
   /// Number Sign, Twitter, instagram, pound, social media, tag
-  static const IconData hashtag = IconDataLight(0x23);
+  static const IconData hashtag = IconDataSolid(0x23);
 
   /// Solid Hat Cowboy icon
   ///
   /// https://fontawesome.com/icons/hat-cowboy?style=solid
   /// buckaroo, horse, jackeroo, john b., old west, pardner, ranch, rancher, rodeo, western, wrangler
-  static const IconData hatCowboy = IconDataLight(0xf8c0);
+  static const IconData hatCowboy = IconDataSolid(0xf8c0);
 
   /// Solid Hat Cowboy Side icon
   ///
   /// https://fontawesome.com/icons/hat-cowboy-side?style=solid
   /// buckaroo, horse, jackeroo, john b., old west, pardner, ranch, rancher, rodeo, western, wrangler
-  static const IconData hatCowboySide = IconDataLight(0xf8c1);
+  static const IconData hatCowboySide = IconDataSolid(0xf8c1);
 
   /// Solid Hat Wizard icon
   ///
   /// https://fontawesome.com/icons/hat-wizard?style=solid
   /// Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch
-  static const IconData hatWizard = IconDataLight(0xf6e8);
+  static const IconData hatWizard = IconDataSolid(0xf6e8);
 
   /// Solid Head Side Cough icon
   ///
   /// https://fontawesome.com/icons/head-side-cough?style=solid
   /// cough, covid-19, germs, lungs, respiratory, sick
-  static const IconData headSideCough = IconDataLight(0xe061);
+  static const IconData headSideCough = IconDataSolid(0xe061);
 
   /// Solid Head Side Cough Slash icon
   ///
   /// https://fontawesome.com/icons/head-side-cough-slash?style=solid
   /// cough, covid-19, germs, lungs, respiratory, sick
-  static const IconData headSideCoughSlash = IconDataLight(0xe062);
+  static const IconData headSideCoughSlash = IconDataSolid(0xe062);
 
   /// Solid Head Side Mask icon
   ///
   /// https://fontawesome.com/icons/head-side-mask?style=solid
   /// breath, coronavirus, covid-19, filter, flu, infection, pandemic, respirator, virus
-  static const IconData headSideMask = IconDataLight(0xe063);
+  static const IconData headSideMask = IconDataSolid(0xe063);
 
   /// Solid Head Side Virus icon
   ///
   /// https://fontawesome.com/icons/head-side-virus?style=solid
   /// cold, coronavirus, covid-19, flu, infection, pandemic, sick
-  static const IconData headSideVirus = IconDataLight(0xe064);
+  static const IconData headSideVirus = IconDataSolid(0xe064);
 
   /// Solid Heading icon
   ///
   /// https://fontawesome.com/icons/heading?style=solid
   /// format, header, text, title
-  static const IconData heading = IconDataLight(0xf1dc);
+  static const IconData heading = IconDataSolid(0xf1dc);
 
   /// Alias header for icon [heading]
   @Deprecated('Use "heading" instead.')
@@ -7000,13 +7000,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/headphones?style=solid
   /// audio, earbud, headphone, listen, music, sound, speaker
-  static const IconData headphones = IconDataLight(0xf025);
+  static const IconData headphones = IconDataSolid(0xf025);
 
   /// Solid Headphones Simple icon
   ///
   /// https://fontawesome.com/icons/headphones-simple?style=solid
   /// audio, listen, music, sound, speaker
-  static const IconData headphonesSimple = IconDataLight(0xf58f);
+  static const IconData headphonesSimple = IconDataSolid(0xf58f);
 
   /// Alias headphones-alt for icon [headphonesSimple]
   @Deprecated('Use "headphonesSimple" instead.')
@@ -7016,61 +7016,61 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/headset?style=solid
   /// audio, gamer, gaming, listen, live chat, microphone, shot caller, sound, support, telemarketer
-  static const IconData headset = IconDataLight(0xf590);
+  static const IconData headset = IconDataSolid(0xf590);
 
   /// Solid Heart icon
   ///
   /// https://fontawesome.com/icons/heart?style=solid
   /// black, black heart, blue, blue heart, brown, brown heart, card, evil, favorite, game, green, green heart, heart, heart suit, like, love, orange, orange heart, purple, purple heart, red heart, relationship, valentine, white, white heart, wicked, yellow, yellow heart
-  static const IconData solidHeart = IconDataLight(0xf004);
+  static const IconData solidHeart = IconDataSolid(0xf004);
 
   /// Regular Heart icon
   ///
   /// https://fontawesome.com/icons/heart?style=regular
   /// black, black heart, blue, blue heart, brown, brown heart, card, evil, favorite, game, green, green heart, heart, heart suit, like, love, orange, orange heart, purple, purple heart, red heart, relationship, valentine, white, white heart, wicked, yellow, yellow heart
-  static const IconData heart = IconDataLight(0xf004);
+  static const IconData heart = IconDataRegular(0xf004);
 
   /// Solid Heart Circle Bolt icon
   ///
   /// https://fontawesome.com/icons/heart-circle-bolt?style=solid
   /// cardiogram, ekg, electric, heart, love, pacemaker
-  static const IconData heartCircleBolt = IconDataLight(0xe4fc);
+  static const IconData heartCircleBolt = IconDataSolid(0xe4fc);
 
   /// Solid Heart Circle Check icon
   ///
   /// https://fontawesome.com/icons/heart-circle-check?style=solid
   /// favorite, heart, love, not affected, ok, okay
-  static const IconData heartCircleCheck = IconDataLight(0xe4fd);
+  static const IconData heartCircleCheck = IconDataSolid(0xe4fd);
 
   /// Solid Heart Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/heart-circle-exclamation?style=solid
   /// favorite, heart, love
-  static const IconData heartCircleExclamation = IconDataLight(0xe4fe);
+  static const IconData heartCircleExclamation = IconDataSolid(0xe4fe);
 
   /// Solid Heart Circle Minus icon
   ///
   /// https://fontawesome.com/icons/heart-circle-minus?style=solid
   /// favorite, heart, love
-  static const IconData heartCircleMinus = IconDataLight(0xe4ff);
+  static const IconData heartCircleMinus = IconDataSolid(0xe4ff);
 
   /// Solid Heart Circle Plus icon
   ///
   /// https://fontawesome.com/icons/heart-circle-plus?style=solid
   /// favorite, heart, love
-  static const IconData heartCirclePlus = IconDataLight(0xe500);
+  static const IconData heartCirclePlus = IconDataSolid(0xe500);
 
   /// Solid Heart Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/heart-circle-xmark?style=solid
   /// favorite, heart, love
-  static const IconData heartCircleXmark = IconDataLight(0xe501);
+  static const IconData heartCircleXmark = IconDataSolid(0xe501);
 
   /// Solid Heart Crack icon
   ///
   /// https://fontawesome.com/icons/heart-crack?style=solid
   /// break, breakup, broken, broken heart, crushed, dislike, dumped, grief, love, lovesick, relationship, sad
-  static const IconData heartCrack = IconDataLight(0xf7a9);
+  static const IconData heartCrack = IconDataSolid(0xf7a9);
 
   /// Alias heart-broken for icon [heartCrack]
   @Deprecated('Use "heartCrack" instead.')
@@ -7080,7 +7080,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/heart-pulse?style=solid
   /// ekg, electrocardiogram, health, lifeline, vital signs
-  static const IconData heartPulse = IconDataLight(0xf21e);
+  static const IconData heartPulse = IconDataSolid(0xf21e);
 
   /// Alias heartbeat for icon [heartPulse]
   @Deprecated('Use "heartPulse" instead.')
@@ -7090,19 +7090,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/helicopter?style=solid
   /// airwolf, apache, chopper, flight, fly, helicopter, travel, vehicle
-  static const IconData helicopter = IconDataLight(0xf533);
+  static const IconData helicopter = IconDataSolid(0xf533);
 
   /// Solid Helicopter Symbol icon
   ///
   /// https://fontawesome.com/icons/helicopter-symbol?style=solid
   /// chopper, helicopter, landing pad, whirlybird
-  static const IconData helicopterSymbol = IconDataLight(0xe502);
+  static const IconData helicopterSymbol = IconDataSolid(0xe502);
 
   /// Solid Helmet Safety icon
   ///
   /// https://fontawesome.com/icons/helmet-safety?style=solid
   /// construction, hardhat, helmet, safety
-  static const IconData helmetSafety = IconDataLight(0xf807);
+  static const IconData helmetSafety = IconDataSolid(0xf807);
 
   /// Alias hard-hat for icon [helmetSafety]
   @Deprecated('Use "helmetSafety" instead.')
@@ -7116,31 +7116,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/helmet-un?style=solid
   /// helmet, united nations
-  static const IconData helmetUn = IconDataLight(0xe503);
+  static const IconData helmetUn = IconDataSolid(0xe503);
 
   /// Solid Highlighter icon
   ///
   /// https://fontawesome.com/icons/highlighter?style=solid
   /// edit, marker, sharpie, update, write
-  static const IconData highlighter = IconDataLight(0xf591);
+  static const IconData highlighter = IconDataSolid(0xf591);
 
   /// Solid Hill Avalanche icon
   ///
   /// https://fontawesome.com/icons/hill-avalanche?style=solid
   /// mudslide, snow, winter
-  static const IconData hillAvalanche = IconDataLight(0xe507);
+  static const IconData hillAvalanche = IconDataSolid(0xe507);
 
   /// Solid Hill Rockslide icon
   ///
   /// https://fontawesome.com/icons/hill-rockslide?style=solid
   /// mudslide
-  static const IconData hillRockslide = IconDataLight(0xe508);
+  static const IconData hillRockslide = IconDataSolid(0xe508);
 
   /// Solid Hippo icon
   ///
   /// https://fontawesome.com/icons/hippo?style=solid
   /// animal, fauna, hippo, hippopotamus, hungry, mammal
-  static const IconData hippo = IconDataLight(0xf6ed);
+  static const IconData hippo = IconDataSolid(0xf6ed);
 
   /// Brands Hips icon
   ///
@@ -7161,13 +7161,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hockey-puck?style=solid
   /// ice, nhl, sport
-  static const IconData hockeyPuck = IconDataLight(0xf453);
+  static const IconData hockeyPuck = IconDataSolid(0xf453);
 
   /// Solid Holly Berry icon
   ///
   /// https://fontawesome.com/icons/holly-berry?style=solid
   /// catwoman, christmas, decoration, flora, halle, holiday, ororo munroe, plant, storm, xmas
-  static const IconData hollyBerry = IconDataLight(0xf7aa);
+  static const IconData hollyBerry = IconDataSolid(0xf7aa);
 
   /// Brands Hooli icon
   ///
@@ -7183,19 +7183,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/horse?style=solid
   /// equestrian, equus, fauna, horse, mammmal, mare, neigh, pony, racehorse, racing
-  static const IconData horse = IconDataLight(0xf6f0);
+  static const IconData horse = IconDataSolid(0xf6f0);
 
   /// Solid Horse Head icon
   ///
   /// https://fontawesome.com/icons/horse-head?style=solid
   /// equus, fauna, mammmal, mare, neigh, pony
-  static const IconData horseHead = IconDataLight(0xf7ab);
+  static const IconData horseHead = IconDataSolid(0xf7ab);
 
   /// Solid Hospital icon
   ///
   /// https://fontawesome.com/icons/hospital?style=solid
   /// building, covid-19, doctor, emergency room, hospital, medical center, medicine
-  static const IconData solidHospital = IconDataLight(0xf0f8);
+  static const IconData solidHospital = IconDataSolid(0xf0f8);
 
   /// Alias hospital-alt for icon [solidHospital]
   @Deprecated('Use "solidHospital" instead.')
@@ -7209,7 +7209,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hospital?style=regular
   /// building, covid-19, doctor, emergency room, hospital, medical center, medicine
-  static const IconData hospital = IconDataLight(0xf0f8);
+  static const IconData hospital = IconDataRegular(0xf0f8);
 
   /// Alias hospital-alt for icon [hospital]
   @Deprecated('Use "hospital" instead.')
@@ -7223,13 +7223,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hospital-user?style=solid
   /// covid-19, doctor, network, patient, primary care
-  static const IconData hospitalUser = IconDataLight(0xf80d);
+  static const IconData hospitalUser = IconDataSolid(0xf80d);
 
   /// Solid Hot Tub Person icon
   ///
   /// https://fontawesome.com/icons/hot-tub-person?style=solid
   /// jacuzzi, spa
-  static const IconData hotTubPerson = IconDataLight(0xf593);
+  static const IconData hotTubPerson = IconDataSolid(0xf593);
 
   /// Alias hot-tub for icon [hotTubPerson]
   @Deprecated('Use "hotTubPerson" instead.')
@@ -7239,13 +7239,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hotdog?style=solid
   /// bun, chili, frankfurt, frankfurter, hot dog, hotdog, kosher, polish, sandwich, sausage, vienna, weiner
-  static const IconData hotdog = IconDataLight(0xf80f);
+  static const IconData hotdog = IconDataSolid(0xf80f);
 
   /// Solid Hotel icon
   ///
   /// https://fontawesome.com/icons/hotel?style=solid
   /// building, hotel, inn, lodging, motel, resort, travel
-  static const IconData hotel = IconDataLight(0xf594);
+  static const IconData hotel = IconDataSolid(0xf594);
 
   /// Brands Hotjar icon
   ///
@@ -7256,7 +7256,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass?style=solid
   /// hour, hourglass, hourglass not done, minute, sand, stopwatch, time, timer
-  static const IconData solidHourglass = IconDataLight(0xf254);
+  static const IconData solidHourglass = IconDataSolid(0xf254);
 
   /// Alias hourglass-empty for icon [solidHourglass]
   @Deprecated('Use "solidHourglass" instead.')
@@ -7266,7 +7266,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass?style=regular
   /// hour, hourglass, hourglass not done, minute, sand, stopwatch, time, timer
-  static const IconData hourglass = IconDataLight(0xf254);
+  static const IconData hourglass = IconDataRegular(0xf254);
 
   /// Alias hourglass-empty for icon [hourglass]
   @Deprecated('Use "hourglass" instead.')
@@ -7276,7 +7276,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass-end?style=solid
   /// hour, hourglass done, minute, sand, stopwatch, time, timer
-  static const IconData hourglassEnd = IconDataLight(0xf253);
+  static const IconData hourglassEnd = IconDataSolid(0xf253);
 
   /// Alias hourglass-3 for icon [hourglassEnd]
   @Deprecated('Use "hourglassEnd" instead.')
@@ -7286,7 +7286,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass-half?style=solid
   /// hour, minute, sand, stopwatch, time
-  static const IconData solidHourglassHalf = IconDataLight(0xf252);
+  static const IconData solidHourglassHalf = IconDataSolid(0xf252);
 
   /// Alias hourglass-2 for icon [solidHourglassHalf]
   @Deprecated('Use "solidHourglassHalf" instead.')
@@ -7296,7 +7296,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass-half?style=regular
   /// hour, minute, sand, stopwatch, time
-  static const IconData hourglassHalf = IconDataLight(0xf252);
+  static const IconData hourglassHalf = IconDataRegular(0xf252);
 
   /// Alias hourglass-2 for icon [hourglassHalf]
   @Deprecated('Use "hourglassHalf" instead.')
@@ -7306,7 +7306,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hourglass-start?style=solid
   /// hour, minute, sand, stopwatch, time
-  static const IconData hourglassStart = IconDataLight(0xf251);
+  static const IconData hourglassStart = IconDataSolid(0xf251);
 
   /// Alias hourglass-1 for icon [hourglassStart]
   @Deprecated('Use "hourglassStart" instead.')
@@ -7316,7 +7316,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house?style=solid
   /// abode, building, home, house, main, residence
-  static const IconData house = IconDataLight(0xf015);
+  static const IconData house = IconDataSolid(0xf015);
 
   /// Alias home for icon [house]
   @Deprecated('Use "house" instead.')
@@ -7334,7 +7334,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house-chimney?style=solid
   /// abode, building, chimney, house, main, residence, smokestack
-  static const IconData houseChimney = IconDataLight(0xe3af);
+  static const IconData houseChimney = IconDataSolid(0xe3af);
 
   /// Alias home-lg for icon [houseChimney]
   @Deprecated('Use "houseChimney" instead.')
@@ -7344,7 +7344,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house-chimney-crack?style=solid
   /// building, devastation, disaster, earthquake, home, insurance
-  static const IconData houseChimneyCrack = IconDataLight(0xf6f1);
+  static const IconData houseChimneyCrack = IconDataSolid(0xf6f1);
 
   /// Alias house-damage for icon [houseChimneyCrack]
   @Deprecated('Use "houseChimneyCrack" instead.')
@@ -7354,7 +7354,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house-chimney-medical?style=solid
   /// covid-19, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient
-  static const IconData houseChimneyMedical = IconDataLight(0xf7f2);
+  static const IconData houseChimneyMedical = IconDataSolid(0xf7f2);
 
   /// Alias clinic-medical for icon [houseChimneyMedical]
   @Deprecated('Use "houseChimneyMedical" instead.')
@@ -7364,67 +7364,67 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house-chimney-user?style=solid
   /// covid-19, home, isolation, quarantine
-  static const IconData houseChimneyUser = IconDataLight(0xe065);
+  static const IconData houseChimneyUser = IconDataSolid(0xe065);
 
   /// Solid House Chimney Window icon
   ///
   /// https://fontawesome.com/icons/house-chimney-window?style=solid
   /// abode, building, family, home, residence
-  static const IconData houseChimneyWindow = IconDataLight(0xe00d);
+  static const IconData houseChimneyWindow = IconDataSolid(0xe00d);
 
   /// Solid House Circle Check icon
   ///
   /// https://fontawesome.com/icons/house-circle-check?style=solid
   /// abode, home, house, not affected, ok, okay
-  static const IconData houseCircleCheck = IconDataLight(0xe509);
+  static const IconData houseCircleCheck = IconDataSolid(0xe509);
 
   /// Solid House Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/house-circle-exclamation?style=solid
   /// abode, affected, home, house
-  static const IconData houseCircleExclamation = IconDataLight(0xe50a);
+  static const IconData houseCircleExclamation = IconDataSolid(0xe50a);
 
   /// Solid House Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/house-circle-xmark?style=solid
   /// abode, destroy, home, house
-  static const IconData houseCircleXmark = IconDataLight(0xe50b);
+  static const IconData houseCircleXmark = IconDataSolid(0xe50b);
 
   /// Solid House Crack icon
   ///
   /// https://fontawesome.com/icons/house-crack?style=solid
   /// building, devastation, disaster, earthquake, home, insurance
-  static const IconData houseCrack = IconDataLight(0xe3b1);
+  static const IconData houseCrack = IconDataSolid(0xe3b1);
 
   /// Solid House Fire icon
   ///
   /// https://fontawesome.com/icons/house-fire?style=solid
   /// burn, emergency, home
-  static const IconData houseFire = IconDataLight(0xe50c);
+  static const IconData houseFire = IconDataSolid(0xe50c);
 
   /// Solid House Flag icon
   ///
   /// https://fontawesome.com/icons/house-flag?style=solid
   /// camp, home
-  static const IconData houseFlag = IconDataLight(0xe50d);
+  static const IconData houseFlag = IconDataSolid(0xe50d);
 
   /// Solid House Flood Water icon
   ///
   /// https://fontawesome.com/icons/house-flood-water?style=solid
   /// damage, flood, water
-  static const IconData houseFloodWater = IconDataLight(0xe50e);
+  static const IconData houseFloodWater = IconDataSolid(0xe50e);
 
   /// Solid House Flood Water Circle Arrow Right icon
   ///
   /// https://fontawesome.com/icons/house-flood-water-circle-arrow-right?style=solid
   /// damage, flood, water
-  static const IconData houseFloodWaterCircleArrowRight = IconDataLight(0xe50f);
+  static const IconData houseFloodWaterCircleArrowRight = IconDataSolid(0xe50f);
 
   /// Solid House Laptop icon
   ///
   /// https://fontawesome.com/icons/house-laptop?style=solid
   /// computer, covid-19, device, office, remote, work from home
-  static const IconData houseLaptop = IconDataLight(0xe066);
+  static const IconData houseLaptop = IconDataSolid(0xe066);
 
   /// Alias laptop-house for icon [houseLaptop]
   @Deprecated('Use "houseLaptop" instead.')
@@ -7434,55 +7434,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/house-lock?style=solid
   /// closed, home, house, lockdown, quarantine
-  static const IconData houseLock = IconDataLight(0xe510);
+  static const IconData houseLock = IconDataSolid(0xe510);
 
   /// Solid House Medical icon
   ///
   /// https://fontawesome.com/icons/house-medical?style=solid
   /// covid-19, doctor, facility, general practitioner, health, hospital, infirmary, medicine, office, outpatient
-  static const IconData houseMedical = IconDataLight(0xe3b2);
+  static const IconData houseMedical = IconDataSolid(0xe3b2);
 
   /// Solid House Medical Circle Check icon
   ///
   /// https://fontawesome.com/icons/house-medical-circle-check?style=solid
   /// clinic, hospital, not affected, ok, okay
-  static const IconData houseMedicalCircleCheck = IconDataLight(0xe511);
+  static const IconData houseMedicalCircleCheck = IconDataSolid(0xe511);
 
   /// Solid House Medical Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/house-medical-circle-exclamation?style=solid
   /// affected, clinic, hospital
-  static const IconData houseMedicalCircleExclamation = IconDataLight(0xe512);
+  static const IconData houseMedicalCircleExclamation = IconDataSolid(0xe512);
 
   /// Solid House Medical Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/house-medical-circle-xmark?style=solid
   /// clinic, destroy, hospital
-  static const IconData houseMedicalCircleXmark = IconDataLight(0xe513);
+  static const IconData houseMedicalCircleXmark = IconDataSolid(0xe513);
 
   /// Solid House Medical Flag icon
   ///
   /// https://fontawesome.com/icons/house-medical-flag?style=solid
   /// clinic, hospital, mash
-  static const IconData houseMedicalFlag = IconDataLight(0xe514);
+  static const IconData houseMedicalFlag = IconDataSolid(0xe514);
 
   /// Solid House Signal icon
   ///
   /// https://fontawesome.com/icons/house-signal?style=solid
   /// abode, building, connect, family, home, residence, smart home, wifi
-  static const IconData houseSignal = IconDataLight(0xe012);
+  static const IconData houseSignal = IconDataSolid(0xe012);
 
   /// Solid House Tsunami icon
   ///
   /// https://fontawesome.com/icons/house-tsunami?style=solid
   /// damage, flood, tidal wave, wave
-  static const IconData houseTsunami = IconDataLight(0xe515);
+  static const IconData houseTsunami = IconDataSolid(0xe515);
 
   /// Solid House User icon
   ///
   /// https://fontawesome.com/icons/house-user?style=solid
   /// house
-  static const IconData houseUser = IconDataLight(0xe1b0);
+  static const IconData houseUser = IconDataSolid(0xe1b0);
 
   /// Alias home-user for icon [houseUser]
   @Deprecated('Use "houseUser" instead.')
@@ -7497,7 +7497,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hryvnia-sign?style=solid
   /// Hryvnia Sign, currency
-  static const IconData hryvniaSign = IconDataLight(0xf6f2);
+  static const IconData hryvniaSign = IconDataSolid(0xf6f2);
 
   /// Alias hryvnia for icon [hryvniaSign]
   @Deprecated('Use "hryvniaSign" instead.')
@@ -7517,37 +7517,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/hurricane?style=solid
   /// coriolis effect, eye, storm, tropical cyclone, typhoon
-  static const IconData hurricane = IconDataLight(0xf751);
+  static const IconData hurricane = IconDataSolid(0xf751);
 
   /// Solid I icon
   ///
   /// https://fontawesome.com/icons/i?style=solid
   /// Latin Capital Letter I, Latin Small Letter I, letter
-  static const IconData i = IconDataLight(0x49);
+  static const IconData i = IconDataSolid(0x49);
 
   /// Solid I Cursor icon
   ///
   /// https://fontawesome.com/icons/i-cursor?style=solid
   /// editing, i-beam, type, writing
-  static const IconData iCursor = IconDataLight(0xf246);
+  static const IconData iCursor = IconDataSolid(0xf246);
 
   /// Solid Ice Cream icon
   ///
   /// https://fontawesome.com/icons/ice-cream?style=solid
   /// chocolate, cone, cream, dessert, frozen, ice, ice cream, scoop, sorbet, sweet, vanilla, yogurt
-  static const IconData iceCream = IconDataLight(0xf810);
+  static const IconData iceCream = IconDataSolid(0xf810);
 
   /// Solid Icicles icon
   ///
   /// https://fontawesome.com/icons/icicles?style=solid
   /// cold, frozen, hanging, ice, seasonal, sharp
-  static const IconData icicles = IconDataLight(0xf7ad);
+  static const IconData icicles = IconDataSolid(0xf7ad);
 
   /// Solid Icons icon
   ///
   /// https://fontawesome.com/icons/icons?style=solid
   /// bolt, emoji, heart, image, music, photo, symbols
-  static const IconData icons = IconDataLight(0xf86d);
+  static const IconData icons = IconDataSolid(0xf86d);
 
   /// Alias heart-music-camera-bolt for icon [icons]
   @Deprecated('Use "icons" instead.')
@@ -7557,19 +7557,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/id-badge?style=solid
   /// address, contact, identification, license, profile
-  static const IconData solidIdBadge = IconDataLight(0xf2c1);
+  static const IconData solidIdBadge = IconDataSolid(0xf2c1);
 
   /// Regular Id Badge icon
   ///
   /// https://fontawesome.com/icons/id-badge?style=regular
   /// address, contact, identification, license, profile
-  static const IconData idBadge = IconDataLight(0xf2c1);
+  static const IconData idBadge = IconDataRegular(0xf2c1);
 
   /// Solid Id Card icon
   ///
   /// https://fontawesome.com/icons/id-card?style=solid
   /// contact, demographics, document, identification, issued, profile, registration
-  static const IconData solidIdCard = IconDataLight(0xf2c2);
+  static const IconData solidIdCard = IconDataSolid(0xf2c2);
 
   /// Alias drivers-license for icon [solidIdCard]
   @Deprecated('Use "solidIdCard" instead.')
@@ -7579,7 +7579,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/id-card?style=regular
   /// contact, demographics, document, identification, issued, profile, registration
-  static const IconData idCard = IconDataLight(0xf2c2);
+  static const IconData idCard = IconDataRegular(0xf2c2);
 
   /// Alias drivers-license for icon [idCard]
   @Deprecated('Use "idCard" instead.')
@@ -7589,7 +7589,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/id-card-clip?style=solid
   /// contact, demographics, document, identification, issued, profile
-  static const IconData idCardClip = IconDataLight(0xf47f);
+  static const IconData idCardClip = IconDataSolid(0xf47f);
 
   /// Alias id-card-alt for icon [idCardClip]
   @Deprecated('Use "idCardClip" instead.')
@@ -7604,25 +7604,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/igloo?style=solid
   /// dome, dwelling, eskimo, home, house, ice, snow
-  static const IconData igloo = IconDataLight(0xf7ae);
+  static const IconData igloo = IconDataSolid(0xf7ae);
 
   /// Solid Image icon
   ///
   /// https://fontawesome.com/icons/image?style=solid
   /// album, landscape, photo, picture
-  static const IconData solidImage = IconDataLight(0xf03e);
+  static const IconData solidImage = IconDataSolid(0xf03e);
 
   /// Regular Image icon
   ///
   /// https://fontawesome.com/icons/image?style=regular
   /// album, landscape, photo, picture
-  static const IconData image = IconDataLight(0xf03e);
+  static const IconData image = IconDataRegular(0xf03e);
 
   /// Solid Image Portrait icon
   ///
   /// https://fontawesome.com/icons/image-portrait?style=solid
   /// id, image, photo, picture, selfie
-  static const IconData imagePortrait = IconDataLight(0xf3e0);
+  static const IconData imagePortrait = IconDataSolid(0xf3e0);
 
   /// Alias portrait for icon [imagePortrait]
   @Deprecated('Use "imagePortrait" instead.')
@@ -7632,13 +7632,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/images?style=solid
   /// album, landscape, photo, picture
-  static const IconData solidImages = IconDataLight(0xf302);
+  static const IconData solidImages = IconDataSolid(0xf302);
 
   /// Regular Images icon
   ///
   /// https://fontawesome.com/icons/images?style=regular
   /// album, landscape, photo, picture
-  static const IconData images = IconDataLight(0xf302);
+  static const IconData images = IconDataRegular(0xf302);
 
   /// Brands IMDB icon
   ///
@@ -7649,19 +7649,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/inbox?style=solid
   /// archive, desk, email, mail, message
-  static const IconData inbox = IconDataLight(0xf01c);
+  static const IconData inbox = IconDataSolid(0xf01c);
 
   /// Solid Indent icon
   ///
   /// https://fontawesome.com/icons/indent?style=solid
   /// align, justify, paragraph, tab
-  static const IconData indent = IconDataLight(0xf03c);
+  static const IconData indent = IconDataSolid(0xf03c);
 
   /// Solid Indian Rupee Sign icon
   ///
   /// https://fontawesome.com/icons/indian-rupee-sign?style=solid
   /// Indian Rupee Sign, currency
-  static const IconData indianRupeeSign = IconDataLight(0xe1bc);
+  static const IconData indianRupeeSign = IconDataSolid(0xe1bc);
 
   /// Alias indian-rupee for icon [indianRupeeSign]
   @Deprecated('Use "indianRupeeSign" instead.')
@@ -7675,19 +7675,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/industry?style=solid
   /// building, factory, industrial, manufacturing, mill, warehouse
-  static const IconData industry = IconDataLight(0xf275);
+  static const IconData industry = IconDataSolid(0xf275);
 
   /// Solid Infinity icon
   ///
   /// https://fontawesome.com/icons/infinity?style=solid
   /// Infinity, eternity, forever, infinity, math, unbounded, universal
-  static const IconData infinity = IconDataLight(0xf534);
+  static const IconData infinity = IconDataSolid(0xf534);
 
   /// Solid Info icon
   ///
   /// https://fontawesome.com/icons/info?style=solid
   /// details, help, information, more, support
-  static const IconData info = IconDataLight(0xf129);
+  static const IconData info = IconDataSolid(0xf129);
 
   /// Brands Instagram icon
   ///
@@ -7726,7 +7726,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/italic?style=solid
   /// edit, emphasis, font, format, text, type
-  static const IconData italic = IconDataLight(0xf033);
+  static const IconData italic = IconDataSolid(0xf033);
 
   /// Brands itch.io icon
   ///
@@ -7747,19 +7747,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/j?style=solid
   /// Latin Capital Letter J, Latin Small Letter J, letter
-  static const IconData j = IconDataLight(0x4a);
+  static const IconData j = IconDataSolid(0x4a);
 
   /// Solid Jar icon
   ///
   /// https://fontawesome.com/icons/jar?style=solid
   /// jam, jelly, storage
-  static const IconData jar = IconDataLight(0xe516);
+  static const IconData jar = IconDataSolid(0xe516);
 
   /// Solid Jar Wheat icon
   ///
   /// https://fontawesome.com/icons/jar-wheat?style=solid
   /// flour, storage
-  static const IconData jarWheat = IconDataLight(0xe517);
+  static const IconData jarWheat = IconDataSolid(0xe517);
 
   /// Brands Java icon
   ///
@@ -7770,7 +7770,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/jedi?style=solid
   /// crest, force, sith, skywalker, star wars, yoda
-  static const IconData jedi = IconDataLight(0xf669);
+  static const IconData jedi = IconDataSolid(0xf669);
 
   /// Brands Jedi Order icon
   ///
@@ -7787,7 +7787,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/jet-fighter?style=solid
   /// airforce, airplane, airport, fast, fly, goose, marines, maverick, military, plane, quick, top gun, transportation, travel
-  static const IconData jetFighter = IconDataLight(0xf0fb);
+  static const IconData jetFighter = IconDataSolid(0xf0fb);
 
   /// Alias fighter-jet for icon [jetFighter]
   @Deprecated('Use "jetFighter" instead.')
@@ -7797,7 +7797,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/jet-fighter-up?style=solid
   /// airforce, airplane, airport, fast, fly, goose, marines, maverick, military, plane, quick, top gun, transportation, travel
-  static const IconData jetFighterUp = IconDataLight(0xe518);
+  static const IconData jetFighterUp = IconDataSolid(0xe518);
 
   /// Brands Jira icon
   ///
@@ -7814,7 +7814,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/joint?style=solid
   /// blunt, cannabis, doobie, drugs, marijuana, roach, smoke, smoking, spliff
-  static const IconData joint = IconDataLight(0xf595);
+  static const IconData joint = IconDataSolid(0xf595);
 
   /// Brands Joomla Logo icon
   ///
@@ -7835,19 +7835,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/jug-detergent?style=solid
   /// detergent, laundry, soap, wash
-  static const IconData jugDetergent = IconDataLight(0xe519);
+  static const IconData jugDetergent = IconDataSolid(0xe519);
 
   /// Solid K icon
   ///
   /// https://fontawesome.com/icons/k?style=solid
   /// Latin Capital Letter K, Latin Small Letter K, letter
-  static const IconData k = IconDataLight(0x4b);
+  static const IconData k = IconDataSolid(0x4b);
 
   /// Solid Kaaba icon
   ///
   /// https://fontawesome.com/icons/kaaba?style=solid
   /// Muslim, building, cube, islam, kaaba, muslim, religion
-  static const IconData kaaba = IconDataLight(0xf66b);
+  static const IconData kaaba = IconDataSolid(0xf66b);
 
   /// Brands Kaggle icon
   ///
@@ -7858,7 +7858,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/key?style=solid
   /// key, lock, password, private, secret, unlock
-  static const IconData key = IconDataLight(0xf084);
+  static const IconData key = IconDataThin(0xf084);
 
   /// Brands Keybase icon
   ///
@@ -7869,13 +7869,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/keyboard?style=solid
   /// accessory, computer, edit, input, keyboard, text, type, write
-  static const IconData solidKeyboard = IconDataLight(0xf11c);
+  static const IconData solidKeyboard = IconDataSolid(0xf11c);
 
   /// Regular Keyboard icon
   ///
   /// https://fontawesome.com/icons/keyboard?style=regular
   /// accessory, computer, edit, input, keyboard, text, type, write
-  static const IconData keyboard = IconDataLight(0xf11c);
+  static const IconData keyboard = IconDataRegular(0xf11c);
 
   /// Brands KeyCDN icon
   ///
@@ -7886,7 +7886,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/khanda?style=solid
   /// Adi Shakti, chakkar, sikh, sikhism, sword
-  static const IconData khanda = IconDataLight(0xf66d);
+  static const IconData khanda = IconDataSolid(0xf66d);
 
   /// Brands Kickstarter icon
   ///
@@ -7902,13 +7902,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/kip-sign?style=solid
   /// Kip Sign, currency
-  static const IconData kipSign = IconDataLight(0xe1c4);
+  static const IconData kipSign = IconDataSolid(0xe1c4);
 
   /// Solid Kit Medical icon
   ///
   /// https://fontawesome.com/icons/kit-medical?style=solid
   /// emergency, emt, health, medical, rescue
-  static const IconData kitMedical = IconDataLight(0xf479);
+  static const IconData kitMedical = IconDataSolid(0xf479);
 
   /// Alias first-aid for icon [kitMedical]
   @Deprecated('Use "kitMedical" instead.')
@@ -7918,13 +7918,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/kitchen-set?style=solid
   /// chef, cook, cup, kitchen, pan, pot, skillet
-  static const IconData kitchenSet = IconDataLight(0xe51a);
+  static const IconData kitchenSet = IconDataSolid(0xe51a);
 
   /// Solid Kiwi Bird icon
   ///
   /// https://fontawesome.com/icons/kiwi-bird?style=solid
   /// bird, fauna, new zealand
-  static const IconData kiwiBird = IconDataLight(0xf535);
+  static const IconData kiwiBird = IconDataSolid(0xf535);
 
   /// Brands KORVUE icon
   ///
@@ -7935,25 +7935,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/l?style=solid
   /// Latin Capital Letter L, Latin Small Letter L, letter
-  static const IconData l = IconDataLight(0x4c);
+  static const IconData l = IconDataSolid(0x4c);
 
   /// Solid Land Mine On icon
   ///
   /// https://fontawesome.com/icons/land-mine-on?style=solid
   /// bomb, danger, explosion, war
-  static const IconData landMineOn = IconDataLight(0xe51b);
+  static const IconData landMineOn = IconDataSolid(0xe51b);
 
   /// Solid Landmark icon
   ///
   /// https://fontawesome.com/icons/landmark?style=solid
   /// building, classical, historic, memorable, monument, museum, politics
-  static const IconData landmark = IconDataLight(0xf66f);
+  static const IconData landmark = IconDataSolid(0xf66f);
 
   /// Solid Landmark Dome icon
   ///
   /// https://fontawesome.com/icons/landmark-dome?style=solid
   /// building, historic, memorable, monument, politics
-  static const IconData landmarkDome = IconDataLight(0xf752);
+  static const IconData landmarkDome = IconDataSolid(0xf752);
 
   /// Alias landmark-alt for icon [landmarkDome]
   @Deprecated('Use "landmarkDome" instead.')
@@ -7963,37 +7963,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/landmark-flag?style=solid
   /// capitol, flag, landmark, memorial
-  static const IconData landmarkFlag = IconDataLight(0xe51c);
+  static const IconData landmarkFlag = IconDataSolid(0xe51c);
 
   /// Solid Language icon
   ///
   /// https://fontawesome.com/icons/language?style=solid
   /// dialect, idiom, localize, speech, translate, vernacular
-  static const IconData language = IconDataLight(0xf1ab);
+  static const IconData language = IconDataSolid(0xf1ab);
 
   /// Solid Laptop icon
   ///
   /// https://fontawesome.com/icons/laptop?style=solid
   /// computer, cpu, dell, demo, device, laptop, mac, macbook, machine, pc, personal
-  static const IconData laptop = IconDataLight(0xf109);
+  static const IconData laptop = IconDataSolid(0xf109);
 
   /// Solid Laptop Code icon
   ///
   /// https://fontawesome.com/icons/laptop-code?style=solid
   /// computer, cpu, dell, demo, develop, device, mac, macbook, machine, pc
-  static const IconData laptopCode = IconDataLight(0xf5fc);
+  static const IconData laptopCode = IconDataSolid(0xf5fc);
 
   /// Solid Laptop File icon
   ///
   /// https://fontawesome.com/icons/laptop-file?style=solid
   /// computer, education, laptop, learning, remote work
-  static const IconData laptopFile = IconDataLight(0xe51d);
+  static const IconData laptopFile = IconDataSolid(0xe51d);
 
   /// Solid Laptop Medical icon
   ///
   /// https://fontawesome.com/icons/laptop-medical?style=solid
   /// computer, device, ehr, electronic health records, history
-  static const IconData laptopMedical = IconDataLight(0xf812);
+  static const IconData laptopMedical = IconDataSolid(0xf812);
 
   /// Brands Laravel icon
   ///
@@ -8004,7 +8004,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/lari-sign?style=solid
   /// Lari Sign, currency
-  static const IconData lariSign = IconDataLight(0xe1c8);
+  static const IconData lariSign = IconDataSolid(0xe1c8);
 
   /// Brands last.fm icon
   ///
@@ -8015,13 +8015,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/layer-group?style=solid
   /// arrange, develop, layers, map, stack
-  static const IconData layerGroup = IconDataLight(0xf5fd);
+  static const IconData layerGroup = IconDataSolid(0xf5fd);
 
   /// Solid Leaf icon
   ///
   /// https://fontawesome.com/icons/leaf?style=solid
   /// eco, flora, nature, plant, vegan
-  static const IconData leaf = IconDataLight(0xf06c);
+  static const IconData leaf = IconDataSolid(0xf06c);
 
   /// Brands Leanpub icon
   ///
@@ -8032,7 +8032,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/left-long?style=solid
   /// back, long-arrow-left, previous
-  static const IconData leftLong = IconDataLight(0xf30a);
+  static const IconData leftLong = IconDataSolid(0xf30a);
 
   /// Alias long-arrow-alt-left for icon [leftLong]
   @Deprecated('Use "leftLong" instead.')
@@ -8042,7 +8042,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/left-right?style=solid
   /// arrow, arrows-h, expand, horizontal, landscape, left-right arrow, resize, wide
-  static const IconData leftRight = IconDataLight(0xf337);
+  static const IconData leftRight = IconDataSolid(0xf337);
 
   /// Alias arrows-alt-h for icon [leftRight]
   @Deprecated('Use "leftRight" instead.')
@@ -8052,13 +8052,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/lemon?style=solid
   /// citrus, fruit, lemon, lemonade, lime, tart
-  static const IconData solidLemon = IconDataLight(0xf094);
+  static const IconData solidLemon = IconDataSolid(0xf094);
 
   /// Regular Lemon icon
   ///
   /// https://fontawesome.com/icons/lemon?style=regular
   /// citrus, fruit, lemon, lemonade, lime, tart
-  static const IconData lemon = IconDataLight(0xf094);
+  static const IconData lemon = IconDataRegular(0xf094);
 
   /// Brands Less icon
   ///
@@ -8069,37 +8069,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/less-than?style=solid
   /// Less-Than Sign, arithmetic, compare, math
-  static const IconData lessThan = IconDataLight(0x3c);
+  static const IconData lessThan = IconDataSolid(0x3c);
 
   /// Solid Less Than Equal icon
   ///
   /// https://fontawesome.com/icons/less-than-equal?style=solid
   /// arithmetic, compare, math
-  static const IconData lessThanEqual = IconDataLight(0xf537);
+  static const IconData lessThanEqual = IconDataSolid(0xf537);
 
   /// Solid Life Ring icon
   ///
   /// https://fontawesome.com/icons/life-ring?style=solid
   /// coast guard, help, overboard, save, support
-  static const IconData solidLifeRing = IconDataLight(0xf1cd);
+  static const IconData solidLifeRing = IconDataSolid(0xf1cd);
 
   /// Regular Life Ring icon
   ///
   /// https://fontawesome.com/icons/life-ring?style=regular
   /// coast guard, help, overboard, save, support
-  static const IconData lifeRing = IconDataLight(0xf1cd);
+  static const IconData lifeRing = IconDataRegular(0xf1cd);
 
   /// Solid Lightbulb icon
   ///
   /// https://fontawesome.com/icons/lightbulb?style=solid
   ///   comic,   electric,   idea,   innovation,   inspiration,   light,   light bulb,  bulb, bulb, comic, electric, energy, idea, inspiration, mechanical
-  static const IconData solidLightbulb = IconDataLight(0xf0eb);
+  static const IconData solidLightbulb = IconDataSolid(0xf0eb);
 
   /// Regular Lightbulb icon
   ///
   /// https://fontawesome.com/icons/lightbulb?style=regular
   ///   comic,   electric,   idea,   innovation,   inspiration,   light,   light bulb,  bulb, bulb, comic, electric, energy, idea, inspiration, mechanical
-  static const IconData lightbulb = IconDataLight(0xf0eb);
+  static const IconData lightbulb = IconDataRegular(0xf0eb);
 
   /// Brands Line icon
   ///
@@ -8110,13 +8110,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/lines-leaning?style=solid
   /// canted, domino, falling, resilience, resilient, tipped
-  static const IconData linesLeaning = IconDataLight(0xe51e);
+  static const IconData linesLeaning = IconDataSolid(0xe51e);
 
   /// Solid Link icon
   ///
   /// https://fontawesome.com/icons/link?style=solid
   /// attach, attachment, chain, connect, lin, link
-  static const IconData link = IconDataLight(0xf0c1);
+  static const IconData link = IconDataSolid(0xf0c1);
 
   /// Alias chain for icon [link]
   @Deprecated('Use "link" instead.')
@@ -8126,7 +8126,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/link-slash?style=solid
   /// attachment, chain, chain-broken, remove
-  static const IconData linkSlash = IconDataLight(0xf127);
+  static const IconData linkSlash = IconDataSolid(0xf127);
 
   /// Alias chain-broken for icon [linkSlash]
   @Deprecated('Use "linkSlash" instead.')
@@ -8167,13 +8167,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/lira-sign?style=solid
   /// Lira Sign, currency
-  static const IconData liraSign = IconDataLight(0xf195);
+  static const IconData liraSign = IconDataSolid(0xf195);
 
   /// Solid List icon
   ///
   /// https://fontawesome.com/icons/list?style=solid
   /// checklist, completed, done, finished, ol, todo, ul
-  static const IconData list = IconDataLight(0xf03a);
+  static const IconData list = IconDataSolid(0xf03a);
 
   /// Alias list-squares for icon [list]
   @Deprecated('Use "list" instead.')
@@ -8183,7 +8183,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/list-check?style=solid
   /// checklist, downloading, downloads, loading, progress, project management, settings, to do
-  static const IconData listCheck = IconDataLight(0xf0ae);
+  static const IconData listCheck = IconDataSolid(0xf0ae);
 
   /// Alias tasks for icon [listCheck]
   @Deprecated('Use "listCheck" instead.')
@@ -8193,7 +8193,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/list-ol?style=solid
   /// checklist, completed, done, finished, numbers, ol, todo, ul
-  static const IconData listOl = IconDataLight(0xf0cb);
+  static const IconData listOl = IconDataSolid(0xf0cb);
 
   /// Alias list-1-2 for icon [listOl]
   @Deprecated('Use "listOl" instead.')
@@ -8207,7 +8207,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/list-ul?style=solid
   /// checklist, completed, done, finished, ol, todo, ul
-  static const IconData listUl = IconDataLight(0xf0ca);
+  static const IconData listUl = IconDataSolid(0xf0ca);
 
   /// Alias list-dots for icon [listUl]
   @Deprecated('Use "listUl" instead.')
@@ -8217,19 +8217,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/litecoin-sign?style=solid
   /// currency
-  static const IconData litecoinSign = IconDataLight(0xe1d3);
+  static const IconData litecoinSign = IconDataSolid(0xe1d3);
 
   /// Solid Location Arrow icon
   ///
   /// https://fontawesome.com/icons/location-arrow?style=solid
   /// address, compass, coordinate, direction, gps, map, navigation, place
-  static const IconData locationArrow = IconDataLight(0xf124);
+  static const IconData locationArrow = IconDataSolid(0xf124);
 
   /// Solid Location Crosshairs icon
   ///
   /// https://fontawesome.com/icons/location-crosshairs?style=solid
   /// address, coordinate, direction, gps, location, map, navigation, place, where
-  static const IconData locationCrosshairs = IconDataLight(0xf601);
+  static const IconData locationCrosshairs = IconDataSolid(0xf601);
 
   /// Alias location for icon [locationCrosshairs]
   @Deprecated('Use "locationCrosshairs" instead.')
@@ -8239,7 +8239,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/location-dot?style=solid
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel
-  static const IconData locationDot = IconDataLight(0xf3c5);
+  static const IconData locationDot = IconDataSolid(0xf3c5);
 
   /// Alias map-marker-alt for icon [locationDot]
   @Deprecated('Use "locationDot" instead.')
@@ -8249,7 +8249,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/location-pin?style=solid
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel
-  static const IconData locationPin = IconDataLight(0xf041);
+  static const IconData locationPin = IconDataSolid(0xf041);
 
   /// Alias map-marker for icon [locationPin]
   @Deprecated('Use "locationPin" instead.')
@@ -8259,37 +8259,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/location-pin-lock?style=solid
   /// closed, lockdown, map, quarantine
-  static const IconData locationPinLock = IconDataLight(0xe51f);
+  static const IconData locationPinLock = IconDataSolid(0xe51f);
 
   /// Solid Lock icon
   ///
   /// https://fontawesome.com/icons/lock?style=solid
   /// admin, closed, lock, locked, open, password, private, protect, security
-  static const IconData lock = IconDataLight(0xf023);
+  static const IconData lock = IconDataSolid(0xf023);
 
   /// Solid Lock Open icon
   ///
   /// https://fontawesome.com/icons/lock-open?style=solid
   /// admin, lock, open, password, private, protect, security, unlock
-  static const IconData lockOpen = IconDataLight(0xf3c1);
+  static const IconData lockOpen = IconDataSolid(0xf3c1);
 
   /// Solid Locust icon
   ///
   /// https://fontawesome.com/icons/locust?style=solid
   /// horde, infestation, locust, plague, swarm
-  static const IconData locust = IconDataLight(0xe520);
+  static const IconData locust = IconDataSolid(0xe520);
 
   /// Solid Lungs icon
   ///
   /// https://fontawesome.com/icons/lungs?style=solid
   /// air, breath, covid-19, exhalation, inhalation, lungs, organ, respiration, respiratory
-  static const IconData lungs = IconDataLight(0xf604);
+  static const IconData lungs = IconDataSolid(0xf604);
 
   /// Solid Lungs Virus icon
   ///
   /// https://fontawesome.com/icons/lungs-virus?style=solid
   /// breath, coronavirus, covid-19, flu, infection, pandemic, respiratory, sick
-  static const IconData lungsVirus = IconDataLight(0xe067);
+  static const IconData lungsVirus = IconDataSolid(0xe067);
 
   /// Brands lyft icon
   ///
@@ -8300,7 +8300,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/m?style=solid
   /// Latin Capital Letter M, Latin Small Letter M, letter
-  static const IconData m = IconDataLight(0x4d);
+  static const IconData m = IconDataSolid(0x4d);
 
   /// Brands Magento icon
   ///
@@ -8311,13 +8311,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/magnet?style=solid
   /// Attract, attraction, horseshoe, lodestone, magnet, magnetic, tool
-  static const IconData magnet = IconDataLight(0xf076);
+  static const IconData magnet = IconDataSolid(0xf076);
 
   /// Solid Magnifying Glass icon
   ///
   /// https://fontawesome.com/icons/magnifying-glass?style=solid
   /// bigger, enlarge, find, glass, magnify, magnifying, magnifying glass tilted left, preview, search, tool, zoom
-  static const IconData magnifyingGlass = IconDataLight(0xf002);
+  static const IconData magnifyingGlass = IconDataSolid(0xf002);
 
   /// Alias search for icon [magnifyingGlass]
   @Deprecated('Use "magnifyingGlass" instead.')
@@ -8327,19 +8327,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/magnifying-glass-arrow-right?style=solid
   /// find, next, search
-  static const IconData magnifyingGlassArrowRight = IconDataLight(0xe521);
+  static const IconData magnifyingGlassArrowRight = IconDataSolid(0xe521);
 
   /// Solid Magnifying Glass Chart icon
   ///
   /// https://fontawesome.com/icons/magnifying-glass-chart?style=solid
   ///  data,  graph,  intelligence, analysis, chart, market
-  static const IconData magnifyingGlassChart = IconDataLight(0xe522);
+  static const IconData magnifyingGlassChart = IconDataSolid(0xe522);
 
   /// Solid Magnifying Glass Dollar icon
   ///
   /// https://fontawesome.com/icons/magnifying-glass-dollar?style=solid
   /// bigger, enlarge, find, magnify, money, preview, zoom
-  static const IconData magnifyingGlassDollar = IconDataLight(0xf688);
+  static const IconData magnifyingGlassDollar = IconDataSolid(0xf688);
 
   /// Alias search-dollar for icon [magnifyingGlassDollar]
   @Deprecated('Use "magnifyingGlassDollar" instead.')
@@ -8349,7 +8349,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/magnifying-glass-location?style=solid
   /// bigger, enlarge, find, magnify, preview, zoom
-  static const IconData magnifyingGlassLocation = IconDataLight(0xf689);
+  static const IconData magnifyingGlassLocation = IconDataSolid(0xf689);
 
   /// Alias search-location for icon [magnifyingGlassLocation]
   @Deprecated('Use "magnifyingGlassLocation" instead.')
@@ -8359,7 +8359,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/magnifying-glass-minus?style=solid
   /// minify, negative, smaller, zoom, zoom out
-  static const IconData magnifyingGlassMinus = IconDataLight(0xf010);
+  static const IconData magnifyingGlassMinus = IconDataSolid(0xf010);
 
   /// Alias search-minus for icon [magnifyingGlassMinus]
   @Deprecated('Use "magnifyingGlassMinus" instead.')
@@ -8369,7 +8369,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/magnifying-glass-plus?style=solid
   /// bigger, enlarge, magnify, positive, zoom, zoom in
-  static const IconData magnifyingGlassPlus = IconDataLight(0xf00e);
+  static const IconData magnifyingGlassPlus = IconDataSolid(0xf00e);
 
   /// Alias search-plus for icon [magnifyingGlassPlus]
   @Deprecated('Use "magnifyingGlassPlus" instead.')
@@ -8384,7 +8384,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/manat-sign?style=solid
   /// Manat Sign, currency
-  static const IconData manatSign = IconDataLight(0xe1d5);
+  static const IconData manatSign = IconDataSolid(0xe1d5);
 
   /// Brands Mandalorian icon
   ///
@@ -8395,19 +8395,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/map?style=solid
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel, world, world map
-  static const IconData solidMap = IconDataLight(0xf279);
+  static const IconData solidMap = IconDataSolid(0xf279);
 
   /// Regular Map icon
   ///
   /// https://fontawesome.com/icons/map?style=regular
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel, world, world map
-  static const IconData map = IconDataLight(0xf279);
+  static const IconData map = IconDataRegular(0xf279);
 
   /// Solid Map Location icon
   ///
   /// https://fontawesome.com/icons/map-location?style=solid
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel
-  static const IconData mapLocation = IconDataLight(0xf59f);
+  static const IconData mapLocation = IconDataSolid(0xf59f);
 
   /// Alias map-marked for icon [mapLocation]
   @Deprecated('Use "mapLocation" instead.')
@@ -8417,7 +8417,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/map-location-dot?style=solid
   /// address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel
-  static const IconData mapLocationDot = IconDataLight(0xf5a0);
+  static const IconData mapLocationDot = IconDataSolid(0xf5a0);
 
   /// Alias map-marked-alt for icon [mapLocationDot]
   @Deprecated('Use "mapLocationDot" instead.')
@@ -8427,7 +8427,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/map-pin?style=solid
   /// address, agree, coordinates, destination, gps, localize, location, map, marker, navigation, pin, place, position, pushpin, round pushpin, travel
-  static const IconData mapPin = IconDataLight(0xf276);
+  static const IconData mapPin = IconDataSolid(0xf276);
 
   /// Brands Markdown icon
   ///
@@ -8438,43 +8438,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/marker?style=solid
   /// design, edit, sharpie, update, write
-  static const IconData marker = IconDataLight(0xf5a1);
+  static const IconData marker = IconDataSolid(0xf5a1);
 
   /// Solid Mars icon
   ///
   /// https://fontawesome.com/icons/mars?style=solid
   /// gender, male, male sign, man
-  static const IconData mars = IconDataLight(0xf222);
+  static const IconData mars = IconDataSolid(0xf222);
 
   /// Solid Mars And Venus icon
   ///
   /// https://fontawesome.com/icons/mars-and-venus?style=solid
   /// Male and Female Sign, female, gender, intersex, male, transgender
-  static const IconData marsAndVenus = IconDataLight(0xf224);
+  static const IconData marsAndVenus = IconDataSolid(0xf224);
 
   /// Solid Mars And Venus Burst icon
   ///
   /// https://fontawesome.com/icons/mars-and-venus-burst?style=solid
   /// gender, violence
-  static const IconData marsAndVenusBurst = IconDataLight(0xe523);
+  static const IconData marsAndVenusBurst = IconDataSolid(0xe523);
 
   /// Solid Mars Double icon
   ///
   /// https://fontawesome.com/icons/mars-double?style=solid
   /// Doubled Male Sign, gay, gender, male, men
-  static const IconData marsDouble = IconDataLight(0xf227);
+  static const IconData marsDouble = IconDataSolid(0xf227);
 
   /// Solid Mars Stroke icon
   ///
   /// https://fontawesome.com/icons/mars-stroke?style=solid
   /// Male with Stroke Sign, gender, transgender
-  static const IconData marsStroke = IconDataLight(0xf229);
+  static const IconData marsStroke = IconDataSolid(0xf229);
 
   /// Solid Mars Stroke Right icon
   ///
   /// https://fontawesome.com/icons/mars-stroke-right?style=solid
   /// Horizontal Male with Stroke Sign, gender
-  static const IconData marsStrokeRight = IconDataLight(0xf22b);
+  static const IconData marsStrokeRight = IconDataSolid(0xf22b);
 
   /// Alias mars-stroke-h for icon [marsStrokeRight]
   @Deprecated('Use "marsStrokeRight" instead.')
@@ -8484,7 +8484,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mars-stroke-up?style=solid
   /// Vertical Male with Stroke Sign, gender
-  static const IconData marsStrokeUp = IconDataLight(0xf22a);
+  static const IconData marsStrokeUp = IconDataSolid(0xf22a);
 
   /// Alias mars-stroke-v for icon [marsStrokeUp]
   @Deprecated('Use "marsStrokeUp" instead.')
@@ -8494,7 +8494,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/martini-glass?style=solid
   /// alcohol, bar, beverage, cocktail, cocktail glass, drink, glass, liquor
-  static const IconData martiniGlass = IconDataLight(0xf57b);
+  static const IconData martiniGlass = IconDataSolid(0xf57b);
 
   /// Alias glass-martini-alt for icon [martiniGlass]
   @Deprecated('Use "martiniGlass" instead.')
@@ -8504,7 +8504,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/martini-glass-citrus?style=solid
   /// alcohol, beverage, drink, gin, glass, margarita, martini, vodka
-  static const IconData martiniGlassCitrus = IconDataLight(0xf561);
+  static const IconData martiniGlassCitrus = IconDataSolid(0xf561);
 
   /// Alias cocktail for icon [martiniGlassCitrus]
   @Deprecated('Use "martiniGlassCitrus" instead.')
@@ -8514,7 +8514,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/martini-glass-empty?style=solid
   /// alcohol, bar, beverage, drink, liquor
-  static const IconData martiniGlassEmpty = IconDataLight(0xf000);
+  static const IconData martiniGlassEmpty = IconDataSolid(0xf000);
 
   /// Alias glass-martini for icon [martiniGlassEmpty]
   @Deprecated('Use "martiniGlassEmpty" instead.')
@@ -8524,25 +8524,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mask?style=solid
   /// carnivale, costume, disguise, halloween, secret, super hero
-  static const IconData mask = IconDataLight(0xf6fa);
+  static const IconData mask = IconDataSolid(0xf6fa);
 
   /// Solid Mask Face icon
   ///
   /// https://fontawesome.com/icons/mask-face?style=solid
   /// breath, coronavirus, covid-19, filter, flu, infection, pandemic, respirator, virus
-  static const IconData maskFace = IconDataLight(0xe1d7);
+  static const IconData maskFace = IconDataSolid(0xe1d7);
 
   /// Solid Mask Ventilator icon
   ///
   /// https://fontawesome.com/icons/mask-ventilator?style=solid
   /// breath, gas, mask, oxygen, respirator, ventilator
-  static const IconData maskVentilator = IconDataLight(0xe524);
+  static const IconData maskVentilator = IconDataSolid(0xe524);
 
   /// Solid Masks Theater icon
   ///
   /// https://fontawesome.com/icons/masks-theater?style=solid
   /// art, comedy, mask, perform, performing, performing arts, theater, theatre, tragedy
-  static const IconData masksTheater = IconDataLight(0xf630);
+  static const IconData masksTheater = IconDataSolid(0xf630);
 
   /// Alias theater-masks for icon [masksTheater]
   @Deprecated('Use "masksTheater" instead.')
@@ -8557,7 +8557,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mattress-pillow?style=solid
   /// air mattress, mattress, pillow, rest, sleep
-  static const IconData mattressPillow = IconDataLight(0xe525);
+  static const IconData mattressPillow = IconDataSolid(0xe525);
 
   /// Brands MaxCDN icon
   ///
@@ -8568,7 +8568,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/maximize?style=solid
   /// bigger, enlarge, fullscreen, move, resize
-  static const IconData maximize = IconDataLight(0xf31e);
+  static const IconData maximize = IconDataSolid(0xf31e);
 
   /// Alias expand-arrows-alt for icon [maximize]
   @Deprecated('Use "maximize" instead.')
@@ -8583,7 +8583,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/medal?style=solid
   /// award, medal, ribbon, sports medal, star, trophy
-  static const IconData medal = IconDataLight(0xf5a2);
+  static const IconData medal = IconDataSolid(0xf5a2);
 
   /// Brands MedApps icon
   ///
@@ -8618,7 +8618,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/memory?style=solid
   /// DIMM, RAM, hardware, storage, technology
-  static const IconData memory = IconDataLight(0xf538);
+  static const IconData memory = IconDataSolid(0xf538);
 
   /// Brands Mendeley icon
   ///
@@ -8629,19 +8629,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/menorah?style=solid
   /// candle, hanukkah, jewish, judaism, light
-  static const IconData menorah = IconDataLight(0xf676);
+  static const IconData menorah = IconDataSolid(0xf676);
 
   /// Solid Mercury icon
   ///
   /// https://fontawesome.com/icons/mercury?style=solid
   /// Mercury, gender, hybrid, transgender
-  static const IconData mercury = IconDataLight(0xf223);
+  static const IconData mercury = IconDataSolid(0xf223);
 
   /// Solid Message icon
   ///
   /// https://fontawesome.com/icons/message?style=solid
   /// bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData solidMessage = IconDataLight(0xf27a);
+  static const IconData solidMessage = IconDataSolid(0xf27a);
 
   /// Alias comment-alt for icon [solidMessage]
   @Deprecated('Use "solidMessage" instead.')
@@ -8651,7 +8651,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/message?style=regular
   /// bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting
-  static const IconData message = IconDataLight(0xf27a);
+  static const IconData message = IconDataRegular(0xf27a);
 
   /// Alias comment-alt for icon [message]
   @Deprecated('Use "message" instead.')
@@ -8666,7 +8666,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/meteor?style=solid
   /// armageddon, asteroid, comet, shooting star, space
-  static const IconData meteor = IconDataLight(0xf753);
+  static const IconData meteor = IconDataSolid(0xf753);
 
   /// Brands Micro.blog icon
   ///
@@ -8677,19 +8677,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/microchip?style=solid
   /// cpu, hardware, processor, technology
-  static const IconData microchip = IconDataLight(0xf2db);
+  static const IconData microchip = IconDataSolid(0xf2db);
 
   /// Solid Microphone icon
   ///
   /// https://fontawesome.com/icons/microphone?style=solid
   /// address, audio, information, podcast, public, record, sing, sound, voice
-  static const IconData microphone = IconDataLight(0xf130);
+  static const IconData microphone = IconDataSolid(0xf130);
 
   /// Solid Microphone Lines icon
   ///
   /// https://fontawesome.com/icons/microphone-lines?style=solid
   /// audio, mic, microphone, music, podcast, record, sing, sound, studio, studio microphone, voice
-  static const IconData microphoneLines = IconDataLight(0xf3c9);
+  static const IconData microphoneLines = IconDataSolid(0xf3c9);
 
   /// Alias microphone-alt for icon [microphoneLines]
   @Deprecated('Use "microphoneLines" instead.')
@@ -8699,7 +8699,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/microphone-lines-slash?style=solid
   /// audio, disable, mute, podcast, record, sing, sound, voice
-  static const IconData microphoneLinesSlash = IconDataLight(0xf539);
+  static const IconData microphoneLinesSlash = IconDataSolid(0xf539);
 
   /// Alias microphone-alt-slash for icon [microphoneLinesSlash]
   @Deprecated('Use "microphoneLinesSlash" instead.')
@@ -8709,13 +8709,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/microphone-slash?style=solid
   /// audio, disable, mute, podcast, record, sing, sound, voice
-  static const IconData microphoneSlash = IconDataLight(0xf131);
+  static const IconData microphoneSlash = IconDataSolid(0xf131);
 
   /// Solid Microscope icon
   ///
   /// https://fontawesome.com/icons/microscope?style=solid
   /// covid-19, electron, lens, microscope, optics, science, shrink, testing, tool
-  static const IconData microscope = IconDataLight(0xf610);
+  static const IconData microscope = IconDataSolid(0xf610);
 
   /// Brands Microsoft icon
   ///
@@ -8726,13 +8726,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mill-sign?style=solid
   /// Mill Sign, currency
-  static const IconData millSign = IconDataLight(0xe1ed);
+  static const IconData millSign = IconDataSolid(0xe1ed);
 
   /// Solid Minimize icon
   ///
   /// https://fontawesome.com/icons/minimize?style=solid
   /// collapse, fullscreen, minimize, move, resize, shrink, smaller
-  static const IconData minimize = IconDataLight(0xf78c);
+  static const IconData minimize = IconDataSolid(0xf78c);
 
   /// Alias compress-arrows-alt for icon [minimize]
   @Deprecated('Use "minimize" instead.')
@@ -8742,7 +8742,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/minus?style=solid
   /// En Dash, Minus Sign, collapse, delete, hide, math, minify, minus, negative, remove, sign, trash, −
-  static const IconData minus = IconDataLight(0xf068);
+  static const IconData minus = IconDataSolid(0xf068);
 
   /// Alias subtract for icon [minus]
   @Deprecated('Use "minus" instead.')
@@ -8752,7 +8752,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mitten?style=solid
   /// clothing, cold, glove, hands, knitted, seasonal, warmth
-  static const IconData mitten = IconDataLight(0xf7b5);
+  static const IconData mitten = IconDataSolid(0xf7b5);
 
   /// Brands Mix icon
   ///
@@ -8778,7 +8778,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mobile?style=solid
   /// android, call, cell, cell phone, device, mobile, mobile phone, number, phone, screen, telephone, text
-  static const IconData mobile = IconDataLight(0xf3ce);
+  static const IconData mobile = IconDataSolid(0xf3ce);
 
   /// Alias mobile-android for icon [mobile]
   @Deprecated('Use "mobile" instead.')
@@ -8792,19 +8792,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mobile-button?style=solid
   /// apple, call, cell phone, device, iphone, number, screen, telephone
-  static const IconData mobileButton = IconDataLight(0xf10b);
+  static const IconData mobileButton = IconDataSolid(0xf10b);
 
   /// Solid Mobile Retro icon
   ///
   /// https://fontawesome.com/icons/mobile-retro?style=solid
   /// cellphone, cellular, phone
-  static const IconData mobileRetro = IconDataLight(0xe527);
+  static const IconData mobileRetro = IconDataSolid(0xe527);
 
   /// Solid Mobile Screen icon
   ///
   /// https://fontawesome.com/icons/mobile-screen?style=solid
   /// android, call, cell phone, device, number, screen, telephone, text
-  static const IconData mobileScreen = IconDataLight(0xf3cf);
+  static const IconData mobileScreen = IconDataSolid(0xf3cf);
 
   /// Alias mobile-android-alt for icon [mobileScreen]
   @Deprecated('Use "mobileScreen" instead.')
@@ -8814,7 +8814,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/mobile-screen-button?style=solid
   /// apple, call, cell phone, device, iphone, number, screen, telephone
-  static const IconData mobileScreenButton = IconDataLight(0xf3cd);
+  static const IconData mobileScreenButton = IconDataSolid(0xf3cd);
 
   /// Alias mobile-alt for icon [mobileScreenButton]
   @Deprecated('Use "mobileScreenButton" instead.')
@@ -8834,13 +8834,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/money-bill?style=solid
   /// buy, cash, checkout, money, payment, price, purchase
-  static const IconData moneyBill = IconDataLight(0xf0d6);
+  static const IconData moneyBill = IconDataSolid(0xf0d6);
 
   /// Solid Money Bill 1 icon
   ///
   /// https://fontawesome.com/icons/money-bill-1?style=solid
   /// buy, cash, checkout, money, payment, price, purchase
-  static const IconData solidMoneyBill1 = IconDataLight(0xf3d1);
+  static const IconData solidMoneyBill1 = IconDataSolid(0xf3d1);
 
   /// Alias money-bill-alt for icon [solidMoneyBill1]
   @Deprecated('Use "solidMoneyBill1" instead.')
@@ -8850,7 +8850,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/money-bill-1?style=regular
   /// buy, cash, checkout, money, payment, price, purchase
-  static const IconData moneyBill1 = IconDataLight(0xf3d1);
+  static const IconData moneyBill1 = IconDataRegular(0xf3d1);
 
   /// Alias money-bill-alt for icon [moneyBill1]
   @Deprecated('Use "moneyBill1" instead.')
@@ -8860,7 +8860,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/money-bill-1-wave?style=solid
   /// buy, cash, checkout, money, payment, price, purchase
-  static const IconData moneyBill1Wave = IconDataLight(0xf53b);
+  static const IconData moneyBill1Wave = IconDataSolid(0xf53b);
 
   /// Alias money-bill-wave-alt for icon [moneyBill1Wave]
   @Deprecated('Use "moneyBill1Wave" instead.')
@@ -8870,43 +8870,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/money-bill-transfer?style=solid
   /// bank, conversion, deposit, money, transfer, withdrawal
-  static const IconData moneyBillTransfer = IconDataLight(0xe528);
+  static const IconData moneyBillTransfer = IconDataSolid(0xe528);
 
   /// Solid Money Bill Trend Up icon
   ///
   /// https://fontawesome.com/icons/money-bill-trend-up?style=solid
   /// bank, bonds, inflation, market, stocks, trade
-  static const IconData moneyBillTrendUp = IconDataLight(0xe529);
+  static const IconData moneyBillTrendUp = IconDataSolid(0xe529);
 
   /// Solid Money Bill Wave icon
   ///
   /// https://fontawesome.com/icons/money-bill-wave?style=solid
   /// buy, cash, checkout, money, payment, price, purchase
-  static const IconData moneyBillWave = IconDataLight(0xf53a);
+  static const IconData moneyBillWave = IconDataSolid(0xf53a);
 
   /// Solid Money Bill Wheat icon
   ///
   /// https://fontawesome.com/icons/money-bill-wheat?style=solid
   /// agribusiness, agriculture, farming, food, livelihood, subsidy
-  static const IconData moneyBillWheat = IconDataLight(0xe52a);
+  static const IconData moneyBillWheat = IconDataSolid(0xe52a);
 
   /// Solid Money Bills icon
   ///
   /// https://fontawesome.com/icons/money-bills?style=solid
   /// atm, cash, money, moolah
-  static const IconData moneyBills = IconDataLight(0xe1f3);
+  static const IconData moneyBills = IconDataSolid(0xe1f3);
 
   /// Solid Money Check icon
   ///
   /// https://fontawesome.com/icons/money-check?style=solid
   /// bank check, buy, checkout, cheque, money, payment, price, purchase
-  static const IconData moneyCheck = IconDataLight(0xf53c);
+  static const IconData moneyCheck = IconDataSolid(0xf53c);
 
   /// Solid Money Check Dollar icon
   ///
   /// https://fontawesome.com/icons/money-check-dollar?style=solid
   /// bank check, buy, checkout, cheque, money, payment, price, purchase
-  static const IconData moneyCheckDollar = IconDataLight(0xf53d);
+  static const IconData moneyCheckDollar = IconDataSolid(0xf53d);
 
   /// Alias money-check-alt for icon [moneyCheckDollar]
   @Deprecated('Use "moneyCheckDollar" instead.')
@@ -8916,85 +8916,85 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/monument?style=solid
   /// building, historic, landmark, memorable
-  static const IconData monument = IconDataLight(0xf5a6);
+  static const IconData monument = IconDataSolid(0xf5a6);
 
   /// Solid Moon icon
   ///
   /// https://fontawesome.com/icons/moon?style=solid
   /// Power Sleep Symbol, contrast, crescent, crescent moon, dark, lunar, moon, night
-  static const IconData solidMoon = IconDataLight(0xf186);
+  static const IconData solidMoon = IconDataSolid(0xf186);
 
   /// Regular Moon icon
   ///
   /// https://fontawesome.com/icons/moon?style=regular
   /// Power Sleep Symbol, contrast, crescent, crescent moon, dark, lunar, moon, night
-  static const IconData moon = IconDataLight(0xf186);
+  static const IconData moon = IconDataRegular(0xf186);
 
   /// Solid Mortar Pestle icon
   ///
   /// https://fontawesome.com/icons/mortar-pestle?style=solid
   /// crush, culinary, grind, medical, mix, pharmacy, prescription, spices
-  static const IconData mortarPestle = IconDataLight(0xf5a7);
+  static const IconData mortarPestle = IconDataSolid(0xf5a7);
 
   /// Solid Mosque icon
   ///
   /// https://fontawesome.com/icons/mosque?style=solid
   /// Muslim, building, islam, landmark, mosque, muslim, religion
-  static const IconData mosque = IconDataLight(0xf678);
+  static const IconData mosque = IconDataSolid(0xf678);
 
   /// Solid Mosquito icon
   ///
   /// https://fontawesome.com/icons/mosquito?style=solid
   /// bite, bug, mosquito, west nile
-  static const IconData mosquito = IconDataLight(0xe52b);
+  static const IconData mosquito = IconDataSolid(0xe52b);
 
   /// Solid Mosquito Net icon
   ///
   /// https://fontawesome.com/icons/mosquito-net?style=solid
   /// bite, malaria, mosquito, net
-  static const IconData mosquitoNet = IconDataLight(0xe52c);
+  static const IconData mosquitoNet = IconDataSolid(0xe52c);
 
   /// Solid Motorcycle icon
   ///
   /// https://fontawesome.com/icons/motorcycle?style=solid
   /// bike, machine, motorcycle, racing, transportation, vehicle
-  static const IconData motorcycle = IconDataLight(0xf21c);
+  static const IconData motorcycle = IconDataSolid(0xf21c);
 
   /// Solid Mound icon
   ///
   /// https://fontawesome.com/icons/mound?style=solid
   /// barrier, hill, pitcher, speedbump
-  static const IconData mound = IconDataLight(0xe52d);
+  static const IconData mound = IconDataSolid(0xe52d);
 
   /// Solid Mountain icon
   ///
   /// https://fontawesome.com/icons/mountain?style=solid
   /// cold, glacier, hiking, hill, landscape, mountain, snow, snow-capped mountain, travel, view
-  static const IconData mountain = IconDataLight(0xf6fc);
+  static const IconData mountain = IconDataSolid(0xf6fc);
 
   /// Solid Mountain City icon
   ///
   /// https://fontawesome.com/icons/mountain-city?style=solid
   /// location, rural, urban
-  static const IconData mountainCity = IconDataLight(0xe52e);
+  static const IconData mountainCity = IconDataSolid(0xe52e);
 
   /// Solid Mountain Sun icon
   ///
   /// https://fontawesome.com/icons/mountain-sun?style=solid
   /// country, hiking, landscape, rural, travel, view
-  static const IconData mountainSun = IconDataLight(0xe52f);
+  static const IconData mountainSun = IconDataSolid(0xe52f);
 
   /// Solid Mug Hot icon
   ///
   /// https://fontawesome.com/icons/mug-hot?style=solid
   /// beverage, caliente, cocoa, coffee, cup, drink, holiday, hot, hot beverage, hot chocolate, steam, steaming, tea, warmth
-  static const IconData mugHot = IconDataLight(0xf7b6);
+  static const IconData mugHot = IconDataSolid(0xf7b6);
 
   /// Solid Mug Saucer icon
   ///
   /// https://fontawesome.com/icons/mug-saucer?style=solid
   /// beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea
-  static const IconData mugSaucer = IconDataLight(0xf0f4);
+  static const IconData mugSaucer = IconDataSolid(0xf0f4);
 
   /// Alias coffee for icon [mugSaucer]
   @Deprecated('Use "mugSaucer" instead.')
@@ -9004,19 +9004,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/music?style=solid
   /// lyrics, melody, music, musical note, note, sing, sound
-  static const IconData music = IconDataLight(0xf001);
+  static const IconData music = IconDataSolid(0xf001);
 
   /// Solid N icon
   ///
   /// https://fontawesome.com/icons/n?style=solid
   /// Latin Capital Letter N, Latin Small Letter N, letter, nay, no
-  static const IconData n = IconDataLight(0x4e);
+  static const IconData n = IconDataSolid(0x4e);
 
   /// Solid Naira Sign icon
   ///
   /// https://fontawesome.com/icons/naira-sign?style=solid
   /// Naira Sign, currency
-  static const IconData nairaSign = IconDataLight(0xe1f6);
+  static const IconData nairaSign = IconDataSolid(0xe1f6);
 
   /// Brands Napster icon
   ///
@@ -9032,25 +9032,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/network-wired?style=solid
   /// computer, connect, ethernet, internet, intranet
-  static const IconData networkWired = IconDataLight(0xf6ff);
+  static const IconData networkWired = IconDataSolid(0xf6ff);
 
   /// Solid Neuter icon
   ///
   /// https://fontawesome.com/icons/neuter?style=solid
   /// Neuter, gender
-  static const IconData neuter = IconDataLight(0xf22c);
+  static const IconData neuter = IconDataSolid(0xf22c);
 
   /// Solid Newspaper icon
   ///
   /// https://fontawesome.com/icons/newspaper?style=solid
   /// article, editorial, headline, journal, journalism, news, newspaper, paper, press
-  static const IconData solidNewspaper = IconDataLight(0xf1ea);
+  static const IconData solidNewspaper = IconDataSolid(0xf1ea);
 
   /// Regular Newspaper icon
   ///
   /// https://fontawesome.com/icons/newspaper?style=regular
   /// article, editorial, headline, journal, journalism, news, newspaper, paper, press
-  static const IconData newspaper = IconDataLight(0xf1ea);
+  static const IconData newspaper = IconDataRegular(0xf1ea);
 
   /// Brands NFC Directional icon
   ///
@@ -9083,19 +9083,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/not-equal?style=solid
   /// arithmetic, compare, math
-  static const IconData notEqual = IconDataLight(0xf53e);
+  static const IconData notEqual = IconDataSolid(0xf53e);
 
   /// Solid Notdef icon
   ///
   /// https://fontawesome.com/icons/notdef?style=solid
   /// close, missing
-  static const IconData notdef = IconDataLight(0xe1fe);
+  static const IconData notdef = IconDataSolid(0xe1fe);
 
   /// Solid Note Sticky icon
   ///
   /// https://fontawesome.com/icons/note-sticky?style=solid
   /// message, note, paper, reminder, sticker
-  static const IconData solidNoteSticky = IconDataLight(0xf249);
+  static const IconData solidNoteSticky = IconDataSolid(0xf249);
 
   /// Alias sticky-note for icon [solidNoteSticky]
   @Deprecated('Use "solidNoteSticky" instead.')
@@ -9105,7 +9105,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/note-sticky?style=regular
   /// message, note, paper, reminder, sticker
-  static const IconData noteSticky = IconDataLight(0xf249);
+  static const IconData noteSticky = IconDataRegular(0xf249);
 
   /// Alias sticky-note for icon [noteSticky]
   @Deprecated('Use "noteSticky" instead.')
@@ -9115,7 +9115,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/notes-medical?style=solid
   /// clipboard, doctor, ehr, health, history, records
-  static const IconData notesMedical = IconDataLight(0xf481);
+  static const IconData notesMedical = IconDataSolid(0xf481);
 
   /// Brands npm icon
   ///
@@ -9136,31 +9136,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/o?style=solid
   /// Latin Capital Letter O, Latin Small Letter O, letter
-  static const IconData o = IconDataLight(0x4f);
+  static const IconData o = IconDataSolid(0x4f);
 
   /// Solid Object Group icon
   ///
   /// https://fontawesome.com/icons/object-group?style=solid
   /// combine, copy, design, merge, select
-  static const IconData solidObjectGroup = IconDataLight(0xf247);
+  static const IconData solidObjectGroup = IconDataSolid(0xf247);
 
   /// Regular Object Group icon
   ///
   /// https://fontawesome.com/icons/object-group?style=regular
   /// combine, copy, design, merge, select
-  static const IconData objectGroup = IconDataLight(0xf247);
+  static const IconData objectGroup = IconDataRegular(0xf247);
 
   /// Solid Object Ungroup icon
   ///
   /// https://fontawesome.com/icons/object-ungroup?style=solid
   /// copy, design, merge, select, separate
-  static const IconData solidObjectUngroup = IconDataLight(0xf248);
+  static const IconData solidObjectUngroup = IconDataSolid(0xf248);
 
   /// Regular Object Ungroup icon
   ///
   /// https://fontawesome.com/icons/object-ungroup?style=regular
   /// copy, design, merge, select, separate
-  static const IconData objectUngroup = IconDataLight(0xf248);
+  static const IconData objectUngroup = IconDataRegular(0xf248);
 
   /// Brands Octopus Deploy icon
   ///
@@ -9181,13 +9181,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/oil-can?style=solid
   /// auto, crude, gasoline, grease, lubricate, petroleum
-  static const IconData oilCan = IconDataLight(0xf613);
+  static const IconData oilCan = IconDataSolid(0xf613);
 
   /// Solid Oil Well icon
   ///
   /// https://fontawesome.com/icons/oil-well?style=solid
   /// drill, oil, rig
-  static const IconData oilWell = IconDataLight(0xe532);
+  static const IconData oilWell = IconDataSolid(0xe532);
 
   /// Brands Old Republic icon
   ///
@@ -9199,7 +9199,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/om?style=solid
   /// Hindu, buddhism, hinduism, jainism, mantra, om, religion
-  static const IconData om = IconDataLight(0xf679);
+  static const IconData om = IconDataSolid(0xf679);
 
   /// Brands OpenCart icon
   ///
@@ -9235,13 +9235,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/otter?style=solid
   /// animal, badger, fauna, fishing, fur, mammal, marten, otter, playful
-  static const IconData otter = IconDataLight(0xf700);
+  static const IconData otter = IconDataSolid(0xf700);
 
   /// Solid Outdent icon
   ///
   /// https://fontawesome.com/icons/outdent?style=solid
   /// align, justify, paragraph, tab
-  static const IconData outdent = IconDataLight(0xf03b);
+  static const IconData outdent = IconDataSolid(0xf03b);
 
   /// Alias dedent for icon [outdent]
   @Deprecated('Use "outdent" instead.')
@@ -9251,7 +9251,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/p?style=solid
   /// Latin Capital Letter P, Latin Small Letter P, letter
-  static const IconData p = IconDataLight(0x50);
+  static const IconData p = IconDataSolid(0x50);
 
   /// Brands Padlet icon
   ///
@@ -9273,19 +9273,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pager?style=solid
   /// beeper, cell phone, communication, page, pager
-  static const IconData pager = IconDataLight(0xf815);
+  static const IconData pager = IconDataSolid(0xf815);
 
   /// Solid Paint Roller icon
   ///
   /// https://fontawesome.com/icons/paint-roller?style=solid
   /// acrylic, art, brush, color, fill, paint, pigment, watercolor
-  static const IconData paintRoller = IconDataLight(0xf5aa);
+  static const IconData paintRoller = IconDataSolid(0xf5aa);
 
   /// Solid Paintbrush icon
   ///
   /// https://fontawesome.com/icons/paintbrush?style=solid
   /// acrylic, art, brush, color, fill, paint, paintbrush, painting, pigment, watercolor
-  static const IconData paintbrush = IconDataLight(0xf1fc);
+  static const IconData paintbrush = IconDataSolid(0xf1fc);
 
   /// Alias paint-brush for icon [paintbrush]
   @Deprecated('Use "paintbrush" instead.')
@@ -9295,7 +9295,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/palette?style=solid
   /// acrylic, art, artist palette, brush, color, fill, museum, paint, painting, palette, pigment, watercolor
-  static const IconData palette = IconDataLight(0xf53f);
+  static const IconData palette = IconDataSolid(0xf53f);
 
   /// Brands Palfed icon
   ///
@@ -9306,55 +9306,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pallet?style=solid
   /// archive, box, inventory, shipping, warehouse
-  static const IconData pallet = IconDataLight(0xf482);
+  static const IconData pallet = IconDataSolid(0xf482);
 
   /// Solid Panorama icon
   ///
   /// https://fontawesome.com/icons/panorama?style=solid
   /// image, landscape, photo, wide
-  static const IconData panorama = IconDataLight(0xe209);
+  static const IconData panorama = IconDataSolid(0xe209);
 
   /// Solid Paper Plane icon
   ///
   /// https://fontawesome.com/icons/paper-plane?style=solid
   /// air, float, fold, mail, paper, send
-  static const IconData solidPaperPlane = IconDataLight(0xf1d8);
+  static const IconData solidPaperPlane = IconDataSolid(0xf1d8);
 
   /// Regular Paper Plane icon
   ///
   /// https://fontawesome.com/icons/paper-plane?style=regular
   /// air, float, fold, mail, paper, send
-  static const IconData paperPlane = IconDataLight(0xf1d8);
+  static const IconData paperPlane = IconDataRegular(0xf1d8);
 
   /// Solid Paperclip icon
   ///
   /// https://fontawesome.com/icons/paperclip?style=solid
   /// attach, attachment, connect, link, papercli, paperclip
-  static const IconData paperclip = IconDataLight(0xf0c6);
+  static const IconData paperclip = IconDataSolid(0xf0c6);
 
   /// Solid Parachute Box icon
   ///
   /// https://fontawesome.com/icons/parachute-box?style=solid
   /// aid, assistance, goods, relief, rescue, supplies
-  static const IconData parachuteBox = IconDataLight(0xf4cd);
+  static const IconData parachuteBox = IconDataSolid(0xf4cd);
 
   /// Solid Paragraph icon
   ///
   /// https://fontawesome.com/icons/paragraph?style=solid
   /// Pilcrow Sign, edit, format, text, writing
-  static const IconData paragraph = IconDataLight(0xf1dd);
+  static const IconData paragraph = IconDataSolid(0xf1dd);
 
   /// Solid Passport icon
   ///
   /// https://fontawesome.com/icons/passport?style=solid
   /// document, id, identification, issued, travel
-  static const IconData passport = IconDataLight(0xf5ab);
+  static const IconData passport = IconDataSolid(0xf5ab);
 
   /// Solid Paste icon
   ///
   /// https://fontawesome.com/icons/paste?style=solid
   /// clipboard, copy, document, paper
-  static const IconData solidPaste = IconDataLight(0xf0ea);
+  static const IconData solidPaste = IconDataSolid(0xf0ea);
 
   /// Alias file-clipboard for icon [solidPaste]
   @Deprecated('Use "solidPaste" instead.')
@@ -9364,7 +9364,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/paste?style=regular
   /// clipboard, copy, document, paper
-  static const IconData paste = IconDataLight(0xf0ea);
+  static const IconData paste = IconDataRegular(0xf0ea);
 
   /// Alias file-clipboard for icon [paste]
   @Deprecated('Use "paste" instead.')
@@ -9379,13 +9379,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pause?style=solid
   /// bar, double, hold, pause, pause button, vertical, wait
-  static const IconData pause = IconDataLight(0xf04c);
+  static const IconData pause = IconDataSolid(0xf04c);
 
   /// Solid Paw icon
   ///
   /// https://fontawesome.com/icons/paw?style=solid
   /// animal, cat, dog, pet, print
-  static const IconData paw = IconDataLight(0xf1b0);
+  static const IconData paw = IconDataSolid(0xf1b0);
 
   /// Brands Paypal icon
   ///
@@ -9396,19 +9396,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/peace?style=solid
   /// peace, peace symbol, serenity, tranquility, truce, war
-  static const IconData peace = IconDataLight(0xf67c);
+  static const IconData peace = IconDataSolid(0xf67c);
 
   /// Solid Pen icon
   ///
   /// https://fontawesome.com/icons/pen?style=solid
   /// ballpoint, design, edit, pen, update, write
-  static const IconData pen = IconDataLight(0xf304);
+  static const IconData pen = IconDataSolid(0xf304);
 
   /// Solid Pen Clip icon
   ///
   /// https://fontawesome.com/icons/pen-clip?style=solid
   /// design, edit, update, write
-  static const IconData penClip = IconDataLight(0xf305);
+  static const IconData penClip = IconDataSolid(0xf305);
 
   /// Alias pen-alt for icon [penClip]
   @Deprecated('Use "penClip" instead.')
@@ -9418,19 +9418,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pen-fancy?style=solid
   /// black nib, design, edit, fountain, fountain pen, nib, pen, update, write
-  static const IconData penFancy = IconDataLight(0xf5ac);
+  static const IconData penFancy = IconDataSolid(0xf5ac);
 
   /// Solid Pen Nib icon
   ///
   /// https://fontawesome.com/icons/pen-nib?style=solid
   /// design, edit, fountain pen, update, write
-  static const IconData penNib = IconDataLight(0xf5ad);
+  static const IconData penNib = IconDataSolid(0xf5ad);
 
   /// Solid Pen Ruler icon
   ///
   /// https://fontawesome.com/icons/pen-ruler?style=solid
   /// design, draft, draw, pencil
-  static const IconData penRuler = IconDataLight(0xf5ae);
+  static const IconData penRuler = IconDataSolid(0xf5ae);
 
   /// Alias pencil-ruler for icon [penRuler]
   @Deprecated('Use "penRuler" instead.')
@@ -9440,7 +9440,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pen-to-square?style=solid
   /// edit, pen, pencil, update, write
-  static const IconData solidPenToSquare = IconDataLight(0xf044);
+  static const IconData solidPenToSquare = IconDataSolid(0xf044);
 
   /// Alias edit for icon [solidPenToSquare]
   @Deprecated('Use "solidPenToSquare" instead.')
@@ -9450,7 +9450,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pen-to-square?style=regular
   /// edit, pen, pencil, update, write
-  static const IconData penToSquare = IconDataLight(0xf044);
+  static const IconData penToSquare = IconDataRegular(0xf044);
 
   /// Alias edit for icon [penToSquare]
   @Deprecated('Use "penToSquare" instead.')
@@ -9460,7 +9460,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pencil?style=solid
   /// Lower Left Pencil, design, draw, edit, lead, pencil, update, write
-  static const IconData pencil = IconDataLight(0xf303);
+  static const IconData pencil = IconDataSolid(0xf303);
 
   /// Alias pencil-alt for icon [pencil]
   @Deprecated('Use "pencil" instead.')
@@ -9470,7 +9470,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/people-arrows?style=solid
   /// distance, isolation, separate, social distancing, users-people
-  static const IconData peopleArrows = IconDataLight(0xe068);
+  static const IconData peopleArrows = IconDataSolid(0xe068);
 
   /// Alias people-arrows-left-right for icon [peopleArrows]
   @Deprecated('Use "peopleArrows" instead.')
@@ -9480,7 +9480,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/people-carry-box?style=solid
   /// users-people
-  static const IconData peopleCarryBox = IconDataLight(0xf4ce);
+  static const IconData peopleCarryBox = IconDataSolid(0xf4ce);
 
   /// Alias people-carry for icon [peopleCarryBox]
   @Deprecated('Use "peopleCarryBox" instead.')
@@ -9490,37 +9490,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/people-group?style=solid
   /// family, group, team
-  static const IconData peopleGroup = IconDataLight(0xe533);
+  static const IconData peopleGroup = IconDataSolid(0xe533);
 
   /// Solid People Line icon
   ///
   /// https://fontawesome.com/icons/people-line?style=solid
   /// group, need
-  static const IconData peopleLine = IconDataLight(0xe534);
+  static const IconData peopleLine = IconDataSolid(0xe534);
 
   /// Solid People Pulling icon
   ///
   /// https://fontawesome.com/icons/people-pulling?style=solid
   /// forced return, yanking
-  static const IconData peoplePulling = IconDataLight(0xe535);
+  static const IconData peoplePulling = IconDataSolid(0xe535);
 
   /// Solid People Robbery icon
   ///
   /// https://fontawesome.com/icons/people-robbery?style=solid
   /// criminal, hands up, looting, robbery, steal
-  static const IconData peopleRobbery = IconDataLight(0xe536);
+  static const IconData peopleRobbery = IconDataSolid(0xe536);
 
   /// Solid People Roof icon
   ///
   /// https://fontawesome.com/icons/people-roof?style=solid
   /// family, group, manage, people, safe, shelter
-  static const IconData peopleRoof = IconDataLight(0xe537);
+  static const IconData peopleRoof = IconDataSolid(0xe537);
 
   /// Solid Pepper Hot icon
   ///
   /// https://fontawesome.com/icons/pepper-hot?style=solid
   /// buffalo wings, capsicum, chili, chilli, habanero, hot, hot pepper, jalapeno, mexican, pepper, spicy, tabasco, vegetable
-  static const IconData pepperHot = IconDataLight(0xf816);
+  static const IconData pepperHot = IconDataSolid(0xf816);
 
   /// Brands PerByte icon
   ///
@@ -9531,7 +9531,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/percent?style=solid
   /// Percent Sign, discount, fraction, proportion, rate, ratio
-  static const IconData percent = IconDataLight(0x25);
+  static const IconData percent = IconDataSolid(0x25);
 
   /// Alias percentage for icon [percent]
   @Deprecated('Use "percent" instead.')
@@ -9546,7 +9546,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person?style=solid
   /// man, person standing, stand, standing, woman
-  static const IconData person = IconDataLight(0xf183);
+  static const IconData person = IconDataSolid(0xf183);
 
   /// Alias male for icon [person]
   @Deprecated('Use "person" instead.')
@@ -9556,19 +9556,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-arrow-down-to-line?style=solid
   /// ground, indigenous, native
-  static const IconData personArrowDownToLine = IconDataLight(0xe538);
+  static const IconData personArrowDownToLine = IconDataSolid(0xe538);
 
   /// Solid Person Arrow Up From Line icon
   ///
   /// https://fontawesome.com/icons/person-arrow-up-from-line?style=solid
   /// population, rise
-  static const IconData personArrowUpFromLine = IconDataLight(0xe539);
+  static const IconData personArrowUpFromLine = IconDataSolid(0xe539);
 
   /// Solid Person Biking icon
   ///
   /// https://fontawesome.com/icons/person-biking?style=solid
   /// bicycle, bike, biking, cyclist, pedal, person biking, summer, wheel
-  static const IconData personBiking = IconDataLight(0xf84a);
+  static const IconData personBiking = IconDataSolid(0xf84a);
 
   /// Alias biking for icon [personBiking]
   @Deprecated('Use "personBiking" instead.')
@@ -9578,73 +9578,73 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-booth?style=solid
   /// changing room, curtain, vote, voting
-  static const IconData personBooth = IconDataLight(0xf756);
+  static const IconData personBooth = IconDataSolid(0xf756);
 
   /// Solid Person Breastfeeding icon
   ///
   /// https://fontawesome.com/icons/person-breastfeeding?style=solid
   /// baby, child, infant, mother, nutrition, sustenance
-  static const IconData personBreastfeeding = IconDataLight(0xe53a);
+  static const IconData personBreastfeeding = IconDataSolid(0xe53a);
 
   /// Solid Person Burst icon
   ///
   /// https://fontawesome.com/icons/person-burst?style=solid
   /// abuse, accident, crash, explode, violence
-  static const IconData personBurst = IconDataLight(0xe53b);
+  static const IconData personBurst = IconDataSolid(0xe53b);
 
   /// Solid Person Cane icon
   ///
   /// https://fontawesome.com/icons/person-cane?style=solid
   /// aging, cane, elderly, old, staff
-  static const IconData personCane = IconDataLight(0xe53c);
+  static const IconData personCane = IconDataSolid(0xe53c);
 
   /// Solid Person Chalkboard icon
   ///
   /// https://fontawesome.com/icons/person-chalkboard?style=solid
   /// blackboard, instructor, keynote, lesson, presentation, teacher
-  static const IconData personChalkboard = IconDataLight(0xe53d);
+  static const IconData personChalkboard = IconDataSolid(0xe53d);
 
   /// Solid Person Circle Check icon
   ///
   /// https://fontawesome.com/icons/person-circle-check?style=solid
   /// approved, not affected, ok, okay
-  static const IconData personCircleCheck = IconDataLight(0xe53e);
+  static const IconData personCircleCheck = IconDataSolid(0xe53e);
 
   /// Solid Person Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/person-circle-exclamation?style=solid
   /// affected, alert, lost, missing
-  static const IconData personCircleExclamation = IconDataLight(0xe53f);
+  static const IconData personCircleExclamation = IconDataSolid(0xe53f);
 
   /// Solid Person Circle Minus icon
   ///
   /// https://fontawesome.com/icons/person-circle-minus?style=solid
   /// delete, remove
-  static const IconData personCircleMinus = IconDataLight(0xe540);
+  static const IconData personCircleMinus = IconDataSolid(0xe540);
 
   /// Solid Person Circle Plus icon
   ///
   /// https://fontawesome.com/icons/person-circle-plus?style=solid
   /// add, found
-  static const IconData personCirclePlus = IconDataLight(0xe541);
+  static const IconData personCirclePlus = IconDataSolid(0xe541);
 
   /// Solid Person Circle Question icon
   ///
   /// https://fontawesome.com/icons/person-circle-question?style=solid
   /// lost, missing
-  static const IconData personCircleQuestion = IconDataLight(0xe542);
+  static const IconData personCircleQuestion = IconDataSolid(0xe542);
 
   /// Solid Person Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/person-circle-xmark?style=solid
   /// dead, removed
-  static const IconData personCircleXmark = IconDataLight(0xe543);
+  static const IconData personCircleXmark = IconDataSolid(0xe543);
 
   /// Solid Person Digging icon
   ///
   /// https://fontawesome.com/icons/person-digging?style=solid
   /// bury, construction, debris, dig, men at work
-  static const IconData personDigging = IconDataLight(0xf85e);
+  static const IconData personDigging = IconDataSolid(0xf85e);
 
   /// Alias digging for icon [personDigging]
   @Deprecated('Use "personDigging" instead.')
@@ -9654,7 +9654,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-dots-from-line?style=solid
   /// allergy, diagnosis
-  static const IconData personDotsFromLine = IconDataLight(0xf470);
+  static const IconData personDotsFromLine = IconDataSolid(0xf470);
 
   /// Alias diagnoses for icon [personDotsFromLine]
   @Deprecated('Use "personDotsFromLine" instead.')
@@ -9664,7 +9664,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-dress?style=solid
   /// man, skirt, woman
-  static const IconData personDress = IconDataLight(0xf182);
+  static const IconData personDress = IconDataSolid(0xf182);
 
   /// Alias female for icon [personDress]
   @Deprecated('Use "personDress" instead.')
@@ -9674,43 +9674,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-dress-burst?style=solid
   /// abuse, accident, crash, explode, violence
-  static const IconData personDressBurst = IconDataLight(0xe544);
+  static const IconData personDressBurst = IconDataSolid(0xe544);
 
   /// Solid Person Drowning icon
   ///
   /// https://fontawesome.com/icons/person-drowning?style=solid
   /// drown, emergency, swim
-  static const IconData personDrowning = IconDataLight(0xe545);
+  static const IconData personDrowning = IconDataSolid(0xe545);
 
   /// Solid Person Falling icon
   ///
   /// https://fontawesome.com/icons/person-falling?style=solid
   /// accident, fall, trip
-  static const IconData personFalling = IconDataLight(0xe546);
+  static const IconData personFalling = IconDataSolid(0xe546);
 
   /// Solid Person Falling Burst icon
   ///
   /// https://fontawesome.com/icons/person-falling-burst?style=solid
   /// accident, crash, death, fall, homicide, murder
-  static const IconData personFallingBurst = IconDataLight(0xe547);
+  static const IconData personFallingBurst = IconDataSolid(0xe547);
 
   /// Solid Person Half Dress icon
   ///
   /// https://fontawesome.com/icons/person-half-dress?style=solid
   /// gender, man, restroom, transgender, woman
-  static const IconData personHalfDress = IconDataLight(0xe548);
+  static const IconData personHalfDress = IconDataSolid(0xe548);
 
   /// Solid Person Harassing icon
   ///
   /// https://fontawesome.com/icons/person-harassing?style=solid
   /// abuse, scream, shame, shout, yell
-  static const IconData personHarassing = IconDataLight(0xe549);
+  static const IconData personHarassing = IconDataSolid(0xe549);
 
   /// Solid Person Hiking icon
   ///
   /// https://fontawesome.com/icons/person-hiking?style=solid
   /// autumn, fall, hike, mountain, outdoors, summer, walk
-  static const IconData personHiking = IconDataLight(0xf6ec);
+  static const IconData personHiking = IconDataSolid(0xf6ec);
 
   /// Alias hiking for icon [personHiking]
   @Deprecated('Use "personHiking" instead.')
@@ -9720,25 +9720,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-military-pointing?style=solid
   /// army, customs, guard
-  static const IconData personMilitaryPointing = IconDataLight(0xe54a);
+  static const IconData personMilitaryPointing = IconDataSolid(0xe54a);
 
   /// Solid Person Military Rifle icon
   ///
   /// https://fontawesome.com/icons/person-military-rifle?style=solid
   /// armed forces, army, military, rifle, war
-  static const IconData personMilitaryRifle = IconDataLight(0xe54b);
+  static const IconData personMilitaryRifle = IconDataSolid(0xe54b);
 
   /// Solid Person Military To Person icon
   ///
   /// https://fontawesome.com/icons/person-military-to-person?style=solid
   /// civilian, coordination, military
-  static const IconData personMilitaryToPerson = IconDataLight(0xe54c);
+  static const IconData personMilitaryToPerson = IconDataSolid(0xe54c);
 
   /// Solid Person Praying icon
   ///
   /// https://fontawesome.com/icons/person-praying?style=solid
   /// kneel, place of worship, religion, thank, worship
-  static const IconData personPraying = IconDataLight(0xf683);
+  static const IconData personPraying = IconDataSolid(0xf683);
 
   /// Alias pray for icon [personPraying]
   @Deprecated('Use "personPraying" instead.')
@@ -9748,25 +9748,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-pregnant?style=solid
   /// baby, birth, child, pregnant, pregnant woman, woman
-  static const IconData personPregnant = IconDataLight(0xe31e);
+  static const IconData personPregnant = IconDataSolid(0xe31e);
 
   /// Solid Person Rays icon
   ///
   /// https://fontawesome.com/icons/person-rays?style=solid
   /// affected, focus, shine
-  static const IconData personRays = IconDataLight(0xe54d);
+  static const IconData personRays = IconDataSolid(0xe54d);
 
   /// Solid Person Rifle icon
   ///
   /// https://fontawesome.com/icons/person-rifle?style=solid
   /// army, combatant, gun, military, rifle, war
-  static const IconData personRifle = IconDataLight(0xe54e);
+  static const IconData personRifle = IconDataSolid(0xe54e);
 
   /// Solid Person Running icon
   ///
   /// https://fontawesome.com/icons/person-running?style=solid
   /// exit, flee, marathon, person running, race, running
-  static const IconData personRunning = IconDataLight(0xf70c);
+  static const IconData personRunning = IconDataSolid(0xf70c);
 
   /// Alias running for icon [personRunning]
   @Deprecated('Use "personRunning" instead.')
@@ -9776,13 +9776,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-shelter?style=solid
   /// house, inside, roof, safe, safety, shelter
-  static const IconData personShelter = IconDataLight(0xe54f);
+  static const IconData personShelter = IconDataSolid(0xe54f);
 
   /// Solid Person Skating icon
   ///
   /// https://fontawesome.com/icons/person-skating?style=solid
   /// figure skating, ice, olympics, rink, skate, winter
-  static const IconData personSkating = IconDataLight(0xf7c5);
+  static const IconData personSkating = IconDataSolid(0xf7c5);
 
   /// Alias skating for icon [personSkating]
   @Deprecated('Use "personSkating" instead.')
@@ -9792,7 +9792,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-skiing?style=solid
   /// downhill, olympics, ski, skier, snow, winter
-  static const IconData personSkiing = IconDataLight(0xf7c9);
+  static const IconData personSkiing = IconDataSolid(0xf7c9);
 
   /// Alias skiing for icon [personSkiing]
   @Deprecated('Use "personSkiing" instead.')
@@ -9802,7 +9802,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-skiing-nordic?style=solid
   /// cross country, olympics, winter
-  static const IconData personSkiingNordic = IconDataLight(0xf7ca);
+  static const IconData personSkiingNordic = IconDataSolid(0xf7ca);
 
   /// Alias skiing-nordic for icon [personSkiingNordic]
   @Deprecated('Use "personSkiingNordic" instead.')
@@ -9812,7 +9812,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-snowboarding?style=solid
   /// olympics, ski, snow, snowboard, snowboarder, winter
-  static const IconData personSnowboarding = IconDataLight(0xf7ce);
+  static const IconData personSnowboarding = IconDataSolid(0xf7ce);
 
   /// Alias snowboarding for icon [personSnowboarding]
   @Deprecated('Use "personSnowboarding" instead.')
@@ -9822,7 +9822,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-swimming?style=solid
   /// ocean, person swimming, pool, sea, swim, water
-  static const IconData personSwimming = IconDataLight(0xf5c4);
+  static const IconData personSwimming = IconDataSolid(0xf5c4);
 
   /// Alias swimmer for icon [personSwimming]
   @Deprecated('Use "personSwimming" instead.')
@@ -9832,13 +9832,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-through-window?style=solid
   /// door, exit, forced entry, leave, robbery, steal, window
-  static const IconData personThroughWindow = IconDataLight(0xe5a9);
+  static const IconData personThroughWindow = IconDataSolid(0xe5a9);
 
   /// Solid Person Walking icon
   ///
   /// https://fontawesome.com/icons/person-walking?style=solid
   /// crosswalk, exercise, hike, move, person walking, walk, walking
-  static const IconData personWalking = IconDataLight(0xf554);
+  static const IconData personWalking = IconDataSolid(0xf554);
 
   /// Alias walking for icon [personWalking]
   @Deprecated('Use "personWalking" instead.')
@@ -9848,32 +9848,32 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/person-walking-arrow-loop-left?style=solid
   /// population return, return
-  static const IconData personWalkingArrowLoopLeft = IconDataLight(0xe551);
+  static const IconData personWalkingArrowLoopLeft = IconDataSolid(0xe551);
 
   /// Solid Person Walking Arrow Right icon
   ///
   /// https://fontawesome.com/icons/person-walking-arrow-right?style=solid
   /// exit, internally displaced, leave, refugee
-  static const IconData personWalkingArrowRight = IconDataLight(0xe552);
+  static const IconData personWalkingArrowRight = IconDataSolid(0xe552);
 
   /// Solid Person Walking Dashed Line Arrow Right icon
   ///
   /// https://fontawesome.com/icons/person-walking-dashed-line-arrow-right?style=solid
   /// exit, refugee
   static const IconData personWalkingDashedLineArrowRight =
-      IconDataLight(0xe553);
+      IconDataSolid(0xe553);
 
   /// Solid Person Walking Luggage icon
   ///
   /// https://fontawesome.com/icons/person-walking-luggage?style=solid
   /// bag, baggage, briefcase, carry-on, deployment, rolling
-  static const IconData personWalkingLuggage = IconDataLight(0xe554);
+  static const IconData personWalkingLuggage = IconDataSolid(0xe554);
 
   /// Solid Person Walking With Cane icon
   ///
   /// https://fontawesome.com/icons/person-walking-with-cane?style=solid
   /// blind, cane
-  static const IconData personWalkingWithCane = IconDataLight(0xf29d);
+  static const IconData personWalkingWithCane = IconDataSolid(0xf29d);
 
   /// Alias blind for icon [personWalkingWithCane]
   @Deprecated('Use "personWalkingWithCane" instead.')
@@ -9883,13 +9883,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/peseta-sign?style=solid
   /// Peseta Sign, currency
-  static const IconData pesetaSign = IconDataLight(0xe221);
+  static const IconData pesetaSign = IconDataSolid(0xe221);
 
   /// Solid Peso Sign icon
   ///
   /// https://fontawesome.com/icons/peso-sign?style=solid
   /// Peso Sign, currency
-  static const IconData pesoSign = IconDataLight(0xe222);
+  static const IconData pesoSign = IconDataSolid(0xe222);
 
   /// Brands Phabricator icon
   ///
@@ -9910,13 +9910,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/phone?style=solid
   /// Left Hand Telephone Receiver, call, earphone, number, phone, receiver, support, telephone, telephone receiver, voice
-  static const IconData phone = IconDataLight(0xf095);
+  static const IconData phone = IconDataSolid(0xf095);
 
   /// Solid Phone Flip icon
   ///
   /// https://fontawesome.com/icons/phone-flip?style=solid
   /// Right Hand Telephone Receiver, call, earphone, number, support, telephone, voice
-  static const IconData phoneFlip = IconDataLight(0xf879);
+  static const IconData phoneFlip = IconDataSolid(0xf879);
 
   /// Alias phone-alt for icon [phoneFlip]
   @Deprecated('Use "phoneFlip" instead.')
@@ -9926,13 +9926,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/phone-slash?style=solid
   /// call, cancel, earphone, mute, number, support, telephone, voice
-  static const IconData phoneSlash = IconDataLight(0xf3dd);
+  static const IconData phoneSlash = IconDataSolid(0xf3dd);
 
   /// Solid Phone Volume icon
   ///
   /// https://fontawesome.com/icons/phone-volume?style=solid
   /// call, earphone, number, sound, support, telephone, voice, volume-control-phone
-  static const IconData phoneVolume = IconDataLight(0xf2a0);
+  static const IconData phoneVolume = IconDataSolid(0xf2a0);
 
   /// Alias volume-control-phone for icon [phoneVolume]
   @Deprecated('Use "phoneVolume" instead.')
@@ -9942,7 +9942,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/photo-film?style=solid
   /// av, film, image, library, media
-  static const IconData photoFilm = IconDataLight(0xf87c);
+  static const IconData photoFilm = IconDataSolid(0xf87c);
 
   /// Alias photo-video for icon [photoFilm]
   @Deprecated('Use "photoFilm" instead.')
@@ -9978,13 +9978,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/piggy-bank?style=solid
   /// bank, save, savings
-  static const IconData piggyBank = IconDataLight(0xf4d3);
+  static const IconData piggyBank = IconDataSolid(0xf4d3);
 
   /// Solid Pills icon
   ///
   /// https://fontawesome.com/icons/pills?style=solid
   /// drugs, medicine, prescription, tablets
-  static const IconData pills = IconDataLight(0xf484);
+  static const IconData pills = IconDataSolid(0xf484);
 
   /// Brands Pinterest icon
   ///
@@ -10005,85 +10005,85 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pizza-slice?style=solid
   /// cheese, chicago, italian, mozzarella, new york, pepperoni, pie, slice, teenage mutant ninja turtles, tomato
-  static const IconData pizzaSlice = IconDataLight(0xf818);
+  static const IconData pizzaSlice = IconDataSolid(0xf818);
 
   /// Solid Place Of Worship icon
   ///
   /// https://fontawesome.com/icons/place-of-worship?style=solid
   /// building, church, holy, mosque, synagogue
-  static const IconData placeOfWorship = IconDataLight(0xf67f);
+  static const IconData placeOfWorship = IconDataSolid(0xf67f);
 
   /// Solid Plane icon
   ///
   /// https://fontawesome.com/icons/plane?style=solid
   /// airplane, airport, destination, fly, location, mode, travel, trip
-  static const IconData plane = IconDataLight(0xf072);
+  static const IconData plane = IconDataSolid(0xf072);
 
   /// Solid Plane Arrival icon
   ///
   /// https://fontawesome.com/icons/plane-arrival?style=solid
   /// aeroplane, airplane, airplane arrival, airport, arrivals, arriving, destination, fly, land, landing, location, mode, travel, trip
-  static const IconData planeArrival = IconDataLight(0xf5af);
+  static const IconData planeArrival = IconDataSolid(0xf5af);
 
   /// Solid Plane Circle Check icon
   ///
   /// https://fontawesome.com/icons/plane-circle-check?style=solid
   /// airplane, airport, flight, fly, not affected, ok, okay, travel
-  static const IconData planeCircleCheck = IconDataLight(0xe555);
+  static const IconData planeCircleCheck = IconDataSolid(0xe555);
 
   /// Solid Plane Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/plane-circle-exclamation?style=solid
   /// affected, airplane, airport, flight, fly, travel
-  static const IconData planeCircleExclamation = IconDataLight(0xe556);
+  static const IconData planeCircleExclamation = IconDataSolid(0xe556);
 
   /// Solid Plane Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/plane-circle-xmark?style=solid
   /// airplane, airport, destroy, flight, fly, travel
-  static const IconData planeCircleXmark = IconDataLight(0xe557);
+  static const IconData planeCircleXmark = IconDataSolid(0xe557);
 
   /// Solid Plane Departure icon
   ///
   /// https://fontawesome.com/icons/plane-departure?style=solid
   /// aeroplane, airplane, airplane departure, airport, check-in, departing, departure, departures, destination, fly, location, mode, take off, taking off, travel, trip
-  static const IconData planeDeparture = IconDataLight(0xf5b0);
+  static const IconData planeDeparture = IconDataSolid(0xf5b0);
 
   /// Solid Plane Lock icon
   ///
   /// https://fontawesome.com/icons/plane-lock?style=solid
   /// airplane, airport, closed, flight, fly, lockdown, quarantine, travel
-  static const IconData planeLock = IconDataLight(0xe558);
+  static const IconData planeLock = IconDataSolid(0xe558);
 
   /// Solid Plane Slash icon
   ///
   /// https://fontawesome.com/icons/plane-slash?style=solid
   /// airplane mode, airport, canceled, covid-19, delayed, grounded, travel
-  static const IconData planeSlash = IconDataLight(0xe069);
+  static const IconData planeSlash = IconDataSolid(0xe069);
 
   /// Solid Plane Up icon
   ///
   /// https://fontawesome.com/icons/plane-up?style=solid
   /// airplane, airport, internet, signal, sky, wifi, wireless
-  static const IconData planeUp = IconDataLight(0xe22d);
+  static const IconData planeUp = IconDataSolid(0xe22d);
 
   /// Solid Plant Wilt icon
   ///
   /// https://fontawesome.com/icons/plant-wilt?style=solid
   /// drought, planting, vegetation, wilt
-  static const IconData plantWilt = IconDataLight(0xe5aa);
+  static const IconData plantWilt = IconDataSolid(0xe5aa);
 
   /// Solid Plate Wheat icon
   ///
   /// https://fontawesome.com/icons/plate-wheat?style=solid
   /// bowl, hunger, rations, wheat
-  static const IconData plateWheat = IconDataLight(0xe55a);
+  static const IconData plateWheat = IconDataSolid(0xe55a);
 
   /// Solid Play icon
   ///
   /// https://fontawesome.com/icons/play?style=solid
   /// arrow, audio, music, play, play button, playing, right, sound, start, triangle, video
-  static const IconData play = IconDataLight(0xf04b);
+  static const IconData play = IconDataSolid(0xf04b);
 
   /// Brands PlayStation icon
   ///
@@ -10094,49 +10094,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/plug?style=solid
   /// connect, electric, electric plug, electricity, online, plug, power
-  static const IconData plug = IconDataLight(0xf1e6);
+  static const IconData plug = IconDataSolid(0xf1e6);
 
   /// Solid Plug Circle Bolt icon
   ///
   /// https://fontawesome.com/icons/plug-circle-bolt?style=solid
   /// electric, electricity, plug, power
-  static const IconData plugCircleBolt = IconDataLight(0xe55b);
+  static const IconData plugCircleBolt = IconDataSolid(0xe55b);
 
   /// Solid Plug Circle Check icon
   ///
   /// https://fontawesome.com/icons/plug-circle-check?style=solid
   /// electric, electricity, not affected, ok, okay, plug, power
-  static const IconData plugCircleCheck = IconDataLight(0xe55c);
+  static const IconData plugCircleCheck = IconDataSolid(0xe55c);
 
   /// Solid Plug Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/plug-circle-exclamation?style=solid
   /// affected, electric, electricity, plug, power
-  static const IconData plugCircleExclamation = IconDataLight(0xe55d);
+  static const IconData plugCircleExclamation = IconDataSolid(0xe55d);
 
   /// Solid Plug Circle Minus icon
   ///
   /// https://fontawesome.com/icons/plug-circle-minus?style=solid
   /// electric, electricity, plug, power
-  static const IconData plugCircleMinus = IconDataLight(0xe55e);
+  static const IconData plugCircleMinus = IconDataSolid(0xe55e);
 
   /// Solid Plug Circle Plus icon
   ///
   /// https://fontawesome.com/icons/plug-circle-plus?style=solid
   /// electric, electricity, plug, power
-  static const IconData plugCirclePlus = IconDataLight(0xe55f);
+  static const IconData plugCirclePlus = IconDataSolid(0xe55f);
 
   /// Solid Plug Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/plug-circle-xmark?style=solid
   /// destroy, electric, electricity, outage, plug, power
-  static const IconData plugCircleXmark = IconDataLight(0xe560);
+  static const IconData plugCircleXmark = IconDataSolid(0xe560);
 
   /// Solid Plus icon
   ///
   /// https://fontawesome.com/icons/plus?style=solid
   /// +, Plus Sign, add, create, expand, math, new, plus, positive, shape, sign
-  static const IconData plus = IconDataLight(0x2b);
+  static const IconData plus = IconDataSolid(0x2b);
 
   /// Alias add for icon [plus]
   @Deprecated('Use "plus" instead.')
@@ -10146,25 +10146,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/plus-minus?style=solid
   /// Plus-Minus Sign, add, math, subtract
-  static const IconData plusMinus = IconDataLight(0xe43c);
+  static const IconData plusMinus = IconDataSolid(0xe43c);
 
   /// Solid Podcast icon
   ///
   /// https://fontawesome.com/icons/podcast?style=solid
   /// audio, broadcast, music, sound
-  static const IconData podcast = IconDataLight(0xf2ce);
+  static const IconData podcast = IconDataSolid(0xf2ce);
 
   /// Solid Poo icon
   ///
   /// https://fontawesome.com/icons/poo?style=solid
   /// crap, dung, face, monster, pile of poo, poo, poop, shit, smile, turd
-  static const IconData poo = IconDataLight(0xf2fe);
+  static const IconData poo = IconDataSolid(0xf2fe);
 
   /// Solid Poo Storm icon
   ///
   /// https://fontawesome.com/icons/poo-storm?style=solid
   /// bolt, cloud, euphemism, lightning, mess, poop, shit, turd
-  static const IconData pooStorm = IconDataLight(0xf75a);
+  static const IconData pooStorm = IconDataSolid(0xf75a);
 
   /// Alias poo-bolt for icon [pooStorm]
   @Deprecated('Use "pooStorm" instead.')
@@ -10174,31 +10174,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/poop?style=solid
   /// crap, poop, shit, smile, turd
-  static const IconData poop = IconDataLight(0xf619);
+  static const IconData poop = IconDataSolid(0xf619);
 
   /// Solid Power Off icon
   ///
   /// https://fontawesome.com/icons/power-off?style=solid
   /// Power Symbol, cancel, computer, on, reboot, restart
-  static const IconData powerOff = IconDataLight(0xf011);
+  static const IconData powerOff = IconDataSolid(0xf011);
 
   /// Solid Prescription icon
   ///
   /// https://fontawesome.com/icons/prescription?style=solid
   /// drugs, medical, medicine, pharmacy, rx
-  static const IconData prescription = IconDataLight(0xf5b1);
+  static const IconData prescription = IconDataSolid(0xf5b1);
 
   /// Solid Prescription Bottle icon
   ///
   /// https://fontawesome.com/icons/prescription-bottle?style=solid
   /// drugs, medical, medicine, pharmacy, rx
-  static const IconData prescriptionBottle = IconDataLight(0xf485);
+  static const IconData prescriptionBottle = IconDataSolid(0xf485);
 
   /// Solid Prescription Bottle Medical icon
   ///
   /// https://fontawesome.com/icons/prescription-bottle-medical?style=solid
   /// drugs, medical, medicine, pharmacy, rx
-  static const IconData prescriptionBottleMedical = IconDataLight(0xf486);
+  static const IconData prescriptionBottleMedical = IconDataSolid(0xf486);
 
   /// Alias prescription-bottle-alt for icon [prescriptionBottleMedical]
   @Deprecated('Use "prescriptionBottleMedical" instead.')
@@ -10208,7 +10208,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/print?style=solid
   /// Print Screen Symbol, Printer Icon, business, computer, copy, document, office, paper, printer
-  static const IconData print = IconDataLight(0xf02f);
+  static const IconData print = IconDataSolid(0xf02f);
 
   /// Brands Product Hunt icon
   ///
@@ -10219,13 +10219,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/pump-medical?style=solid
   /// anti-bacterial, clean, covid-19, disinfect, hygiene, medical grade, sanitizer, soap
-  static const IconData pumpMedical = IconDataLight(0xe06a);
+  static const IconData pumpMedical = IconDataSolid(0xe06a);
 
   /// Solid Pump Soap icon
   ///
   /// https://fontawesome.com/icons/pump-soap?style=solid
   /// anti-bacterial, clean, covid-19, disinfect, hygiene, sanitizer, soap
-  static const IconData pumpSoap = IconDataLight(0xe06b);
+  static const IconData pumpSoap = IconDataSolid(0xe06b);
 
   /// Brands Pushed icon
   ///
@@ -10236,7 +10236,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/puzzle-piece?style=solid
   /// add-on, addon, clue, game, interlocking, jigsaw, piece, puzzle, puzzle piece, section
-  static const IconData puzzlePiece = IconDataLight(0xf12e);
+  static const IconData puzzlePiece = IconDataSolid(0xf12e);
 
   /// Brands Python icon
   ///
@@ -10247,7 +10247,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/q?style=solid
   /// Latin Capital Letter Q, Latin Small Letter Q, letter
-  static const IconData q = IconDataLight(0x51);
+  static const IconData q = IconDataSolid(0x51);
 
   /// Brands QQ icon
   ///
@@ -10258,13 +10258,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/qrcode?style=solid
   /// barcode, info, information, scan
-  static const IconData qrcode = IconDataLight(0xf029);
+  static const IconData qrcode = IconDataSolid(0xf029);
 
   /// Solid Question icon
   ///
   /// https://fontawesome.com/icons/question?style=solid
   /// ?, Question Mark, help, information, mark, outlined, punctuation, question, red question mark, support, unknown, white question mark
-  static const IconData question = IconDataLight(0x3f);
+  static const IconData question = IconDataSolid(0x3f);
 
   /// Brands QuinScape icon
   ///
@@ -10280,7 +10280,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/quote-left?style=solid
   /// Left Double Quotation Mark, mention, note, phrase, text, type
-  static const IconData quoteLeft = IconDataLight(0xf10d);
+  static const IconData quoteLeft = IconDataSolid(0xf10d);
 
   /// Alias quote-left-alt for icon [quoteLeft]
   @Deprecated('Use "quoteLeft" instead.')
@@ -10290,7 +10290,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/quote-right?style=solid
   /// Right Double Quotation Mark, mention, note, phrase, text, type
-  static const IconData quoteRight = IconDataLight(0xf10e);
+  static const IconData quoteRight = IconDataSolid(0xf10e);
 
   /// Alias quote-right-alt for icon [quoteRight]
   @Deprecated('Use "quoteRight" instead.')
@@ -10300,7 +10300,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/r?style=solid
   /// Latin Capital Letter R, Latin Small Letter R, letter
-  static const IconData r = IconDataLight(0x52);
+  static const IconData r = IconDataSolid(0x52);
 
   /// Brands R Project icon
   ///
@@ -10311,25 +10311,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/radiation?style=solid
   /// danger, dangerous, deadly, hazard, nuclear, radioactive, warning
-  static const IconData radiation = IconDataLight(0xf7b9);
+  static const IconData radiation = IconDataSolid(0xf7b9);
 
   /// Solid Radio icon
   ///
   /// https://fontawesome.com/icons/radio?style=solid
   /// am, broadcast, fm, frequency, music, news, radio, receiver, transmitter, tuner, video
-  static const IconData radio = IconDataLight(0xf8d7);
+  static const IconData radio = IconDataSolid(0xf8d7);
 
   /// Solid Rainbow icon
   ///
   /// https://fontawesome.com/icons/rainbow?style=solid
   /// gold, leprechaun, prism, rain, rainbow, sky
-  static const IconData rainbow = IconDataLight(0xf75b);
+  static const IconData rainbow = IconDataSolid(0xf75b);
 
   /// Solid Ranking Star icon
   ///
   /// https://fontawesome.com/icons/ranking-star?style=solid
   /// chart, first place, podium, rank, win
-  static const IconData rankingStar = IconDataLight(0xe561);
+  static const IconData rankingStar = IconDataSolid(0xe561);
 
   /// Brands Raspberry Pi icon
   ///
@@ -10365,19 +10365,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/receipt?style=solid
   /// accounting, bookkeeping, check, evidence, invoice, money, pay, proof, receipt, table
-  static const IconData receipt = IconDataLight(0xf543);
+  static const IconData receipt = IconDataSolid(0xf543);
 
   /// Solid Record Vinyl icon
   ///
   /// https://fontawesome.com/icons/record-vinyl?style=solid
   /// LP, album, analog, music, phonograph, sound
-  static const IconData recordVinyl = IconDataLight(0xf8d9);
+  static const IconData recordVinyl = IconDataSolid(0xf8d9);
 
   /// Solid Rectangle Ad icon
   ///
   /// https://fontawesome.com/icons/rectangle-ad?style=solid
   /// advertisement, media, newspaper, promotion, publicity
-  static const IconData rectangleAd = IconDataLight(0xf641);
+  static const IconData rectangleAd = IconDataSolid(0xf641);
 
   /// Alias ad for icon [rectangleAd]
   @Deprecated('Use "rectangleAd" instead.')
@@ -10387,7 +10387,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rectangle-list?style=solid
   /// checklist, completed, done, finished, ol, todo, ul
-  static const IconData solidRectangleList = IconDataLight(0xf022);
+  static const IconData solidRectangleList = IconDataSolid(0xf022);
 
   /// Alias list-alt for icon [solidRectangleList]
   @Deprecated('Use "solidRectangleList" instead.')
@@ -10397,7 +10397,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rectangle-list?style=regular
   /// checklist, completed, done, finished, ol, todo, ul
-  static const IconData rectangleList = IconDataLight(0xf022);
+  static const IconData rectangleList = IconDataRegular(0xf022);
 
   /// Alias list-alt for icon [rectangleList]
   @Deprecated('Use "rectangleList" instead.')
@@ -10407,7 +10407,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rectangle-xmark?style=solid
   /// browser, cancel, computer, development
-  static const IconData solidRectangleXmark = IconDataLight(0xf410);
+  static const IconData solidRectangleXmark = IconDataSolid(0xf410);
 
   /// Alias rectangle-times for icon [solidRectangleXmark]
   @Deprecated('Use "solidRectangleXmark" instead.')
@@ -10425,7 +10425,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rectangle-xmark?style=regular
   /// browser, cancel, computer, development
-  static const IconData rectangleXmark = IconDataLight(0xf410);
+  static const IconData rectangleXmark = IconDataRegular(0xf410);
 
   /// Alias rectangle-times for icon [rectangleXmark]
   @Deprecated('Use "rectangleXmark" instead.')
@@ -10443,7 +10443,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/recycle?style=solid
   /// Recycling Symbol For Generic Materials, Universal Recycling Symbol, Waste, compost, garbage, recycle, recycling symbol, reuse, trash
-  static const IconData recycle = IconDataLight(0xf1b8);
+  static const IconData recycle = IconDataSolid(0xf1b8);
 
   /// Brands red river icon
   ///
@@ -10470,13 +10470,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/registered?style=solid
   /// copyright, mark, r, registered, trademark
-  static const IconData solidRegistered = IconDataLight(0xf25d);
+  static const IconData solidRegistered = IconDataSolid(0xf25d);
 
   /// Regular Registered icon
   ///
   /// https://fontawesome.com/icons/registered?style=regular
   /// copyright, mark, r, registered, trademark
-  static const IconData registered = IconDataLight(0xf25d);
+  static const IconData registered = IconDataRegular(0xf25d);
 
   /// Brands Renren icon
   ///
@@ -10487,13 +10487,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/repeat?style=solid
   /// arrow, clockwise, flip, reload, repeat, repeat button, rewind, switch
-  static const IconData repeat = IconDataLight(0xf363);
+  static const IconData repeat = IconDataSolid(0xf363);
 
   /// Solid Reply icon
   ///
   /// https://fontawesome.com/icons/reply?style=solid
   /// mail, message, respond
-  static const IconData reply = IconDataLight(0xf3e5);
+  static const IconData reply = IconDataSolid(0xf3e5);
 
   /// Alias mail-reply for icon [reply]
   @Deprecated('Use "reply" instead.')
@@ -10503,7 +10503,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/reply-all?style=solid
   /// mail, message, respond
-  static const IconData replyAll = IconDataLight(0xf122);
+  static const IconData replyAll = IconDataSolid(0xf122);
 
   /// Alias mail-reply-all for icon [replyAll]
   @Deprecated('Use "replyAll" instead.')
@@ -10518,7 +10518,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/republican?style=solid
   /// american, conservative, election, elephant, politics, republican party, right, right-wing, usa
-  static const IconData republican = IconDataLight(0xf75e);
+  static const IconData republican = IconDataSolid(0xf75e);
 
   /// Brands Researchgate icon
   ///
@@ -10534,13 +10534,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/restroom?style=solid
   /// bathroom, toilet, water closet, wc
-  static const IconData restroom = IconDataLight(0xf7bd);
+  static const IconData restroom = IconDataSolid(0xf7bd);
 
   /// Solid Retweet icon
   ///
   /// https://fontawesome.com/icons/retweet?style=solid
   /// refresh, reload, share, swap
-  static const IconData retweet = IconDataLight(0xf079);
+  static const IconData retweet = IconDataSolid(0xf079);
 
   /// Brands Rev.io icon
   ///
@@ -10551,13 +10551,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ribbon?style=solid
   /// badge, cause, celebration, lapel, pin, reminder, reminder ribbon, ribbon
-  static const IconData ribbon = IconDataLight(0xf4d6);
+  static const IconData ribbon = IconDataSolid(0xf4d6);
 
   /// Solid Right From Bracket icon
   ///
   /// https://fontawesome.com/icons/right-from-bracket?style=solid
   /// arrow, exit, leave, log out, logout, sign-out
-  static const IconData rightFromBracket = IconDataLight(0xf2f5);
+  static const IconData rightFromBracket = IconDataSolid(0xf2f5);
 
   /// Alias sign-out-alt for icon [rightFromBracket]
   @Deprecated('Use "rightFromBracket" instead.')
@@ -10567,7 +10567,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/right-left?style=solid
   /// arrow, arrows, exchange, reciprocate, return, swap, transfer
-  static const IconData rightLeft = IconDataLight(0xf362);
+  static const IconData rightLeft = IconDataSolid(0xf362);
 
   /// Alias exchange-alt for icon [rightLeft]
   @Deprecated('Use "rightLeft" instead.')
@@ -10577,7 +10577,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/right-long?style=solid
   /// forward, long-arrow-right, next
-  static const IconData rightLong = IconDataLight(0xf30b);
+  static const IconData rightLong = IconDataSolid(0xf30b);
 
   /// Alias long-arrow-alt-right for icon [rightLong]
   @Deprecated('Use "rightLong" instead.')
@@ -10587,7 +10587,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/right-to-bracket?style=solid
   /// arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup
-  static const IconData rightToBracket = IconDataLight(0xf2f6);
+  static const IconData rightToBracket = IconDataSolid(0xf2f6);
 
   /// Alias sign-in-alt for icon [rightToBracket]
   @Deprecated('Use "rightToBracket" instead.')
@@ -10597,67 +10597,67 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ring?style=solid
   /// Dungeons & Dragons, Gollum, band, binding, d&d, dnd, engagement, fantasy, gold, jewelry, marriage, precious
-  static const IconData ring = IconDataLight(0xf70b);
+  static const IconData ring = IconDataSolid(0xf70b);
 
   /// Solid Road icon
   ///
   /// https://fontawesome.com/icons/road?style=solid
   /// highway, map, motorway, pavement, road, route, street, travel
-  static const IconData road = IconDataLight(0xf018);
+  static const IconData road = IconDataSolid(0xf018);
 
   /// Solid Road Barrier icon
   ///
   /// https://fontawesome.com/icons/road-barrier?style=solid
   /// block, border, no entry, roadblock
-  static const IconData roadBarrier = IconDataLight(0xe562);
+  static const IconData roadBarrier = IconDataSolid(0xe562);
 
   /// Solid Road Bridge icon
   ///
   /// https://fontawesome.com/icons/road-bridge?style=solid
   /// bridge, infrastructure, road, travel
-  static const IconData roadBridge = IconDataLight(0xe563);
+  static const IconData roadBridge = IconDataSolid(0xe563);
 
   /// Solid Road Circle Check icon
   ///
   /// https://fontawesome.com/icons/road-circle-check?style=solid
   /// freeway, highway, not affected, ok, okay, pavement, road
-  static const IconData roadCircleCheck = IconDataLight(0xe564);
+  static const IconData roadCircleCheck = IconDataSolid(0xe564);
 
   /// Solid Road Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/road-circle-exclamation?style=solid
   /// affected, freeway, highway, pavement, road
-  static const IconData roadCircleExclamation = IconDataLight(0xe565);
+  static const IconData roadCircleExclamation = IconDataSolid(0xe565);
 
   /// Solid Road Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/road-circle-xmark?style=solid
   /// destroy, freeway, highway, pavement, road
-  static const IconData roadCircleXmark = IconDataLight(0xe566);
+  static const IconData roadCircleXmark = IconDataSolid(0xe566);
 
   /// Solid Road Lock icon
   ///
   /// https://fontawesome.com/icons/road-lock?style=solid
   /// closed, freeway, highway, lockdown, pavement, quarantine, road
-  static const IconData roadLock = IconDataLight(0xe567);
+  static const IconData roadLock = IconDataSolid(0xe567);
 
   /// Solid Road Spikes icon
   ///
   /// https://fontawesome.com/icons/road-spikes?style=solid
   /// barrier, roadblock, spikes
-  static const IconData roadSpikes = IconDataLight(0xe568);
+  static const IconData roadSpikes = IconDataSolid(0xe568);
 
   /// Solid Robot icon
   ///
   /// https://fontawesome.com/icons/robot?style=solid
   /// android, automate, computer, cyborg, face, monster, robot
-  static const IconData robot = IconDataLight(0xf544);
+  static const IconData robot = IconDataSolid(0xf544);
 
   /// Solid Rocket icon
   ///
   /// https://fontawesome.com/icons/rocket?style=solid
   /// aircraft, app, jet, launch, nasa, space
-  static const IconData rocket = IconDataLight(0xf135);
+  static const IconData rocket = IconDataSolid(0xf135);
 
   /// Brands Rocket.Chat icon
   ///
@@ -10673,7 +10673,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rotate?style=solid
   /// anticlockwise, arrow, counterclockwise, counterclockwise arrows button, exchange, refresh, reload, rotate, swap, withershins
-  static const IconData rotate = IconDataLight(0xf2f1);
+  static const IconData rotate = IconDataSolid(0xf2f1);
 
   /// Alias sync-alt for icon [rotate]
   @Deprecated('Use "rotate" instead.')
@@ -10683,7 +10683,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rotate-left?style=solid
   /// back, control z, exchange, oops, return, swap
-  static const IconData rotateLeft = IconDataLight(0xf2ea);
+  static const IconData rotateLeft = IconDataSolid(0xf2ea);
 
   /// Alias rotate-back for icon [rotateLeft]
   @Deprecated('Use "rotateLeft" instead.')
@@ -10701,7 +10701,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rotate-right?style=solid
   /// forward, refresh, reload, repeat
-  static const IconData rotateRight = IconDataLight(0xf2f9);
+  static const IconData rotateRight = IconDataSolid(0xf2f9);
 
   /// Alias redo-alt for icon [rotateRight]
   @Deprecated('Use "rotateRight" instead.')
@@ -10715,13 +10715,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/route?style=solid
   /// directions, navigation, travel
-  static const IconData route = IconDataLight(0xf4d7);
+  static const IconData route = IconDataSolid(0xf4d7);
 
   /// Solid Rss icon
   ///
   /// https://fontawesome.com/icons/rss?style=solid
   /// blog, feed, journal, news, writing
-  static const IconData rss = IconDataLight(0xf09e);
+  static const IconData rss = IconDataSolid(0xf09e);
 
   /// Alias feed for icon [rss]
   @Deprecated('Use "rss" instead.')
@@ -10731,7 +10731,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ruble-sign?style=solid
   /// Ruble Sign, currency
-  static const IconData rubleSign = IconDataLight(0xf158);
+  static const IconData rubleSign = IconDataSolid(0xf158);
 
   /// Alias rouble for icon [rubleSign]
   @Deprecated('Use "rubleSign" instead.')
@@ -10749,37 +10749,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rug?style=solid
   /// blanket, carpet, rug, textile
-  static const IconData rug = IconDataLight(0xe569);
+  static const IconData rug = IconDataSolid(0xe569);
 
   /// Solid Ruler icon
   ///
   /// https://fontawesome.com/icons/ruler?style=solid
   /// design, draft, length, measure, planning, ruler, straight edge, straight ruler
-  static const IconData ruler = IconDataLight(0xf545);
+  static const IconData ruler = IconDataSolid(0xf545);
 
   /// Solid Ruler Combined icon
   ///
   /// https://fontawesome.com/icons/ruler-combined?style=solid
   /// design, draft, length, measure, planning
-  static const IconData rulerCombined = IconDataLight(0xf546);
+  static const IconData rulerCombined = IconDataSolid(0xf546);
 
   /// Solid Ruler Horizontal icon
   ///
   /// https://fontawesome.com/icons/ruler-horizontal?style=solid
   /// design, draft, length, measure, planning
-  static const IconData rulerHorizontal = IconDataLight(0xf547);
+  static const IconData rulerHorizontal = IconDataSolid(0xf547);
 
   /// Solid Ruler Vertical icon
   ///
   /// https://fontawesome.com/icons/ruler-vertical?style=solid
   /// design, draft, length, measure, planning
-  static const IconData rulerVertical = IconDataLight(0xf548);
+  static const IconData rulerVertical = IconDataSolid(0xf548);
 
   /// Solid Rupee Sign icon
   ///
   /// https://fontawesome.com/icons/rupee-sign?style=solid
   /// Rupee Sign, currency
-  static const IconData rupeeSign = IconDataLight(0xf156);
+  static const IconData rupeeSign = IconDataSolid(0xf156);
 
   /// Alias rupee for icon [rupeeSign]
   @Deprecated('Use "rupeeSign" instead.')
@@ -10789,7 +10789,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/rupiah-sign?style=solid
   /// currency
-  static const IconData rupiahSign = IconDataLight(0xe23d);
+  static const IconData rupiahSign = IconDataSolid(0xe23d);
 
   /// Brands Rust icon
   ///
@@ -10800,19 +10800,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/s?style=solid
   /// Latin Capital Letter S, Latin Small Letter S, letter
-  static const IconData s = IconDataLight(0x53);
+  static const IconData s = IconDataSolid(0x53);
 
   /// Solid Sack Dollar icon
   ///
   /// https://fontawesome.com/icons/sack-dollar?style=solid
   /// bag, burlap, cash, dollar, money, money bag, moneybag, robber, santa, usd
-  static const IconData sackDollar = IconDataLight(0xf81d);
+  static const IconData sackDollar = IconDataSolid(0xf81d);
 
   /// Solid Sack Xmark icon
   ///
   /// https://fontawesome.com/icons/sack-xmark?style=solid
   /// bag, burlap, rations
-  static const IconData sackXmark = IconDataLight(0xe56a);
+  static const IconData sackXmark = IconDataSolid(0xe56a);
 
   /// Brands Safari icon
   ///
@@ -10824,7 +10824,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sailboat?style=solid
   /// dinghy, mast, sailboat, sailing, yacht
-  static const IconData sailboat = IconDataLight(0xe445);
+  static const IconData sailboat = IconDataSolid(0xe445);
 
   /// Brands Salesforce icon
   ///
@@ -10840,19 +10840,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/satellite?style=solid
   /// communications, hardware, orbit, satellite, space
-  static const IconData satellite = IconDataLight(0xf7bf);
+  static const IconData satellite = IconDataSolid(0xf7bf);
 
   /// Solid Satellite Dish icon
   ///
   /// https://fontawesome.com/icons/satellite-dish?style=solid
   /// SETI, antenna, communications, dish, hardware, radar, receiver, satellite, satellite antenna, saucer, signal, space
-  static const IconData satelliteDish = IconDataLight(0xf7c0);
+  static const IconData satelliteDish = IconDataSolid(0xf7c0);
 
   /// Solid Scale Balanced icon
   ///
   /// https://fontawesome.com/icons/scale-balanced?style=solid
   /// Libra, balance, balance scale, balanced, justice, law, legal, measure, rule, scale, weight, zodiac
-  static const IconData scaleBalanced = IconDataLight(0xf24e);
+  static const IconData scaleBalanced = IconDataSolid(0xf24e);
 
   /// Alias balance-scale for icon [scaleBalanced]
   @Deprecated('Use "scaleBalanced" instead.')
@@ -10862,7 +10862,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/scale-unbalanced?style=solid
   /// justice, legal, measure, unbalanced, weight
-  static const IconData scaleUnbalanced = IconDataLight(0xf515);
+  static const IconData scaleUnbalanced = IconDataSolid(0xf515);
 
   /// Alias balance-scale-left for icon [scaleUnbalanced]
   @Deprecated('Use "scaleUnbalanced" instead.')
@@ -10872,7 +10872,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/scale-unbalanced-flip?style=solid
   /// justice, legal, measure, unbalanced, weight
-  static const IconData scaleUnbalancedFlip = IconDataLight(0xf516);
+  static const IconData scaleUnbalancedFlip = IconDataSolid(0xf516);
 
   /// Alias balance-scale-right for icon [scaleUnbalancedFlip]
   @Deprecated('Use "scaleUnbalancedFlip" instead.')
@@ -10887,43 +10887,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/school?style=solid
   /// building, education, learn, school, student, teacher
-  static const IconData school = IconDataLight(0xf549);
+  static const IconData school = IconDataSolid(0xf549);
 
   /// Solid School Circle Check icon
   ///
   /// https://fontawesome.com/icons/school-circle-check?style=solid
   /// not affected, ok, okay, schoolhouse
-  static const IconData schoolCircleCheck = IconDataLight(0xe56b);
+  static const IconData schoolCircleCheck = IconDataSolid(0xe56b);
 
   /// Solid School Circle Exclamation icon
   ///
   /// https://fontawesome.com/icons/school-circle-exclamation?style=solid
   /// affected, schoolhouse
-  static const IconData schoolCircleExclamation = IconDataLight(0xe56c);
+  static const IconData schoolCircleExclamation = IconDataSolid(0xe56c);
 
   /// Solid School Circle Xmark icon
   ///
   /// https://fontawesome.com/icons/school-circle-xmark?style=solid
   /// destroy, schoolhouse
-  static const IconData schoolCircleXmark = IconDataLight(0xe56d);
+  static const IconData schoolCircleXmark = IconDataSolid(0xe56d);
 
   /// Solid School Flag icon
   ///
   /// https://fontawesome.com/icons/school-flag?style=solid
   /// educate, flag, school, schoolhouse
-  static const IconData schoolFlag = IconDataLight(0xe56e);
+  static const IconData schoolFlag = IconDataSolid(0xe56e);
 
   /// Solid School Lock icon
   ///
   /// https://fontawesome.com/icons/school-lock?style=solid
   /// closed, lockdown, quarantine, schoolhouse
-  static const IconData schoolLock = IconDataLight(0xe56f);
+  static const IconData schoolLock = IconDataSolid(0xe56f);
 
   /// Solid Scissors icon
   ///
   /// https://fontawesome.com/icons/scissors?style=solid
   /// Black Safety Scissors, White Scissors, clip, cutting, scissors, snip, tool
-  static const IconData scissors = IconDataLight(0xf0c4);
+  static const IconData scissors = IconDataSolid(0xf0c4);
 
   /// Alias cut for icon [scissors]
   @Deprecated('Use "scissors" instead.')
@@ -10938,13 +10938,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/screwdriver?style=solid
   /// admin, fix, mechanic, repair, screw, screwdriver, settings, tool
-  static const IconData screwdriver = IconDataLight(0xf54a);
+  static const IconData screwdriver = IconDataSolid(0xf54a);
 
   /// Solid Screwdriver Wrench icon
   ///
   /// https://fontawesome.com/icons/screwdriver-wrench?style=solid
   /// admin, fix, repair, screwdriver, settings, tools, wrench
-  static const IconData screwdriverWrench = IconDataLight(0xf7d9);
+  static const IconData screwdriverWrench = IconDataSolid(0xf7d9);
 
   /// Alias tools for icon [screwdriverWrench]
   @Deprecated('Use "screwdriverWrench" instead.')
@@ -10959,13 +10959,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/scroll?style=solid
   /// Dungeons & Dragons, announcement, d&d, dnd, fantasy, paper, script, scroll
-  static const IconData scroll = IconDataLight(0xf70e);
+  static const IconData scroll = IconDataSolid(0xf70e);
 
   /// Solid Scroll Torah icon
   ///
   /// https://fontawesome.com/icons/scroll-torah?style=solid
   /// book, jewish, judaism, religion, scroll
-  static const IconData scrollTorah = IconDataLight(0xf6a0);
+  static const IconData scrollTorah = IconDataSolid(0xf6a0);
 
   /// Alias torah for icon [scrollTorah]
   @Deprecated('Use "scrollTorah" instead.')
@@ -10975,7 +10975,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sd-card?style=solid
   /// image, memory, photo, save
-  static const IconData sdCard = IconDataLight(0xf7c2);
+  static const IconData sdCard = IconDataSolid(0xf7c2);
 
   /// Brands Searchengin icon
   ///
@@ -10986,13 +10986,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/section?style=solid
   /// Section Sign, law, legal, silcrow
-  static const IconData section = IconDataLight(0xe447);
+  static const IconData section = IconDataSolid(0xe447);
 
   /// Solid Seedling icon
   ///
   /// https://fontawesome.com/icons/seedling?style=solid
   /// environment, flora, grow, plant, sapling, seedling, vegan, young
-  static const IconData seedling = IconDataLight(0xf4d8);
+  static const IconData seedling = IconDataSolid(0xf4d8);
 
   /// Alias sprout for icon [seedling]
   @Deprecated('Use "seedling" instead.')
@@ -11013,7 +11013,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/server?style=solid
   /// computer, cpu, database, hardware, network
-  static const IconData server = IconDataLight(0xf233);
+  static const IconData server = IconDataSolid(0xf233);
 
   /// Brands Servicestack icon
   ///
@@ -11024,7 +11024,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shapes?style=solid
   /// blocks, build, circle, square, triangle
-  static const IconData shapes = IconDataLight(0xf61f);
+  static const IconData shapes = IconDataSolid(0xf61f);
 
   /// Alias triangle-circle-square for icon [shapes]
   @Deprecated('Use "shapes" instead.')
@@ -11034,7 +11034,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/share?style=solid
   /// forward, save, send, social
-  static const IconData share = IconDataLight(0xf064);
+  static const IconData share = IconDataSolid(0xf064);
 
   /// Alias arrow-turn-right for icon [share]
   @Deprecated('Use "share" instead.')
@@ -11048,7 +11048,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/share-from-square?style=solid
   /// forward, save, send, social
-  static const IconData solidShareFromSquare = IconDataLight(0xf14d);
+  static const IconData solidShareFromSquare = IconDataSolid(0xf14d);
 
   /// Alias share-square for icon [solidShareFromSquare]
   @Deprecated('Use "solidShareFromSquare" instead.')
@@ -11058,7 +11058,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/share-from-square?style=regular
   /// forward, save, send, social
-  static const IconData shareFromSquare = IconDataLight(0xf14d);
+  static const IconData shareFromSquare = IconDataRegular(0xf14d);
 
   /// Alias share-square for icon [shareFromSquare]
   @Deprecated('Use "shareFromSquare" instead.')
@@ -11068,7 +11068,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/share-nodes?style=solid
   /// forward, save, send, social
-  static const IconData shareNodes = IconDataLight(0xf1e0);
+  static const IconData shareNodes = IconDataSolid(0xf1e0);
 
   /// Alias share-alt for icon [shareNodes]
   @Deprecated('Use "shareNodes" instead.')
@@ -11078,13 +11078,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sheet-plastic?style=solid
   /// plastic, plastic wrap, protect, tarp, tarpaulin, waterproof
-  static const IconData sheetPlastic = IconDataLight(0xe571);
+  static const IconData sheetPlastic = IconDataSolid(0xe571);
 
   /// Solid Shekel Sign icon
   ///
   /// https://fontawesome.com/icons/shekel-sign?style=solid
   /// New Sheqel Sign, currency, ils, money
-  static const IconData shekelSign = IconDataLight(0xf20b);
+  static const IconData shekelSign = IconDataSolid(0xf20b);
 
   /// Alias ils for icon [shekelSign]
   @Deprecated('Use "shekelSign" instead.')
@@ -11106,7 +11106,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shield?style=solid
   /// achievement, armor, award, block, cleric, defend, defense, holy, paladin, protect, safety, security, shield, weapon, winner
-  static const IconData shield = IconDataLight(0xf132);
+  static const IconData shield = IconDataSolid(0xf132);
 
   /// Alias shield-blank for icon [shield]
   @Deprecated('Use "shield" instead.')
@@ -11116,19 +11116,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shield-cat?style=solid
   /// animal, feline, pet, protect, safety, veterinary
-  static const IconData shieldCat = IconDataLight(0xe572);
+  static const IconData shieldCat = IconDataSolid(0xe572);
 
   /// Solid Shield Dog icon
   ///
   /// https://fontawesome.com/icons/shield-dog?style=solid
   /// animal, canine, pet, protect, safety, veterinary
-  static const IconData shieldDog = IconDataLight(0xe573);
+  static const IconData shieldDog = IconDataSolid(0xe573);
 
   /// Solid Shield Halved icon
   ///
   /// https://fontawesome.com/icons/shield-halved?style=solid
   /// achievement, armor, award, block, cleric, defend, defense, holy, paladin, security, shield, weapon, winner
-  static const IconData shieldHalved = IconDataLight(0xf3ed);
+  static const IconData shieldHalved = IconDataSolid(0xf3ed);
 
   /// Alias shield-alt for icon [shieldHalved]
   @Deprecated('Use "shieldHalved" instead.')
@@ -11138,25 +11138,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shield-heart?style=solid
   /// love, protect, safe, safety, shield
-  static const IconData shieldHeart = IconDataLight(0xe574);
+  static const IconData shieldHeart = IconDataSolid(0xe574);
 
   /// Solid Shield Virus icon
   ///
   /// https://fontawesome.com/icons/shield-virus?style=solid
   /// antibodies, barrier, coronavirus, covid-19, flu, health, infection, pandemic, protect, safety, vaccine
-  static const IconData shieldVirus = IconDataLight(0xe06c);
+  static const IconData shieldVirus = IconDataSolid(0xe06c);
 
   /// Solid Ship icon
   ///
   /// https://fontawesome.com/icons/ship?style=solid
   /// boat, passenger, sea, ship, water
-  static const IconData ship = IconDataLight(0xf21a);
+  static const IconData ship = IconDataSolid(0xf21a);
 
   /// Solid Shirt icon
   ///
   /// https://fontawesome.com/icons/shirt?style=solid
   /// clothing, fashion, garment, shirt, short sleeve, t-shirt, tshirt
-  static const IconData shirt = IconDataLight(0xf553);
+  static const IconData shirt = IconDataSolid(0xf553);
 
   /// Alias t-shirt for icon [shirt]
   @Deprecated('Use "shirt" instead.')
@@ -11175,13 +11175,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shoe-prints?style=solid
   /// feet, footprints, steps, walk
-  static const IconData shoePrints = IconDataLight(0xf54b);
+  static const IconData shoePrints = IconDataSolid(0xf54b);
 
   /// Solid Shop icon
   ///
   /// https://fontawesome.com/icons/shop?style=solid
   /// bodega, building, buy, market, purchase, shopping, store
-  static const IconData shop = IconDataLight(0xf54f);
+  static const IconData shop = IconDataSolid(0xf54f);
 
   /// Alias store-alt for icon [shop]
   @Deprecated('Use "shop" instead.')
@@ -11191,13 +11191,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shop-lock?style=solid
   /// bodega, building, buy, closed, lock, lockdown, market, purchase, quarantine, shop, shopping, store
-  static const IconData shopLock = IconDataLight(0xe4a5);
+  static const IconData shopLock = IconDataSolid(0xe4a5);
 
   /// Solid Shop Slash icon
   ///
   /// https://fontawesome.com/icons/shop-slash?style=solid
   /// building, buy, closed, covid-19, purchase, shopping
-  static const IconData shopSlash = IconDataLight(0xe070);
+  static const IconData shopSlash = IconDataSolid(0xe070);
 
   /// Alias store-alt-slash for icon [shopSlash]
   @Deprecated('Use "shopSlash" instead.')
@@ -11217,19 +11217,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shower?style=solid
   /// bath, clean, faucet, shower, water
-  static const IconData shower = IconDataLight(0xf2cc);
+  static const IconData shower = IconDataSolid(0xf2cc);
 
   /// Solid Shrimp icon
   ///
   /// https://fontawesome.com/icons/shrimp?style=solid
   /// allergy, crustacean, prawn, seafood, shellfish, shrimp, tail
-  static const IconData shrimp = IconDataLight(0xe448);
+  static const IconData shrimp = IconDataSolid(0xe448);
 
   /// Solid Shuffle icon
   ///
   /// https://fontawesome.com/icons/shuffle?style=solid
   /// arrow, arrows, crossed, shuffle, shuffle tracks button, sort, swap, switch, transfer
-  static const IconData shuffle = IconDataLight(0xf074);
+  static const IconData shuffle = IconDataSolid(0xf074);
 
   /// Alias random for icon [shuffle]
   @Deprecated('Use "shuffle" instead.')
@@ -11239,7 +11239,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/shuttle-space?style=solid
   /// astronaut, machine, nasa, rocket, space, transportation
-  static const IconData shuttleSpace = IconDataLight(0xf197);
+  static const IconData shuttleSpace = IconDataSolid(0xf197);
 
   /// Alias space-shuttle for icon [shuttleSpace]
   @Deprecated('Use "shuttleSpace" instead.')
@@ -11249,7 +11249,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sign-hanging?style=solid
   /// directions, real estate, signage, wayfinding
-  static const IconData signHanging = IconDataLight(0xf4d9);
+  static const IconData signHanging = IconDataSolid(0xf4d9);
 
   /// Alias sign for icon [signHanging]
   @Deprecated('Use "signHanging" instead.')
@@ -11259,7 +11259,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/signal?style=solid
   /// antenna, antenna bars, bar, bars, cell, graph, mobile, online, phone, reception, status
-  static const IconData signal = IconDataLight(0xf012);
+  static const IconData signal = IconDataSolid(0xf012);
 
   /// Alias signal-5 for icon [signal]
   @Deprecated('Use "signal" instead.')
@@ -11273,13 +11273,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/signature?style=solid
   /// John Hancock, cursive, name, writing
-  static const IconData signature = IconDataLight(0xf5b7);
+  static const IconData signature = IconDataSolid(0xf5b7);
 
   /// Solid Signs Post icon
   ///
   /// https://fontawesome.com/icons/signs-post?style=solid
   /// directions, directory, map, signage, wayfinding
-  static const IconData signsPost = IconDataLight(0xf277);
+  static const IconData signsPost = IconDataSolid(0xf277);
 
   /// Alias map-signs for icon [signsPost]
   @Deprecated('Use "signsPost" instead.')
@@ -11289,7 +11289,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sim-card?style=solid
   /// hard drive, hardware, portable, storage, technology, tiny
-  static const IconData simCard = IconDataLight(0xf7c4);
+  static const IconData simCard = IconDataSolid(0xf7c4);
 
   /// Brands SimplyBuilt icon
   ///
@@ -11300,7 +11300,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sink?style=solid
   /// bathroom, covid-19, faucet, kitchen, wash
-  static const IconData sink = IconDataLight(0xe06d);
+  static const IconData sink = IconDataSolid(0xe06d);
 
   /// Brands SISTRIX icon
   ///
@@ -11311,7 +11311,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sitemap?style=solid
   /// directory, hierarchy, ia, information architecture, organization
-  static const IconData sitemap = IconDataLight(0xf0e8);
+  static const IconData sitemap = IconDataSolid(0xf0e8);
 
   /// Brands Sith icon
   ///
@@ -11333,13 +11333,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/skull?style=solid
   /// bones, death, face, fairy tale, monster, skeleton, skull, x-ray, yorick
-  static const IconData skull = IconDataLight(0xf54c);
+  static const IconData skull = IconDataSolid(0xf54c);
 
   /// Solid Skull Crossbones icon
   ///
   /// https://fontawesome.com/icons/skull-crossbones?style=solid
   /// Black Skull and Crossbones, Dungeons & Dragons, alert, bones, crossbones, d&d, danger, dangerous area, dead, deadly, death, dnd, face, fantasy, halloween, holiday, jolly-roger, monster, pirate, poison, skeleton, skull, skull and crossbones, warning
-  static const IconData skullCrossbones = IconDataLight(0xf714);
+  static const IconData skullCrossbones = IconDataSolid(0xf714);
 
   /// Brands skyatlas icon
   ///
@@ -11365,19 +11365,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/slash?style=solid
   /// cancel, close, mute, off, stop, x
-  static const IconData slash = IconDataLight(0xf715);
+  static const IconData slash = IconDataSolid(0xf715);
 
   /// Solid Sleigh icon
   ///
   /// https://fontawesome.com/icons/sleigh?style=solid
   /// christmas, claus, fly, holiday, santa, sled, snow, xmas
-  static const IconData sleigh = IconDataLight(0xf7cc);
+  static const IconData sleigh = IconDataSolid(0xf7cc);
 
   /// Solid Sliders icon
   ///
   /// https://fontawesome.com/icons/sliders?style=solid
   /// adjust, settings, sliders, toggle
-  static const IconData sliders = IconDataLight(0xf1de);
+  static const IconData sliders = IconDataSolid(0xf1de);
 
   /// Alias sliders-h for icon [sliders]
   @Deprecated('Use "sliders" instead.')
@@ -11392,13 +11392,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/smog?style=solid
   /// dragon, fog, haze, pollution, smoke, weather
-  static const IconData smog = IconDataLight(0xf75f);
+  static const IconData smog = IconDataSolid(0xf75f);
 
   /// Solid Smoking icon
   ///
   /// https://fontawesome.com/icons/smoking?style=solid
   /// cancer, cigarette, nicotine, smoking, smoking status, tobacco
-  static const IconData smoking = IconDataLight(0xf48d);
+  static const IconData smoking = IconDataSolid(0xf48d);
 
   /// Brands Snapchat icon
   ///
@@ -11413,49 +11413,49 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/snowflake?style=solid
   /// Heavy Chevron Snowflake, cold, precipitation, rain, snow, snowfall, snowflake, winter
-  static const IconData solidSnowflake = IconDataLight(0xf2dc);
+  static const IconData solidSnowflake = IconDataSolid(0xf2dc);
 
   /// Regular Snowflake icon
   ///
   /// https://fontawesome.com/icons/snowflake?style=regular
   /// Heavy Chevron Snowflake, cold, precipitation, rain, snow, snowfall, snowflake, winter
-  static const IconData snowflake = IconDataLight(0xf2dc);
+  static const IconData snowflake = IconDataRegular(0xf2dc);
 
   /// Solid Snowman icon
   ///
   /// https://fontawesome.com/icons/snowman?style=solid
   /// cold, decoration, frost, frosty, holiday, snow, snowman, snowman without snow
-  static const IconData snowman = IconDataLight(0xf7d0);
+  static const IconData snowman = IconDataSolid(0xf7d0);
 
   /// Solid Snowplow icon
   ///
   /// https://fontawesome.com/icons/snowplow?style=solid
   /// clean up, cold, road, storm, winter
-  static const IconData snowplow = IconDataLight(0xf7d2);
+  static const IconData snowplow = IconDataSolid(0xf7d2);
 
   /// Solid Soap icon
   ///
   /// https://fontawesome.com/icons/soap?style=solid
   /// bar, bathing, bubbles, clean, cleaning, covid-19, hygiene, lather, soap, soapdish, wash
-  static const IconData soap = IconDataLight(0xe06e);
+  static const IconData soap = IconDataSolid(0xe06e);
 
   /// Solid Socks icon
   ///
   /// https://fontawesome.com/icons/socks?style=solid
   /// business socks, business time, clothing, feet, flight of the conchords, socks, stocking, wednesday
-  static const IconData socks = IconDataLight(0xf696);
+  static const IconData socks = IconDataSolid(0xf696);
 
   /// Solid Solar Panel icon
   ///
   /// https://fontawesome.com/icons/solar-panel?style=solid
   /// clean, eco-friendly, energy, green, sun
-  static const IconData solarPanel = IconDataLight(0xf5ba);
+  static const IconData solarPanel = IconDataSolid(0xf5ba);
 
   /// Solid Sort icon
   ///
   /// https://fontawesome.com/icons/sort?style=solid
   /// filter, order
-  static const IconData sort = IconDataLight(0xf0dc);
+  static const IconData sort = IconDataSolid(0xf0dc);
 
   /// Alias unsorted for icon [sort]
   @Deprecated('Use "sort" instead.')
@@ -11465,7 +11465,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sort-down?style=solid
   /// arrow, descending, filter, order, sort-desc
-  static const IconData sortDown = IconDataLight(0xf0dd);
+  static const IconData sortDown = IconDataSolid(0xf0dd);
 
   /// Alias sort-desc for icon [sortDown]
   @Deprecated('Use "sortDown" instead.')
@@ -11475,7 +11475,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sort-up?style=solid
   /// arrow, ascending, filter, order, sort-asc
-  static const IconData sortUp = IconDataLight(0xf0de);
+  static const IconData sortUp = IconDataSolid(0xf0de);
 
   /// Alias sort-asc for icon [sortUp]
   @Deprecated('Use "sortUp" instead.')
@@ -11495,7 +11495,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/spa?style=solid
   /// flora, massage, mindfulness, plant, wellness
-  static const IconData spa = IconDataLight(0xf5bb);
+  static const IconData spa = IconDataSolid(0xf5bb);
 
   /// Brands Space Awesome icon
   ///
@@ -11507,7 +11507,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/spaghetti-monster-flying?style=solid
   /// agnosticism, atheism, flying spaghetti monster, fsm
-  static const IconData spaghettiMonsterFlying = IconDataLight(0xf67b);
+  static const IconData spaghettiMonsterFlying = IconDataSolid(0xf67b);
 
   /// Alias pastafarianism for icon [spaghettiMonsterFlying]
   @Deprecated('Use "spaghettiMonsterFlying" instead.')
@@ -11527,31 +11527,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/spell-check?style=solid
   /// dictionary, edit, editor, grammar, text
-  static const IconData spellCheck = IconDataLight(0xf891);
+  static const IconData spellCheck = IconDataSolid(0xf891);
 
   /// Solid Spider icon
   ///
   /// https://fontawesome.com/icons/spider?style=solid
   /// arachnid, bug, charlotte, crawl, eight, halloween, insect, spider
-  static const IconData spider = IconDataLight(0xf717);
+  static const IconData spider = IconDataSolid(0xf717);
 
   /// Solid Spinner icon
   ///
   /// https://fontawesome.com/icons/spinner?style=solid
   /// circle, loading, progress
-  static const IconData spinner = IconDataLight(0xf110);
+  static const IconData spinner = IconDataSolid(0xf110);
 
   /// Solid Splotch icon
   ///
   /// https://fontawesome.com/icons/splotch?style=solid
   /// Ink, blob, blotch, glob, stain
-  static const IconData splotch = IconDataLight(0xf5bc);
+  static const IconData splotch = IconDataSolid(0xf5bc);
 
   /// Solid Spoon icon
   ///
   /// https://fontawesome.com/icons/spoon?style=solid
   /// cutlery, dining, scoop, silverware, spoon, tableware
-  static const IconData spoon = IconDataLight(0xf2e5);
+  static const IconData spoon = IconDataSolid(0xf2e5);
 
   /// Alias utensil-spoon for icon [spoon]
   @Deprecated('Use "spoon" instead.')
@@ -11566,13 +11566,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/spray-can?style=solid
   /// Paint, aerosol, design, graffiti, tag
-  static const IconData sprayCan = IconDataLight(0xf5bd);
+  static const IconData sprayCan = IconDataSolid(0xf5bd);
 
   /// Solid Spray Can Sparkles icon
   ///
   /// https://fontawesome.com/icons/spray-can-sparkles?style=solid
   /// car, clean, deodorize, fresh, pine, scent
-  static const IconData sprayCanSparkles = IconDataLight(0xf5d0);
+  static const IconData sprayCanSparkles = IconDataSolid(0xf5d0);
 
   /// Alias air-freshener for icon [sprayCanSparkles]
   @Deprecated('Use "sprayCanSparkles" instead.')
@@ -11582,19 +11582,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square?style=solid
   /// Black Square, black medium square, block, box, geometric, shape, square, white medium square
-  static const IconData solidSquare = IconDataLight(0xf0c8);
+  static const IconData solidSquare = IconDataSolid(0xf0c8);
 
   /// Regular Square icon
   ///
   /// https://fontawesome.com/icons/square?style=regular
   /// Black Square, black medium square, block, box, geometric, shape, square, white medium square
-  static const IconData square = IconDataLight(0xf0c8);
+  static const IconData square = IconDataRegular(0xf0c8);
 
   /// Solid Square Arrow Up Right icon
   ///
   /// https://fontawesome.com/icons/square-arrow-up-right?style=solid
   /// diagonal, new, open, send, share
-  static const IconData squareArrowUpRight = IconDataLight(0xf14c);
+  static const IconData squareArrowUpRight = IconDataSolid(0xf14c);
 
   /// Alias external-link-square for icon [squareArrowUpRight]
   @Deprecated('Use "squareArrowUpRight" instead.')
@@ -11613,7 +11613,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-down?style=solid
   /// arrow, caret-square-o-down, dropdown, expand, menu, more, triangle
-  static const IconData solidSquareCaretDown = IconDataLight(0xf150);
+  static const IconData solidSquareCaretDown = IconDataSolid(0xf150);
 
   /// Alias caret-square-down for icon [solidSquareCaretDown]
   @Deprecated('Use "solidSquareCaretDown" instead.')
@@ -11623,7 +11623,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-down?style=regular
   /// arrow, caret-square-o-down, dropdown, expand, menu, more, triangle
-  static const IconData squareCaretDown = IconDataLight(0xf150);
+  static const IconData squareCaretDown = IconDataRegular(0xf150);
 
   /// Alias caret-square-down for icon [squareCaretDown]
   @Deprecated('Use "squareCaretDown" instead.')
@@ -11633,7 +11633,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-left?style=solid
   /// arrow, back, caret-square-o-left, previous, triangle
-  static const IconData solidSquareCaretLeft = IconDataLight(0xf191);
+  static const IconData solidSquareCaretLeft = IconDataSolid(0xf191);
 
   /// Alias caret-square-left for icon [solidSquareCaretLeft]
   @Deprecated('Use "solidSquareCaretLeft" instead.')
@@ -11643,7 +11643,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-left?style=regular
   /// arrow, back, caret-square-o-left, previous, triangle
-  static const IconData squareCaretLeft = IconDataLight(0xf191);
+  static const IconData squareCaretLeft = IconDataRegular(0xf191);
 
   /// Alias caret-square-left for icon [squareCaretLeft]
   @Deprecated('Use "squareCaretLeft" instead.')
@@ -11653,7 +11653,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-right?style=solid
   /// arrow, caret-square-o-right, forward, next, triangle
-  static const IconData solidSquareCaretRight = IconDataLight(0xf152);
+  static const IconData solidSquareCaretRight = IconDataSolid(0xf152);
 
   /// Alias caret-square-right for icon [solidSquareCaretRight]
   @Deprecated('Use "solidSquareCaretRight" instead.')
@@ -11663,7 +11663,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-right?style=regular
   /// arrow, caret-square-o-right, forward, next, triangle
-  static const IconData squareCaretRight = IconDataLight(0xf152);
+  static const IconData squareCaretRight = IconDataRegular(0xf152);
 
   /// Alias caret-square-right for icon [squareCaretRight]
   @Deprecated('Use "squareCaretRight" instead.')
@@ -11673,7 +11673,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-up?style=solid
   /// arrow, caret-square-o-up, collapse, triangle, upload
-  static const IconData solidSquareCaretUp = IconDataLight(0xf151);
+  static const IconData solidSquareCaretUp = IconDataSolid(0xf151);
 
   /// Alias caret-square-up for icon [solidSquareCaretUp]
   @Deprecated('Use "solidSquareCaretUp" instead.')
@@ -11683,7 +11683,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-caret-up?style=regular
   /// arrow, caret-square-o-up, collapse, triangle, upload
-  static const IconData squareCaretUp = IconDataLight(0xf151);
+  static const IconData squareCaretUp = IconDataRegular(0xf151);
 
   /// Alias caret-square-up for icon [squareCaretUp]
   @Deprecated('Use "squareCaretUp" instead.')
@@ -11693,7 +11693,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-check?style=solid
   /// accept, agree, box, button, check, check box with check, check mark button, checkmark, confirm, correct, done, mark, ok, select, success, tick, todo, yes, ✓
-  static const IconData solidSquareCheck = IconDataLight(0xf14a);
+  static const IconData solidSquareCheck = IconDataSolid(0xf14a);
 
   /// Alias check-square for icon [solidSquareCheck]
   @Deprecated('Use "solidSquareCheck" instead.')
@@ -11703,7 +11703,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-check?style=regular
   /// accept, agree, box, button, check, check box with check, check mark button, checkmark, confirm, correct, done, mark, ok, select, success, tick, todo, yes, ✓
-  static const IconData squareCheck = IconDataLight(0xf14a);
+  static const IconData squareCheck = IconDataRegular(0xf14a);
 
   /// Alias check-square for icon [squareCheck]
   @Deprecated('Use "squareCheck" instead.')
@@ -11722,7 +11722,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-envelope?style=solid
   /// e-mail, email, letter, mail, message, notification, support
-  static const IconData squareEnvelope = IconDataLight(0xf199);
+  static const IconData squareEnvelope = IconDataSolid(0xf199);
 
   /// Alias envelope-square for icon [squareEnvelope]
   @Deprecated('Use "squareEnvelope" instead.')
@@ -11756,13 +11756,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-full?style=solid
   /// black large square, block, blue, blue square, box, brown, brown square, geometric, green, green square, orange, orange square, purple, purple square, red, red square, shape, square, white large square, yellow, yellow square
-  static const IconData solidSquareFull = IconDataLight(0xf45c);
+  static const IconData solidSquareFull = IconDataSolid(0xf45c);
 
   /// Regular Square Full icon
   ///
   /// https://fontawesome.com/icons/square-full?style=regular
   /// black large square, block, blue, blue square, box, brown, brown square, geometric, green, green square, orange, orange square, purple, purple square, red, red square, shape, square, white large square, yellow, yellow square
-  static const IconData squareFull = IconDataLight(0xf45c);
+  static const IconData squareFull = IconDataRegular(0xf45c);
 
   /// Brands Git Square icon
   ///
@@ -11806,7 +11806,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-h?style=solid
   /// directions, emergency, hospital, hotel, letter, map
-  static const IconData squareH = IconDataLight(0xf0fd);
+  static const IconData squareH = IconDataSolid(0xf0fd);
 
   /// Alias h-square for icon [squareH]
   @Deprecated('Use "squareH" instead.')
@@ -11852,7 +11852,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-minus?style=solid
   /// collapse, delete, hide, minify, negative, remove, shape, trash
-  static const IconData solidSquareMinus = IconDataLight(0xf146);
+  static const IconData solidSquareMinus = IconDataSolid(0xf146);
 
   /// Alias minus-square for icon [solidSquareMinus]
   @Deprecated('Use "solidSquareMinus" instead.')
@@ -11862,7 +11862,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-minus?style=regular
   /// collapse, delete, hide, minify, negative, remove, shape, trash
-  static const IconData squareMinus = IconDataLight(0xf146);
+  static const IconData squareMinus = IconDataRegular(0xf146);
 
   /// Alias minus-square for icon [squareMinus]
   @Deprecated('Use "squareMinus" instead.')
@@ -11872,7 +11872,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-nfi?style=solid
   /// non-food item, supplies
-  static const IconData squareNfi = IconDataLight(0xe576);
+  static const IconData squareNfi = IconDataSolid(0xe576);
 
   /// Brands Odnoklassniki Square icon
   ///
@@ -11887,7 +11887,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-parking?style=solid
   /// auto, car, garage, meter, parking
-  static const IconData squareParking = IconDataLight(0xf540);
+  static const IconData squareParking = IconDataSolid(0xf540);
 
   /// Alias parking for icon [squareParking]
   @Deprecated('Use "squareParking" instead.')
@@ -11897,7 +11897,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-pen?style=solid
   /// edit, pencil-square, update, write
-  static const IconData squarePen = IconDataLight(0xf14b);
+  static const IconData squarePen = IconDataSolid(0xf14b);
 
   /// Alias pen-square for icon [squarePen]
   @Deprecated('Use "squarePen" instead.')
@@ -11911,13 +11911,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-person-confined?style=solid
   /// captivity, confined
-  static const IconData squarePersonConfined = IconDataLight(0xe577);
+  static const IconData squarePersonConfined = IconDataSolid(0xe577);
 
   /// Solid Square Phone icon
   ///
   /// https://fontawesome.com/icons/square-phone?style=solid
   /// call, earphone, number, support, telephone, voice
-  static const IconData squarePhone = IconDataLight(0xf098);
+  static const IconData squarePhone = IconDataSolid(0xf098);
 
   /// Alias phone-square for icon [squarePhone]
   @Deprecated('Use "squarePhone" instead.')
@@ -11927,7 +11927,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-phone-flip?style=solid
   /// call, earphone, number, support, telephone, voice
-  static const IconData squarePhoneFlip = IconDataLight(0xf87b);
+  static const IconData squarePhoneFlip = IconDataSolid(0xf87b);
 
   /// Alias phone-square-alt for icon [squarePhoneFlip]
   @Deprecated('Use "squarePhoneFlip" instead.')
@@ -11955,7 +11955,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-plus?style=solid
   /// add, create, expand, new, positive, shape
-  static const IconData solidSquarePlus = IconDataLight(0xf0fe);
+  static const IconData solidSquarePlus = IconDataSolid(0xf0fe);
 
   /// Alias plus-square for icon [solidSquarePlus]
   @Deprecated('Use "solidSquarePlus" instead.')
@@ -11965,7 +11965,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-plus?style=regular
   /// add, create, expand, new, positive, shape
-  static const IconData squarePlus = IconDataLight(0xf0fe);
+  static const IconData squarePlus = IconDataRegular(0xf0fe);
 
   /// Alias plus-square for icon [squarePlus]
   @Deprecated('Use "squarePlus" instead.')
@@ -11975,7 +11975,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-poll-horizontal?style=solid
   /// chart, graph, results, survey, trend, vote, voting
-  static const IconData squarePollHorizontal = IconDataLight(0xf682);
+  static const IconData squarePollHorizontal = IconDataSolid(0xf682);
 
   /// Alias poll-h for icon [squarePollHorizontal]
   @Deprecated('Use "squarePollHorizontal" instead.')
@@ -11985,7 +11985,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-poll-vertical?style=solid
   /// chart, graph, results, survey, trend, vote, voting
-  static const IconData squarePollVertical = IconDataLight(0xf681);
+  static const IconData squarePollVertical = IconDataSolid(0xf681);
 
   /// Alias poll for icon [squarePollVertical]
   @Deprecated('Use "squarePollVertical" instead.')
@@ -12004,7 +12004,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-root-variable?style=solid
   /// arithmetic, calculus, division, math
-  static const IconData squareRootVariable = IconDataLight(0xf698);
+  static const IconData squareRootVariable = IconDataSolid(0xf698);
 
   /// Alias square-root-alt for icon [squareRootVariable]
   @Deprecated('Use "squareRootVariable" instead.')
@@ -12014,7 +12014,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-rss?style=solid
   /// blog, feed, journal, news, writing
-  static const IconData squareRss = IconDataLight(0xf143);
+  static const IconData squareRss = IconDataSolid(0xf143);
 
   /// Alias rss-square for icon [squareRss]
   @Deprecated('Use "squareRss" instead.')
@@ -12024,7 +12024,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-share-nodes?style=solid
   /// forward, save, send, social
-  static const IconData squareShareNodes = IconDataLight(0xf1e1);
+  static const IconData squareShareNodes = IconDataSolid(0xf1e1);
 
   /// Alias share-alt-square for icon [squareShareNodes]
   @Deprecated('Use "squareShareNodes" instead.')
@@ -12071,7 +12071,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-up-right?style=solid
   /// arrow, diagonal, direction, external-link-square, intercardinal, new, northeast, open, share, up-right arrow
-  static const IconData squareUpRight = IconDataLight(0xf360);
+  static const IconData squareUpRight = IconDataSolid(0xf360);
 
   /// Alias external-link-square-alt for icon [squareUpRight]
   @Deprecated('Use "squareUpRight" instead.')
@@ -12099,7 +12099,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-virus?style=solid
   /// coronavirus, covid-19, disease, flu, infection, pandemic
-  static const IconData squareVirus = IconDataLight(0xe578);
+  static const IconData squareVirus = IconDataSolid(0xe578);
 
   /// Brands What's App Square icon
   ///
@@ -12123,7 +12123,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/square-xmark?style=solid
   /// close, cross, cross mark button, incorrect, mark, notice, notification, notify, problem, square, window, wrong, x, ×
-  static const IconData squareXmark = IconDataLight(0xf2d3);
+  static const IconData squareXmark = IconDataSolid(0xf2d3);
 
   /// Alias times-square for icon [squareXmark]
   @Deprecated('Use "squareXmark" instead.')
@@ -12166,7 +12166,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/staff-snake?style=solid
   /// asclepius, asklepian, health, serpent, wellness
-  static const IconData staffSnake = IconDataLight(0xe579);
+  static const IconData staffSnake = IconDataSolid(0xe579);
 
   /// Alias rod-asclepius for icon [staffSnake]
   @Deprecated('Use "staffSnake" instead.')
@@ -12184,55 +12184,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/stairs?style=solid
   /// exit, steps, up
-  static const IconData stairs = IconDataLight(0xe289);
+  static const IconData stairs = IconDataSolid(0xe289);
 
   /// Solid Stamp icon
   ///
   /// https://fontawesome.com/icons/stamp?style=solid
   /// art, certificate, imprint, rubber, seal
-  static const IconData stamp = IconDataLight(0xf5bf);
+  static const IconData stamp = IconDataSolid(0xf5bf);
 
   /// Solid Stapler icon
   ///
   /// https://fontawesome.com/icons/stapler?style=solid
   /// desktop, milton, office, paperclip, staple
-  static const IconData stapler = IconDataLight(0xe5af);
+  static const IconData stapler = IconDataSolid(0xe5af);
 
   /// Solid Star icon
   ///
   /// https://fontawesome.com/icons/star?style=solid
   /// achievement, award, favorite, important, night, rating, score, star
-  static const IconData solidStar = IconDataLight(0xf005);
+  static const IconData solidStar = IconDataSolid(0xf005);
 
   /// Regular Star icon
   ///
   /// https://fontawesome.com/icons/star?style=regular
   /// achievement, award, favorite, important, night, rating, score, star
-  static const IconData star = IconDataLight(0xf005);
+  static const IconData star = IconDataRegular(0xf005);
 
   /// Solid Star And Crescent icon
   ///
   /// https://fontawesome.com/icons/star-and-crescent?style=solid
   /// Muslim, islam, muslim, religion, star and crescent
-  static const IconData starAndCrescent = IconDataLight(0xf699);
+  static const IconData starAndCrescent = IconDataSolid(0xf699);
 
   /// Solid Star Half icon
   ///
   /// https://fontawesome.com/icons/star-half?style=solid
   /// achievement, award, rating, score, star-half-empty, star-half-full
-  static const IconData solidStarHalf = IconDataLight(0xf089);
+  static const IconData solidStarHalf = IconDataSolid(0xf089);
 
   /// Regular Star Half icon
   ///
   /// https://fontawesome.com/icons/star-half?style=regular
   /// achievement, award, rating, score, star-half-empty, star-half-full
-  static const IconData starHalf = IconDataLight(0xf089);
+  static const IconData starHalf = IconDataRegular(0xf089);
 
   /// Solid Star Half Stroke icon
   ///
   /// https://fontawesome.com/icons/star-half-stroke?style=solid
   /// achievement, award, rating, score, star-half-empty, star-half-full
-  static const IconData solidStarHalfStroke = IconDataLight(0xf5c0);
+  static const IconData solidStarHalfStroke = IconDataSolid(0xf5c0);
 
   /// Alias star-half-alt for icon [solidStarHalfStroke]
   @Deprecated('Use "solidStarHalfStroke" instead.')
@@ -12242,7 +12242,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/star-half-stroke?style=regular
   /// achievement, award, rating, score, star-half-empty, star-half-full
-  static const IconData starHalfStroke = IconDataLight(0xf5c0);
+  static const IconData starHalfStroke = IconDataRegular(0xf5c0);
 
   /// Alias star-half-alt for icon [starHalfStroke]
   @Deprecated('Use "starHalfStroke" instead.')
@@ -12252,13 +12252,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/star-of-david?style=solid
   /// David, Jew, Jewish, jewish, judaism, religion, star, star of David
-  static const IconData starOfDavid = IconDataLight(0xf69a);
+  static const IconData starOfDavid = IconDataSolid(0xf69a);
 
   /// Solid Star Of Life icon
   ///
   /// https://fontawesome.com/icons/star-of-life?style=solid
   /// doctor, emt, first aid, health, medical
-  static const IconData starOfLife = IconDataLight(0xf621);
+  static const IconData starOfLife = IconDataSolid(0xf621);
 
   /// Brands StayLinked icon
   ///
@@ -12279,7 +12279,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/sterling-sign?style=solid
   /// Pound Sign, currency
-  static const IconData sterlingSign = IconDataLight(0xf154);
+  static const IconData sterlingSign = IconDataSolid(0xf154);
 
   /// Alias gbp for icon [sterlingSign]
   @Deprecated('Use "sterlingSign" instead.')
@@ -12293,7 +12293,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/stethoscope?style=solid
   /// covid-19, diagnosis, doctor, general practitioner, heart, hospital, infirmary, medicine, office, outpatient, stethoscope
-  static const IconData stethoscope = IconDataLight(0xf0f1);
+  static const IconData stethoscope = IconDataSolid(0xf0f1);
 
   /// Brands Sticker Mule icon
   ///
@@ -12304,31 +12304,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/stop?style=solid
   /// block, box, square, stop, stop button
-  static const IconData stop = IconDataLight(0xf04d);
+  static const IconData stop = IconDataSolid(0xf04d);
 
   /// Solid Stopwatch icon
   ///
   /// https://fontawesome.com/icons/stopwatch?style=solid
   /// clock, reminder, stopwatch, time
-  static const IconData stopwatch = IconDataLight(0xf2f2);
+  static const IconData stopwatch = IconDataSolid(0xf2f2);
 
   /// Solid Stopwatch 20 icon
   ///
   /// https://fontawesome.com/icons/stopwatch-20?style=solid
   /// ABCs, countdown, covid-19, happy birthday, i will survive, reminder, seconds, time, timer
-  static const IconData stopwatch20 = IconDataLight(0xe06f);
+  static const IconData stopwatch20 = IconDataSolid(0xe06f);
 
   /// Solid Store icon
   ///
   /// https://fontawesome.com/icons/store?style=solid
   /// bodega, building, buy, market, purchase, shopping, store
-  static const IconData store = IconDataLight(0xf54e);
+  static const IconData store = IconDataSolid(0xf54e);
 
   /// Solid Store Slash icon
   ///
   /// https://fontawesome.com/icons/store-slash?style=solid
   /// building, buy, closed, covid-19, purchase, shopping
-  static const IconData storeSlash = IconDataLight(0xe071);
+  static const IconData storeSlash = IconDataSolid(0xe071);
 
   /// Brands Strava icon
   ///
@@ -12339,13 +12339,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/street-view?style=solid
   /// directions, location, map, navigation
-  static const IconData streetView = IconDataLight(0xf21d);
+  static const IconData streetView = IconDataSolid(0xf21d);
 
   /// Solid Strikethrough icon
   ///
   /// https://fontawesome.com/icons/strikethrough?style=solid
   /// cancel, edit, font, format, text, type
-  static const IconData strikethrough = IconDataLight(0xf0cc);
+  static const IconData strikethrough = IconDataSolid(0xf0cc);
 
   /// Brands Stripe icon
   ///
@@ -12361,7 +12361,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/stroopwafel?style=solid
   /// caramel, cookie, dessert, sweets, waffle
-  static const IconData stroopwafel = IconDataLight(0xf551);
+  static const IconData stroopwafel = IconDataSolid(0xf551);
 
   /// Brands Stubber icon
   ///
@@ -12387,19 +12387,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/subscript?style=solid
   /// edit, font, format, text, type
-  static const IconData subscript = IconDataLight(0xf12c);
+  static const IconData subscript = IconDataSolid(0xf12c);
 
   /// Solid Suitcase icon
   ///
   /// https://fontawesome.com/icons/suitcase?style=solid
   /// baggage, luggage, move, packing, suitcase, travel, trip
-  static const IconData suitcase = IconDataLight(0xf0f2);
+  static const IconData suitcase = IconDataSolid(0xf0f2);
 
   /// Solid Suitcase Medical icon
   ///
   /// https://fontawesome.com/icons/suitcase-medical?style=solid
   /// first aid, firstaid, health, help, medical, supply, support
-  static const IconData suitcaseMedical = IconDataLight(0xf0fa);
+  static const IconData suitcaseMedical = IconDataSolid(0xf0fa);
 
   /// Alias medkit for icon [suitcaseMedical]
   @Deprecated('Use "suitcaseMedical" instead.')
@@ -12409,25 +12409,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/suitcase-rolling?style=solid
   /// baggage, luggage, move, suitcase, travel, trip
-  static const IconData suitcaseRolling = IconDataLight(0xf5c1);
+  static const IconData suitcaseRolling = IconDataSolid(0xf5c1);
 
   /// Solid Sun icon
   ///
   /// https://fontawesome.com/icons/sun?style=solid
   /// bright, brighten, contrast, day, lighter, rays, sol, solar, star, sun, sunny, weather
-  static const IconData solidSun = IconDataLight(0xf185);
+  static const IconData solidSun = IconDataSolid(0xf185);
 
   /// Regular Sun icon
   ///
   /// https://fontawesome.com/icons/sun?style=regular
   /// bright, brighten, contrast, day, lighter, rays, sol, solar, star, sun, sunny, weather
-  static const IconData sun = IconDataLight(0xf185);
+  static const IconData sun = IconDataRegular(0xf185);
 
   /// Solid Sun Plant Wilt icon
   ///
   /// https://fontawesome.com/icons/sun-plant-wilt?style=solid
   /// arid, droop, drought
-  static const IconData sunPlantWilt = IconDataLight(0xe57a);
+  static const IconData sunPlantWilt = IconDataSolid(0xe57a);
 
   /// Brands Superpowers icon
   ///
@@ -12438,7 +12438,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/superscript?style=solid
   /// edit, exponential, font, format, text, type
-  static const IconData superscript = IconDataLight(0xf12b);
+  static const IconData superscript = IconDataSolid(0xf12b);
 
   /// Brands Supple icon
   ///
@@ -12455,7 +12455,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/swatchbook?style=solid
   /// Pantone, color, design, hue, palette
-  static const IconData swatchbook = IconDataLight(0xf5c3);
+  static const IconData swatchbook = IconDataSolid(0xf5c3);
 
   /// Brands Swift icon
   ///
@@ -12471,31 +12471,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/synagogue?style=solid
   /// Jew, Jewish, building, jewish, judaism, religion, star of david, synagogue, temple
-  static const IconData synagogue = IconDataLight(0xf69b);
+  static const IconData synagogue = IconDataSolid(0xf69b);
 
   /// Solid Syringe icon
   ///
   /// https://fontawesome.com/icons/syringe?style=solid
   /// covid-19, doctor, immunizations, medical, medicine, needle, shot, sick, syringe, vaccinate, vaccine
-  static const IconData syringe = IconDataLight(0xf48e);
+  static const IconData syringe = IconDataSolid(0xf48e);
 
   /// Solid T icon
   ///
   /// https://fontawesome.com/icons/t?style=solid
   /// Latin Capital Letter T, Latin Small Letter T, letter
-  static const IconData t = IconDataLight(0x54);
+  static const IconData t = IconDataSolid(0x54);
 
   /// Solid Table icon
   ///
   /// https://fontawesome.com/icons/table?style=solid
   /// data, excel, spreadsheet
-  static const IconData table = IconDataLight(0xf0ce);
+  static const IconData table = IconDataSolid(0xf0ce);
 
   /// Solid Table Cells icon
   ///
   /// https://fontawesome.com/icons/table-cells?style=solid
   /// blocks, boxes, grid, squares
-  static const IconData tableCells = IconDataLight(0xf00a);
+  static const IconData tableCells = IconDataSolid(0xf00a);
 
   /// Alias th for icon [tableCells]
   @Deprecated('Use "tableCells" instead.')
@@ -12505,7 +12505,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/table-cells-large?style=solid
   /// blocks, boxes, grid, squares
-  static const IconData tableCellsLarge = IconDataLight(0xf009);
+  static const IconData tableCellsLarge = IconDataSolid(0xf009);
 
   /// Alias th-large for icon [tableCellsLarge]
   @Deprecated('Use "tableCellsLarge" instead.')
@@ -12515,7 +12515,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/table-columns?style=solid
   /// browser, dashboard, organize, panes, split
-  static const IconData tableColumns = IconDataLight(0xf0db);
+  static const IconData tableColumns = IconDataSolid(0xf0db);
 
   /// Alias columns for icon [tableColumns]
   @Deprecated('Use "tableColumns" instead.')
@@ -12525,7 +12525,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/table-list?style=solid
   /// checklist, completed, done, finished, ol, todo, ul
-  static const IconData tableList = IconDataLight(0xf00b);
+  static const IconData tableList = IconDataSolid(0xf00b);
 
   /// Alias th-list for icon [tableList]
   @Deprecated('Use "tableList" instead.')
@@ -12535,7 +12535,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/table-tennis-paddle-ball?style=solid
   /// ball, bat, game, paddle, ping pong, table tennis
-  static const IconData tableTennisPaddleBall = IconDataLight(0xf45d);
+  static const IconData tableTennisPaddleBall = IconDataSolid(0xf45d);
 
   /// Alias ping-pong-paddle-ball for icon [tableTennisPaddleBall]
   @Deprecated('Use "tableTennisPaddleBall" instead.')
@@ -12549,7 +12549,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tablet?style=solid
   /// device, kindle, screen
-  static const IconData tablet = IconDataLight(0xf3fb);
+  static const IconData tablet = IconDataSolid(0xf3fb);
 
   /// Alias tablet-android for icon [tablet]
   @Deprecated('Use "tablet" instead.')
@@ -12559,13 +12559,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tablet-button?style=solid
   /// apple, device, ipad, kindle, screen
-  static const IconData tabletButton = IconDataLight(0xf10a);
+  static const IconData tabletButton = IconDataSolid(0xf10a);
 
   /// Solid Tablet Screen Button icon
   ///
   /// https://fontawesome.com/icons/tablet-screen-button?style=solid
   /// apple, device, ipad, kindle, screen
-  static const IconData tabletScreenButton = IconDataLight(0xf3fa);
+  static const IconData tabletScreenButton = IconDataSolid(0xf3fa);
 
   /// Alias tablet-alt for icon [tabletScreenButton]
   @Deprecated('Use "tabletScreenButton" instead.')
@@ -12575,13 +12575,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tablets?style=solid
   /// drugs, medicine, pills, prescription
-  static const IconData tablets = IconDataLight(0xf490);
+  static const IconData tablets = IconDataSolid(0xf490);
 
   /// Solid Tachograph Digital icon
   ///
   /// https://fontawesome.com/icons/tachograph-digital?style=solid
   /// data, distance, speed, tachometer
-  static const IconData tachographDigital = IconDataLight(0xf566);
+  static const IconData tachographDigital = IconDataSolid(0xf566);
 
   /// Alias digital-tachograph for icon [tachographDigital]
   @Deprecated('Use "tachographDigital" instead.')
@@ -12591,37 +12591,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tag?style=solid
   /// discount, labe, label, price, shopping
-  static const IconData tag = IconDataLight(0xf02b);
+  static const IconData tag = IconDataSolid(0xf02b);
 
   /// Solid Tags icon
   ///
   /// https://fontawesome.com/icons/tags?style=solid
   /// discount, label, price, shopping
-  static const IconData tags = IconDataLight(0xf02c);
+  static const IconData tags = IconDataSolid(0xf02c);
 
   /// Solid Tape icon
   ///
   /// https://fontawesome.com/icons/tape?style=solid
   /// design, package, sticky
-  static const IconData tape = IconDataLight(0xf4db);
+  static const IconData tape = IconDataSolid(0xf4db);
 
   /// Solid Tarp icon
   ///
   /// https://fontawesome.com/icons/tarp?style=solid
   /// protection, tarp, tent, waterproof
-  static const IconData tarp = IconDataLight(0xe57b);
+  static const IconData tarp = IconDataSolid(0xe57b);
 
   /// Solid Tarp Droplet icon
   ///
   /// https://fontawesome.com/icons/tarp-droplet?style=solid
   /// protection, tarp, tent, waterproof
-  static const IconData tarpDroplet = IconDataLight(0xe57c);
+  static const IconData tarpDroplet = IconDataSolid(0xe57c);
 
   /// Solid Taxi icon
   ///
   /// https://fontawesome.com/icons/taxi?style=solid
   /// cab, cabbie, car, car service, lyft, machine, oncoming, oncoming taxi, taxi, transportation, travel, uber, vehicle
-  static const IconData taxi = IconDataLight(0xf1ba);
+  static const IconData taxi = IconDataSolid(0xf1ba);
 
   /// Alias cab for icon [taxi]
   @Deprecated('Use "taxi" instead.')
@@ -12636,13 +12636,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/teeth?style=solid
   /// bite, dental, dentist, gums, mouth, smile, tooth
-  static const IconData teeth = IconDataLight(0xf62e);
+  static const IconData teeth = IconDataSolid(0xf62e);
 
   /// Solid Teeth Open icon
   ///
   /// https://fontawesome.com/icons/teeth-open?style=solid
   /// dental, dentist, gums bite, mouth, smile, tooth
-  static const IconData teethOpen = IconDataLight(0xf62f);
+  static const IconData teethOpen = IconDataSolid(0xf62f);
 
   /// Brands Telegram icon
   ///
@@ -12657,7 +12657,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-arrow-down?style=solid
   /// air conditioner, cold, heater, mercury, thermometer, winter
-  static const IconData temperatureArrowDown = IconDataLight(0xe03f);
+  static const IconData temperatureArrowDown = IconDataSolid(0xe03f);
 
   /// Alias temperature-down for icon [temperatureArrowDown]
   @Deprecated('Use "temperatureArrowDown" instead.')
@@ -12667,7 +12667,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-arrow-up?style=solid
   /// air conditioner, cold, heater, mercury, thermometer, winter
-  static const IconData temperatureArrowUp = IconDataLight(0xe040);
+  static const IconData temperatureArrowUp = IconDataSolid(0xe040);
 
   /// Alias temperature-up for icon [temperatureArrowUp]
   @Deprecated('Use "temperatureArrowUp" instead.')
@@ -12677,7 +12677,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-empty?style=solid
   /// cold, mercury, status, temperature
-  static const IconData temperatureEmpty = IconDataLight(0xf2cb);
+  static const IconData temperatureEmpty = IconDataSolid(0xf2cb);
 
   /// Alias temperature-0 for icon [temperatureEmpty]
   @Deprecated('Use "temperatureEmpty" instead.')
@@ -12695,7 +12695,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-full?style=solid
   /// fever, hot, mercury, status, temperature
-  static const IconData temperatureFull = IconDataLight(0xf2c7);
+  static const IconData temperatureFull = IconDataSolid(0xf2c7);
 
   /// Alias temperature-4 for icon [temperatureFull]
   @Deprecated('Use "temperatureFull" instead.')
@@ -12713,7 +12713,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-half?style=solid
   /// mercury, status, temperature, thermometer, weather
-  static const IconData temperatureHalf = IconDataLight(0xf2c9);
+  static const IconData temperatureHalf = IconDataSolid(0xf2c9);
 
   /// Alias temperature-2 for icon [temperatureHalf]
   @Deprecated('Use "temperatureHalf" instead.')
@@ -12731,19 +12731,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-high?style=solid
   /// cook, covid-19, mercury, summer, thermometer, warm
-  static const IconData temperatureHigh = IconDataLight(0xf769);
+  static const IconData temperatureHigh = IconDataSolid(0xf769);
 
   /// Solid Temperature Low icon
   ///
   /// https://fontawesome.com/icons/temperature-low?style=solid
   /// cold, cool, covid-19, mercury, thermometer, winter
-  static const IconData temperatureLow = IconDataLight(0xf76b);
+  static const IconData temperatureLow = IconDataSolid(0xf76b);
 
   /// Solid Temperature Quarter icon
   ///
   /// https://fontawesome.com/icons/temperature-quarter?style=solid
   /// mercury, status, temperature
-  static const IconData temperatureQuarter = IconDataLight(0xf2ca);
+  static const IconData temperatureQuarter = IconDataSolid(0xf2ca);
 
   /// Alias temperature-1 for icon [temperatureQuarter]
   @Deprecated('Use "temperatureQuarter" instead.')
@@ -12761,7 +12761,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/temperature-three-quarters?style=solid
   /// mercury, status, temperature
-  static const IconData temperatureThreeQuarters = IconDataLight(0xf2c8);
+  static const IconData temperatureThreeQuarters = IconDataSolid(0xf2c8);
 
   /// Alias temperature-3 for icon [temperatureThreeQuarters]
   @Deprecated('Use "temperatureThreeQuarters" instead.')
@@ -12784,7 +12784,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tenge-sign?style=solid
   /// Tenge Sign, currency
-  static const IconData tengeSign = IconDataLight(0xf7d7);
+  static const IconData tengeSign = IconDataSolid(0xf7d7);
 
   /// Alias tenge for icon [tengeSign]
   @Deprecated('Use "tengeSign" instead.')
@@ -12794,55 +12794,55 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tent?style=solid
   /// bivouac, campground, refugee, shelter, tent
-  static const IconData tent = IconDataLight(0xe57d);
+  static const IconData tent = IconDataSolid(0xe57d);
 
   /// Solid Tent Arrow Down To Line icon
   ///
   /// https://fontawesome.com/icons/tent-arrow-down-to-line?style=solid
   /// permanent, refugee, shelter
-  static const IconData tentArrowDownToLine = IconDataLight(0xe57e);
+  static const IconData tentArrowDownToLine = IconDataSolid(0xe57e);
 
   /// Solid Tent Arrow Left Right icon
   ///
   /// https://fontawesome.com/icons/tent-arrow-left-right?style=solid
   /// refugee, shelter, transition
-  static const IconData tentArrowLeftRight = IconDataLight(0xe57f);
+  static const IconData tentArrowLeftRight = IconDataSolid(0xe57f);
 
   /// Solid Tent Arrow Turn Left icon
   ///
   /// https://fontawesome.com/icons/tent-arrow-turn-left?style=solid
   /// refugee, shelter, temporary
-  static const IconData tentArrowTurnLeft = IconDataLight(0xe580);
+  static const IconData tentArrowTurnLeft = IconDataSolid(0xe580);
 
   /// Solid Tent Arrows Down icon
   ///
   /// https://fontawesome.com/icons/tent-arrows-down?style=solid
   /// refugee, shelter, spontaneous
-  static const IconData tentArrowsDown = IconDataLight(0xe581);
+  static const IconData tentArrowsDown = IconDataSolid(0xe581);
 
   /// Solid Tents icon
   ///
   /// https://fontawesome.com/icons/tents?style=solid
   /// bivouac, campground, refugee, shelter, tent
-  static const IconData tents = IconDataLight(0xe582);
+  static const IconData tents = IconDataSolid(0xe582);
 
   /// Solid Terminal icon
   ///
   /// https://fontawesome.com/icons/terminal?style=solid
   /// code, coding, command, console, development, prompt, terminal
-  static const IconData terminal = IconDataLight(0xf120);
+  static const IconData terminal = IconDataSolid(0xf120);
 
   /// Solid Text Height icon
   ///
   /// https://fontawesome.com/icons/text-height?style=solid
   /// edit, font, format, text, type
-  static const IconData textHeight = IconDataLight(0xf034);
+  static const IconData textHeight = IconDataSolid(0xf034);
 
   /// Solid Text Slash icon
   ///
   /// https://fontawesome.com/icons/text-slash?style=solid
   /// cancel, font, format, remove, style, text
-  static const IconData textSlash = IconDataLight(0xf87d);
+  static const IconData textSlash = IconDataSolid(0xf87d);
 
   /// Alias remove-format for icon [textSlash]
   @Deprecated('Use "textSlash" instead.')
@@ -12852,7 +12852,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/text-width?style=solid
   /// edit, font, format, text, type
-  static const IconData textWidth = IconDataLight(0xf035);
+  static const IconData textWidth = IconDataSolid(0xf035);
 
   /// Brands The Red Yeti icon
   ///
@@ -12873,7 +12873,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/thermometer?style=solid
   /// covid-19, mercury, status, temperature
-  static const IconData thermometer = IconDataLight(0xf491);
+  static const IconData thermometer = IconDataSolid(0xf491);
 
   /// Brands Think Peaks icon
   ///
@@ -12884,31 +12884,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/thumbs-down?style=solid
   /// -1, disagree, disapprove, dislike, down, hand, social, thumb, thumbs down, thumbs-o-down
-  static const IconData solidThumbsDown = IconDataLight(0xf165);
+  static const IconData solidThumbsDown = IconDataSolid(0xf165);
 
   /// Regular Thumbs Down icon
   ///
   /// https://fontawesome.com/icons/thumbs-down?style=regular
   /// -1, disagree, disapprove, dislike, down, hand, social, thumb, thumbs down, thumbs-o-down
-  static const IconData thumbsDown = IconDataLight(0xf165);
+  static const IconData thumbsDown = IconDataRegular(0xf165);
 
   /// Solid Thumbs Up icon
   ///
   /// https://fontawesome.com/icons/thumbs-up?style=solid
   /// +1, agree, approve, favorite, hand, like, ok, okay, social, success, thumb, thumbs up, thumbs-o-up, up, yes, you got it dude
-  static const IconData solidThumbsUp = IconDataLight(0xf164);
+  static const IconData solidThumbsUp = IconDataSolid(0xf164);
 
   /// Regular Thumbs Up icon
   ///
   /// https://fontawesome.com/icons/thumbs-up?style=regular
   /// +1, agree, approve, favorite, hand, like, ok, okay, social, success, thumb, thumbs up, thumbs-o-up, up, yes, you got it dude
-  static const IconData thumbsUp = IconDataLight(0xf164);
+  static const IconData thumbsUp = IconDataRegular(0xf164);
 
   /// Solid Thumbtack icon
   ///
   /// https://fontawesome.com/icons/thumbtack?style=solid
   /// Black Pushpin, coordinates, location, marker, pin, pushpin, thumb-tack
-  static const IconData thumbtack = IconDataLight(0xf08d);
+  static const IconData thumbtack = IconDataSolid(0xf08d);
 
   /// Alias thumb-tack for icon [thumbtack]
   @Deprecated('Use "thumbtack" instead.')
@@ -12918,13 +12918,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/ticket?style=solid
   /// admission, admission tickets, movie, pass, support, ticket
-  static const IconData ticket = IconDataLight(0xf145);
+  static const IconData ticket = IconDataSolid(0xf145);
 
   /// Solid Ticket Simple icon
   ///
   /// https://fontawesome.com/icons/ticket-simple?style=solid
   /// movie, pass, support, ticket
-  static const IconData ticketSimple = IconDataLight(0xf3ff);
+  static const IconData ticketSimple = IconDataSolid(0xf3ff);
 
   /// Alias ticket-alt for icon [ticketSimple]
   @Deprecated('Use "ticketSimple" instead.')
@@ -12939,79 +12939,79 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/timeline?style=solid
   /// chronological, deadline, history, linear
-  static const IconData timeline = IconDataLight(0xe29c);
+  static const IconData timeline = IconDataSolid(0xe29c);
 
   /// Solid Toggle Off icon
   ///
   /// https://fontawesome.com/icons/toggle-off?style=solid
   /// button, off, on, switch
-  static const IconData toggleOff = IconDataLight(0xf204);
+  static const IconData toggleOff = IconDataSolid(0xf204);
 
   /// Solid Toggle On icon
   ///
   /// https://fontawesome.com/icons/toggle-on?style=solid
   /// button, off, on, switch
-  static const IconData toggleOn = IconDataLight(0xf205);
+  static const IconData toggleOn = IconDataSolid(0xf205);
 
   /// Solid Toilet icon
   ///
   /// https://fontawesome.com/icons/toilet?style=solid
   /// bathroom, flush, john, loo, pee, plumbing, poop, porcelain, potty, restroom, throne, toile, toilet, washroom, waste, wc
-  static const IconData toilet = IconDataLight(0xf7d8);
+  static const IconData toilet = IconDataSolid(0xf7d8);
 
   /// Solid Toilet Paper icon
   ///
   /// https://fontawesome.com/icons/toilet-paper?style=solid
   /// bathroom, covid-19, halloween, holiday, lavatory, paper towels, prank, privy, restroom, roll, roll of paper, toilet, toilet paper, wipe
-  static const IconData toiletPaper = IconDataLight(0xf71e);
+  static const IconData toiletPaper = IconDataSolid(0xf71e);
 
   /// Solid Toilet Paper Slash icon
   ///
   /// https://fontawesome.com/icons/toilet-paper-slash?style=solid
   /// bathroom, covid-19, halloween, holiday, lavatory, leaves, prank, privy, restroom, roll, toilet, trouble, ut oh, wipe
-  static const IconData toiletPaperSlash = IconDataLight(0xe072);
+  static const IconData toiletPaperSlash = IconDataSolid(0xe072);
 
   /// Solid Toilet Portable icon
   ///
   /// https://fontawesome.com/icons/toilet-portable?style=solid
   /// outhouse, toilet
-  static const IconData toiletPortable = IconDataLight(0xe583);
+  static const IconData toiletPortable = IconDataSolid(0xe583);
 
   /// Solid Toilets Portable icon
   ///
   /// https://fontawesome.com/icons/toilets-portable?style=solid
   /// outhouse, toilet
-  static const IconData toiletsPortable = IconDataLight(0xe584);
+  static const IconData toiletsPortable = IconDataSolid(0xe584);
 
   /// Solid Toolbox icon
   ///
   /// https://fontawesome.com/icons/toolbox?style=solid
   /// admin, chest, container, fix, mechanic, repair, settings, tool, toolbox, tools
-  static const IconData toolbox = IconDataLight(0xf552);
+  static const IconData toolbox = IconDataSolid(0xf552);
 
   /// Solid Tooth icon
   ///
   /// https://fontawesome.com/icons/tooth?style=solid
   /// bicuspid, dental, dentist, molar, mouth, teeth, tooth
-  static const IconData tooth = IconDataLight(0xf5c9);
+  static const IconData tooth = IconDataSolid(0xf5c9);
 
   /// Solid Torii Gate icon
   ///
   /// https://fontawesome.com/icons/torii-gate?style=solid
   /// building, religion, shinto, shinto shrine, shintoism, shrine
-  static const IconData toriiGate = IconDataLight(0xf6a1);
+  static const IconData toriiGate = IconDataSolid(0xf6a1);
 
   /// Solid Tornado icon
   ///
   /// https://fontawesome.com/icons/tornado?style=solid
   /// cloud, cyclone, dorothy, landspout, tornado, toto, twister, vortext, waterspout, weather, whirlwind
-  static const IconData tornado = IconDataLight(0xf76f);
+  static const IconData tornado = IconDataSolid(0xf76f);
 
   /// Solid Tower Broadcast icon
   ///
   /// https://fontawesome.com/icons/tower-broadcast?style=solid
   /// airwaves, antenna, communication, emergency, radio, reception, waves
-  static const IconData towerBroadcast = IconDataLight(0xf519);
+  static const IconData towerBroadcast = IconDataSolid(0xf519);
 
   /// Alias broadcast-tower for icon [towerBroadcast]
   @Deprecated('Use "towerBroadcast" instead.')
@@ -13021,19 +13021,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tower-cell?style=solid
   /// airwaves, antenna, communication, radio, reception, waves
-  static const IconData towerCell = IconDataLight(0xe585);
+  static const IconData towerCell = IconDataSolid(0xe585);
 
   /// Solid Tower Observation icon
   ///
   /// https://fontawesome.com/icons/tower-observation?style=solid
   /// fire tower, view
-  static const IconData towerObservation = IconDataLight(0xe586);
+  static const IconData towerObservation = IconDataSolid(0xe586);
 
   /// Solid Tractor icon
   ///
   /// https://fontawesome.com/icons/tractor?style=solid
   /// agriculture, farm, tractor, vehicle
-  static const IconData tractor = IconDataLight(0xf722);
+  static const IconData tractor = IconDataSolid(0xf722);
 
   /// Brands Trade Federation icon
   ///
@@ -13044,31 +13044,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trademark?style=solid
   /// copyright, mark, register, symbol, tm, trade mark, trademark
-  static const IconData trademark = IconDataLight(0xf25c);
+  static const IconData trademark = IconDataSolid(0xf25c);
 
   /// Solid Traffic Light icon
   ///
   /// https://fontawesome.com/icons/traffic-light?style=solid
   /// direction, light, road, signal, traffic, travel, vertical traffic light
-  static const IconData trafficLight = IconDataLight(0xf637);
+  static const IconData trafficLight = IconDataSolid(0xf637);
 
   /// Solid Trailer icon
   ///
   /// https://fontawesome.com/icons/trailer?style=solid
   /// carry, haul, moving, travel
-  static const IconData trailer = IconDataLight(0xe041);
+  static const IconData trailer = IconDataSolid(0xe041);
 
   /// Solid Train icon
   ///
   /// https://fontawesome.com/icons/train?style=solid
   /// bullet, commute, locomotive, railway, subway, train
-  static const IconData train = IconDataLight(0xf238);
+  static const IconData train = IconDataSolid(0xf238);
 
   /// Solid Train Subway icon
   ///
   /// https://fontawesome.com/icons/train-subway?style=solid
   /// machine, railway, train, transportation, vehicle
-  static const IconData trainSubway = IconDataLight(0xf239);
+  static const IconData trainSubway = IconDataSolid(0xf239);
 
   /// Alias subway for icon [trainSubway]
   @Deprecated('Use "trainSubway" instead.')
@@ -13078,13 +13078,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/train-tram?style=solid
   /// crossing, machine, mountains, seasonal, tram, transportation, trolleybus
-  static const IconData trainTram = IconDataLight(0xe5b4);
+  static const IconData trainTram = IconDataSolid(0xe5b4);
 
   /// Solid Transgender icon
   ///
   /// https://fontawesome.com/icons/transgender?style=solid
   /// female, gender, intersex, male, transgender, transgender symbol
-  static const IconData transgender = IconDataLight(0xf225);
+  static const IconData transgender = IconDataSolid(0xf225);
 
   /// Alias transgender-alt for icon [transgender]
   @Deprecated('Use "transgender" instead.')
@@ -13094,13 +13094,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trash?style=solid
   /// delete, garbage, hide, remove
-  static const IconData trash = IconDataLight(0xf1f8);
+  static const IconData trash = IconDataSolid(0xf1f8);
 
   /// Solid Trash Arrow Up icon
   ///
   /// https://fontawesome.com/icons/trash-arrow-up?style=solid
   /// back, control z, delete, garbage, hide, oops, remove, undo
-  static const IconData trashArrowUp = IconDataLight(0xf829);
+  static const IconData trashArrowUp = IconDataSolid(0xf829);
 
   /// Alias trash-restore for icon [trashArrowUp]
   @Deprecated('Use "trashArrowUp" instead.')
@@ -13110,7 +13110,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trash-can?style=solid
   /// delete, garbage, hide, remove, trash-o
-  static const IconData solidTrashCan = IconDataLight(0xf2ed);
+  static const IconData solidTrashCan = IconDataSolid(0xf2ed);
 
   /// Alias trash-alt for icon [solidTrashCan]
   @Deprecated('Use "solidTrashCan" instead.')
@@ -13120,7 +13120,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trash-can?style=regular
   /// delete, garbage, hide, remove, trash-o
-  static const IconData trashCan = IconDataLight(0xf2ed);
+  static const IconData trashCan = IconDataRegular(0xf2ed);
 
   /// Alias trash-alt for icon [trashCan]
   @Deprecated('Use "trashCan" instead.')
@@ -13130,7 +13130,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trash-can-arrow-up?style=solid
   /// back, control z, delete, garbage, hide, oops, remove, undo
-  static const IconData trashCanArrowUp = IconDataLight(0xf82a);
+  static const IconData trashCanArrowUp = IconDataSolid(0xf82a);
 
   /// Alias trash-restore-alt for icon [trashCanArrowUp]
   @Deprecated('Use "trashCanArrowUp" instead.')
@@ -13140,13 +13140,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tree?style=solid
   /// bark, evergreen tree, fall, flora, forest, nature, plant, seasonal, tree
-  static const IconData tree = IconDataLight(0xf1bb);
+  static const IconData tree = IconDataSolid(0xf1bb);
 
   /// Solid Tree City icon
   ///
   /// https://fontawesome.com/icons/tree-city?style=solid
   /// building, city, urban
-  static const IconData treeCity = IconDataLight(0xe587);
+  static const IconData treeCity = IconDataSolid(0xe587);
 
   /// Brands Trello icon
   ///
@@ -13158,7 +13158,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/triangle-exclamation?style=solid
   /// alert, danger, error, important, notice, notification, notify, problem, warnin, warning
-  static const IconData triangleExclamation = IconDataLight(0xf071);
+  static const IconData triangleExclamation = IconDataSolid(0xf071);
 
   /// Alias exclamation-triangle for icon [triangleExclamation]
   @Deprecated('Use "triangleExclamation" instead.')
@@ -13172,43 +13172,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/trophy?style=solid
   /// achievement, award, cup, game, prize, trophy, winner
-  static const IconData trophy = IconDataLight(0xf091);
+  static const IconData trophy = IconDataSolid(0xf091);
 
   /// Solid Trowel icon
   ///
   /// https://fontawesome.com/icons/trowel?style=solid
   /// build, construction, tool
-  static const IconData trowel = IconDataLight(0xe589);
+  static const IconData trowel = IconDataSolid(0xe589);
 
   /// Solid Trowel Bricks icon
   ///
   /// https://fontawesome.com/icons/trowel-bricks?style=solid
   /// build, construction, reconstruction, tool
-  static const IconData trowelBricks = IconDataLight(0xe58a);
+  static const IconData trowelBricks = IconDataSolid(0xe58a);
 
   /// Solid Truck icon
   ///
   /// https://fontawesome.com/icons/truck?style=solid
   /// Black Truck, cargo, delivery, delivery truck, shipping, truck, vehicle
-  static const IconData truck = IconDataLight(0xf0d1);
+  static const IconData truck = IconDataSolid(0xf0d1);
 
   /// Solid Truck Arrow Right icon
   ///
   /// https://fontawesome.com/icons/truck-arrow-right?style=solid
   /// access, fast, shipping, transport
-  static const IconData truckArrowRight = IconDataLight(0xe58b);
+  static const IconData truckArrowRight = IconDataSolid(0xe58b);
 
   /// Solid Truck Droplet icon
   ///
   /// https://fontawesome.com/icons/truck-droplet?style=solid
   /// thirst, truck, water, water supply
-  static const IconData truckDroplet = IconDataLight(0xe58c);
+  static const IconData truckDroplet = IconDataSolid(0xe58c);
 
   /// Solid Truck Fast icon
   ///
   /// https://fontawesome.com/icons/truck-fast?style=solid
   /// express, fedex, mail, overnight, package, ups
-  static const IconData truckFast = IconDataLight(0xf48b);
+  static const IconData truckFast = IconDataSolid(0xf48b);
 
   /// Alias shipping-fast for icon [truckFast]
   @Deprecated('Use "truckFast" instead.')
@@ -13218,25 +13218,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/truck-field?style=solid
   /// supplies, truck
-  static const IconData truckField = IconDataLight(0xe58d);
+  static const IconData truckField = IconDataSolid(0xe58d);
 
   /// Solid Truck Field Un icon
   ///
   /// https://fontawesome.com/icons/truck-field-un?style=solid
   /// supplies, truck, united nations
-  static const IconData truckFieldUn = IconDataLight(0xe58e);
+  static const IconData truckFieldUn = IconDataSolid(0xe58e);
 
   /// Solid Truck Front icon
   ///
   /// https://fontawesome.com/icons/truck-front?style=solid
   /// shuttle, truck, van
-  static const IconData truckFront = IconDataLight(0xe2b7);
+  static const IconData truckFront = IconDataSolid(0xe2b7);
 
   /// Solid Truck Medical icon
   ///
   /// https://fontawesome.com/icons/truck-medical?style=solid
   /// ambulance, clinic, covid-19, emergency, emt, er, help, hospital, mobile, support, vehicle
-  static const IconData truckMedical = IconDataLight(0xf0f9);
+  static const IconData truckMedical = IconDataSolid(0xf0f9);
 
   /// Alias ambulance for icon [truckMedical]
   @Deprecated('Use "truckMedical" instead.')
@@ -13246,31 +13246,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/truck-monster?style=solid
   /// offroad, vehicle, wheel
-  static const IconData truckMonster = IconDataLight(0xf63b);
+  static const IconData truckMonster = IconDataSolid(0xf63b);
 
   /// Solid Truck Moving icon
   ///
   /// https://fontawesome.com/icons/truck-moving?style=solid
   /// cargo, inventory, rental, vehicle
-  static const IconData truckMoving = IconDataLight(0xf4df);
+  static const IconData truckMoving = IconDataSolid(0xf4df);
 
   /// Solid Truck Pickup icon
   ///
   /// https://fontawesome.com/icons/truck-pickup?style=solid
   /// cargo, pick-up, pickup, pickup truck, truck, vehicle
-  static const IconData truckPickup = IconDataLight(0xf63c);
+  static const IconData truckPickup = IconDataSolid(0xf63c);
 
   /// Solid Truck Plane icon
   ///
   /// https://fontawesome.com/icons/truck-plane?style=solid
   /// airplane, plane, transportation, truck, vehicle
-  static const IconData truckPlane = IconDataLight(0xe58f);
+  static const IconData truckPlane = IconDataSolid(0xe58f);
 
   /// Solid Truck Ramp Box icon
   ///
   /// https://fontawesome.com/icons/truck-ramp-box?style=solid
   /// box, cargo, delivery, inventory, moving, rental, vehicle
-  static const IconData truckRampBox = IconDataLight(0xf4de);
+  static const IconData truckRampBox = IconDataSolid(0xf4de);
 
   /// Alias truck-loading for icon [truckRampBox]
   @Deprecated('Use "truckRampBox" instead.')
@@ -13280,7 +13280,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tty?style=solid
   /// communication, deaf, telephone, teletypewriter, text
-  static const IconData tty = IconDataLight(0xf1e4);
+  static const IconData tty = IconDataSolid(0xf1e4);
 
   /// Alias teletype for icon [tty]
   @Deprecated('Use "tty" instead.')
@@ -13295,7 +13295,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/turkish-lira-sign?style=solid
   /// Turkish Lira Sign, currency
-  static const IconData turkishLiraSign = IconDataLight(0xe2bb);
+  static const IconData turkishLiraSign = IconDataSolid(0xe2bb);
 
   /// Alias turkish-lira for icon [turkishLiraSign]
   @Deprecated('Use "turkishLiraSign" instead.')
@@ -13305,7 +13305,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/turn-down?style=solid
   /// arrow, down, level-down, right arrow curving down
-  static const IconData turnDown = IconDataLight(0xf3be);
+  static const IconData turnDown = IconDataSolid(0xf3be);
 
   /// Alias level-down-alt for icon [turnDown]
   @Deprecated('Use "turnDown" instead.')
@@ -13315,7 +13315,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/turn-up?style=solid
   /// arrow, level-up, right arrow curving up
-  static const IconData turnUp = IconDataLight(0xf3bf);
+  static const IconData turnUp = IconDataSolid(0xf3bf);
 
   /// Alias level-up-alt for icon [turnUp]
   @Deprecated('Use "turnUp" instead.')
@@ -13325,7 +13325,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/tv?style=solid
   /// computer, display, monitor, television
-  static const IconData tv = IconDataLight(0xf26c);
+  static const IconData tv = IconDataSolid(0xf26c);
 
   /// Alias television for icon [tv]
   @Deprecated('Use "tv" instead.')
@@ -13355,7 +13355,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/u?style=solid
   /// Latin Capital Letter U, Latin Small Letter U, letter
-  static const IconData u = IconDataLight(0x55);
+  static const IconData u = IconDataSolid(0x55);
 
   /// Brands Uber icon
   ///
@@ -13382,13 +13382,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/umbrella?style=solid
   /// protection, rain, storm, wet
-  static const IconData umbrella = IconDataLight(0xf0e9);
+  static const IconData umbrella = IconDataSolid(0xf0e9);
 
   /// Solid Umbrella Beach icon
   ///
   /// https://fontawesome.com/icons/umbrella-beach?style=solid
   /// beach, beach with umbrella, protection, recreation, sand, shade, summer, sun, umbrella
-  static const IconData umbrellaBeach = IconDataLight(0xf5ca);
+  static const IconData umbrellaBeach = IconDataSolid(0xf5ca);
 
   /// Brands Uncharted Software icon
   ///
@@ -13399,7 +13399,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/underline?style=solid
   /// edit, emphasis, format, text, writing
-  static const IconData underline = IconDataLight(0xf0cd);
+  static const IconData underline = IconDataSolid(0xf0cd);
 
   /// Brands Uniregistry icon
   ///
@@ -13415,19 +13415,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/universal-access?style=solid
   /// users-people
-  static const IconData universalAccess = IconDataLight(0xf29a);
+  static const IconData universalAccess = IconDataSolid(0xf29a);
 
   /// Solid Unlock icon
   ///
   /// https://fontawesome.com/icons/unlock?style=solid
   /// admin, lock, open, password, private, protect, unlock, unlocked
-  static const IconData unlock = IconDataLight(0xf09c);
+  static const IconData unlock = IconDataSolid(0xf09c);
 
   /// Solid Unlock Keyhole icon
   ///
   /// https://fontawesome.com/icons/unlock-keyhole?style=solid
   /// admin, lock, password, private, protect
-  static const IconData unlockKeyhole = IconDataLight(0xf13e);
+  static const IconData unlockKeyhole = IconDataSolid(0xf13e);
 
   /// Alias unlock-alt for icon [unlockKeyhole]
   @Deprecated('Use "unlockKeyhole" instead.')
@@ -13447,7 +13447,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/up-down?style=solid
   /// Up Down Black Arrow, arrow, arrows-v, expand, portrait, resize, tall, up-down arrow, vertical
-  static const IconData upDown = IconDataLight(0xf338);
+  static const IconData upDown = IconDataSolid(0xf338);
 
   /// Alias arrows-alt-v for icon [upDown]
   @Deprecated('Use "upDown" instead.')
@@ -13457,7 +13457,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/up-down-left-right?style=solid
   /// arrow, arrows, bigger, enlarge, expand, fullscreen, move, position, reorder, resize
-  static const IconData upDownLeftRight = IconDataLight(0xf0b2);
+  static const IconData upDownLeftRight = IconDataSolid(0xf0b2);
 
   /// Alias arrows-alt for icon [upDownLeftRight]
   @Deprecated('Use "upDownLeftRight" instead.')
@@ -13467,7 +13467,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/up-long?style=solid
   /// long-arrow-up, upload
-  static const IconData upLong = IconDataLight(0xf30c);
+  static const IconData upLong = IconDataSolid(0xf30c);
 
   /// Alias long-arrow-alt-up for icon [upLong]
   @Deprecated('Use "upLong" instead.')
@@ -13477,7 +13477,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/up-right-and-down-left-from-center?style=solid
   /// arrows, bigger, enlarge, fullscreen, resize
-  static const IconData upRightAndDownLeftFromCenter = IconDataLight(0xf424);
+  static const IconData upRightAndDownLeftFromCenter = IconDataSolid(0xf424);
 
   /// Alias expand-alt for icon [upRightAndDownLeftFromCenter]
   @Deprecated('Use "upRightAndDownLeftFromCenter" instead.')
@@ -13487,7 +13487,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/up-right-from-square?style=solid
   /// external-link, new, open, share
-  static const IconData upRightFromSquare = IconDataLight(0xf35d);
+  static const IconData upRightFromSquare = IconDataSolid(0xf35d);
 
   /// Alias external-link-alt for icon [upRightFromSquare]
   @Deprecated('Use "upRightFromSquare" instead.')
@@ -13497,7 +13497,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/upload?style=solid
   /// hard drive, import, publish
-  static const IconData upload = IconDataLight(0xf093);
+  static const IconData upload = IconDataSolid(0xf093);
 
   /// Brands UPS icon
   ///
@@ -13514,37 +13514,37 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user?style=solid
   /// adult, bust, bust in silhouette, gender-neutral, person, profile, silhouette, unspecified gender, users-people
-  static const IconData solidUser = IconDataLight(0xf007);
+  static const IconData solidUser = IconDataSolid(0xf007);
 
   /// Regular User icon
   ///
   /// https://fontawesome.com/icons/user?style=regular
   /// adult, bust, bust in silhouette, gender-neutral, person, profile, silhouette, unspecified gender, users-people
-  static const IconData user = IconDataLight(0xf007);
+  static const IconData user = IconDataRegular(0xf007);
 
   /// Solid User Astronaut icon
   ///
   /// https://fontawesome.com/icons/user-astronaut?style=solid
   /// avatar, clothing, cosmonaut, nasa, space, suit
-  static const IconData userAstronaut = IconDataLight(0xf4fb);
+  static const IconData userAstronaut = IconDataSolid(0xf4fb);
 
   /// Solid User Check icon
   ///
   /// https://fontawesome.com/icons/user-check?style=solid
   /// users-people
-  static const IconData userCheck = IconDataLight(0xf4fc);
+  static const IconData userCheck = IconDataSolid(0xf4fc);
 
   /// Solid User Clock icon
   ///
   /// https://fontawesome.com/icons/user-clock?style=solid
   /// users-people
-  static const IconData userClock = IconDataLight(0xf4fd);
+  static const IconData userClock = IconDataSolid(0xf4fd);
 
   /// Solid User Doctor icon
   ///
   /// https://fontawesome.com/icons/user-doctor?style=solid
   /// covid-19, health, job, medical, nurse, occupation, physician, profile, surgeon, worker
-  static const IconData userDoctor = IconDataLight(0xf0f0);
+  static const IconData userDoctor = IconDataSolid(0xf0f0);
 
   /// Alias user-md for icon [userDoctor]
   @Deprecated('Use "userDoctor" instead.')
@@ -13554,7 +13554,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-gear?style=solid
   /// users-people
-  static const IconData userGear = IconDataLight(0xf4fe);
+  static const IconData userGear = IconDataSolid(0xf4fe);
 
   /// Alias user-cog for icon [userGear]
   @Deprecated('Use "userGear" instead.')
@@ -13564,13 +13564,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-graduate?style=solid
   /// users-people
-  static const IconData userGraduate = IconDataLight(0xf501);
+  static const IconData userGraduate = IconDataSolid(0xf501);
 
   /// Solid User Group icon
   ///
   /// https://fontawesome.com/icons/user-group?style=solid
   /// bust, busts in silhouette, silhouette, users-people
-  static const IconData userGroup = IconDataLight(0xf500);
+  static const IconData userGroup = IconDataSolid(0xf500);
 
   /// Alias user-friends for icon [userGroup]
   @Deprecated('Use "userGroup" instead.')
@@ -13580,13 +13580,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-injured?style=solid
   /// users-people
-  static const IconData userInjured = IconDataLight(0xf728);
+  static const IconData userInjured = IconDataSolid(0xf728);
 
   /// Solid User Large icon
   ///
   /// https://fontawesome.com/icons/user-large?style=solid
   /// users-people
-  static const IconData userLarge = IconDataLight(0xf406);
+  static const IconData userLarge = IconDataSolid(0xf406);
 
   /// Alias user-alt for icon [userLarge]
   @Deprecated('Use "userLarge" instead.')
@@ -13596,7 +13596,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-large-slash?style=solid
   /// users-people
-  static const IconData userLargeSlash = IconDataLight(0xf4fa);
+  static const IconData userLargeSlash = IconDataSolid(0xf4fa);
 
   /// Alias user-alt-slash for icon [userLargeSlash]
   @Deprecated('Use "userLargeSlash" instead.')
@@ -13606,31 +13606,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-lock?style=solid
   /// users-people
-  static const IconData userLock = IconDataLight(0xf502);
+  static const IconData userLock = IconDataSolid(0xf502);
 
   /// Solid User Minus icon
   ///
   /// https://fontawesome.com/icons/user-minus?style=solid
   /// delete, negative, remove
-  static const IconData userMinus = IconDataLight(0xf503);
+  static const IconData userMinus = IconDataSolid(0xf503);
 
   /// Solid User Ninja icon
   ///
   /// https://fontawesome.com/icons/user-ninja?style=solid
   /// assassin, avatar, dangerous, deadly, fighter, hidden, ninja, sneaky, stealth
-  static const IconData userNinja = IconDataLight(0xf504);
+  static const IconData userNinja = IconDataSolid(0xf504);
 
   /// Solid User Nurse icon
   ///
   /// https://fontawesome.com/icons/user-nurse?style=solid
   /// covid-19, doctor, health, md, medical, midwife, physician, practitioner, surgeon, worker
-  static const IconData userNurse = IconDataLight(0xf82f);
+  static const IconData userNurse = IconDataSolid(0xf82f);
 
   /// Solid User Pen icon
   ///
   /// https://fontawesome.com/icons/user-pen?style=solid
   /// users-people
-  static const IconData userPen = IconDataLight(0xf4ff);
+  static const IconData userPen = IconDataSolid(0xf4ff);
 
   /// Alias user-edit for icon [userPen]
   @Deprecated('Use "userPen" instead.')
@@ -13640,43 +13640,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/user-plus?style=solid
   /// add, avatar, positive, sign up, signup, team
-  static const IconData userPlus = IconDataLight(0xf234);
+  static const IconData userPlus = IconDataSolid(0xf234);
 
   /// Solid User Secret icon
   ///
   /// https://fontawesome.com/icons/user-secret?style=solid
   /// detective, sleuth, spy, users-people
-  static const IconData userSecret = IconDataLight(0xf21b);
+  static const IconData userSecret = IconDataSolid(0xf21b);
 
   /// Solid User Shield icon
   ///
   /// https://fontawesome.com/icons/user-shield?style=solid
   /// protect, safety
-  static const IconData userShield = IconDataLight(0xf505);
+  static const IconData userShield = IconDataSolid(0xf505);
 
   /// Solid User Slash icon
   ///
   /// https://fontawesome.com/icons/user-slash?style=solid
   /// ban, delete, remove
-  static const IconData userSlash = IconDataLight(0xf506);
+  static const IconData userSlash = IconDataSolid(0xf506);
 
   /// Solid User Tag icon
   ///
   /// https://fontawesome.com/icons/user-tag?style=solid
   /// users-people
-  static const IconData userTag = IconDataLight(0xf507);
+  static const IconData userTag = IconDataSolid(0xf507);
 
   /// Solid User Tie icon
   ///
   /// https://fontawesome.com/icons/user-tie?style=solid
   /// avatar, business, clothing, formal, professional, suit
-  static const IconData userTie = IconDataLight(0xf508);
+  static const IconData userTie = IconDataSolid(0xf508);
 
   /// Solid User Xmark icon
   ///
   /// https://fontawesome.com/icons/user-xmark?style=solid
   /// archive, delete, remove, x
-  static const IconData userXmark = IconDataLight(0xf235);
+  static const IconData userXmark = IconDataSolid(0xf235);
 
   /// Alias user-times for icon [userXmark]
   @Deprecated('Use "userXmark" instead.')
@@ -13686,19 +13686,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/users?style=solid
   /// users-people
-  static const IconData users = IconDataLight(0xf0c0);
+  static const IconData users = IconDataSolid(0xf0c0);
 
   /// Solid Users Between Lines icon
   ///
   /// https://fontawesome.com/icons/users-between-lines?style=solid
   /// covered, group, people
-  static const IconData usersBetweenLines = IconDataLight(0xe591);
+  static const IconData usersBetweenLines = IconDataSolid(0xe591);
 
   /// Solid Users Gear icon
   ///
   /// https://fontawesome.com/icons/users-gear?style=solid
   /// users-people
-  static const IconData usersGear = IconDataLight(0xf509);
+  static const IconData usersGear = IconDataSolid(0xf509);
 
   /// Alias users-cog for icon [usersGear]
   @Deprecated('Use "usersGear" instead.')
@@ -13708,31 +13708,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/users-line?style=solid
   /// group, need, people
-  static const IconData usersLine = IconDataLight(0xe592);
+  static const IconData usersLine = IconDataSolid(0xe592);
 
   /// Solid Users Rays icon
   ///
   /// https://fontawesome.com/icons/users-rays?style=solid
   /// affected, focused, group, people
-  static const IconData usersRays = IconDataLight(0xe593);
+  static const IconData usersRays = IconDataSolid(0xe593);
 
   /// Solid Users Rectangle icon
   ///
   /// https://fontawesome.com/icons/users-rectangle?style=solid
   /// focus, group, people, reached
-  static const IconData usersRectangle = IconDataLight(0xe594);
+  static const IconData usersRectangle = IconDataSolid(0xe594);
 
   /// Solid Users Slash icon
   ///
   /// https://fontawesome.com/icons/users-slash?style=solid
   /// users-people
-  static const IconData usersSlash = IconDataLight(0xe073);
+  static const IconData usersSlash = IconDataSolid(0xe073);
 
   /// Solid Users Viewfinder icon
   ///
   /// https://fontawesome.com/icons/users-viewfinder?style=solid
   /// focus, group, people, targeted
-  static const IconData usersViewfinder = IconDataLight(0xe595);
+  static const IconData usersViewfinder = IconDataSolid(0xe595);
 
   /// Brands United States Postal Service icon
   ///
@@ -13749,7 +13749,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/utensils?style=solid
   /// cooking, cutlery, dining, dinner, eat, food, fork, fork and knife, knife, restaurant
-  static const IconData utensils = IconDataLight(0xf2e7);
+  static const IconData utensils = IconDataSolid(0xf2e7);
 
   /// Alias cutlery for icon [utensils]
   @Deprecated('Use "utensils" instead.')
@@ -13759,7 +13759,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/v?style=solid
   /// Latin Capital Letter V, Latin Small Letter V, letter
-  static const IconData v = IconDataLight(0x56);
+  static const IconData v = IconDataSolid(0x56);
 
   /// Brands Vaadin icon
   ///
@@ -13770,7 +13770,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/van-shuttle?style=solid
   /// airport, bus, machine, minibus, public-transportation, transportation, travel, vehicle
-  static const IconData vanShuttle = IconDataLight(0xf5b6);
+  static const IconData vanShuttle = IconDataSolid(0xf5b6);
 
   /// Alias shuttle-van for icon [vanShuttle]
   @Deprecated('Use "vanShuttle" instead.')
@@ -13780,43 +13780,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/vault?style=solid
   /// bank, important, lock, money, safe
-  static const IconData vault = IconDataLight(0xe2c5);
+  static const IconData vault = IconDataSolid(0xe2c5);
 
   /// Solid Vector Square icon
   ///
   /// https://fontawesome.com/icons/vector-square?style=solid
   /// anchors, lines, object, render, shape
-  static const IconData vectorSquare = IconDataLight(0xf5cb);
+  static const IconData vectorSquare = IconDataSolid(0xf5cb);
 
   /// Solid Venus icon
   ///
   /// https://fontawesome.com/icons/venus?style=solid
   /// female, female sign, gender, woman
-  static const IconData venus = IconDataLight(0xf221);
+  static const IconData venus = IconDataSolid(0xf221);
 
   /// Solid Venus Double icon
   ///
   /// https://fontawesome.com/icons/venus-double?style=solid
   /// Doubled Female Sign, female, gender, lesbian
-  static const IconData venusDouble = IconDataLight(0xf226);
+  static const IconData venusDouble = IconDataSolid(0xf226);
 
   /// Solid Venus Mars icon
   ///
   /// https://fontawesome.com/icons/venus-mars?style=solid
   /// Interlocked Female and Male Sign, female, gender, heterosexual, male
-  static const IconData venusMars = IconDataLight(0xf228);
+  static const IconData venusMars = IconDataSolid(0xf228);
 
   /// Solid Vest icon
   ///
   /// https://fontawesome.com/icons/vest?style=solid
   /// biker, fashion, style
-  static const IconData vest = IconDataLight(0xe085);
+  static const IconData vest = IconDataSolid(0xe085);
 
   /// Solid Vest Patches icon
   ///
   /// https://fontawesome.com/icons/vest-patches?style=solid
   /// biker, fashion, style
-  static const IconData vestPatches = IconDataLight(0xe086);
+  static const IconData vestPatches = IconDataSolid(0xe086);
 
   /// Brands Viacoin icon
   ///
@@ -13832,25 +13832,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/vial?style=solid
   /// ampule, chemist, chemistry, experiment, lab, sample, science, test, test tube
-  static const IconData vial = IconDataLight(0xf492);
+  static const IconData vial = IconDataSolid(0xf492);
 
   /// Solid Vial Circle Check icon
   ///
   /// https://fontawesome.com/icons/vial-circle-check?style=solid
   /// ampule, chemist, chemistry, not affected, ok, okay, success, test tube, tube, vaccine
-  static const IconData vialCircleCheck = IconDataLight(0xe596);
+  static const IconData vialCircleCheck = IconDataSolid(0xe596);
 
   /// Solid Vial Virus icon
   ///
   /// https://fontawesome.com/icons/vial-virus?style=solid
   /// ampule, coronavirus, covid-19, flue, infection, lab, laboratory, pandemic, test, test tube, vaccine
-  static const IconData vialVirus = IconDataLight(0xe597);
+  static const IconData vialVirus = IconDataSolid(0xe597);
 
   /// Solid Vials icon
   ///
   /// https://fontawesome.com/icons/vials?style=solid
   /// ampule, experiment, lab, sample, science, test, test tube
-  static const IconData vials = IconDataLight(0xf493);
+  static const IconData vials = IconDataSolid(0xf493);
 
   /// Brands Viber icon
   ///
@@ -13861,7 +13861,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/video?style=solid
   /// camera, film, movie, record, video-camera
-  static const IconData video = IconDataLight(0xf03d);
+  static const IconData video = IconDataSolid(0xf03d);
 
   /// Alias video-camera for icon [video]
   @Deprecated('Use "video" instead.')
@@ -13871,13 +13871,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/video-slash?style=solid
   /// add, create, film, new, positive, record, video
-  static const IconData videoSlash = IconDataLight(0xf4e2);
+  static const IconData videoSlash = IconDataSolid(0xf4e2);
 
   /// Solid Vihara icon
   ///
   /// https://fontawesome.com/icons/vihara?style=solid
   /// buddhism, buddhist, building, monastery
-  static const IconData vihara = IconDataLight(0xf6a7);
+  static const IconData vihara = IconDataSolid(0xf6a7);
 
   /// Brands Vimeo icon
   ///
@@ -13899,31 +13899,31 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/virus?style=solid
   /// bug, coronavirus, covid-19, flu, health, infection, pandemic, sick, vaccine, viral
-  static const IconData virus = IconDataLight(0xe074);
+  static const IconData virus = IconDataSolid(0xe074);
 
   /// Solid Virus Covid icon
   ///
   /// https://fontawesome.com/icons/virus-covid?style=solid
   /// bug, covid-19, flu, health, infection, pandemic, vaccine, viral, virus
-  static const IconData virusCovid = IconDataLight(0xe4a8);
+  static const IconData virusCovid = IconDataSolid(0xe4a8);
 
   /// Solid Virus Covid Slash icon
   ///
   /// https://fontawesome.com/icons/virus-covid-slash?style=solid
   /// bug, covid-19, flu, health, infection, pandemic, vaccine, viral, virus
-  static const IconData virusCovidSlash = IconDataLight(0xe4a9);
+  static const IconData virusCovidSlash = IconDataSolid(0xe4a9);
 
   /// Solid Virus Slash icon
   ///
   /// https://fontawesome.com/icons/virus-slash?style=solid
   /// bug, coronavirus, covid-19, cure, eliminate, flu, health, infection, pandemic, sick, vaccine, viral
-  static const IconData virusSlash = IconDataLight(0xe075);
+  static const IconData virusSlash = IconDataSolid(0xe075);
 
   /// Solid Viruses icon
   ///
   /// https://fontawesome.com/icons/viruses?style=solid
   /// bugs, coronavirus, covid-19, flu, health, infection, multiply, pandemic, sick, spread, vaccine, viral
-  static const IconData viruses = IconDataLight(0xe076);
+  static const IconData viruses = IconDataSolid(0xe076);
 
   /// Brands VK icon
   ///
@@ -13939,19 +13939,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/voicemail?style=solid
   /// answer, inbox, message, phone
-  static const IconData voicemail = IconDataLight(0xf897);
+  static const IconData voicemail = IconDataSolid(0xf897);
 
   /// Solid Volcano icon
   ///
   /// https://fontawesome.com/icons/volcano?style=solid
   /// caldera, eruption, lava, magma, mountain, smoke, volcano
-  static const IconData volcano = IconDataLight(0xf770);
+  static const IconData volcano = IconDataSolid(0xf770);
 
   /// Solid Volleyball icon
   ///
   /// https://fontawesome.com/icons/volleyball?style=solid
   /// ball, beach, game, olympics, sport, volleyball
-  static const IconData volleyball = IconDataLight(0xf45f);
+  static const IconData volleyball = IconDataSolid(0xf45f);
 
   /// Alias volleyball-ball for icon [volleyball]
   @Deprecated('Use "volleyball" instead.')
@@ -13961,7 +13961,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/volume-high?style=solid
   /// audio, higher, loud, louder, music, sound, speaker, speaker high volume
-  static const IconData volumeHigh = IconDataLight(0xf028);
+  static const IconData volumeHigh = IconDataSolid(0xf028);
 
   /// Alias volume-up for icon [volumeHigh]
   @Deprecated('Use "volumeHigh" instead.')
@@ -13971,7 +13971,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/volume-low?style=solid
   /// audio, lower, music, quieter, soft, sound, speaker, speaker low volume
-  static const IconData volumeLow = IconDataLight(0xf027);
+  static const IconData volumeLow = IconDataSolid(0xf027);
 
   /// Alias volume-down for icon [volumeLow]
   @Deprecated('Use "volumeLow" instead.')
@@ -13981,13 +13981,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/volume-off?style=solid
   /// audio, ban, music, mute, quiet, silent, sound
-  static const IconData volumeOff = IconDataLight(0xf026);
+  static const IconData volumeOff = IconDataSolid(0xf026);
 
   /// Solid Volume Xmark icon
   ///
   /// https://fontawesome.com/icons/volume-xmark?style=solid
   /// audio, music, quiet, sound, speaker
-  static const IconData volumeXmark = IconDataLight(0xf6a9);
+  static const IconData volumeXmark = IconDataSolid(0xf6a9);
 
   /// Alias volume-mute for icon [volumeXmark]
   @Deprecated('Use "volumeXmark" instead.')
@@ -14001,7 +14001,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/vr-cardboard?style=solid
   /// 3d, augment, google, reality, virtual
-  static const IconData vrCardboard = IconDataLight(0xf729);
+  static const IconData vrCardboard = IconDataSolid(0xf729);
 
   /// Brands Vue.js icon
   ///
@@ -14012,25 +14012,25 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/w?style=solid
   /// Latin Capital Letter W, Latin Small Letter W, letter
-  static const IconData w = IconDataLight(0x57);
+  static const IconData w = IconDataSolid(0x57);
 
   /// Solid Walkie Talkie icon
   ///
   /// https://fontawesome.com/icons/walkie-talkie?style=solid
   /// communication, copy, intercom, over, portable, radio, two way radio
-  static const IconData walkieTalkie = IconDataLight(0xf8ef);
+  static const IconData walkieTalkie = IconDataSolid(0xf8ef);
 
   /// Solid Wallet icon
   ///
   /// https://fontawesome.com/icons/wallet?style=solid
   /// billfold, cash, currency, money
-  static const IconData wallet = IconDataLight(0xf555);
+  static const IconData wallet = IconDataSolid(0xf555);
 
   /// Solid Wand Magic icon
   ///
   /// https://fontawesome.com/icons/wand-magic?style=solid
   /// autocomplete, automatic, mage, magic, spell, wand, witch, wizard
-  static const IconData wandMagic = IconDataLight(0xf0d0);
+  static const IconData wandMagic = IconDataSolid(0xf0d0);
 
   /// Alias magic for icon [wandMagic]
   @Deprecated('Use "wandMagic" instead.')
@@ -14040,7 +14040,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wand-magic-sparkles?style=solid
   /// auto, magic, magic wand, trick, witch, wizard
-  static const IconData wandMagicSparkles = IconDataLight(0xe2ca);
+  static const IconData wandMagicSparkles = IconDataSolid(0xe2ca);
 
   /// Alias magic-wand-sparkles for icon [wandMagicSparkles]
   @Deprecated('Use "wandMagicSparkles" instead.')
@@ -14050,13 +14050,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wand-sparkles?style=solid
   /// autocomplete, automatic, fantasy, halloween, holiday, magic, weapon, witch, wizard
-  static const IconData wandSparkles = IconDataLight(0xf72b);
+  static const IconData wandSparkles = IconDataSolid(0xf72b);
 
   /// Solid Warehouse icon
   ///
   /// https://fontawesome.com/icons/warehouse?style=solid
   /// building, capacity, garage, inventory, storage
-  static const IconData warehouse = IconDataLight(0xf494);
+  static const IconData warehouse = IconDataSolid(0xf494);
 
   /// Brands Watchman Monitoring icon
   ///
@@ -14067,13 +14067,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/water?style=solid
   /// lake, liquid, ocean, sea, swim, wet
-  static const IconData water = IconDataLight(0xf773);
+  static const IconData water = IconDataSolid(0xf773);
 
   /// Solid Water Ladder icon
   ///
   /// https://fontawesome.com/icons/water-ladder?style=solid
   /// ladder, recreation, swim, water
-  static const IconData waterLadder = IconDataLight(0xf5c5);
+  static const IconData waterLadder = IconDataSolid(0xf5c5);
 
   /// Alias ladder-water for icon [waterLadder]
   @Deprecated('Use "waterLadder" instead.')
@@ -14087,7 +14087,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wave-square?style=solid
   /// frequency, pulse, signal
-  static const IconData waveSquare = IconDataLight(0xf83e);
+  static const IconData waveSquare = IconDataSolid(0xf83e);
 
   /// Brands Waze icon
   ///
@@ -14108,13 +14108,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/weight-hanging?style=solid
   /// anvil, heavy, measurement
-  static const IconData weightHanging = IconDataLight(0xf5cd);
+  static const IconData weightHanging = IconDataSolid(0xf5cd);
 
   /// Solid Weight Scale icon
   ///
   /// https://fontawesome.com/icons/weight-scale?style=solid
   /// health, measurement, scale, weight
-  static const IconData weightScale = IconDataLight(0xf496);
+  static const IconData weightScale = IconDataSolid(0xf496);
 
   /// Alias weight for icon [weightScale]
   @Deprecated('Use "weightScale" instead.')
@@ -14134,7 +14134,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wheat-awn?style=solid
   /// agriculture, autumn, fall, farming, grain
-  static const IconData wheatAwn = IconDataLight(0xe2cd);
+  static const IconData wheatAwn = IconDataSolid(0xe2cd);
 
   /// Alias wheat-alt for icon [wheatAwn]
   @Deprecated('Use "wheatAwn" instead.')
@@ -14144,19 +14144,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wheat-awn-circle-exclamation?style=solid
   /// affected, famine, food, gluten, hunger, starve, straw
-  static const IconData wheatAwnCircleExclamation = IconDataLight(0xe598);
+  static const IconData wheatAwnCircleExclamation = IconDataSolid(0xe598);
 
   /// Solid Wheelchair icon
   ///
   /// https://fontawesome.com/icons/wheelchair?style=solid
   /// users-people
-  static const IconData wheelchair = IconDataLight(0xf193);
+  static const IconData wheelchair = IconDataSolid(0xf193);
 
   /// Solid Wheelchair Move icon
   ///
   /// https://fontawesome.com/icons/wheelchair-move?style=solid
   /// access, handicap, impairment, physical, wheelchair symbol
-  static const IconData wheelchairMove = IconDataLight(0xe2ce);
+  static const IconData wheelchairMove = IconDataSolid(0xe2ce);
 
   /// Alias wheelchair-alt for icon [wheelchairMove]
   @Deprecated('Use "wheelchairMove" instead.')
@@ -14166,7 +14166,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/whiskey-glass?style=solid
   /// alcohol, bar, beverage, bourbon, drink, glass, liquor, neat, rye, scotch, shot, tumbler, tumbler glass, whisky
-  static const IconData whiskeyGlass = IconDataLight(0xf7a0);
+  static const IconData whiskeyGlass = IconDataSolid(0xf7a0);
 
   /// Alias glass-whiskey for icon [whiskeyGlass]
   @Deprecated('Use "whiskeyGlass" instead.')
@@ -14181,7 +14181,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wifi?style=solid
   /// connection, hotspot, internet, network, wireless
-  static const IconData wifi = IconDataLight(0xf1eb);
+  static const IconData wifi = IconDataSolid(0xf1eb);
 
   /// Alias wifi-3 for icon [wifi]
   @Deprecated('Use "wifi" instead.')
@@ -14200,43 +14200,43 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wind?style=solid
   /// air, blow, breeze, fall, seasonal, weather
-  static const IconData wind = IconDataLight(0xf72e);
+  static const IconData wind = IconDataSolid(0xf72e);
 
   /// Solid Window Maximize icon
   ///
   /// https://fontawesome.com/icons/window-maximize?style=solid
   /// Maximize, browser, computer, development, expand
-  static const IconData solidWindowMaximize = IconDataLight(0xf2d0);
+  static const IconData solidWindowMaximize = IconDataSolid(0xf2d0);
 
   /// Regular Window Maximize icon
   ///
   /// https://fontawesome.com/icons/window-maximize?style=regular
   /// Maximize, browser, computer, development, expand
-  static const IconData windowMaximize = IconDataLight(0xf2d0);
+  static const IconData windowMaximize = IconDataRegular(0xf2d0);
 
   /// Solid Window Minimize icon
   ///
   /// https://fontawesome.com/icons/window-minimize?style=solid
   /// Minimize, browser, collapse, computer, development
-  static const IconData solidWindowMinimize = IconDataLight(0xf2d1);
+  static const IconData solidWindowMinimize = IconDataSolid(0xf2d1);
 
   /// Regular Window Minimize icon
   ///
   /// https://fontawesome.com/icons/window-minimize?style=regular
   /// Minimize, browser, collapse, computer, development
-  static const IconData windowMinimize = IconDataLight(0xf2d1);
+  static const IconData windowMinimize = IconDataRegular(0xf2d1);
 
   /// Solid Window Restore icon
   ///
   /// https://fontawesome.com/icons/window-restore?style=solid
   /// browser, computer, development
-  static const IconData solidWindowRestore = IconDataLight(0xf2d2);
+  static const IconData solidWindowRestore = IconDataSolid(0xf2d2);
 
   /// Regular Window Restore icon
   ///
   /// https://fontawesome.com/icons/window-restore?style=regular
   /// browser, computer, development
-  static const IconData windowRestore = IconDataLight(0xf2d2);
+  static const IconData windowRestore = IconDataRegular(0xf2d2);
 
   /// Brands Windows icon
   ///
@@ -14248,19 +14248,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wine-bottle?style=solid
   /// alcohol, beverage, cabernet, drink, glass, grapes, merlot, sauvignon
-  static const IconData wineBottle = IconDataLight(0xf72f);
+  static const IconData wineBottle = IconDataSolid(0xf72f);
 
   /// Solid Wine Glass icon
   ///
   /// https://fontawesome.com/icons/wine-glass?style=solid
   /// alcohol, bar, beverage, cabernet, drink, glass, grapes, merlot, sauvignon, wine, wine glass
-  static const IconData wineGlass = IconDataLight(0xf4e3);
+  static const IconData wineGlass = IconDataSolid(0xf4e3);
 
   /// Solid Wine Glass Empty icon
   ///
   /// https://fontawesome.com/icons/wine-glass-empty?style=solid
   /// alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon
-  static const IconData wineGlassEmpty = IconDataLight(0xf5ce);
+  static const IconData wineGlassEmpty = IconDataSolid(0xf5ce);
 
   /// Alias wine-glass-alt for icon [wineGlassEmpty]
   @Deprecated('Use "wineGlassEmpty" instead.')
@@ -14300,7 +14300,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/won-sign?style=solid
   /// Won Sign, currency
-  static const IconData wonSign = IconDataLight(0xf159);
+  static const IconData wonSign = IconDataSolid(0xf159);
 
   /// Alias krw for icon [wonSign]
   @Deprecated('Use "wonSign" instead.')
@@ -14324,7 +14324,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/worm?style=solid
   /// dirt, garden, worm, wriggle
-  static const IconData worm = IconDataLight(0xe599);
+  static const IconData worm = IconDataSolid(0xe599);
 
   /// Brands WPBeginner icon
   ///
@@ -14355,19 +14355,19 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/wrench?style=solid
   /// construction, fix, mechanic, plumbing, settings, spanner, tool, update, wrench
-  static const IconData wrench = IconDataLight(0xf0ad);
+  static const IconData wrench = IconDataSolid(0xf0ad);
 
   /// Solid X icon
   ///
   /// https://fontawesome.com/icons/x?style=solid
   /// Latin Capital Letter X, Latin Small Letter X, letter
-  static const IconData x = IconDataLight(0x58);
+  static const IconData x = IconDataSolid(0x58);
 
   /// Solid X Ray icon
   ///
   /// https://fontawesome.com/icons/x-ray?style=solid
   /// health, medical, radiological images, radiology, skeleton
-  static const IconData xRay = IconDataLight(0xf497);
+  static const IconData xRay = IconDataSolid(0xf497);
 
   /// Brands Xbox icon
   ///
@@ -14383,7 +14383,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/xmark?style=solid
   /// Cancellation X, Multiplication Sign, Multiplication X, cancel, close, cross, cross mark, error, exit, incorrect, mark, multiplication, multiply, notice, notification, notify, problem, sign, wrong, x, ×
-  static const IconData xmark = IconDataLight(0xf00d);
+  static const IconData xmark = IconDataSolid(0xf00d);
 
   /// Alias close for icon [xmark]
   @Deprecated('Use "xmark" instead.')
@@ -14405,13 +14405,13 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/xmarks-lines?style=solid
   /// barricade, barrier, fence, poison, roadblock
-  static const IconData xmarksLines = IconDataLight(0xe59a);
+  static const IconData xmarksLines = IconDataSolid(0xe59a);
 
   /// Solid Y icon
   ///
   /// https://fontawesome.com/icons/y?style=solid
   /// Latin Capital Letter Y, Latin Small Letter Y, letter, yay, yes
-  static const IconData y = IconDataLight(0x59);
+  static const IconData y = IconDataSolid(0x59);
 
   /// Brands Y Combinator icon
   ///
@@ -14452,7 +14452,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/yen-sign?style=solid
   /// Yen Sign, currency
-  static const IconData yenSign = IconDataLight(0xf157);
+  static const IconData yenSign = IconDataSolid(0xf157);
 
   /// Alias cny for icon [yenSign]
   @Deprecated('Use "yenSign" instead.')
@@ -14474,7 +14474,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/yin-yang?style=solid
   /// daoism, opposites, religion, tao, taoism, taoist, yang, yin, yin yang
-  static const IconData yinYang = IconDataLight(0xf6ad);
+  static const IconData yinYang = IconDataSolid(0xf6ad);
 
   /// Brands Yoast icon
   ///
@@ -14491,7 +14491,7 @@ class FontAwesomeIcons {
   ///
   /// https://fontawesome.com/icons/z?style=solid
   /// Latin Capital Letter Z, Latin Small Letter Z, letter
-  static const IconData z = IconDataLight(0x5a);
+  static const IconData z = IconDataSolid(0x5a);
 
   /// Brands Zhihu icon
   ///
